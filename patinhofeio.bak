@@ -36,7 +36,7 @@ $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
 Title "PRANCHA XVI"
-Date "22 jun 2016"
+Date "23 jun 2016"
 Rev ""
 Comp "EPUSP LSD"
 Comment1 "Computador de Controle - Patinho Feio"
@@ -45,26 +45,26 @@ Comment3 "Projeto: Edson Fregni"
 Comment4 "Re-desenho: Felipe Sanches"
 $EndDescr
 Text GLabel 2500 2250 0    60   Input ~ 0
-7
++T23
 Text GLabel 2500 2450 0    60   Input ~ 0
-6
+-F2
 Text GLabel 2500 2650 0    60   Input ~ 0
-5
++SAESA
 Text GLabel 2500 2850 0    60   Input ~ 0
-42
++T34
 $Comp
 L 74HC04 1A_
 U 1 1 576979ED
-P 3400 2650
-F 0 "1A_" H 3550 2750 40  0000 C CNN
-F 1 "74HC04" H 3600 2550 40  0000 C CNN
-F 2 "~" H 3400 2650 60  0000 C CNN
-F 3 "~" H 3400 2650 60  0000 C CNN
-	1    3400 2650
+P 3300 2650
+F 0 "1A_" H 3450 2750 40  0000 C CNN
+F 1 "74HC04" H 3500 2550 40  0000 C CNN
+F 2 "~" H 3300 2650 60  0000 C CNN
+F 3 "~" H 3300 2650 60  0000 C CNN
+	1    3300 2650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2950 2650 2500 2650
+	2850 2650 2500 2650
 $Comp
 L 74HC02 1C_
 U 1 1 57697A9A
@@ -77,7 +77,7 @@ F 3 "~" H 4900 2550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3850 2650 4300 2650
+	3750 2650 4300 2650
 $Comp
 L 74LS54 2B
 U 1 1 57697D0C
@@ -89,14 +89,10 @@ F 3 "~" H 11000 6050 60  0000 C CNN
 	1    11000 6050
 	1    0    0    -1  
 $EndComp
-Text Label 2550 2650 0    60   ~ 0
-+5AE5A
-Text Label 3900 2650 0    60   ~ 0
--5AE5A
+Text Label 3850 2650 0    60   ~ 0
+-SAESA
 Wire Wire Line
 	2500 2450 4300 2450
-Text Label 2600 2450 0    60   ~ 0
--F2
 $Comp
 L 74LS51 2C_
 U 1 1 57697FFD
@@ -111,14 +107,16 @@ $EndComp
 Wire Wire Line
 	6200 2600 6300 2600
 Wire Wire Line
-	6200 2500 6200 2600
+	6200 2500 6200 2550
+Wire Wire Line
+	6200 2550 6200 2600
 Wire Wire Line
 	6200 2500 6300 2500
 Wire Wire Line
 	6200 2550 5500 2550
 Connection ~ 6200 2550
 Text Label 5550 2550 0    60   ~ 0
-+(F25AE5A)
++(F2.SAESA)
 Wire Wire Line
 	2500 2250 5400 2250
 Wire Wire Line
@@ -131,10 +129,6 @@ Wire Wire Line
 	5400 2850 5400 2700
 Wire Wire Line
 	5400 2700 6300 2700
-Text Label 2550 2850 0    60   ~ 0
-+T34
-Text Label 2550 2250 0    60   ~ 0
-+T23
 $Comp
 L 74HC04 1D_
 U 2 1 5769818C
@@ -162,7 +156,13 @@ $EndComp
 Wire Wire Line
 	8550 2500 8450 2500
 Wire Wire Line
-	8450 2400 8450 2700
+	8450 2400 8450 2500
+Wire Wire Line
+	8450 2500 8450 2550
+Wire Wire Line
+	8450 2550 8450 2600
+Wire Wire Line
+	8450 2600 8450 2700
 Wire Wire Line
 	8450 2600 8550 2600
 Wire Wire Line
@@ -175,21 +175,19 @@ Wire Wire Line
 	8450 2550 8200 2550
 Connection ~ 8450 2550
 Text GLabel 12800 6050 2    60   Output ~ 0
-41
-Text Label 12500 6050 0    60   ~ 0
 +VUQ
 Text GLabel 2500 5150 0    60   Input ~ 0
-8
++MIC01
 Text GLabel 2500 5350 0    60   Input ~ 0
-43
++RI_7
 Text GLabel 2500 5550 0    60   Input ~ 0
-1A12
++F1
 Text GLabel 2500 5750 0    60   Input ~ 0
-10
++MICG2A
 Text GLabel 2500 5950 0    60   Input ~ 0
-11
++SALMIC
 Text GLabel 2500 6150 0    60   Input ~ 0
-1A4
+-PUL
 $Comp
 L 7400 2A_
 U 1 1 5769C6D6
@@ -205,27 +203,23 @@ Wire Wire Line
 	4150 5150 2500 5150
 Wire Wire Line
 	2500 5350 4150 5350
-Text Label 2550 5150 0    60   ~ 0
-+MIC01
-Text Label 2550 5350 0    60   ~ 0
-+RI(7)
 $Comp
 L 74LS10 3A_
 U 1 1 5769C73B
-P 3800 5750
-F 0 "3A_" H 3800 5800 60  0000 C CNN
-F 1 "74LS10" H 3800 5700 60  0000 C CNN
-F 2 "~" H 3800 5750 60  0000 C CNN
-F 3 "~" H 3800 5750 60  0000 C CNN
-	1    3800 5750
+P 3700 5750
+F 0 "3A_" H 3700 5800 60  0000 C CNN
+F 1 "74LS10" H 3700 5700 60  0000 C CNN
+F 2 "~" H 3700 5750 60  0000 C CNN
+F 3 "~" H 3700 5750 60  0000 C CNN
+	1    3700 5750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3200 5900 3100 5900
+	3100 5900 2900 5900
 Wire Wire Line
-	3100 5900 3100 5950
+	2900 5900 2900 5950
 Wire Wire Line
-	3100 5950 2500 5950
+	2900 5950 2500 5950
 $Comp
 L 74LS10 3A_
 U 2 1 5769C7B2
@@ -243,26 +237,18 @@ Wire Wire Line
 	5500 5400 5500 6150
 Wire Wire Line
 	5500 6150 2500 6150
-Text Label 4450 5750 0    60   ~ 0
--MIC02A.SALMIC.F1)
-Text Label 2550 5550 0    60   ~ 0
-+F1
-Text Label 2550 5750 0    60   ~ 0
-+MICG2A
-Text Label 2550 5950 0    60   ~ 0
-+SALMIC
-Text Label 2550 6150 0    60   ~ 0
--PUL
+Text Label 4350 5750 0    60   ~ 0
+-(MICG2A.SALMIC.F1)
 Wire Wire Line
-	5400 5750 4400 5750
+	5400 5750 4300 5750
 Wire Wire Line
-	2500 5550 3100 5550
+	2500 5550 2900 5550
 Wire Wire Line
-	3100 5550 3100 5600
+	2900 5550 2900 5600
 Wire Wire Line
-	3100 5600 3200 5600
+	2900 5600 3100 5600
 Wire Wire Line
-	2500 5750 3200 5750
+	2500 5750 3100 5750
 $Comp
 L 7400 2D_
 U 2 1 5769CF57
@@ -275,8 +261,6 @@ F 3 "~" H 7600 5650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 6700 5750 0    60   Input ~ 0
-1A12
-Text Label 6750 5750 0    60   ~ 0
 +F1
 Wire Wire Line
 	6700 5750 7000 5750
@@ -322,35 +306,25 @@ Wire Wire Line
 	10550 6100 9750 6100
 Wire Wire Line
 	9750 6100 9750 6550
-Text GLabel 10050 6000 0    60   Input ~ 0
-2A6
-Wire Wire Line
-	10550 6000 10050 6000
-Text GLabel 10050 6200 0    60   Input ~ 0
-47
-Wire Wire Line
-	10050 6200 10550 6200
-Wire Wire Line
-	10350 6200 10350 6300
-Wire Wire Line
-	10350 6300 10550 6300
-Connection ~ 10350 6200
-Text GLabel 10050 5700 0    60   Input ~ 0
-42
-Text GLabel 9800 5900 0    60   Input ~ 0
-45
-Wire Wire Line
-	10050 5700 10550 5700
-Wire Wire Line
-	10550 5900 9800 5900
-Text Label 10050 5700 0    60   ~ 0
-+T34
-Text Label 9800 5900 0    60   ~ 0
-+T01
-Text Label 10050 6000 0    60   ~ 0
+Text GLabel 10000 6000 0    60   Input ~ 0
 +(F1+F2)
-Text Label 10050 6200 0    60   ~ 0
+Text GLabel 10350 6200 0    60   Input ~ 0
 +T56
+Wire Wire Line
+	10350 6200 10450 6200
+Wire Wire Line
+	10450 6200 10550 6200
+Wire Wire Line
+	10450 6200 10450 6300
+Wire Wire Line
+	10450 6300 10550 6300
+Connection ~ 10450 6200
+Text GLabel 10350 5700 0    60   Input ~ 0
++T34
+Text GLabel 10350 5900 0    60   Input ~ 0
++T01
+Wire Wire Line
+	10350 5700 10550 5700
 $Comp
 L 74HC04 1D_
 U 1 1 5769D66D
@@ -366,18 +340,16 @@ Wire Wire Line
 	11550 6050 11450 6050
 Wire Wire Line
 	12450 6050 12800 6050
-Text GLabel 8850 7100 0    60   Input ~ 0
-13
+Text GLabel 9800 7100 0    60   Input ~ 0
++(PARTIDA+RODA).(MP+CP)
 Wire Wire Line
 	10550 6400 10200 6400
 Wire Wire Line
 	10200 6400 10200 7100
 Wire Wire Line
-	10200 7100 8850 7100
-Text Label 8850 7100 0    60   ~ 0
-+(PARTIDA+RODA)(MP+CP))
+	10200 7100 9800 7100
 Text GLabel 6950 5950 0    60   Input ~ 0
-106
+-(F2.SAESA)
 Wire Wire Line
 	7950 5800 8350 5800
 Wire Wire Line
@@ -385,59 +357,41 @@ Wire Wire Line
 Wire Wire Line
 	7950 5950 6950 5950
 Text GLabel 6950 6100 0    60   Input ~ 0
-208
+-(F3.SUS.S)
 Wire Wire Line
 	8350 5950 8000 5950
 Wire Wire Line
 	8000 5950 8000 6100
 Wire Wire Line
 	8000 6100 6950 6100
-Text Label 7000 5950 0    60   ~ 0
--(F2.5AE5A)
-Text Label 7000 6100 0    60   ~ 0
--(F3.SUS.5)
 Text GLabel 7000 6400 0    60   Input ~ 0
-3B11
+-(F2.SAESA)
 Wire Wire Line
 	7000 6400 8350 6400
-Text GLabel 7250 6500 0    60   Input ~ 0
-3B3
+Text GLabel 7750 6500 0    60   Input ~ 0
+-(F2.SAESA.S)
 Wire Wire Line
-	7250 6500 8350 6500
-Text Label 7050 6400 0    60   ~ 0
--(F2.5AE5A)
-Text Label 7300 6500 0    60   ~ 0
--(F2.5AE5A.5)
+	7750 6500 8350 6500
 Text GLabel 2500 6600 0    60   Input ~ 0
-208
+-(F3.SUS.S)
 Wire Wire Line
 	3550 6600 2500 6600
-Text Label 2550 6600 0    60   ~ 0
--(F3.SUS.5)
 Text GLabel 2500 6800 0    60   Input ~ 0
-1A10
+-PUG
 Wire Wire Line
 	3550 6800 2500 6800
-Text Label 2550 6800 0    60   ~ 0
--PUG
 Text GLabel 2500 7000 0    60   Input ~ 0
-1A8
++F3
 Wire Wire Line
 	2500 7000 4700 7000
-Text Label 2550 7000 0    60   ~ 0
-+F3
 Text GLabel 2500 7350 0    60   Input ~ 0
-46
+-F4
 Wire Wire Line
 	3550 7350 2500 7350
-Text Label 2550 7350 0    60   ~ 0
--F4
 Text GLabel 2500 7550 0    60   Input ~ 0
-12
++PUG
 Wire Wire Line
 	2500 7550 5000 7550
-Text Label 2550 7550 0    60   ~ 0
-+PUG
 $Comp
 L 7400 3B_
 U 3 1 5769DF36
@@ -505,8 +459,6 @@ Wire Wire Line
 Wire Wire Line
 	9750 6550 9550 6550
 Text GLabel 10250 2550 2    60   Output ~ 0
-40
-Text Label 9800 2550 0    60   ~ 0
 -SINTA
 Wire Wire Line
 	9750 2550 10250 2550
@@ -533,14 +485,10 @@ F 3 "~" H 18600 7600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 20000 7600 2    60   Output ~ 0
-3B5
-Text Label 19700 7600 0    60   ~ 0
 -PUL
 Wire Wire Line
 	19050 7600 20000 7600
 Text GLabel 20000 3500 2    60   Output ~ 0
-2B3
-Text Label 19400 3500 0    60   ~ 0
 (F1+F2)
 Wire Wire Line
 	19250 3500 20000 3500
@@ -557,11 +505,9 @@ Wire Wire Line
 Text Label 17400 3400 0    60   ~ 0
 -F1
 Text GLabel 17300 7600 0    60   Input ~ 0
-9
++PUL
 Wire Wire Line
 	17300 7600 18150 7600
-Text Label 17350 7600 0    60   ~ 0
-+PUL
 $Comp
 L 7400 3B_
 U 1 1 576A90A7
@@ -574,23 +520,17 @@ F 3 "~" H 18650 4800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 20000 4800 2    60   Output ~ 0
-1B2
-Text Label 19300 4800 0    60   ~ 0
--(F2.5AE5A.5)
+-(F2.SAESA.S)
 Wire Wire Line
 	19250 4800 20000 4800
 Text GLabel 17350 4700 0    60   Input ~ 0
-1C1
++(F2.SAESA)
 Text GLabel 17350 4900 0    60   Input ~ 0
-48
++S
 Wire Wire Line
 	17350 4900 18050 4900
-Text Label 17400 4900 0    60   ~ 0
-+5
 Wire Wire Line
 	17350 4700 18050 4700
-Text Label 17400 4700 0    60   ~ 0
-+(F2.5AE5A)
 $Comp
 L 74HC04 1D_
 U 3 1 576A90B6
@@ -603,11 +543,11 @@ F 3 "~" H 18600 8700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 20000 8700 2    60   Output ~ 0
-3A10
+-(F2.5AE5A)
 Wire Wire Line
 	19050 8700 20000 8700
 Text GLabel 17300 8700 0    60   Input ~ 0
-1C1
++(F2.SAESA)
 Wire Wire Line
 	17300 8700 18150 8700
 $Comp
@@ -622,17 +562,13 @@ F 3 "~" H 18600 9850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 20000 9850 2    60   Output ~ 0
-3B9
-Text Label 19700 9850 0    60   ~ 0
 -PUG
 Wire Wire Line
 	19050 9850 20000 9850
 Text GLabel 17300 9850 0    60   Input ~ 0
-12
++PUG
 Wire Wire Line
 	17300 9850 18150 9850
-Text Label 17350 9850 0    60   ~ 0
-+PUG
 $Comp
 L 74HC04 1A_
 U 4 1 576A90CE
@@ -645,21 +581,13 @@ F 3 "~" H 18600 10950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 20000 10950 2    60   Output ~ 0
-201
-Text Label 19750 10950 0    60   ~ 0
 +F3
 Wire Wire Line
 	19050 10950 20000 10950
 Text GLabel 17300 10950 0    60   Input ~ 0
-14
+-F3
 Wire Wire Line
 	17300 10950 18150 10950
-Text Label 17350 10950 0    60   ~ 0
--F3
-Text Label 17350 8700 0    60   ~ 0
-+(F2.5AE5A)
-Text Label 19400 8700 0    60   ~ 0
--(F2.5AE5A)
 $Comp
 L 74HC04 1A_
 U 6 1 576AA583
@@ -672,11 +600,9 @@ F 3 "~" H 3700 10700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 2400 10700 0    60   Input ~ 0
-44
+-F1
 Wire Wire Line
 	2400 10700 3250 10700
-Text Label 2450 10700 0    60   ~ 0
--F1
 $Comp
 L 7400 2A_
 U 3 1 576AA58F
@@ -689,23 +615,17 @@ F 3 "~" H 3750 10100 60  0000 C CNN
 	1    0    0    1   
 $EndComp
 Text GLabel 2450 10000 0    60   Input ~ 0
-10
++MICG2A
 Text GLabel 2450 10200 0    60   Input ~ 0
-11
-Wire Wire Line
-	2450 10200 3150 10200
-Text Label 2500 10200 0    60   ~ 0
 +SALMIC
 Wire Wire Line
+	2450 10200 3150 10200
+Wire Wire Line
 	2450 10000 3150 10000
-Text Label 2500 10000 0    60   ~ 0
-+MICG2A
 Text GLabel 2400 10450 0    60   Input ~ 0
-1A4
+-PUL
 Wire Wire Line
 	2400 10450 4650 10450
-Text Label 2450 10450 0    60   ~ 0
--PUL
 $Comp
 L 7400 3B_
 U 2 1 576AA5A1
@@ -717,12 +637,10 @@ F 3 "~" H 5250 10350 60  0000 C CNN
 	2    5250 10350
 	1    0    0    -1  
 $EndComp
-Text GLabel 8800 10600 2    60   Output ~ 0
-1B1
-Text Label 7450 10600 0    60   ~ 0
+Text GLabel 7750 10600 2    60   Output ~ 0
 -(F1.(MICG2A.SALMIC+PUL))
 Wire Wire Line
-	7400 10600 8800 10600
+	7400 10600 7750 10600
 $Comp
 L 7400 3B_
 U 4 1 576AA5AA
@@ -760,25 +678,17 @@ F 3 "~" H 3650 13150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 2350 13450 0    60   Input ~ 0
-15
++SUS
 Wire Wire Line
 	2350 13450 6150 13450
-Text Label 2400 13450 0    60   ~ 0
-+SUS
 Text GLabel 2400 12850 0    60   Input ~ 0
-14
+-F3
 Wire Wire Line
 	2400 12850 4100 12850
-Text Label 2450 12850 0    60   ~ 0
--F3
 Text GLabel 2350 13150 0    60   Input ~ 0
-48
-Text Label 2400 13150 0    60   ~ 0
-+5
++S
 Text GLabel 8400 13350 2    60   Output ~ 0
-3B10
-Text Label 7800 13350 0    60   ~ 0
--(F3.SUS.5)
+-(F3.SUS.S)
 Wire Wire Line
 	7350 13350 8400 13350
 $Comp
@@ -817,4 +727,8 @@ Wire Wire Line
 	5750 13250 5750 13050
 Wire Wire Line
 	5750 13050 5600 13050
+Wire Wire Line
+	10000 6000 10550 6000
+Wire Wire Line
+	10350 5900 10550 5900
 $EndSCHEMATC
