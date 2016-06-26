@@ -34,9 +34,9 @@ EELAYER 27 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 2 16
+Sheet 2 17
 Title "PRANCHA XVI"
-Date "25 jun 2016"
+Date "26 jun 2016"
 Rev ""
 Comp "EPUSP LSD"
 Comment1 "Computador de Controle - Patinho Feio"

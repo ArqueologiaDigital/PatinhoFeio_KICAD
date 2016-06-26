@@ -34,9 +34,9 @@ EELAYER 27 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 3 16
+Sheet 3 17
 Title ""
-Date "25 jun 2016"
+Date "26 jun 2016"
 Rev ""
 Comp ""
 Comment1 ""
