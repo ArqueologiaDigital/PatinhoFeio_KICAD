@@ -29,6 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:7451
 LIBS:patinhofeio-cache
 EELAYER 27 0
 EELAYER END
@@ -36,7 +37,7 @@ $Descr A2 23386 16535
 encoding utf-8
 Sheet 3 17
 Title ""
-Date "26 jun 2016"
+Date "28 jun 2016"
 Rev ""
 Comp ""
 Comment1 ""

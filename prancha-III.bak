@@ -29,14 +29,15 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:7451
 LIBS:patinhofeio-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 17
+Sheet 14 17
 Title ""
-Date "26 jun 2016"
+Date "28 jun 2016"
 Rev ""
 Comp ""
 Comment1 ""
