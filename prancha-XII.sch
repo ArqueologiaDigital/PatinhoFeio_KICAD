@@ -35,9 +35,9 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 17
+Sheet 4 17
 Title ""
-Date "28 jun 2016"
+Date "15 jul 2016"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,4 +45,192 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L 7402 U?
+U 1 1 5772BFAE
+P 3700 3100
+F 0 "U?" H 3700 3150 60  0000 C CNN
+F 1 "7402" H 3750 3050 60  0000 C CNN
+F 2 "~" H 3700 3100 60  0000 C CNN
+F 3 "~" H 3700 3100 60  0000 C CNN
+	1    3700 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 7402 U?
+U 1 1 5772BFBB
+P 6250 3300
+F 0 "U?" H 6250 3350 60  0000 C CNN
+F 1 "7402" H 6300 3250 60  0000 C CNN
+F 2 "~" H 6250 3300 60  0000 C CNN
+F 3 "~" H 6250 3300 60  0000 C CNN
+	1    6250 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74HC04 U?
+U 1 1 5772BFC3
+P 2450 2700
+F 0 "U?" H 2600 2800 40  0000 C CNN
+F 1 "74HC04" H 2650 2600 40  0000 C CNN
+F 2 "~" H 2450 2700 60  0000 C CNN
+F 3 "~" H 2450 2700 60  0000 C CNN
+	1    2450 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74HC04 U?
+U 1 1 5772BFD0
+P 4950 3650
+F 0 "U?" H 5100 3750 40  0000 C CNN
+F 1 "74HC04" H 5150 3550 40  0000 C CNN
+F 2 "~" H 4950 3650 60  0000 C CNN
+F 3 "~" H 4950 3650 60  0000 C CNN
+	1    4950 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74HC04 U?
+U 1 1 5772BFD6
+P 6150 1900
+F 0 "U?" H 6300 2000 40  0000 C CNN
+F 1 "74HC04" H 6350 1800 40  0000 C CNN
+F 2 "~" H 6150 1900 60  0000 C CNN
+F 3 "~" H 6150 1900 60  0000 C CNN
+	1    6150 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74HC04 U?
+U 1 1 5772BFDC
+P 8000 2700
+F 0 "U?" H 8150 2800 40  0000 C CNN
+F 1 "74HC04" H 8200 2600 40  0000 C CNN
+F 2 "~" H 8000 2700 60  0000 C CNN
+F 3 "~" H 8000 2700 60  0000 C CNN
+	1    8000 2700
+	1    0    0    -1  
+$EndComp
+Text GLabel 1800 2700 0    60   Input ~ 0
++PUL
+Text GLabel 1800 2150 0    60   Input ~ 0
++(PARTIDA.(-RODA))
+Text GLabel 1800 3200 0    60   Input ~ 0
+-F1
+Text GLabel 1800 3500 0    60   Input ~ 0
++F1
+Wire Wire Line
+	1800 2700 2000 2700
+Wire Wire Line
+	1800 3200 3100 3200
+Wire Wire Line
+	2900 2700 3000 2700
+Wire Wire Line
+	3000 2700 3000 3000
+Wire Wire Line
+	3000 3000 3100 3000
+Wire Wire Line
+	3100 3500 1800 3500
+$Comp
+L 74LS10 U?
+U 1 1 5772C019
+P 3700 3650
+F 0 "U?" H 3700 3700 60  0000 C CNN
+F 1 "74LS10" H 3700 3600 60  0000 C CNN
+F 2 "~" H 3700 3650 60  0000 C CNN
+F 3 "~" H 3700 3650 60  0000 C CNN
+	1    3700 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74LS10 U?
+U 1 1 5772C030
+P 3700 4200
+F 0 "U?" H 3700 4250 60  0000 C CNN
+F 1 "74LS10" H 3700 4150 60  0000 C CNN
+F 2 "~" H 3700 4200 60  0000 C CNN
+F 3 "~" H 3700 4200 60  0000 C CNN
+	1    3700 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74LS10 U?
+U 1 1 5772C036
+P 3700 4750
+F 0 "U?" H 3700 4800 60  0000 C CNN
+F 1 "74LS10" H 3700 4700 60  0000 C CNN
+F 2 "~" H 3700 4750 60  0000 C CNN
+F 3 "~" H 3700 4750 60  0000 C CNN
+	1    3700 4750
+	1    0    0    -1  
+$EndComp
+Text GLabel 1800 4050 0    60   Input ~ 0
++F1
+Wire Wire Line
+	3100 4050 1800 4050
+Text GLabel 1800 3650 0    60   Input ~ 0
++F1
+Wire Wire Line
+	3100 3650 1800 3650
+Text GLabel 1800 3800 0    60   Input ~ 0
++F1
+Wire Wire Line
+	3100 3800 1800 3800
+Text GLabel 1800 4200 0    60   Input ~ 0
++F1
+Wire Wire Line
+	3100 4200 1800 4200
+Text GLabel 1800 4350 0    60   Input ~ 0
++F1
+Wire Wire Line
+	3100 4350 1800 4350
+Text GLabel 1800 4600 0    60   Input ~ 0
++F1
+Wire Wire Line
+	3100 4600 1800 4600
+Text GLabel 1800 4750 0    60   Input ~ 0
++F1
+Wire Wire Line
+	3100 4750 1800 4750
+Text GLabel 1800 4900 0    60   Input ~ 0
++F1
+Wire Wire Line
+	3100 4900 1800 4900
+Wire Wire Line
+	4300 3650 4500 3650
+Wire Wire Line
+	5400 3650 5550 3650
+Wire Wire Line
+	5550 3650 5550 3400
+Wire Wire Line
+	5550 3400 5650 3400
+Wire Wire Line
+	4300 3100 5550 3100
+Wire Wire Line
+	5550 3100 5550 3200
+Wire Wire Line
+	5550 3200 5650 3200
+$Comp
+L 74LS10 U?
+U 1 1 5772C080
+P 7800 3700
+F 0 "U?" H 7800 3750 60  0000 C CNN
+F 1 "74LS10" H 7800 3650 60  0000 C CNN
+F 2 "~" H 7800 3700 60  0000 C CNN
+F 3 "~" H 7800 3700 60  0000 C CNN
+	1    7800 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 3550 7000 3550
+Wire Wire Line
+	7000 3550 7000 3300
+Wire Wire Line
+	7000 3300 6850 3300
+Wire Wire Line
+	7200 3850 7000 3850
+Wire Wire Line
+	7000 3850 7000 4750
+Wire Wire Line
+	7000 4750 4300 4750
 $EndSCHEMATC

@@ -36,8 +36,8 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 13 17
-Title ""
-Date "28 jun 2016"
+Title "MAIS UM E PORTA DE SELEÇÃO"
+Date "15 jul 2016"
 Rev ""
 Comp ""
 Comment1 ""
@@ -205,7 +205,13 @@ Wire Wire Line
 Wire Wire Line
 	5300 2700 5000 2700
 Wire Wire Line
-	5000 2700 5000 3150
+	5000 2700 5000 2800
+Wire Wire Line
+	5000 2800 5000 2900
+Wire Wire Line
+	5000 2900 5000 3000
+Wire Wire Line
+	5000 3000 5000 3150
 Wire Wire Line
 	5000 3000 5300 3000
 Wire Wire Line
@@ -258,25 +264,49 @@ Wire Wire Line
 Wire Wire Line
 	2150 5100 1400 5100
 Wire Wire Line
-	2150 700  2150 5100
+	2150 700  2150 1800
+Wire Wire Line
+	2150 1800 2150 2900
+Wire Wire Line
+	2150 2900 2150 4000
+Wire Wire Line
+	2150 4000 2150 5100
 Wire Wire Line
 	2150 4000 2250 4000
 Wire Wire Line
 	2050 5300 1400 5300
 Wire Wire Line
-	2050 1000 2050 5300
+	2050 1000 2050 2100
+Wire Wire Line
+	2050 2100 2050 3200
+Wire Wire Line
+	2050 3200 2050 4300
+Wire Wire Line
+	2050 4300 2050 5300
 Wire Wire Line
 	2050 4300 2250 4300
 Wire Wire Line
 	1950 5500 1400 5500
 Wire Wire Line
-	1950 1200 1950 5500
+	1950 1200 1950 2300
+Wire Wire Line
+	1950 2300 1950 3400
+Wire Wire Line
+	1950 3400 1950 4500
+Wire Wire Line
+	1950 4500 1950 5500
 Wire Wire Line
 	1950 4500 2250 4500
 Wire Wire Line
 	1850 5700 1400 5700
 Wire Wire Line
-	1850 1300 1850 5700
+	1850 1300 1850 2400
+Wire Wire Line
+	1850 2400 1850 3500
+Wire Wire Line
+	1850 3500 1850 4600
+Wire Wire Line
+	1850 4600 1850 5700
 Wire Wire Line
 	1850 4600 2250 4600
 Wire Wire Line
@@ -446,7 +476,9 @@ Wire Wire Line
 Wire Wire Line
 	2850 6900 2950 6900
 Wire Wire Line
-	2950 6700 2950 7050
+	2950 6700 2950 6900
+Wire Wire Line
+	2950 6900 2950 7050
 Wire Wire Line
 	2950 6700 3150 6700
 Wire Wire Line
@@ -557,11 +589,39 @@ Wire Wire Line
 Wire Wire Line
 	8050 2300 9700 2300
 Wire Wire Line
-	9600 1600 9600 6700
+	9600 1600 9600 2200
+Wire Wire Line
+	9600 2200 9600 2800
+Wire Wire Line
+	9600 2800 9600 3400
+Wire Wire Line
+	9600 3400 9600 3950
+Wire Wire Line
+	9600 3950 9600 4550
+Wire Wire Line
+	9600 4550 9600 5150
+Wire Wire Line
+	9600 5150 9600 5750
+Wire Wire Line
+	9600 5750 9600 6700
 Wire Wire Line
 	9600 2200 9700 2200
 Wire Wire Line
-	9500 1800 9500 6500
+	9500 1800 9500 2400
+Wire Wire Line
+	9500 2400 9500 3000
+Wire Wire Line
+	9500 3000 9500 3600
+Wire Wire Line
+	9500 3600 9500 4150
+Wire Wire Line
+	9500 4150 9500 4750
+Wire Wire Line
+	9500 4750 9500 5350
+Wire Wire Line
+	9500 5350 9500 5950
+Wire Wire Line
+	9500 5950 9500 6500
 Wire Wire Line
 	9500 2400 9700 2400
 Text GLabel 8050 3300 0    60   Input ~ 0
@@ -818,4 +878,6 @@ Connection ~ 9600 4550
 Connection ~ 9600 5150
 Connection ~ 9500 5950
 Connection ~ 9600 5750
+Text Notes 5600 7200 0    60   ~ 0
+D-OVF = (C1 == TR)
 $EndSCHEMATC
