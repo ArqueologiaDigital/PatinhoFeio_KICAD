@@ -643,4 +643,6 @@ Text GLabel 21750 1750 2    60   Input ~ 0
 aaa
 Wire Wire Line
 	21550 1750 21750 1750
+Text Notes 16500 5550 0    60   ~ 0
+Este bloco esta com todos lables errados. Falta colocar os nomes certos.
 $EndSCHEMATC
