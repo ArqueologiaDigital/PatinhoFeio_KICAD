@@ -10,17 +10,18 @@
 # publicados na tese de mestrado e no livro do prof. Fregni
 
 microcode = open("patinhofeio_microcode.bin", "w")
-num_inputs = 29
+num_inputs = 24
 for addr in xrange(2**num_inputs):
   tempo = (addr >> 0) & 7
   fase = (addr >> 3) & 7
-  modo_de_operacao = (addr >> 6) & 7
-  RI = (addr >> 9) & 255
-  RD = (addr >> 17) & 255
-  PARTIDA = (addr >> 25) & 1
-  RODA = (addr >> 26) & 1
-  T = (addr >> 27) & 1
-  OVF = (addr >> 28) & 1
+  RI = (addr >> 6) & 255
+  RD = (addr >> 14) & 255
+  T = (addr >> 22) & 1
+  OVF = (addr >> 23) & 1
+
+  #modo_de_operacao = (addr >> ?) & 7
+  #PARTIDA = (addr >> ?) & 1
+  #RODA = (addr >> ?) & 1
 
   ## Sinais auxiliares
   F1 = (fase==1)
