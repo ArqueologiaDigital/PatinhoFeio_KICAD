@@ -31,11 +31,11 @@ LIBS:contrib
 LIBS:valves
 LIBS:7451
 LIBS:patinhofeio-cache
-EELAYER 27 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 17
+Sheet 12 17
 Title ""
 Date "2 aug 2016"
 Rev ""

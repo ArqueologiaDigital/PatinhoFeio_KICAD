@@ -31,7 +31,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:7451
 LIBS:patinhofeio-cache
-EELAYER 27 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -141,4 +141,36 @@ U 576E9223
 F0 "PRANCHA I: PLACA DOS REGISTRADORES" 50
 F1 "prancha-I.sch" 50
 $EndSheet
+Text Notes 2950 2950 0    60   ~ 0
+TO-DO!
+Text Notes 2950 3550 0    60   ~ 0
+TO-DO!
+Text Notes 2950 4150 0    60   ~ 0
+TO-DO!
+Text Notes 1300 4700 0    118  ~ 0
+OK
+Text Notes 5350 2950 0    60   ~ 0
+TO-DO!
+Text Notes 5350 3550 0    60   ~ 0
+TO-DO!
+Text Notes 5350 4150 0    60   ~ 0
+TO-DO!
+Text Notes 5350 4750 0    60   ~ 0
+TO-DO!
+Text Notes 7750 2950 0    60   ~ 0
+TO-DO!
+Text Notes 6050 3500 0    118  ~ 0
+OK
+Text Notes 7750 4150 0    60   ~ 0
+TO-DO!
+Text Notes 7750 4750 0    60   ~ 0
+TO-DO!
+Text Notes 8450 2900 0    118  ~ 0
+W.I.P.
+Text Notes 8450 3500 0    118  ~ 0
+W.I.P.
+Text Notes 10150 4150 0    60   ~ 0
+TO-DO!
+Text Notes 8450 4700 0    118  ~ 0
+OK
 $EndSCHEMATC

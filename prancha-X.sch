@@ -31,7 +31,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:7451
 LIBS:patinhofeio-cache
-EELAYER 27 0
+EELAYER 25 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
