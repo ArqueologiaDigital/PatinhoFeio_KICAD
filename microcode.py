@@ -97,6 +97,21 @@ for addr in xrange(2**num_inputs):
   TRI = MICG2B and (RI & 0x07 == 0x06)  # Troca o acumulador com o reg de indice
   RESERVADO = MICG2B and (RI & 0x07 == 0x07)  # Reservado para uso futuro (ENDERECAMENTO INDIRETO)
 
+  PAROP = PARTIDA and ~RODA and (MP or CP)
+ 
+  = 
+  ( 
+   (F2 and
+    ((PLI or (PAN and ACN) or (PAZ and ACZ)) or
+     (F2 and SAESA and S)
+    )
+   )
+   or
+   ((F4 and PUG) or
+    (F5 and PLI) or
+    (PAROP and PM1)
+   )
+  )
   ## SINAIS DE CONTROLE ##
 
   # VUQ: Vai Um Quente

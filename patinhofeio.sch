@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 17
 Title "PRANCHA XVI"
-Date "1 aug 2016"
+Date "2 aug 2016"
 Rev ""
 Comp "EPUSP LSD"
 Comment1 "Computador de Controle - Patinho Feio"
