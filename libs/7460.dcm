@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 7460
+D Dual 4-input expander
+K TTL
+$ENDCMP
+#
+#End Doc Library

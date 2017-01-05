@@ -30,6 +30,8 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:7451
+LIBS:7454
+LIBS:7460
 LIBS:patinhofeio-cache
 EELAYER 25 0
 EELAYER END

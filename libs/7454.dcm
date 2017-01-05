@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 7453
+D And-Nor (S = /(AB + CD + EF + GH) )
+K TTL ANDNOR
+$ENDCMP
+#
+$CMP 7454
+D And-Nor (S = /(AB + CD + EF + GH) )
+K TTL ANDNOR
+$ENDCMP
+#
+#End Doc Library
