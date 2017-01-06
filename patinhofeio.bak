@@ -170,7 +170,7 @@ TO-DO!
 Text Notes 8450 2900 0    118  ~ 0
 W.I.P.
 Text Notes 8450 3500 0    118  ~ 0
-W.I.P.
+OK
 Text Notes 10150 4150 0    60   ~ 0
 TO-DO!
 Text Notes 8450 4700 0    118  ~ 0

@@ -1,3 +1,8 @@
+p13:
+
+OK 3D13: +(PARTIDA.(-RODA))
+
+
 P14:
 
 OK 1A6: +(TRO+TRI)
