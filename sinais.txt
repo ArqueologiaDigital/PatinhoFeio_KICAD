@@ -1,7 +1,8 @@
 p13:
 
 OK 3D13: +(PARTIDA.(-RODA))
-
+   5A11: -(PAROP.PMI)
+   4D6: 
 
 P14:
 
