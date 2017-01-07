@@ -10,7 +10,10 @@ OK 2A4:  -PLI
 OK 2A6:  +F3
 ?  2A8:  +F2
 ?  2A12: -PUG
+?  2B8: +(F3.SUS.(-RDZ))
+?  2B10?: -(TRO+TRI) ?
 OK 3D13: +(PARTIDA.(-RODA))
+OK 4A4: -(CAC+SOM+PLI+ARA)
    4D6:  == TO-DO ==
    5A11: -(PAROP.PMI)
 
