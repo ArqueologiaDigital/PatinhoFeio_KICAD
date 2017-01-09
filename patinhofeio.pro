@@ -1,4 +1,4 @@
-update=Qui 05 Jan 2017 16:18:14 BRST
+update=Seg 09 Jan 2017 10:57:08 BRST
 version=1
 last_client=kicad
 [cvpcb]
@@ -82,3 +82,14 @@ LibName30=valves
 LibName31=libs/7451
 LibName32=libs/7454
 LibName33=libs/7460
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
+ERC_TestSimilarLabels=1
