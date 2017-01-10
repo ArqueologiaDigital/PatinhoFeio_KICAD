@@ -159,8 +159,6 @@ Text Notes 5350 4150 0    60   ~ 0
 TO-DO!
 Text Notes 5350 4750 0    60   ~ 0
 TO-DO!
-Text Notes 7750 2950 0    60   ~ 0
-TO-DO!
 Text Notes 6050 3500 0    118  ~ 0
 OK
 Text Notes 7750 4150 0    60   ~ 0
@@ -174,5 +172,7 @@ OK
 Text Notes 8450 4700 0    118  ~ 0
 OK
 Text Notes 8500 4100 0    118  ~ 0
+OK
+Text Notes 6050 2900 0    118  ~ 0
 OK
 $EndSCHEMATC
