@@ -174,5 +174,5 @@ OK
 Text Notes 8450 4700 0    118  ~ 0
 OK
 Text Notes 8500 4100 0    118  ~ 0
-W.I.P.
+OK
 $EndSCHEMATC

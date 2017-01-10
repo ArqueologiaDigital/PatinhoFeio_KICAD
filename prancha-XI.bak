@@ -35,7 +35,7 @@ LIBS:7460
 LIBS:patinhofeio-cache
 EELAYER 25 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A2 23386 16535
 encoding utf-8
 Sheet 5 17
 Title ""
