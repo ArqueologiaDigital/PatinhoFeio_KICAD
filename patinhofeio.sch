@@ -48,131 +48,187 @@ Comment3 "Projeto: Edson Fregni"
 Comment4 "Re-desenho: Felipe Sanches"
 $EndDescr
 $Sheet
-S 8400 4500 2100 300 
+S 7150 5600 2550 450 
 U 576C167D
 F0 "PRANCHA XVI: SINAIS DE CONTROLE" 50
 F1 "prancha-XVI.sch" 50
 $EndSheet
 $Sheet
-S 6000 3300 2100 300 
+S 7150 1700 2550 450 
 U 576C186C
 F0 "PRANCHA X: DECODIFICADOR" 50
 F1 "prancha-X.sch" 50
 $EndSheet
 $Sheet
-S 6000 4500 2100 300 
+S 7150 3000 2550 450 
 U 576E8CB8
 F0 "PRANCHA XII: PLACA CONTROLE 1" 50
 F1 "prancha-XII.sch" 50
 $EndSheet
 $Sheet
-S 6000 3900 2100 300 
+S 7150 2350 2550 450 
 U 576E8D1E
 F0 "PRANCHA XI: CONTROLE DE ESTADO" 50
 F1 "prancha-XI.sch" 50
 $EndSheet
 $Sheet
-S 8400 2700 2100 300 
+S 7150 3650 2550 450 
 U 576E8DDA
 F0 "PRANCHA XIII: PLACA SINAIS CONTROLE" 50
 F1 "prancha-XIII.sch" 50
 $EndSheet
 $Sheet
-S 8400 3300 2100 300 
+S 7150 4300 2550 450 
 U 576E8E58
 F0 "PRANCHA XIV: PLACA DE CONTROLE" 50
 F1 "prancha-XIV.sch" 50
 $EndSheet
 $Sheet
-S 8400 3900 2100 300 
+S 7150 4950 2550 500 
 U 576E8EAA
 F0 "PRANCHA XV: SINAIS DE CONTROLE" 50
 F1 "prancha-XV.sch" 50
 $EndSheet
 $Sheet
-S 6000 2700 2100 300 
+S 7150 1050 2550 450 
 U 576E8F3A
 F0 "prancha IX: RELÓGIO CENTRAL" 50
 F1 "prancha-IX.sch" 50
 $EndSheet
 $Sheet
-S 3600 3900 2100 300 
+S 2450 6050 2550 450 
 U 576E8FD4
 F0 "PRANCHA VII: PLACA MOSTRA REGISTRADORES" 50
 F1 "prancha-VII.sch" 50
 $EndSheet
 $Sheet
-S 3600 3300 2100 300 
+S 2450 4400 2550 500 
 U 576E9012
 F0 "PRANCHA VI: DADOS PARA CARTÕES INTERFACE" 50
 F1 "prancha-VI.sch" 50
 $EndSheet
 $Sheet
-S 3600 2700 2100 300 
+S 2450 3750 2550 450 
 U 576E9035
 F0 "PRANCHA V: PLACA CONTROLE DA MEMÓRIA" 50
 F1 "prancha-V.sch" 50
 $EndSheet
 $Sheet
-S 1200 4500 2100 300 
+S 2450 3100 2550 450 
 U 576E90A9
 F0 "PRANCHA IV: FLUXO DE DADOS" 50
 F1 "prancha-IV.sch" 50
 $EndSheet
 $Sheet
-S 1200 3900 2100 300 
+S 2450 2450 2550 450 
 U 576E90FA
 F0 "PRANCHA III: ACUMULADOR" 50
 F1 "prancha-III.sch" 50
 $EndSheet
 $Sheet
-S 3600 4500 2100 300 
+S 2450 6700 2550 450 
 U 576E8F96
 F0 "PRANCHA VIII: PLACA CHAVES E PILOTO" 50
 F1 "prancha-VIII.sch" 50
 $EndSheet
 $Sheet
-S 1200 3300 2100 300 
+S 2450 1800 2550 450 
 U 576E91FC
 F0 "PRANCHA II: CIRCUITO - UNIDADE ARITMÉTICA" 50
 F1 "prancha-II.sch" 50
 $EndSheet
 $Sheet
-S 1200 2700 2100 300 
+S 2450 1150 2550 450 
 U 576E9223
 F0 "PRANCHA I: PLACA DOS REGISTRADORES" 50
 F1 "prancha-I.sch" 50
 $EndSheet
-Text Notes 2950 2950 0    60   ~ 0
+Text Notes 2000 1450 0    60   ~ 0
 TO-DO!
-Text Notes 2950 3550 0    60   ~ 0
+Text Notes 2000 2100 0    60   ~ 0
 TO-DO!
-Text Notes 2950 4150 0    60   ~ 0
+Text Notes 2000 2750 0    60   ~ 0
 TO-DO!
-Text Notes 1300 4700 0    118  ~ 0
+Text Notes 2050 3300 0    118  ~ 0
 OK
-Text Notes 5350 2950 0    60   ~ 0
+Text Notes 2000 4000 0    60   ~ 0
 TO-DO!
-Text Notes 5350 3550 0    60   ~ 0
+Text Notes 2000 4650 0    60   ~ 0
 TO-DO!
-Text Notes 5350 4150 0    60   ~ 0
+Text Notes 2000 6300 0    60   ~ 0
 TO-DO!
-Text Notes 5350 4750 0    60   ~ 0
+Text Notes 2000 6900 0    60   ~ 0
 TO-DO!
-Text Notes 6050 3500 0    118  ~ 0
+Text Notes 6750 2000 0    118  ~ 0
 OK
-Text Notes 7750 4750 0    60   ~ 0
+Text Notes 6700 3250 0    60   ~ 0
 TO-DO!
-Text Notes 8450 2900 0    118  ~ 0
+Text Notes 6750 3950 0    118  ~ 0
 OK
-Text Notes 8450 3500 0    118  ~ 0
+Text Notes 6750 4600 0    118  ~ 0
 OK
-Text Notes 8450 4700 0    118  ~ 0
+Text Notes 6750 5900 0    118  ~ 0
 OK
-Text Notes 8500 4100 0    118  ~ 0
+Text Notes 6750 5250 0    118  ~ 0
 OK
-Text Notes 6050 2900 0    118  ~ 0
+Text Notes 6750 1350 0    118  ~ 0
 OK
-Text Notes 6050 4100 0    118  ~ 0
+Text Notes 6650 2600 0    118  ~ 0
 W.I.P.
+Text Notes 2600 1500 0    60   ~ 0
+Placas de registradores:\n* FR1-1 (bits pares)\n* FR2-2 (bits ímpares)
+Text Notes 2600 2150 0    60   ~ 0
+Placas de somador:\n* FS1-3 (bits menos significativos)\n* FS2-4 (bits mais significativos)
+Text Notes 2600 2750 0    60   ~ 0
+Placa de acumulador:\n* FAC-5
+Text Notes 2600 3400 0    60   ~ 0
+Placa:\n* FM1-6 (mais-um e porta de seleção 6)
+Text Notes 2600 4050 0    60   ~ 0
+Placa:\n* FCM-7 (interface com memória)
+Text Notes 2600 4750 0    60   ~ 0
+Placa:\n* FIN-8 (sinais para cartões de interface)
+Text Notes 5500 4800 1    276  ~ 0
+FLUXO DE DADOS
+Wire Notes Line
+	1900 800  5700 800 
+Wire Notes Line
+	5700 800  5700 5250
+Wire Notes Line
+	5700 5250 1900 5250
+Wire Notes Line
+	1900 5250 1900 800 
+Wire Notes Line
+	1900 7450 5700 7450
+Text Notes 5500 7200 1    236  ~ 0
+PAINEL
+Text Notes 10200 5950 1    276  ~ 0
+UNIDADE DE CONTROLE
+Wire Notes Line
+	6650 800  10400 800 
+Wire Notes Line
+	10400 800  10400 6300
+Wire Notes Line
+	10400 6300 6650 6300
+Wire Notes Line
+	6650 6300 6650 800 
+Text Notes 2600 6350 0    60   ~ 0
+Placa:\n* PMR-1 (drivers para os LED's)
+Text Notes 2600 7050 0    60   ~ 0
+Placa:\n* PCP-2 ("debounce" para chaves\ne drivers para lâmpadas piloto)
+Wire Notes Line
+	1900 7450 1900 5650
+Wire Notes Line
+	1900 5650 5700 5650
+Wire Notes Line
+	5700 5650 5700 7450
+Text Notes 7350 3300 0    60   ~ 0
+Placa:\n* CT1-4
+Text Notes 7350 3950 0    60   ~ 0
+Placa:\n* CT2-5
+Text Notes 7350 4600 0    60   ~ 0
+Placa:\n* CT3-6
+Text Notes 7350 5300 0    60   ~ 0
+Placa:\n* CT4-7
+Text Notes 7350 5900 0    60   ~ 0
+Placa:\n* CT5-8
 $EndSCHEMATC
