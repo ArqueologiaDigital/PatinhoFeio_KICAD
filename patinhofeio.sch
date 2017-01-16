@@ -32,6 +32,7 @@ LIBS:valves
 LIBS:7451
 LIBS:7454
 LIBS:7460
+LIBS:conn_35x2
 LIBS:patinhofeio-cache
 EELAYER 25 0
 EELAYER END
@@ -151,8 +152,6 @@ Text Notes 2000 2750 0    60   ~ 0
 TO-DO!
 Text Notes 2050 3300 0    118  ~ 0
 OK
-Text Notes 2000 4000 0    60   ~ 0
-TO-DO!
 Text Notes 2000 4650 0    60   ~ 0
 TO-DO!
 Text Notes 2000 6300 0    60   ~ 0
@@ -231,4 +230,6 @@ Text Notes 7350 5300 0    60   ~ 0
 Placa:\n* CT4-7
 Text Notes 7350 5900 0    60   ~ 0
 Placa:\n* CT5-8
+Text Notes 2050 4000 0    118  ~ 0
+OK
 $EndSCHEMATC

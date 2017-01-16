@@ -32,6 +32,7 @@ LIBS:valves
 LIBS:7451
 LIBS:7454
 LIBS:7460
+LIBS:conn_35x2
 LIBS:patinhofeio-cache
 EELAYER 25 0
 EELAYER END
@@ -50,375 +51,345 @@ $EndDescr
 $Comp
 L 74LS54 1A_P4
 U 1 1 576F3802
-P 5550 4700
-F 0 "1A_P4" H 5800 4900 60  0000 C CNN
-F 1 "74LS54" H 5800 4600 60  0000 C CNN
-F 2 "~" H 5550 4700 60  0000 C CNN
-F 3 "~" H 5550 4700 60  0000 C CNN
-	1    5550 4700
+P 7650 4900
+F 0 "1A_P4" H 7900 5100 60  0000 C CNN
+F 1 "74LS54" H 7900 4800 60  0000 C CNN
+F 2 "~" H 7650 4900 60  0000 C CNN
+F 3 "~" H 7650 4900 60  0000 C CNN
+	1    7650 4900
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74LS54 1B_P4
 U 1 1 576F380F
-P 5550 6300
-F 0 "1B_P4" H 5800 6500 60  0000 C CNN
-F 1 "74LS54" H 5800 6200 60  0000 C CNN
-F 2 "~" H 5550 6300 60  0000 C CNN
-F 3 "~" H 5550 6300 60  0000 C CNN
-	1    5550 6300
+P 7650 6500
+F 0 "1B_P4" H 7900 6700 60  0000 C CNN
+F 1 "74LS54" H 7900 6400 60  0000 C CNN
+F 2 "~" H 7650 6500 60  0000 C CNN
+F 3 "~" H 7650 6500 60  0000 C CNN
+	1    7650 6500
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74LS54 1C_P4
 U 1 1 576F3829
-P 5550 7900
-F 0 "1C_P4" H 5800 8100 60  0000 C CNN
-F 1 "74LS54" H 5800 7800 60  0000 C CNN
-F 2 "~" H 5550 7900 60  0000 C CNN
-F 3 "~" H 5550 7900 60  0000 C CNN
-	1    5550 7900
+P 7650 8100
+F 0 "1C_P4" H 7900 8300 60  0000 C CNN
+F 1 "74LS54" H 7900 8000 60  0000 C CNN
+F 2 "~" H 7650 8100 60  0000 C CNN
+F 3 "~" H 7650 8100 60  0000 C CNN
+	1    7650 8100
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74LS54 1D_P4
 U 1 1 576F382F
-P 5550 9400
-F 0 "1D_P4" H 5800 9600 60  0000 C CNN
-F 1 "74LS54" H 5800 9300 60  0000 C CNN
-F 2 "~" H 5550 9400 60  0000 C CNN
-F 3 "~" H 5550 9400 60  0000 C CNN
-	1    5550 9400
+P 7650 9600
+F 0 "1D_P4" H 7900 9800 60  0000 C CNN
+F 1 "74LS54" H 7900 9500 60  0000 C CNN
+F 2 "~" H 7650 9600 60  0000 C CNN
+F 3 "~" H 7650 9600 60  0000 C CNN
+	1    7650 9600
 	1    0    0    -1  
 $EndComp
-Text GLabel 4000 9750 0    60   Input ~ 0
+Text GLabel 6100 9950 0    60   Input ~ 0
 +RI_4
-Text GLabel 4000 9550 0    60   Input ~ 0
+Text GLabel 6100 9750 0    60   Input ~ 0
 +P_0
-Text GLabel 4000 9350 0    60   Input ~ 0
+Text GLabel 6100 9550 0    60   Input ~ 0
 +RE_0
-Text GLabel 4000 9150 0    60   Input ~ 0
+Text GLabel 6100 9350 0    60   Input ~ 0
 +CI_0
 $Comp
 L 74HC04 3B_P4
 U 4 1 576F400D
-P 6750 4700
-F 0 "3B_P4" H 6900 4800 40  0000 C CNN
-F 1 "74HC04" H 6950 4600 40  0000 C CNN
-F 2 "~" H 6750 4700 60  0000 C CNN
-F 3 "~" H 6750 4700 60  0000 C CNN
-	4    6750 4700
+P 8850 4900
+F 0 "3B_P4" H 9000 5000 40  0000 C CNN
+F 1 "74HC04" H 9050 4800 40  0000 C CNN
+F 2 "~" H 8850 4900 60  0000 C CNN
+F 3 "~" H 8850 4900 60  0000 C CNN
+	4    8850 4900
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74HC04 3B_P4
 U 3 1 576F401A
-P 6750 6300
-F 0 "3B_P4" H 6900 6400 40  0000 C CNN
-F 1 "74HC04" H 6950 6200 40  0000 C CNN
-F 2 "~" H 6750 6300 60  0000 C CNN
-F 3 "~" H 6750 6300 60  0000 C CNN
-	3    6750 6300
+P 8850 6500
+F 0 "3B_P4" H 9000 6600 40  0000 C CNN
+F 1 "74HC04" H 9050 6400 40  0000 C CNN
+F 2 "~" H 8850 6500 60  0000 C CNN
+F 3 "~" H 8850 6500 60  0000 C CNN
+	3    8850 6500
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74HC04 3B_P4
 U 1 1 576F4020
-P 6750 7900
-F 0 "3B_P4" H 6900 8000 40  0000 C CNN
-F 1 "74HC04" H 6950 7800 40  0000 C CNN
-F 2 "~" H 6750 7900 60  0000 C CNN
-F 3 "~" H 6750 7900 60  0000 C CNN
-	1    6750 7900
+P 8850 8100
+F 0 "3B_P4" H 9000 8200 40  0000 C CNN
+F 1 "74HC04" H 9050 8000 40  0000 C CNN
+F 2 "~" H 8850 8100 60  0000 C CNN
+F 3 "~" H 8850 8100 60  0000 C CNN
+	1    8850 8100
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74HC04 3B_P4
 U 2 1 576F4026
-P 6750 9400
-F 0 "3B_P4" H 6900 9500 40  0000 C CNN
-F 1 "74HC04" H 6950 9300 40  0000 C CNN
-F 2 "~" H 6750 9400 60  0000 C CNN
-F 3 "~" H 6750 9400 60  0000 C CNN
-	2    6750 9400
+P 8850 9600
+F 0 "3B_P4" H 9000 9700 40  0000 C CNN
+F 1 "74HC04" H 9050 9500 40  0000 C CNN
+F 2 "~" H 8850 9600 60  0000 C CNN
+F 3 "~" H 8850 9600 60  0000 C CNN
+	2    8850 9600
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74LS83 3A_P4
 U 1 1 57728C2B
-P 9400 7350
-F 0 "3A_P4" H 9400 7450 60  0000 C CNN
-F 1 "74LS83" H 9400 7250 60  0000 C CNN
-F 2 "~" H 9400 7350 60  0000 C CNN
-F 3 "~" H 9400 7350 60  0000 C CNN
-	1    9400 7350
+P 11500 7550
+F 0 "3A_P4" H 11500 7650 60  0000 C CNN
+F 1 "74LS83" H 11500 7450 60  0000 C CNN
+F 2 "~" H 11500 7550 60  0000 C CNN
+F 3 "~" H 11500 7550 60  0000 C CNN
+	1    11500 7550
 	1    0    0    1   
 $EndComp
-Text GLabel 8550 8100 3    60   Input ~ 0
+Text GLabel 10650 8300 3    60   Input ~ 0
 +TR
 $Comp
 L GND #PWR09
 U 1 1 57728D70
-P 8400 7800
-F 0 "#PWR09" H 8400 7800 30  0001 C CNN
-F 1 "GND" H 8400 7730 30  0001 C CNN
-F 2 "" H 8400 7800 60  0000 C CNN
-F 3 "" H 8400 7800 60  0000 C CNN
-	1    8400 7800
+P 10500 8000
+F 0 "#PWR09" H 10500 8000 30  0001 C CNN
+F 1 "GND" H 10500 7930 30  0001 C CNN
+F 2 "" H 10500 8000 60  0000 C CNN
+F 3 "" H 10500 8000 60  0000 C CNN
+	1    10500 8000
 	1    0    0    -1  
 $EndComp
-NoConn ~ 10100 7200
-Text GLabel 10700 7650 2    60   Output ~ 0
+NoConn ~ 12200 7400
+Text GLabel 12800 7850 2    60   Output ~ 0
 +U_3
-Text GLabel 10400 7350 2    60   Output ~ 0
+Text GLabel 12500 7550 2    60   Output ~ 0
 +U_0
-Text GLabel 10700 7450 2    60   Output ~ 0
+Text GLabel 12800 7650 2    60   Output ~ 0
 +U_1
-Text GLabel 10400 7550 2    60   Output ~ 0
+Text GLabel 12500 7750 2    60   Output ~ 0
 +U_2
-Text GLabel 4000 11200 0    60   Input ~ 0
+Text GLabel 6100 11400 0    60   Input ~ 0
 +RI_(4-7)/M
-Text GLabel 4000 11000 0    60   Input ~ 0
+Text GLabel 6100 11200 0    60   Input ~ 0
 +P_(0-3)/M
-Text GLabel 4000 10800 0    60   Input ~ 0
+Text GLabel 6100 11000 0    60   Input ~ 0
 +RE_(0-3)/M
-Text GLabel 4000 10600 0    60   Input ~ 0
+Text GLabel 6100 10800 0    60   Input ~ 0
 +CI_(0-3)/M
 Wire Wire Line
-	4200 9450 5100 9450
+	6300 9650 7200 9650
 Wire Wire Line
-	4100 9250 5100 9250
+	6200 9450 7200 9450
 Wire Wire Line
-	4000 9750 5100 9750
+	6100 9950 7200 9950
 Wire Wire Line
-	4000 9150 5100 9150
+	6100 9350 7200 9350
 Wire Wire Line
-	6000 7900 6300 7900
+	8100 8100 8400 8100
 Wire Wire Line
-	6350 9400 6000 9400
+	8450 9600 8100 9600
 Wire Wire Line
-	6000 6300 6300 6300
+	8100 6500 8400 6500
 Wire Wire Line
-	6300 4700 6000 4700
+	8400 4900 8100 4900
 Wire Wire Line
-	8550 7800 8700 7800
+	10650 8000 10800 8000
 Wire Wire Line
-	8550 7800 8550 8100
+	10650 8000 10650 8300
 Wire Wire Line
-	8700 7350 8400 7350
+	10800 7550 10500 7550
 Wire Wire Line
-	8400 7350 8400 7450
+	10500 7550 10500 8000
 Wire Wire Line
-	8400 7450 8400 7550
+	10500 7850 10800 7850
 Wire Wire Line
-	8400 7550 8400 7650
+	10500 7650 10800 7650
+Connection ~ 10500 7650
 Wire Wire Line
-	8400 7650 8400 7800
+	10800 7750 10500 7750
+Connection ~ 10500 7750
+Connection ~ 10500 7850
 Wire Wire Line
-	8400 7650 8700 7650
+	9300 9600 9600 9600
 Wire Wire Line
-	8400 7450 8700 7450
-Connection ~ 8400 7450
+	9600 9600 9600 7400
 Wire Wire Line
-	8700 7550 8400 7550
-Connection ~ 8400 7550
-Connection ~ 8400 7650
+	9600 7400 10800 7400
 Wire Wire Line
-	7200 9400 7500 9400
+	10800 7300 9500 7300
 Wire Wire Line
-	7500 9400 7500 7200
+	9500 7300 9500 8100
 Wire Wire Line
-	7500 7200 8700 7200
+	9500 8100 9300 8100
 Wire Wire Line
-	8700 7100 7400 7100
+	9500 7200 10800 7200
 Wire Wire Line
-	7400 7100 7400 7900
+	9500 6500 9500 7200
 Wire Wire Line
-	7400 7900 7200 7900
+	9500 6500 9300 6500
 Wire Wire Line
-	7400 7000 8700 7000
+	9600 7100 10800 7100
 Wire Wire Line
-	7400 6300 7400 7000
+	9600 4900 9600 7100
 Wire Wire Line
-	7400 6300 7200 6300
+	9600 4900 9300 4900
 Wire Wire Line
-	7500 6900 8700 6900
+	12200 7850 12800 7850
 Wire Wire Line
-	7500 4700 7500 6900
+	12500 7750 12200 7750
 Wire Wire Line
-	7500 4700 7200 4700
+	12200 7650 12800 7650
 Wire Wire Line
-	10100 7650 10700 7650
+	12500 7550 12200 7550
 Wire Wire Line
-	10400 7550 10100 7550
+	6200 9450 6200 9550
 Wire Wire Line
-	10100 7450 10700 7450
+	6200 9550 6100 9550
 Wire Wire Line
-	10400 7350 10100 7350
+	6300 9650 6300 9750
 Wire Wire Line
-	4100 9250 4100 9350
+	6300 9750 6100 9750
 Wire Wire Line
-	4100 9350 4000 9350
+	7100 10800 6100 10800
 Wire Wire Line
-	4200 9450 4200 9550
+	7100 4550 7100 10800
 Wire Wire Line
-	4200 9550 4000 9550
+	7100 9250 7200 9250
 Wire Wire Line
-	5000 10600 4000 10600
+	7000 11000 6100 11000
 Wire Wire Line
-	5000 4350 5000 5950
+	7000 4850 7000 11000
 Wire Wire Line
-	5000 5950 5000 7550
+	7000 9550 7200 9550
 Wire Wire Line
-	5000 7550 5000 9050
+	6900 11200 6100 11200
 Wire Wire Line
-	5000 9050 5000 10600
+	6900 5050 6900 11200
 Wire Wire Line
-	5000 9050 5100 9050
+	6900 9750 7200 9750
 Wire Wire Line
-	4900 10800 4000 10800
+	6800 11400 6100 11400
 Wire Wire Line
-	4900 4650 4900 6250
+	6800 5150 6800 11400
 Wire Wire Line
-	4900 6250 4900 7850
+	6800 9850 7200 9850
 Wire Wire Line
-	4900 7850 4900 9350
+	7100 7750 7200 7750
+Connection ~ 7100 9250
 Wire Wire Line
-	4900 9350 4900 10800
+	7100 6150 7200 6150
+Connection ~ 7100 7750
 Wire Wire Line
-	4900 9350 5100 9350
+	7100 4550 7200 4550
+Connection ~ 7100 6150
 Wire Wire Line
-	4800 11000 4000 11000
+	7000 8050 7200 8050
+Connection ~ 7000 9550
 Wire Wire Line
-	4800 4850 4800 6450
+	7000 6450 7200 6450
+Connection ~ 7000 8050
 Wire Wire Line
-	4800 6450 4800 8050
+	7000 4850 7200 4850
+Connection ~ 7000 6450
 Wire Wire Line
-	4800 8050 4800 9550
+	6900 8250 7200 8250
+Connection ~ 6900 9750
 Wire Wire Line
-	4800 9550 4800 11000
+	6900 6650 7200 6650
+Connection ~ 6900 8250
 Wire Wire Line
-	4800 9550 5100 9550
+	6900 5050 7200 5050
+Connection ~ 6900 6650
 Wire Wire Line
-	4700 11200 4000 11200
+	6800 8350 7200 8350
+Connection ~ 6800 9850
 Wire Wire Line
-	4700 4950 4700 6550
+	6800 6750 7200 6750
+Connection ~ 6800 8350
 Wire Wire Line
-	4700 6550 4700 8150
-Wire Wire Line
-	4700 8150 4700 9650
-Wire Wire Line
-	4700 9650 4700 11200
-Wire Wire Line
-	4700 9650 5100 9650
-Wire Wire Line
-	5000 7550 5100 7550
-Connection ~ 5000 9050
-Wire Wire Line
-	5000 5950 5100 5950
-Connection ~ 5000 7550
-Wire Wire Line
-	5000 4350 5100 4350
-Connection ~ 5000 5950
-Wire Wire Line
-	4900 7850 5100 7850
-Connection ~ 4900 9350
-Wire Wire Line
-	4900 6250 5100 6250
-Connection ~ 4900 7850
-Wire Wire Line
-	4900 4650 5100 4650
-Connection ~ 4900 6250
-Wire Wire Line
-	4800 8050 5100 8050
-Connection ~ 4800 9550
-Wire Wire Line
-	4800 6450 5100 6450
-Connection ~ 4800 8050
-Wire Wire Line
-	4800 4850 5100 4850
-Connection ~ 4800 6450
-Wire Wire Line
-	4700 8150 5100 8150
-Connection ~ 4700 9650
-Wire Wire Line
-	4700 6550 5100 6550
-Connection ~ 4700 8150
-Wire Wire Line
-	4700 4950 5100 4950
-Connection ~ 4700 6550
-Text GLabel 4000 8250 0    60   Input ~ 0
+	6800 5150 7200 5150
+Connection ~ 6800 6750
+Text GLabel 6100 8450 0    60   Input ~ 0
 +RI_5
-Text GLabel 4000 8050 0    60   Input ~ 0
+Text GLabel 6100 8250 0    60   Input ~ 0
 +P_1
-Text GLabel 4000 7850 0    60   Input ~ 0
+Text GLabel 6100 8050 0    60   Input ~ 0
 +RE_1
-Text GLabel 4000 7650 0    60   Input ~ 0
+Text GLabel 6100 7850 0    60   Input ~ 0
 +CI_1
 Wire Wire Line
-	4200 7950 5100 7950
+	6300 8150 7200 8150
 Wire Wire Line
-	4100 7750 5100 7750
+	6200 7950 7200 7950
 Wire Wire Line
-	4000 8250 5100 8250
+	6100 8450 7200 8450
 Wire Wire Line
-	4000 7650 5100 7650
+	6100 7850 7200 7850
 Wire Wire Line
-	4100 7750 4100 7850
+	6200 7950 6200 8050
 Wire Wire Line
-	4100 7850 4000 7850
+	6200 8050 6100 8050
 Wire Wire Line
-	4200 7950 4200 8050
+	6300 8150 6300 8250
 Wire Wire Line
-	4200 8050 4000 8050
-Text GLabel 4000 6650 0    60   Input ~ 0
+	6300 8250 6100 8250
+Text GLabel 6100 6850 0    60   Input ~ 0
 +RI_6
-Text GLabel 4000 6450 0    60   Input ~ 0
+Text GLabel 6100 6650 0    60   Input ~ 0
 +P_2
-Text GLabel 4000 6250 0    60   Input ~ 0
+Text GLabel 6100 6450 0    60   Input ~ 0
 +RE_2
-Text GLabel 4000 6050 0    60   Input ~ 0
+Text GLabel 6100 6250 0    60   Input ~ 0
 +CI_2
 Wire Wire Line
-	4200 6350 5100 6350
+	6300 6550 7200 6550
 Wire Wire Line
-	4100 6150 5100 6150
+	6200 6350 7200 6350
 Wire Wire Line
-	4000 6650 5100 6650
+	6100 6850 7200 6850
 Wire Wire Line
-	4000 6050 5100 6050
+	6100 6250 7200 6250
 Wire Wire Line
-	4100 6150 4100 6250
+	6200 6350 6200 6450
 Wire Wire Line
-	4100 6250 4000 6250
+	6200 6450 6100 6450
 Wire Wire Line
-	4200 6350 4200 6450
+	6300 6550 6300 6650
 Wire Wire Line
-	4200 6450 4000 6450
-Text GLabel 4000 5050 0    60   Input ~ 0
+	6300 6650 6100 6650
+Text GLabel 6100 5250 0    60   Input ~ 0
 +RI_7
-Text GLabel 4000 4850 0    60   Input ~ 0
+Text GLabel 6100 5050 0    60   Input ~ 0
 +P_3
-Text GLabel 4000 4650 0    60   Input ~ 0
+Text GLabel 6100 4850 0    60   Input ~ 0
 +RE_3
-Text GLabel 4000 4450 0    60   Input ~ 0
+Text GLabel 6100 4650 0    60   Input ~ 0
 +CI_3
 Wire Wire Line
-	4200 4750 5100 4750
+	6300 4950 7200 4950
 Wire Wire Line
-	4100 4550 5100 4550
+	6200 4750 7200 4750
 Wire Wire Line
-	4000 5050 5100 5050
+	6100 5250 7200 5250
 Wire Wire Line
-	4000 4450 5100 4450
+	6100 4650 7200 4650
 Wire Wire Line
-	4100 4550 4100 4650
+	6200 4750 6200 4850
 Wire Wire Line
-	4100 4650 4000 4650
+	6200 4850 6100 4850
 Wire Wire Line
-	4200 4750 4200 4850
+	6300 4950 6300 5050
 Wire Wire Line
-	4200 4850 4000 4850
+	6300 5050 6100 5050
 $Comp
 L 7400 3D_P4
 U 3 1 5772A853
@@ -478,9 +449,7 @@ Wire Wire Line
 Wire Wire Line
 	11000 13600 11100 13600
 Wire Wire Line
-	11100 13400 11100 13600
-Wire Wire Line
-	11100 13600 11100 13750
+	11100 13400 11100 13750
 Wire Wire Line
 	11100 13400 11300 13400
 Wire Wire Line
@@ -591,39 +560,11 @@ Wire Wire Line
 Wire Wire Line
 	16300 5850 18700 5850
 Wire Wire Line
-	18450 5150 18450 5750
-Wire Wire Line
-	18450 5750 18450 6350
-Wire Wire Line
-	18450 6350 18450 6950
-Wire Wire Line
-	18450 6950 18450 7500
-Wire Wire Line
-	18450 7500 18450 8100
-Wire Wire Line
-	18450 8100 18450 8700
-Wire Wire Line
-	18450 8700 18450 9300
-Wire Wire Line
-	18450 9300 18450 10450
+	18450 5150 18450 10450
 Wire Wire Line
 	18450 5750 18700 5750
 Wire Wire Line
-	18350 5350 18350 5950
-Wire Wire Line
-	18350 5950 18350 6550
-Wire Wire Line
-	18350 6550 18350 7150
-Wire Wire Line
-	18350 7150 18350 7700
-Wire Wire Line
-	18350 7700 18350 8300
-Wire Wire Line
-	18350 8300 18350 8900
-Wire Wire Line
-	18350 8900 18350 9500
-Wire Wire Line
-	18350 9500 18350 10250
+	18350 5350 18350 10250
 Wire Wire Line
 	18350 5950 18700 5950
 Text GLabel 16300 6850 0    60   Input ~ 0
@@ -882,4 +823,295 @@ Connection ~ 18350 9500
 Connection ~ 18450 9300
 Text Notes 13750 13900 0    60   ~ 0
 D-OVF = (C1 == TR)
+$Comp
+L CONN_35X2 P?
+U 1 1 587C1920
+P 2500 2600
+F 0 "P?" H 2500 4522 60  0000 C CNN
+F 1 "CONN_35X2" H 2500 4424 50  0000 C CNN
+F 2 "" H 2500 2850 60  0000 C CNN
+F 3 "" H 2500 2850 60  0000 C CNN
+	1    2500 2600
+	1    0    0    -1  
+$EndComp
+Text GLabel 3800 4100 2    60   Output ~ 0
+?
+Wire Wire Line
+	3800 4100 2900 4100
+Text GLabel 3100 4200 2    60   Output ~ 0
+?
+Wire Wire Line
+	3100 4200 2900 4200
+Text GLabel 1900 4200 0    60   Output ~ 0
+?
+Wire Wire Line
+	1900 4200 2100 4200
+Text GLabel 1200 4100 0    60   Output ~ 0
+?
+Wire Wire Line
+	1200 4100 2100 4100
+Text GLabel 1200 4300 0    60   Output ~ 0
+?
+Wire Wire Line
+	1200 4300 2100 4300
+Text GLabel 3100 4000 2    60   Output ~ 0
+?
+Wire Wire Line
+	2900 4000 3100 4000
+Text GLabel 1200 3300 0    60   Output ~ 0
+?
+Wire Wire Line
+	1200 3300 2100 3300
+Text GLabel 1900 4000 0    60   Output ~ 0
+?
+Wire Wire Line
+	1900 4000 2100 4000
+Text GLabel 1900 3800 0    60   Output ~ 0
+?
+Text GLabel 1900 3600 0    60   Output ~ 0
+?
+Text GLabel 1900 3400 0    60   Output ~ 0
+?
+Text GLabel 1200 3900 0    60   Output ~ 0
+?
+Wire Wire Line
+	1200 3900 2100 3900
+Wire Wire Line
+	2100 3800 1900 3800
+Wire Wire Line
+	2100 3600 1900 3600
+Wire Wire Line
+	1900 3400 2100 3400
+Text GLabel 1200 3700 0    60   Output ~ 0
+?
+Wire Wire Line
+	1200 3700 2100 3700
+Text GLabel 1200 3500 0    60   Output ~ 0
+?
+Wire Wire Line
+	1200 3500 2100 3500
+Text GLabel 1900 3200 0    60   Output ~ 0
+?
+Wire Wire Line
+	1900 3200 2100 3200
+Text GLabel 1200 3100 0    60   Output ~ 0
+?
+Wire Wire Line
+	1200 3100 2100 3100
+Text GLabel 1900 3000 0    60   Output ~ 0
+?
+Wire Wire Line
+	1900 3000 2100 3000
+Text GLabel 1200 2900 0    60   Output ~ 0
+?
+Wire Wire Line
+	1200 2900 2100 2900
+Text GLabel 1900 2800 0    60   Output ~ 0
+?
+Wire Wire Line
+	1900 2800 2100 2800
+Text GLabel 1200 2700 0    60   Output ~ 0
+?
+Wire Wire Line
+	1200 2700 2100 2700
+Text GLabel 1900 2600 0    60   Output ~ 0
+?
+Wire Wire Line
+	1900 2600 2100 2600
+Text GLabel 1200 2500 0    60   Output ~ 0
+?
+Wire Wire Line
+	1200 2500 2100 2500
+Text GLabel 1900 2400 0    60   Output ~ 0
+?
+Wire Wire Line
+	1900 2400 2100 2400
+Text GLabel 1200 2300 0    60   Output ~ 0
+?
+Wire Wire Line
+	1200 2300 2100 2300
+Text GLabel 1900 2200 0    60   Output ~ 0
+?
+Wire Wire Line
+	1900 2200 2100 2200
+Text GLabel 1200 2100 0    60   Output ~ 0
+?
+Wire Wire Line
+	1200 2100 2100 2100
+Text GLabel 1900 2000 0    60   Output ~ 0
+?
+Wire Wire Line
+	1900 2000 2100 2000
+Text GLabel 1200 1900 0    60   Output ~ 0
+?
+Wire Wire Line
+	1200 1900 2100 1900
+Text GLabel 1900 1800 0    60   Output ~ 0
+?
+Wire Wire Line
+	1900 1800 2100 1800
+Text GLabel 1200 1700 0    60   Output ~ 0
+?
+Wire Wire Line
+	1200 1700 2100 1700
+Text GLabel 1900 1600 0    60   Output ~ 0
+?
+Wire Wire Line
+	1900 1600 2100 1600
+Text GLabel 1200 1500 0    60   Output ~ 0
+?
+Wire Wire Line
+	1200 1500 2100 1500
+Text GLabel 1900 1400 0    60   Output ~ 0
+?
+Wire Wire Line
+	1900 1400 2100 1400
+Text GLabel 1200 1300 0    60   Output ~ 0
+?
+Wire Wire Line
+	1200 1300 2100 1300
+Text GLabel 1900 1200 0    60   Output ~ 0
+?
+Wire Wire Line
+	1900 1200 2100 1200
+Text GLabel 1200 1100 0    60   Output ~ 0
+?
+Wire Wire Line
+	1200 1100 2100 1100
+Text GLabel 1900 1000 0    60   Output ~ 0
+?
+Wire Wire Line
+	1900 1000 2100 1000
+Text GLabel 1200 900  0    60   Output ~ 0
+?
+Wire Wire Line
+	1200 900  2100 900 
+Text GLabel 3100 3800 2    60   Output ~ 0
+?
+Wire Wire Line
+	3100 3800 2900 3800
+Text GLabel 3800 3700 2    60   Output ~ 0
+?
+Wire Wire Line
+	3800 3700 2900 3700
+Text GLabel 3100 3600 2    60   Output ~ 0
+?
+Wire Wire Line
+	3100 3600 2900 3600
+Text GLabel 3800 3500 2    60   Output ~ 0
+?
+Wire Wire Line
+	3800 3500 2900 3500
+Text GLabel 3100 3400 2    60   Output ~ 0
+?
+Wire Wire Line
+	3100 3400 2900 3400
+Text GLabel 3800 3300 2    60   Output ~ 0
+?
+Wire Wire Line
+	3800 3300 2900 3300
+Text GLabel 3100 3200 2    60   Output ~ 0
+?
+Wire Wire Line
+	3100 3200 2900 3200
+Text GLabel 3800 3100 2    60   Output ~ 0
+?
+Wire Wire Line
+	3800 3100 2900 3100
+Text GLabel 3100 3000 2    60   Output ~ 0
+?
+Wire Wire Line
+	3100 3000 2900 3000
+Text GLabel 3800 2900 2    60   Output ~ 0
+?
+Wire Wire Line
+	3800 2900 2900 2900
+Text GLabel 3100 2800 2    60   Output ~ 0
+?
+Wire Wire Line
+	3100 2800 2900 2800
+Text GLabel 3800 2700 2    60   Output ~ 0
+?
+Wire Wire Line
+	3800 2700 2900 2700
+Text GLabel 3100 2600 2    60   Output ~ 0
+?
+Wire Wire Line
+	3100 2600 2900 2600
+Text GLabel 3800 2500 2    60   Output ~ 0
+?
+Wire Wire Line
+	3800 2500 2900 2500
+Text GLabel 3100 2400 2    60   Output ~ 0
+?
+Wire Wire Line
+	3100 2400 2900 2400
+Text GLabel 3800 2300 2    60   Output ~ 0
+?
+Wire Wire Line
+	3800 2300 2900 2300
+Text GLabel 3100 2200 2    60   Output ~ 0
+?
+Wire Wire Line
+	3100 2200 2900 2200
+Text GLabel 3800 2100 2    60   Output ~ 0
+?
+Wire Wire Line
+	3800 2100 2900 2100
+Text GLabel 3100 2000 2    60   Output ~ 0
+?
+Wire Wire Line
+	3100 2000 2900 2000
+Text GLabel 3800 1900 2    60   Output ~ 0
+?
+Wire Wire Line
+	3800 1900 2900 1900
+Text GLabel 3100 1800 2    60   Output ~ 0
+?
+Wire Wire Line
+	3100 1800 2900 1800
+Text GLabel 3800 1700 2    60   Output ~ 0
+?
+Wire Wire Line
+	3800 1700 2900 1700
+Text GLabel 3100 1600 2    60   Output ~ 0
+?
+Wire Wire Line
+	3100 1600 2900 1600
+Text GLabel 3800 1500 2    60   Output ~ 0
+?
+Wire Wire Line
+	3800 1500 2900 1500
+Text GLabel 3800 3900 2    60   Output ~ 0
+?
+Wire Wire Line
+	3800 3900 2900 3900
+Text GLabel 3100 1400 2    60   Output ~ 0
+?
+Wire Wire Line
+	3100 1400 2900 1400
+Text GLabel 3800 1300 2    60   Output ~ 0
+?
+Wire Wire Line
+	3800 1300 2900 1300
+Text GLabel 3100 1200 2    60   Output ~ 0
+?
+Wire Wire Line
+	3100 1200 2900 1200
+Text GLabel 3800 1100 2    60   Output ~ 0
+?
+Wire Wire Line
+	3800 1100 2900 1100
+Text GLabel 3100 1000 2    60   Output ~ 0
+?
+Wire Wire Line
+	3100 1000 2900 1000
+Text GLabel 3800 900  2    60   Output ~ 0
+?
+Wire Wire Line
+	3800 900  2900 900 
+Text GLabel 3800 4300 2    60   Output ~ 0
+?
+Wire Wire Line
+	3800 4300 2900 4300
 $EndSCHEMATC

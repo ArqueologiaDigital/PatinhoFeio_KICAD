@@ -1,4 +1,4 @@
-update=Seg 09 Jan 2017 10:57:08 BRST
+update=Dom 15 Jan 2017 19:50:53 BRST
 version=1
 last_client=kicad
 [cvpcb]
@@ -45,6 +45,17 @@ LibName15=pga_sockets
 LibName16=valves
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
+ERC_TestSimilarLabels=1
 [eeschema]
 version=1
 LibDir=
@@ -82,14 +93,4 @@ LibName30=valves
 LibName31=libs/7451
 LibName32=libs/7454
 LibName33=libs/7460
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
-ERC_TestSimilarLabels=1
+LibName34=libs/conn_35x2
