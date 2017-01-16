@@ -824,10 +824,10 @@ Connection ~ 18450 9300
 Text Notes 13750 13900 0    60   ~ 0
 D-OVF = (C1 == TR)
 $Comp
-L CONN_35X2 CONECTOR_FM1-6
+L CONN_35X2 CONECTOR_P4
 U 1 1 587C1920
 P 2500 2600
-F 0 "CONECTOR_FM1-6" H 2500 4522 60  0000 C CNN
+F 0 "CONECTOR_P4" H 2500 4522 60  0000 C CNN
 F 1 "CONN_35X2" H 2500 4424 50  0000 C CNN
 F 2 "" H 2500 2850 60  0000 C CNN
 F 3 "" H 2500 2850 60  0000 C CNN
@@ -886,10 +886,6 @@ Text GLabel 1200 3700 0    60   Output ~ 0
 -E_0
 Wire Wire Line
 	1200 3700 2100 3700
-Text GLabel 1200 3500 0    60   Output ~ 0
-?
-Wire Wire Line
-	1200 3500 2100 3500
 Text GLabel 1900 3200 0    60   Input ~ 0
 -D-OVF
 Wire Wire Line
@@ -914,10 +910,6 @@ Text GLabel 1200 2700 0    60   Output ~ 0
 +CI_(0-3)/M
 Wire Wire Line
 	1200 2700 2100 2700
-Text GLabel 1900 2600 0    60   Output ~ 0
-?
-Wire Wire Line
-	1900 2600 2100 2600
 Text GLabel 1200 2500 0    60   Input ~ 0
 -A_4
 Wire Wire Line
@@ -934,34 +926,10 @@ Text GLabel 1900 2200 0    60   Output ~ 0
 +Z_2
 Wire Wire Line
 	1900 2200 2100 2200
-Text GLabel 1200 2100 0    60   Output ~ 0
-?
-Wire Wire Line
-	1200 2100 2100 2100
 Text GLabel 1900 2000 0    60   Output ~ 0
 -E_1
 Wire Wire Line
 	1900 2000 2100 2000
-Text GLabel 1200 1900 0    60   Output ~ 0
-?
-Wire Wire Line
-	1200 1900 2100 1900
-Text GLabel 1900 1800 0    60   Output ~ 0
-?
-Wire Wire Line
-	1900 1800 2100 1800
-Text GLabel 1200 1700 0    60   Output ~ 0
-?
-Wire Wire Line
-	1200 1700 2100 1700
-Text GLabel 1900 1600 0    60   Output ~ 0
-?
-Wire Wire Line
-	1900 1600 2100 1600
-Text GLabel 1200 1500 0    60   Output ~ 0
-?
-Wire Wire Line
-	1200 1500 2100 1500
 Text GLabel 1900 1400 0    60   Output ~ 0
 +CI_0
 Wire Wire Line
@@ -982,10 +950,6 @@ Text GLabel 1900 1000 0    60   Output ~ 0
 +RE_0
 Wire Wire Line
 	1900 1000 2100 1000
-Text GLabel 1200 900  0    60   Output ~ 0
-?
-Wire Wire Line
-	1200 900  2100 900 
 Text GLabel 3100 3800 2    60   Output ~ 0
 -E_4
 Wire Wire Line
@@ -1002,10 +966,6 @@ Text GLabel 3800 3500 2    60   Input ~ 0
 +U_0
 Wire Wire Line
 	3800 3500 2900 3500
-Text GLabel 3100 3400 2    60   Output ~ 0
-?
-Wire Wire Line
-	3100 3400 2900 3400
 Text GLabel 3800 3300 2    60   Input ~ 0
 +U_1
 Wire Wire Line
@@ -1034,10 +994,6 @@ Text GLabel 3800 2700 2    60   Output ~ 0
 +RE_(0-3)/M
 Wire Wire Line
 	3800 2700 2900 2700
-Text GLabel 3100 2600 2    60   Output ~ 0
-?
-Wire Wire Line
-	3100 2600 2900 2600
 Text GLabel 3800 2500 2    60   Input ~ 0
 -A_6
 Wire Wire Line
@@ -1062,26 +1018,6 @@ Text GLabel 3100 2000 2    60   Output ~ 0
 -E_2
 Wire Wire Line
 	3100 2000 2900 2000
-Text GLabel 3800 1900 2    60   Output ~ 0
-?
-Wire Wire Line
-	3800 1900 2900 1900
-Text GLabel 3100 1800 2    60   Output ~ 0
-?
-Wire Wire Line
-	3100 1800 2900 1800
-Text GLabel 3800 1700 2    60   Output ~ 0
-?
-Wire Wire Line
-	3800 1700 2900 1700
-Text GLabel 3100 1600 2    60   Output ~ 0
-?
-Wire Wire Line
-	3100 1600 2900 1600
-Text GLabel 3800 1500 2    60   Output ~ 0
-?
-Wire Wire Line
-	3800 1500 2900 1500
 Text GLabel 3800 3900 2    60   Output ~ 0
 +Z_3
 Wire Wire Line
@@ -1110,8 +1046,21 @@ Text GLabel 3800 900  2    60   Output ~ 0
 +RE_3
 Wire Wire Line
 	3800 900  2900 900 
-Text GLabel 3800 4300 2    60   Output ~ 0
-?
-Wire Wire Line
-	3800 4300 2900 4300
+NoConn ~ 2100 900 
+NoConn ~ 2100 1500
+NoConn ~ 2100 1600
+NoConn ~ 2100 1700
+NoConn ~ 2100 1800
+NoConn ~ 2100 1900
+NoConn ~ 2100 2100
+NoConn ~ 2900 1500
+NoConn ~ 2900 1600
+NoConn ~ 2900 1700
+NoConn ~ 2900 1800
+NoConn ~ 2900 1900
+NoConn ~ 2900 2600
+NoConn ~ 2100 2600
+NoConn ~ 2900 3400
+NoConn ~ 2100 3500
+NoConn ~ 2900 4300
 $EndSCHEMATC
