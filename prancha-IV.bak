@@ -824,10 +824,10 @@ Connection ~ 18450 9300
 Text Notes 13750 13900 0    60   ~ 0
 D-OVF = (C1 == TR)
 $Comp
-L CONN_35X2 P?
+L CONN_35X2 CONECTOR_FM1-6
 U 1 1 587C1920
 P 2500 2600
-F 0 "P?" H 2500 4522 60  0000 C CNN
+F 0 "CONECTOR_FM1-6" H 2500 4522 60  0000 C CNN
 F 1 "CONN_35X2" H 2500 4424 50  0000 C CNN
 F 2 "" H 2500 2850 60  0000 C CNN
 F 3 "" H 2500 2850 60  0000 C CNN
@@ -835,45 +835,45 @@ F 3 "" H 2500 2850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 3800 4100 2    60   Output ~ 0
-?
++Z_7
 Wire Wire Line
 	3800 4100 2900 4100
-Text GLabel 3100 4200 2    60   Output ~ 0
-?
+Text GLabel 3100 4200 2    60   Input ~ 0
+-A_5
 Wire Wire Line
 	3100 4200 2900 4200
-Text GLabel 1900 4200 0    60   Output ~ 0
-?
+Text GLabel 1900 4200 0    60   Input ~ 0
+-A_3
 Wire Wire Line
 	1900 4200 2100 4200
-Text GLabel 1200 4100 0    60   Output ~ 0
-?
+Text GLabel 1200 4100 0    60   Input ~ 0
+-A_1
 Wire Wire Line
 	1200 4100 2100 4100
-Text GLabel 1200 4300 0    60   Output ~ 0
-?
+Text GLabel 1200 4300 0    60   Input ~ 0
+-A_7
 Wire Wire Line
 	1200 4300 2100 4300
-Text GLabel 3100 4000 2    60   Output ~ 0
-?
+Text GLabel 3100 4000 2    60   Input ~ 0
+-A_0
 Wire Wire Line
 	2900 4000 3100 4000
 Text GLabel 1200 3300 0    60   Output ~ 0
-?
+-E_7
 Wire Wire Line
 	1200 3300 2100 3300
 Text GLabel 1900 4000 0    60   Output ~ 0
-?
++Z/A
 Wire Wire Line
 	1900 4000 2100 4000
 Text GLabel 1900 3800 0    60   Output ~ 0
-?
-Text GLabel 1900 3600 0    60   Output ~ 0
-?
-Text GLabel 1900 3400 0    60   Output ~ 0
-?
+-E_5
+Text GLabel 1900 3600 0    60   Input ~ 0
++U_3
+Text GLabel 1900 3400 0    60   Input ~ 0
++U_2
 Text GLabel 1200 3900 0    60   Output ~ 0
-?
++Z_4
 Wire Wire Line
 	1200 3900 2100 3900
 Wire Wire Line
@@ -883,55 +883,55 @@ Wire Wire Line
 Wire Wire Line
 	1900 3400 2100 3400
 Text GLabel 1200 3700 0    60   Output ~ 0
-?
+-E_0
 Wire Wire Line
 	1200 3700 2100 3700
 Text GLabel 1200 3500 0    60   Output ~ 0
 ?
 Wire Wire Line
 	1200 3500 2100 3500
-Text GLabel 1900 3200 0    60   Output ~ 0
-?
+Text GLabel 1900 3200 0    60   Input ~ 0
+-D-OVF
 Wire Wire Line
 	1900 3200 2100 3200
 Text GLabel 1200 3100 0    60   Output ~ 0
-?
++RI_5
 Wire Wire Line
 	1200 3100 2100 3100
 Text GLabel 1900 3000 0    60   Output ~ 0
-?
++CI_2
 Wire Wire Line
 	1900 3000 2100 3000
 Text GLabel 1200 2900 0    60   Output ~ 0
-?
++RE_3
 Wire Wire Line
 	1200 2900 2100 2900
 Text GLabel 1900 2800 0    60   Output ~ 0
-?
++P_(0-3)/M
 Wire Wire Line
 	1900 2800 2100 2800
 Text GLabel 1200 2700 0    60   Output ~ 0
-?
++CI_(0-3)/M
 Wire Wire Line
 	1200 2700 2100 2700
 Text GLabel 1900 2600 0    60   Output ~ 0
 ?
 Wire Wire Line
 	1900 2600 2100 2600
-Text GLabel 1200 2500 0    60   Output ~ 0
-?
+Text GLabel 1200 2500 0    60   Input ~ 0
+-A_4
 Wire Wire Line
 	1200 2500 2100 2500
 Text GLabel 1900 2400 0    60   Output ~ 0
-?
++Z_5
 Wire Wire Line
 	1900 2400 2100 2400
 Text GLabel 1200 2300 0    60   Output ~ 0
-?
++Z_0
 Wire Wire Line
 	1200 2300 2100 2300
 Text GLabel 1900 2200 0    60   Output ~ 0
-?
++Z_2
 Wire Wire Line
 	1900 2200 2100 2200
 Text GLabel 1200 2100 0    60   Output ~ 0
@@ -939,7 +939,7 @@ Text GLabel 1200 2100 0    60   Output ~ 0
 Wire Wire Line
 	1200 2100 2100 2100
 Text GLabel 1900 2000 0    60   Output ~ 0
-?
+-E_1
 Wire Wire Line
 	1900 2000 2100 2000
 Text GLabel 1200 1900 0    60   Output ~ 0
@@ -963,23 +963,23 @@ Text GLabel 1200 1500 0    60   Output ~ 0
 Wire Wire Line
 	1200 1500 2100 1500
 Text GLabel 1900 1400 0    60   Output ~ 0
-?
++CI_0
 Wire Wire Line
 	1900 1400 2100 1400
 Text GLabel 1200 1300 0    60   Output ~ 0
-?
++CI_1
 Wire Wire Line
 	1200 1300 2100 1300
 Text GLabel 1900 1200 0    60   Output ~ 0
-?
++CI_3
 Wire Wire Line
 	1900 1200 2100 1200
 Text GLabel 1200 1100 0    60   Output ~ 0
-?
++P_1
 Wire Wire Line
 	1200 1100 2100 1100
 Text GLabel 1900 1000 0    60   Output ~ 0
-?
++RE_0
 Wire Wire Line
 	1900 1000 2100 1000
 Text GLabel 1200 900  0    60   Output ~ 0
@@ -987,79 +987,79 @@ Text GLabel 1200 900  0    60   Output ~ 0
 Wire Wire Line
 	1200 900  2100 900 
 Text GLabel 3100 3800 2    60   Output ~ 0
-?
+-E_4
 Wire Wire Line
 	3100 3800 2900 3800
 Text GLabel 3800 3700 2    60   Output ~ 0
-?
+-E_6
 Wire Wire Line
 	3800 3700 2900 3700
 Text GLabel 3100 3600 2    60   Output ~ 0
-?
++TR
 Wire Wire Line
 	3100 3600 2900 3600
-Text GLabel 3800 3500 2    60   Output ~ 0
-?
+Text GLabel 3800 3500 2    60   Input ~ 0
++U_0
 Wire Wire Line
 	3800 3500 2900 3500
 Text GLabel 3100 3400 2    60   Output ~ 0
 ?
 Wire Wire Line
 	3100 3400 2900 3400
-Text GLabel 3800 3300 2    60   Output ~ 0
-?
+Text GLabel 3800 3300 2    60   Input ~ 0
++U_1
 Wire Wire Line
 	3800 3300 2900 3300
 Text GLabel 3100 3200 2    60   Output ~ 0
-?
+-E_3
 Wire Wire Line
 	3100 3200 2900 3200
 Text GLabel 3800 3100 2    60   Output ~ 0
-?
++RI_4
 Wire Wire Line
 	3800 3100 2900 3100
 Text GLabel 3100 3000 2    60   Output ~ 0
-?
++RI_6
 Wire Wire Line
 	3100 3000 2900 3000
 Text GLabel 3800 2900 2    60   Output ~ 0
-?
++RI_(4-7)/M
 Wire Wire Line
 	3800 2900 2900 2900
 Text GLabel 3100 2800 2    60   Output ~ 0
-?
++P_3
 Wire Wire Line
 	3100 2800 2900 2800
 Text GLabel 3800 2700 2    60   Output ~ 0
-?
++RE_(0-3)/M
 Wire Wire Line
 	3800 2700 2900 2700
 Text GLabel 3100 2600 2    60   Output ~ 0
 ?
 Wire Wire Line
 	3100 2600 2900 2600
-Text GLabel 3800 2500 2    60   Output ~ 0
-?
+Text GLabel 3800 2500 2    60   Input ~ 0
+-A_6
 Wire Wire Line
 	3800 2500 2900 2500
-Text GLabel 3100 2400 2    60   Output ~ 0
-?
+Text GLabel 3100 2400 2    60   Input ~ 0
+-A_2
 Wire Wire Line
 	3100 2400 2900 2400
 Text GLabel 3800 2300 2    60   Output ~ 0
-?
++Z_1
 Wire Wire Line
 	3800 2300 2900 2300
 Text GLabel 3100 2200 2    60   Output ~ 0
-?
++E/A
 Wire Wire Line
 	3100 2200 2900 2200
 Text GLabel 3800 2100 2    60   Output ~ 0
-?
++Z_6
 Wire Wire Line
 	3800 2100 2900 2100
 Text GLabel 3100 2000 2    60   Output ~ 0
-?
+-E_2
 Wire Wire Line
 	3100 2000 2900 2000
 Text GLabel 3800 1900 2    60   Output ~ 0
@@ -1083,31 +1083,31 @@ Text GLabel 3800 1500 2    60   Output ~ 0
 Wire Wire Line
 	3800 1500 2900 1500
 Text GLabel 3800 3900 2    60   Output ~ 0
-?
++Z_3
 Wire Wire Line
 	3800 3900 2900 3900
 Text GLabel 3100 1400 2    60   Output ~ 0
-?
+-C1
 Wire Wire Line
 	3100 1400 2900 1400
 Text GLabel 3800 1300 2    60   Output ~ 0
-?
++P_0
 Wire Wire Line
 	3800 1300 2900 1300
 Text GLabel 3100 1200 2    60   Output ~ 0
-?
++RI_7
 Wire Wire Line
 	3100 1200 2900 1200
 Text GLabel 3800 1100 2    60   Output ~ 0
-?
++RE_1
 Wire Wire Line
 	3800 1100 2900 1100
 Text GLabel 3100 1000 2    60   Output ~ 0
-?
++P_3
 Wire Wire Line
 	3100 1000 2900 1000
 Text GLabel 3800 900  2    60   Output ~ 0
-?
++RE_3
 Wire Wire Line
 	3800 900  2900 900 
 Text GLabel 3800 4300 2    60   Output ~ 0

@@ -232,4 +232,10 @@ Text Notes 7350 5900 0    60   ~ 0
 Placa:\n* CT5-8
 Text Notes 2050 4000 0    118  ~ 0
 OK
+Text Notes 7350 1350 0    60   ~ 0
+Placa:\n* CRC-1
+Text Notes 7350 2000 0    60   ~ 0
+Placa:\n* CDE-3
+Text Notes 7350 2650 0    60   ~ 0
+Placa:\n* CCE-2
 $EndSCHEMATC
