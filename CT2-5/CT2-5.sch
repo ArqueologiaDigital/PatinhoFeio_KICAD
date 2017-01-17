@@ -10,7 +10,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -29,16 +28,12 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:7451
-LIBS:7454
-LIBS:7460
 LIBS:conn_35x2
-LIBS:patinhofeio-cache
 EELAYER 25 0
 EELAYER END
 $Descr A1 33110 23386
 encoding utf-8
-Sheet 6 17
+Sheet 1 1
 Title ""
 Date "2 aug 2016"
 Rev ""
