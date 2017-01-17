@@ -10,7 +10,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -29,16 +28,13 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:7451
-LIBS:7454
-LIBS:7460
 LIBS:conn_35x2
-LIBS:patinhofeio-cache
+LIBS:7451
 EELAYER 25 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 13 17
+Sheet 1 1
 Title "MAIS UM E PORTA DE SELEÇÃO"
 Date "2 aug 2016"
 Rev ""
@@ -158,10 +154,10 @@ $EndComp
 Text GLabel 10650 8300 3    60   Input ~ 0
 +TR
 $Comp
-L GND #PWR055
+L GND #PWR01
 U 1 1 57728D70
 P 10500 8000
-F 0 "#PWR055" H 10500 8000 30  0001 C CNN
+F 0 "#PWR01" H 10500 8000 30  0001 C CNN
 F 1 "GND" H 10500 7930 30  0001 C CNN
 F 2 "" H 10500 8000 60  0000 C CNN
 F 3 "" H 10500 8000 60  0000 C CNN
@@ -195,8 +191,6 @@ Wire Wire Line
 	6100 9350 7200 9350
 Wire Wire Line
 	8100 8100 8400 8100
-Wire Wire Line
-	8450 9600 8100 9600
 Wire Wire Line
 	8100 6500 8400 6500
 Wire Wire Line
@@ -458,13 +452,9 @@ Connection ~ 11100 13600
 Wire Wire Line
 	9800 13500 9650 13500
 Wire Wire Line
-	9650 13500 9650 13200
-Wire Wire Line
 	9500 13200 11300 13200
 Wire Wire Line
 	9800 13700 9650 13700
-Wire Wire Line
-	9650 13700 9650 13950
 Wire Wire Line
 	9500 13950 11300 13950
 Text GLabel 9500 13200 0    60   Input ~ 0
@@ -1039,14 +1029,13 @@ Text GLabel 3800 1100 2    60   Output ~ 0
 Wire Wire Line
 	3800 1100 2900 1100
 Text GLabel 3100 1000 2    60   Output ~ 0
-+P_3
++P_2
 Wire Wire Line
 	3100 1000 2900 1000
 Text GLabel 3800 900  2    60   Output ~ 0
-+RE_3
++RE_2
 Wire Wire Line
 	3800 900  2900 900 
-NoConn ~ 2100 900 
 NoConn ~ 2100 1500
 NoConn ~ 2100 1600
 NoConn ~ 2100 1700
@@ -1062,5 +1051,68 @@ NoConn ~ 2900 2600
 NoConn ~ 2100 2600
 NoConn ~ 2900 3400
 NoConn ~ 2100 3500
-NoConn ~ 2900 4300
+$Comp
+L PWR_FLAG #FLG02
+U 1 1 587E774A
+P 4300 4200
+F 0 "#FLG02" H 4300 4295 30  0001 C CNN
+F 1 "PWR_FLAG" H 4300 4408 30  0000 C CNN
+F 2 "" H 4300 4200 60  0001 C CNN
+F 3 "" H 4300 4200 60  0001 C CNN
+	1    4300 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 587E77B8
+P 4300 4500
+F 0 "#PWR03" H 4300 4500 30  0001 C CNN
+F 1 "GND" H 4300 4430 30  0001 C CNN
+F 2 "" H 4300 4500 60  0001 C CNN
+F 3 "" H 4300 4500 60  0001 C CNN
+	1    4300 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 4200 4300 4500
+Wire Wire Line
+	2900 4300 4300 4300
+Connection ~ 4300 4300
+$Comp
+L PWR_FLAG #FLG04
+U 1 1 587E7BA4
+P 2000 800
+F 0 "#FLG04" H 2000 895 30  0001 C CNN
+F 1 "PWR_FLAG" H 2000 1008 30  0000 C CNN
+F 2 "" H 2000 800 60  0001 C CNN
+F 3 "" H 2000 800 60  0001 C CNN
+	1    2000 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR05
+U 1 1 587E7DEB
+P 1800 750
+F 0 "#PWR05" H 1800 850 30  0001 C CNN
+F 1 "VCC" H 1803 878 30  0000 C CNN
+F 2 "" H 1800 750 60  0001 C CNN
+F 3 "" H 1800 750 60  0001 C CNN
+	1    1800 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 900  2100 900 
+Wire Wire Line
+	2000 900  2000 800 
+Wire Wire Line
+	1800 900  1800 750 
+Connection ~ 2000 900 
+Wire Wire Line
+	8400 9600 8100 9600
+Wire Wire Line
+	9650 13500 9650 13200
+Connection ~ 9650 13200
+Wire Wire Line
+	9650 13700 9650 13950
+Connection ~ 9650 13950
 $EndSCHEMATC
