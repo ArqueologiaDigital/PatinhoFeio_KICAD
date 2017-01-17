@@ -1836,294 +1836,243 @@ Wire Wire Line
 Text Notes 13850 20150 0    60   ~ 0
 Instruções imediatas: \nRI & 0xF0 == 0xD0
 $Comp
-L CONN_35X2 P?
+L CONN_35X2 CONECTOR_P10
 U 1 1 587C70C2
 P 3050 3100
-F 0 "P?" H 3050 5022 60  0000 C CNN
+F 0 "CONECTOR_P10" H 3050 5022 60  0000 C CNN
 F 1 "CONN_35X2" H 3050 4924 50  0000 C CNN
 F 2 "" H 3050 3350 60  0000 C CNN
 F 3 "" H 3050 3350 60  0000 C CNN
 	1    3050 3100
 	1    0    0    -1  
 $EndComp
-Text GLabel 4350 4600 2    60   Output ~ 0
-?
+Text GLabel 4350 4600 2    60   Input ~ 0
++PAR-D
 Wire Wire Line
 	4350 4600 3450 4600
-Text GLabel 3650 4700 2    60   Output ~ 0
-?
+Text GLabel 3650 4700 2    60   Input ~ 0
++PAN
 Wire Wire Line
 	3650 4700 3450 4700
-Text GLabel 2450 4700 0    60   Output ~ 0
-?
+Text GLabel 2450 4700 0    60   Input ~ 0
++TRI
 Wire Wire Line
 	2450 4700 2650 4700
-Text GLabel 1750 4600 0    60   Output ~ 0
-?
+Text GLabel 1750 4600 0    60   Input ~ 0
++SHIFT
 Wire Wire Line
 	1750 4600 2650 4600
-Text GLabel 1750 4800 0    60   Output ~ 0
-?
+Text GLabel 1750 4800 0    60   Input ~ 0
++PAZ
 Wire Wire Line
 	1750 4800 2650 4800
-Text GLabel 3650 4500 2    60   Output ~ 0
-?
+Text GLabel 3650 4500 2    60   Input ~ 0
++IMEXOR
 Wire Wire Line
 	3450 4500 3650 4500
-Text GLabel 1750 3800 0    60   Output ~ 0
-?
-Wire Wire Line
-	1750 3800 2650 3800
-Text GLabel 2450 4500 0    60   Output ~ 0
-?
+Text GLabel 2450 4500 0    60   Input ~ 0
++SAEFU
 Wire Wire Line
 	2450 4500 2650 4500
-Text GLabel 2450 4300 0    60   Output ~ 0
-?
-Text GLabel 2450 4100 0    60   Output ~ 0
-?
-Text GLabel 2450 3900 0    60   Output ~ 0
-?
-Text GLabel 1750 4400 0    60   Output ~ 0
-?
+Text GLabel 2450 4300 0    60   Input ~ 0
++SOM
+Text GLabel 2450 3900 0    60   Input ~ 0
++SAE
+Text GLabel 1750 4400 0    60   Input ~ 0
++INI
 Wire Wire Line
 	1750 4400 2650 4400
 Wire Wire Line
 	2650 4300 2450 4300
 Wire Wire Line
-	2650 4100 2450 4100
-Wire Wire Line
 	2450 3900 2650 3900
-Text GLabel 1750 4200 0    60   Output ~ 0
-?
-Wire Wire Line
-	1750 4200 2650 4200
-Text GLabel 1750 4000 0    60   Output ~ 0
-?
+Text GLabel 1750 4000 0    60   Input ~ 0
++MICG2A
 Wire Wire Line
 	1750 4000 2650 4000
-Text GLabel 2450 3700 0    60   Output ~ 0
-?
-Wire Wire Line
-	2450 3700 2650 3700
-Text GLabel 1750 3600 0    60   Output ~ 0
-?
+Text GLabel 1750 3600 0    60   Input ~ 0
+-RI_0
 Wire Wire Line
 	1750 3600 2650 3600
 Text GLabel 2450 3500 0    60   Output ~ 0
-?
++RD_6
 Wire Wire Line
 	2450 3500 2650 3500
 Text GLabel 1750 3400 0    60   Output ~ 0
-?
++RD_4
 Wire Wire Line
 	1750 3400 2650 3400
 Text GLabel 2450 3300 0    60   Output ~ 0
-?
++RD_2
 Wire Wire Line
 	2450 3300 2650 3300
 Text GLabel 1750 3200 0    60   Output ~ 0
-?
++RD_0
 Wire Wire Line
 	1750 3200 2650 3200
-Text GLabel 2450 3100 0    60   Output ~ 0
-?
-Wire Wire Line
-	2450 3100 2650 3100
-Text GLabel 1750 3000 0    60   Output ~ 0
-?
+Text GLabel 1750 3000 0    60   Input ~ 0
++SUS
 Wire Wire Line
 	1750 3000 2650 3000
-Text GLabel 2450 2900 0    60   Output ~ 0
-?
+Text GLabel 2450 2900 0    60   Input ~ 0
++PER
 Wire Wire Line
 	2450 2900 2650 2900
-Text GLabel 1750 2800 0    60   Output ~ 0
-?
+Text GLabel 1750 2800 0    60   Input ~ 0
++IMEADD
 Wire Wire Line
 	1750 2800 2650 2800
-Text GLabel 2450 2700 0    60   Output ~ 0
-?
+Text GLabel 2450 2700 0    60   Input ~ 0
++SAEDS
 Wire Wire Line
 	2450 2700 2650 2700
-Text GLabel 1750 2600 0    60   Output ~ 0
-?
+Text GLabel 1750 2600 0    60   Input ~ 0
++MICG1
 Wire Wire Line
 	1750 2600 2650 2600
-Text GLabel 2450 2500 0    60   Output ~ 0
-?
+Text GLabel 2450 2500 0    60   Input ~ 0
++PLI
 Wire Wire Line
 	2450 2500 2650 2500
-Text GLabel 1750 2400 0    60   Output ~ 0
-?
+Text GLabel 1750 2400 0    60   Input ~ 0
++IME
 Wire Wire Line
 	1750 2400 2650 2400
-Text GLabel 2450 2300 0    60   Output ~ 0
-?
+Text GLabel 2450 2300 0    60   Input ~ 0
++(PAN+PAZ)
 Wire Wire Line
 	2450 2300 2650 2300
-Text GLabel 1750 2200 0    60   Output ~ 0
-?
+Text GLabel 1750 2200 0    60   Input ~ 0
++(PLI+ARA)
 Wire Wire Line
 	1750 2200 2650 2200
-Text GLabel 2450 2100 0    60   Output ~ 0
-?
-Wire Wire Line
-	2450 2100 2650 2100
-Text GLabel 1750 2000 0    60   Output ~ 0
-?
-Wire Wire Line
-	1750 2000 2650 2000
-Text GLabel 2450 1900 0    60   Output ~ 0
-?
-Wire Wire Line
-	2450 1900 2650 1900
 Text GLabel 1750 1800 0    60   Output ~ 0
-?
++RI_7
 Wire Wire Line
 	1750 1800 2650 1800
 Text GLabel 2450 1700 0    60   Output ~ 0
-?
++RI_5
 Wire Wire Line
 	2450 1700 2650 1700
 Text GLabel 1750 1600 0    60   Output ~ 0
-?
++RI_3
 Wire Wire Line
 	1750 1600 2650 1600
 Text GLabel 2450 1500 0    60   Output ~ 0
-?
++RI_1
 Wire Wire Line
 	2450 1500 2650 1500
-Text GLabel 1750 1400 0    60   Output ~ 0
-?
-Wire Wire Line
-	1750 1400 2650 1400
-Text GLabel 3650 4300 2    60   Output ~ 0
-?
+Text GLabel 3650 4300 2    60   Input ~ 0
++TRO
 Wire Wire Line
 	3650 4300 3450 4300
-Text GLabel 4350 4200 2    60   Output ~ 0
-?
+Text GLabel 4350 4200 2    60   Input ~ 0
++CAC
 Wire Wire Line
 	4350 4200 3450 4200
-Text GLabel 3650 4100 2    60   Output ~ 0
-?
-Wire Wire Line
-	3650 4100 3450 4100
-Text GLabel 4350 4000 2    60   Output ~ 0
-?
+Text GLabel 4350 4000 2    60   Input ~ 0
++MIC
 Wire Wire Line
 	4350 4000 3450 4000
-Text GLabel 3650 3900 2    60   Output ~ 0
-?
+Text GLabel 3650 3900 2    60   Input ~ 0
++MICG2B
 Wire Wire Line
 	3650 3900 3450 3900
-Text GLabel 4350 3800 2    60   Output ~ 0
-?
-Wire Wire Line
-	4350 3800 3450 3800
-Text GLabel 3650 3700 2    60   Output ~ 0
-?
-Wire Wire Line
-	3650 3700 3450 3700
-Text GLabel 4350 3600 2    60   Output ~ 0
-?
-Wire Wire Line
-	4350 3600 3450 3600
 Text GLabel 3650 3500 2    60   Output ~ 0
-?
++RD_7
 Wire Wire Line
 	3650 3500 3450 3500
 Text GLabel 4350 3400 2    60   Output ~ 0
-?
++RD_5
 Wire Wire Line
 	4350 3400 3450 3400
 Text GLabel 3650 3300 2    60   Output ~ 0
-?
++RD_3
 Wire Wire Line
 	3650 3300 3450 3300
 Text GLabel 4350 3200 2    60   Output ~ 0
-?
++RD_1
 Wire Wire Line
 	4350 3200 3450 3200
-Text GLabel 3650 3100 2    60   Output ~ 0
-?
-Wire Wire Line
-	3650 3100 3450 3100
-Text GLabel 4350 3000 2    60   Output ~ 0
-?
+Text GLabel 4350 3000 2    60   Input ~ 0
++PUG
 Wire Wire Line
 	4350 3000 3450 3000
-Text GLabel 3650 2900 2    60   Output ~ 0
-?
+Text GLabel 3650 2900 2    60   Input ~ 0
++ESP-D
 Wire Wire Line
 	3650 2900 3450 2900
-Text GLabel 4350 2800 2    60   Output ~ 0
-?
+Text GLabel 4350 2800 2    60   Input ~ 0
++IMENAND
 Wire Wire Line
 	4350 2800 3450 2800
-Text GLabel 3650 2700 2    60   Output ~ 0
-?
+Text GLabel 3650 2700 2    60   Input ~ 0
++SAEDE
 Wire Wire Line
 	3650 2700 3450 2700
-Text GLabel 4350 2600 2    60   Output ~ 0
-?
+Text GLabel 4350 2600 2    60   Input ~ 0
++PUL
 Wire Wire Line
 	4350 2600 3450 2600
-Text GLabel 3650 2500 2    60   Output ~ 0
-?
+Text GLabel 3650 2500 2    60   Input ~ 0
++ARA
 Wire Wire Line
 	3650 2500 3450 2500
-Text GLabel 4350 2400 2    60   Output ~ 0
-?
 Wire Wire Line
 	4350 2400 3450 2400
-Text GLabel 3650 2300 2    60   Output ~ 0
-?
+Text GLabel 3650 2300 2    60   Input ~ 0
++INDICE
 Wire Wire Line
 	3650 2300 3450 2300
-Text GLabel 4350 2200 2    60   Output ~ 0
-?
+Text GLabel 4350 2200 2    60   Input ~ 0
++(SUS+PUG)
 Wire Wire Line
 	4350 2200 3450 2200
-Text GLabel 3650 2100 2    60   Output ~ 0
-?
+Text GLabel 3650 2100 2    60   Input ~ 0
++(CAC+SOM)
 Wire Wire Line
 	3650 2100 3450 2100
-Text GLabel 4350 2000 2    60   Output ~ 0
-?
-Wire Wire Line
-	4350 2000 3450 2000
-Text GLabel 4350 4400 2    60   Output ~ 0
-?
+Text GLabel 4350 4400 2    60   Input ~ 0
++SAESA
 Wire Wire Line
 	4350 4400 3450 4400
-Text GLabel 3650 1900 2    60   Output ~ 0
-?
-Wire Wire Line
-	3650 1900 3450 1900
-Text GLabel 4350 1800 2    60   Output ~ 0
-?
+Text GLabel 4350 1800 2    60   Input ~ 0
+-RDZ
 Wire Wire Line
 	4350 1800 3450 1800
 Text GLabel 3650 1700 2    60   Output ~ 0
-?
++RI_6
 Wire Wire Line
 	3650 1700 3450 1700
 Text GLabel 4350 1600 2    60   Output ~ 0
-?
++RI_4
 Wire Wire Line
 	4350 1600 3450 1600
 Text GLabel 3650 1500 2    60   Output ~ 0
-?
++RI_2
 Wire Wire Line
 	3650 1500 3450 1500
 Text GLabel 4350 1400 2    60   Output ~ 0
-?
++RI_0
 Wire Wire Line
 	4350 1400 3450 1400
-Text GLabel 4350 4800 2    60   Output ~ 0
-?
-Wire Wire Line
-	4350 4800 3450 4800
+Text GLabel 4350 2400 2    60   Input ~ 0
++RESERVADO
+NoConn ~ 3450 4800
+NoConn ~ 2650 4100
+NoConn ~ 2650 4200
+NoConn ~ 2650 3700
+NoConn ~ 2650 3800
+NoConn ~ 3450 3700
+NoConn ~ 3450 3600
+NoConn ~ 3450 3800
+NoConn ~ 3450 4100
+NoConn ~ 2650 3100
+NoConn ~ 3450 3100
+NoConn ~ 3450 2000
+NoConn ~ 3450 1900
+NoConn ~ 2650 1900
+NoConn ~ 2650 2000
+NoConn ~ 2650 2100
+NoConn ~ 2650 1400
 $EndSCHEMATC
