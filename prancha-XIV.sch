@@ -454,21 +454,21 @@ $EndComp
 Text GLabel 10000 11950 0    60   Input ~ 0
 +PARTIDA
 Text GLabel 10000 10600 0    60   Input ~ 0
-+F1
++F1_(P14)
 Text GLabel 10000 12150 0    60   Input ~ 0
 +RODA
 Text GLabel 10000 11750 0    60   Input ~ 0
 +MP
 Text GLabel 10000 10800 0    60   Input ~ 0
-+F2
++F2_(P14)
 Text GLabel 10000 11250 0    60   Input ~ 0
-+F3
++F3_(P14)
 Text GLabel 10000 11450 0    60   Input ~ 0
 +(CAC+SOM)
 Text GLabel 9950 12450 0    60   Input ~ 0
 -F5
 Text GLabel 9950 12800 0    60   Input ~ 0
--(TRO+TRI)
+-(TRO+TRI)_(P14)
 Text GLabel 15150 13150 0    60   Input ~ 0
 -T12
 Text GLabel 15200 11600 0    60   Input ~ 0
@@ -480,11 +480,11 @@ Text GLabel 9950 13000 0    60   Input ~ 0
 Text GLabel 9950 13350 0    60   Input ~ 0
 -F3
 Text GLabel 22800 7900 2    60   Output ~ 0
-+F1
++F1_(P14)
 Text GLabel 22550 10450 2    60   Output ~ 0
-+F2
++F2_(P14)
 Text GLabel 27600 8700 2    60   Output ~ 0
--(TRO+TRI)
+-(TRO+TRI)_(P14)
 $Comp
 L 7400 4B_P14
 U 3 1 586E2444
@@ -611,7 +611,7 @@ $EndComp
 Text GLabel 20950 19150 0    60   Input ~ 0
 -SUS
 Text GLabel 23800 8950 2    60   Output ~ 0
-+F3
++F3_(P14)
 Text GLabel 20950 18950 0    60   Input ~ 0
 +F3
 $Comp
@@ -823,11 +823,11 @@ Text GLabel 24750 19050 2    60   Output ~ 0
 Text GLabel 10300 17100 0    60   Input ~ 0
 (-F3)+SUS
 Text GLabel 10300 15550 0    60   Input ~ 0
-+F3
++F3_(P14)
 Text GLabel 11500 12600 2    60   Output ~ 0
-+(TRO+TRI)
++(TRO+TRI)_(P14)
 Text GLabel 10300 15750 0    60   Input ~ 0
-+(TRO+TRI)
++(TRO+TRI)_(P14)
 Text GLabel 27650 17200 2    60   Output ~ 0
 2E_P14_12
 Text Notes 24250 17200 0    60   ~ 0
@@ -965,7 +965,7 @@ F 3 "" H 16100 18300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 17800 18700 2    60   Output ~ 0
-+5
++S
 Text Notes 10900 19250 0    60   ~ 0
 +SENTIDO
 Text GLabel 12950 17100 2    60   Output ~ 0

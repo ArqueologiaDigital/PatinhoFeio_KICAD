@@ -565,7 +565,7 @@ Text GLabel 23150 16700 0    60   Input ~ 0
 Text GLabel 23150 16900 0    60   Input ~ 0
 +SAESA
 Text GLabel 23150 17250 0    60   Input ~ 0
-+5
++S
 Text GLabel 26950 17150 2    60   Output ~ 0
 -(F2.SAESA.5)
 $Comp
