@@ -10,7 +10,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -29,16 +28,13 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:7451
-LIBS:7454
-LIBS:7460
 LIBS:conn_35x2
-LIBS:patinhofeio-cache
+LIBS:PMR-1-cache
 EELAYER 25 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 10 17
+Sheet 1 1
 Title ""
 Date "2 aug 2016"
 Rev ""
@@ -49,294 +45,1601 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CONN_35X2 CONECTOR_P7
+L CONN_35X2 CONECTOR_F_P7
 U 1 1 587C20A7
-P 2250 2700
-F 0 "CONECTOR_P7" H 2250 4622 60  0000 C CNN
-F 1 "CONN_35X2" H 2250 4524 50  0000 C CNN
-F 2 "" H 2250 2950 60  0000 C CNN
-F 3 "" H 2250 2950 60  0000 C CNN
-	1    2250 2700
+P 3300 10900
+F 0 "CONECTOR_F_P7" H 3300 12822 60  0000 C CNN
+F 1 "CONN_35X2" H 3300 12724 50  0000 C CNN
+F 2 "" H 3300 11150 60  0000 C CNN
+F 3 "" H 3300 11150 60  0000 C CNN
+	1    3300 10900
 	1    0    0    -1  
 $EndComp
-Text GLabel 3550 4200 2    60   Output ~ 0
-?
-Wire Wire Line
-	3550 4200 2650 4200
-Text GLabel 2850 4300 2    60   Output ~ 0
-?
-Wire Wire Line
-	2850 4300 2650 4300
-Text GLabel 1650 4300 0    60   Output ~ 0
-?
-Wire Wire Line
-	1650 4300 1850 4300
-Text GLabel 950  4200 0    60   Output ~ 0
-?
-Wire Wire Line
-	950  4200 1850 4200
-Text GLabel 950  4400 0    60   Output ~ 0
-?
-Wire Wire Line
-	950  4400 1850 4400
-Text GLabel 2850 4100 2    60   Output ~ 0
-?
-Wire Wire Line
-	2650 4100 2850 4100
-Text GLabel 950  3400 0    60   Output ~ 0
-?
-Wire Wire Line
-	950  3400 1850 3400
-Text GLabel 1650 4100 0    60   Output ~ 0
-?
-Wire Wire Line
-	1650 4100 1850 4100
-Text GLabel 1650 3900 0    60   Output ~ 0
-?
-Text GLabel 1650 3700 0    60   Output ~ 0
-?
-Text GLabel 1650 3500 0    60   Output ~ 0
-?
-Text GLabel 950  4000 0    60   Output ~ 0
-?
+Text GLabel 4600 12400 2    60   Output ~ 0
++LE_2
 Wire Wire Line
-	950  4000 1850 4000
-Wire Wire Line
-	1850 3900 1650 3900
+	4600 12400 3700 12400
+Text GLabel 3950 6300 2    60   Output ~ 0
++RI_4
 Wire Wire Line
-	1850 3700 1650 3700
-Wire Wire Line
-	1650 3500 1850 3500
-Text GLabel 950  3800 0    60   Output ~ 0
-?
-Wire Wire Line
-	950  3800 1850 3800
-Text GLabel 950  3600 0    60   Output ~ 0
-?
-Wire Wire Line
-	950  3600 1850 3600
-Text GLabel 1650 3300 0    60   Output ~ 0
-?
-Wire Wire Line
-	1650 3300 1850 3300
-Text GLabel 950  3200 0    60   Output ~ 0
-?
-Wire Wire Line
-	950  3200 1850 3200
-Text GLabel 1650 3100 0    60   Output ~ 0
-?
-Wire Wire Line
-	1650 3100 1850 3100
-Text GLabel 950  3000 0    60   Output ~ 0
-?
-Wire Wire Line
-	950  3000 1850 3000
-Text GLabel 1650 2900 0    60   Output ~ 0
-?
-Wire Wire Line
-	1650 2900 1850 2900
-Text GLabel 950  2800 0    60   Output ~ 0
-?
-Wire Wire Line
-	950  2800 1850 2800
-Text GLabel 1650 2700 0    60   Output ~ 0
-?
-Wire Wire Line
-	1650 2700 1850 2700
-Text GLabel 950  2600 0    60   Output ~ 0
-?
-Wire Wire Line
-	950  2600 1850 2600
-Text GLabel 1650 2500 0    60   Output ~ 0
-?
-Wire Wire Line
-	1650 2500 1850 2500
-Text GLabel 950  2400 0    60   Output ~ 0
-?
-Wire Wire Line
-	950  2400 1850 2400
-Text GLabel 1650 2300 0    60   Output ~ 0
-?
-Wire Wire Line
-	1650 2300 1850 2300
-Text GLabel 950  2200 0    60   Output ~ 0
-?
-Wire Wire Line
-	950  2200 1850 2200
-Text GLabel 1650 2100 0    60   Output ~ 0
-?
-Wire Wire Line
-	1650 2100 1850 2100
-Text GLabel 950  2000 0    60   Output ~ 0
-?
-Wire Wire Line
-	950  2000 1850 2000
-Text GLabel 1650 1900 0    60   Output ~ 0
-?
-Wire Wire Line
-	1650 1900 1850 1900
-Text GLabel 950  1800 0    60   Output ~ 0
-?
-Wire Wire Line
-	950  1800 1850 1800
-Text GLabel 1650 1700 0    60   Output ~ 0
-?
-Wire Wire Line
-	1650 1700 1850 1700
-Text GLabel 950  1600 0    60   Output ~ 0
-?
-Wire Wire Line
-	950  1600 1850 1600
-Text GLabel 1650 1500 0    60   Output ~ 0
-?
-Wire Wire Line
-	1650 1500 1850 1500
-Text GLabel 950  1400 0    60   Output ~ 0
-?
-Wire Wire Line
-	950  1400 1850 1400
-Text GLabel 1650 1300 0    60   Output ~ 0
-?
-Wire Wire Line
-	1650 1300 1850 1300
-Text GLabel 950  1200 0    60   Output ~ 0
-?
-Wire Wire Line
-	950  1200 1850 1200
-Text GLabel 1650 1100 0    60   Output ~ 0
-?
-Wire Wire Line
-	1650 1100 1850 1100
-Text GLabel 950  1000 0    60   Output ~ 0
-?
-Wire Wire Line
-	950  1000 1850 1000
-Text GLabel 2850 3900 2    60   Output ~ 0
-?
-Wire Wire Line
-	2850 3900 2650 3900
-Text GLabel 3550 3800 2    60   Output ~ 0
-?
-Wire Wire Line
-	3550 3800 2650 3800
-Text GLabel 2850 3700 2    60   Output ~ 0
-?
-Wire Wire Line
-	2850 3700 2650 3700
-Text GLabel 3550 3600 2    60   Output ~ 0
-?
-Wire Wire Line
-	3550 3600 2650 3600
-Text GLabel 2850 3500 2    60   Output ~ 0
-?
-Wire Wire Line
-	2850 3500 2650 3500
-Text GLabel 3550 3400 2    60   Output ~ 0
-?
-Wire Wire Line
-	3550 3400 2650 3400
-Text GLabel 2850 3300 2    60   Output ~ 0
-?
-Wire Wire Line
-	2850 3300 2650 3300
-Text GLabel 3550 3200 2    60   Output ~ 0
-?
+	3900 12500 3700 12500
+Text GLabel 2700 12500 0    60   Input ~ 0
++LE_4
 Wire Wire Line
-	3550 3200 2650 3200
-Text GLabel 2850 3100 2    60   Output ~ 0
-?
+	2700 12500 2900 12500
+Text GLabel 2000 12400 0    60   Input ~ 0
++LE_0
 Wire Wire Line
-	2850 3100 2650 3100
-Text GLabel 3550 3000 2    60   Output ~ 0
-?
+	2000 12400 2900 12400
+Text GLabel 2000 12600 0    60   Input ~ 0
++LA_2
 Wire Wire Line
-	3550 3000 2650 3000
-Text GLabel 2850 2900 2    60   Output ~ 0
-?
+	2000 12600 2900 12600
+Text GLabel 2700 12300 0    60   Input ~ 0
++LE_10
 Wire Wire Line
-	2850 2900 2650 2900
-Text GLabel 3550 2800 2    60   Output ~ 0
-?
+	2700 12300 2900 12300
+Text GLabel 2000 12200 0    60   Input ~ 0
++LE_6
 Wire Wire Line
-	3550 2800 2650 2800
-Text GLabel 2850 2700 2    60   Output ~ 0
-?
+	2000 12200 2900 12200
 Wire Wire Line
-	2850 2700 2650 2700
-Text GLabel 3550 2600 2    60   Output ~ 0
-?
+	2000 11400 2900 11400
+Text GLabel 2700 11300 0    60   Input ~ 0
++LR_1
 Wire Wire Line
-	3550 2600 2650 2600
-Text GLabel 2850 2500 2    60   Output ~ 0
-?
+	2700 11300 2900 11300
+Text GLabel 2000 11200 0    60   Input ~ 0
++LR_7
 Wire Wire Line
-	2850 2500 2650 2500
-Text GLabel 3550 2400 2    60   Output ~ 0
-?
+	2000 11200 2900 11200
 Wire Wire Line
-	3550 2400 2650 2400
-Text GLabel 2850 2300 2    60   Output ~ 0
-?
+	2700 11100 2900 11100
+Text GLabel 2000 11000 0    60   Input ~ 0
++LD_5
 Wire Wire Line
-	2850 2300 2650 2300
-Text GLabel 3550 2200 2    60   Output ~ 0
-?
+	2000 11000 2900 11000
+Text GLabel 2000 10800 0    60   Input ~ 0
++LE_5
 Wire Wire Line
-	3550 2200 2650 2200
-Text GLabel 2850 2100 2    60   Output ~ 0
-?
+	2000 10800 2900 10800
+Text GLabel 2700 10700 0    60   Input ~ 0
++LE_1
 Wire Wire Line
-	2850 2100 2650 2100
-Text GLabel 3550 2000 2    60   Output ~ 0
-?
-Wire Wire Line
-	3550 2000 2650 2000
-Text GLabel 2850 1900 2    60   Output ~ 0
-?
-Wire Wire Line
-	2850 1900 2650 1900
-Text GLabel 3550 1800 2    60   Output ~ 0
-?
-Wire Wire Line
-	3550 1800 2650 1800
-Text GLabel 2850 1700 2    60   Output ~ 0
-?
-Wire Wire Line
-	2850 1700 2650 1700
-Text GLabel 3550 1600 2    60   Output ~ 0
-?
-Wire Wire Line
-	3550 1600 2650 1600
-Text GLabel 3550 4000 2    60   Output ~ 0
-?
-Wire Wire Line
-	3550 4000 2650 4000
-Text GLabel 2850 1500 2    60   Output ~ 0
-?
-Wire Wire Line
-	2850 1500 2650 1500
-Text GLabel 3550 1400 2    60   Output ~ 0
-?
-Wire Wire Line
-	3550 1400 2650 1400
-Text GLabel 2850 1300 2    60   Output ~ 0
-?
-Wire Wire Line
-	2850 1300 2650 1300
-Text GLabel 3550 1200 2    60   Output ~ 0
-?
-Wire Wire Line
-	3550 1200 2650 1200
-Text GLabel 2850 1100 2    60   Output ~ 0
-?
-Wire Wire Line
-	2850 1100 2650 1100
-Text GLabel 3550 1000 2    60   Output ~ 0
-?
-Wire Wire Line
-	3550 1000 2650 1000
-Text GLabel 3550 4400 2    60   Output ~ 0
-?
-Wire Wire Line
-	3550 4400 2650 4400
+	2700 10700 2900 10700
+Text GLabel 2700 10500 0    60   Input ~ 0
++LE_9
+Wire Wire Line
+	2700 10500 2900 10500
+Text GLabel 2000 10400 0    60   Input ~ 0
++LA_5
+Wire Wire Line
+	2000 10400 2900 10400
+Text GLabel 2700 9700 0    60   Input ~ 0
++LD_2
+Wire Wire Line
+	2700 9700 2900 9700
+Text GLabel 2000 9600 0    60   Input ~ 0
++LR_2
+Wire Wire Line
+	2000 9600 2900 9600
+Text GLabel 2000 9400 0    60   Input ~ 0
++LR_6
+Wire Wire Line
+	2000 9400 2900 9400
+Wire Wire Line
+	2700 9300 2900 9300
+Text GLabel 3900 12100 2    60   Input ~ 0
++LA_4
+Wire Wire Line
+	3900 12100 3700 12100
+Text GLabel 4600 11400 2    60   Input ~ 0
++LD_3
+Wire Wire Line
+	4600 11400 3700 11400
+Wire Wire Line
+	3900 11300 3700 11300
+Text GLabel 3900 11100 2    60   Input ~ 0
++LR_5
+Wire Wire Line
+	3900 11100 3700 11100
+Text GLabel 4600 11000 2    60   Input ~ 0
++LD_7
+Wire Wire Line
+	4600 11000 3700 11000
+Text GLabel 4600 10800 2    60   Input ~ 0
++LA_1
+Wire Wire Line
+	4600 10800 3700 10800
+Text GLabel 3900 10700 2    60   Output ~ 0
++LE_3
+Wire Wire Line
+	3900 10700 3700 10700
+Text GLabel 3900 10500 2    60   Input ~ 0
++LE_11
+Wire Wire Line
+	3900 10500 3700 10500
+Wire Wire Line
+	4600 10400 3700 10400
+Text GLabel 3900 10300 2    60   Input ~ 0
++LA_3
+Wire Wire Line
+	3900 10300 3700 10300
+Text GLabel 4600 12200 2    60   Input ~ 0
++LE_8
+Wire Wire Line
+	4600 12200 3700 12200
+Text GLabel 3900 9700 2    60   Output ~ 0
++LD_4
+Wire Wire Line
+	3900 9700 3700 9700
+Wire Wire Line
+	4600 9600 3700 9600
+Text GLabel 3900 9500 2    60   Input ~ 0
++LR_0
+Wire Wire Line
+	3900 9500 3700 9500
+Wire Wire Line
+	3900 9300 3700 9300
+Text GLabel 4600 9200 2    60   Input ~ 0
++LD_6
+Wire Wire Line
+	4600 9200 3700 9200
+$Comp
+L 74HC04 5C_P7
+U 1 1 587F6B8E
+P 19900 11100
+F 0 "5C_P7" H 19600 11000 40  0000 C CNN
+F 1 "74HC04" H 20050 11000 40  0000 C CNN
+F 2 "" H 19900 11100 60  0000 C CNN
+F 3 "" H 19900 11100 60  0000 C CNN
+	1    19900 11100
+	1    0    0    -1  
+$EndComp
+Text GLabel 19000 11100 0    60   Input ~ 0
++RI_3
+Wire Wire Line
+	19450 11100 19000 11100
+Text GLabel 20900 11100 2    60   Output ~ 0
++LR_3
+Wire Wire Line
+	20900 11100 20350 11100
+Text GLabel 3900 11300 2    60   Input ~ 0
++LR_3
+$Comp
+L 74HC04 5C_P7
+U 2 1 587F6966
+P 19900 11650
+F 0 "5C_P7" H 19600 11550 40  0000 C CNN
+F 1 "74HC04" H 20050 11550 40  0000 C CNN
+F 2 "" H 19900 11650 60  0000 C CNN
+F 3 "" H 19900 11650 60  0000 C CNN
+	2    19900 11650
+	1    0    0    -1  
+$EndComp
+Text GLabel 19000 11650 0    60   Input ~ 0
+T61
+Wire Wire Line
+	19450 11650 19000 11650
+Text GLabel 20900 11650 2    60   Output ~ 0
+F10
+Wire Wire Line
+	20900 11650 20350 11650
+$Comp
+L 74HC04 5C_P7
+U 3 1 587F69F4
+P 19900 12200
+F 0 "5C_P7" H 19600 12100 40  0000 C CNN
+F 1 "74HC04" H 20050 12100 40  0000 C CNN
+F 2 "" H 19900 12200 60  0000 C CNN
+F 3 "" H 19900 12200 60  0000 C CNN
+	3    19900 12200
+	1    0    0    -1  
+$EndComp
+Text GLabel 19000 12200 0    60   Input ~ 0
+T27
+Wire Wire Line
+	19450 12200 19000 12200
+Text GLabel 20900 12200 2    60   Output ~ 0
+F45
+Wire Wire Line
+	20900 12200 20350 12200
+$Comp
+L 74HC04 5C_P7
+U 4 1 587F69FE
+P 19900 12750
+F 0 "5C_P7" H 19600 12650 40  0000 C CNN
+F 1 "74HC04" H 20050 12650 40  0000 C CNN
+F 2 "" H 19900 12750 60  0000 C CNN
+F 3 "" H 19900 12750 60  0000 C CNN
+	4    19900 12750
+	1    0    0    -1  
+$EndComp
+Text GLabel 19000 12750 0    60   Input ~ 0
+T67
+Wire Wire Line
+	19450 12750 19000 12750
+Text GLabel 20900 12750 2    60   Output ~ 0
+F3
+Wire Wire Line
+	20900 12750 20350 12750
+$Comp
+L 74HC04 5C_P7
+U 5 1 587F6CB4
+P 19900 13300
+F 0 "5C_P7" H 19600 13200 40  0000 C CNN
+F 1 "74HC04" H 20050 13200 40  0000 C CNN
+F 2 "" H 19900 13300 60  0000 C CNN
+F 3 "" H 19900 13300 60  0000 C CNN
+	5    19900 13300
+	1    0    0    -1  
+$EndComp
+Text GLabel 19000 13300 0    60   Input ~ 0
+T32
+Wire Wire Line
+	19450 13300 19000 13300
+Text GLabel 20900 13300 2    60   Output ~ 0
+F39
+Wire Wire Line
+	20900 13300 20350 13300
+$Comp
+L 74HC04 5C_P7
+U 6 1 587F6CD2
+P 19900 13850
+F 0 "5C_P7" H 19600 13750 40  0000 C CNN
+F 1 "74HC04" H 20050 13750 40  0000 C CNN
+F 2 "" H 19900 13850 60  0000 C CNN
+F 3 "" H 19900 13850 60  0000 C CNN
+	6    19900 13850
+	1    0    0    -1  
+$EndComp
+Text GLabel 19000 13850 0    60   Input ~ 0
++RI_4
+Wire Wire Line
+	19450 13850 19000 13850
+Text GLabel 20900 13850 2    60   Output ~ 0
++LR_4
+Wire Wire Line
+	20900 13850 20350 13850
+$Comp
+L CONN_35X2 CONECTOR_T_P7
+U 1 1 587F6FC4
+P 3350 4700
+F 0 "CONECTOR_T_P7" H 3350 6622 60  0000 C CNN
+F 1 "CONN_35X2" H 3350 6524 50  0000 C CNN
+F 2 "" H 3350 4950 60  0000 C CNN
+F 3 "" H 3350 4950 60  0000 C CNN
+	1    3350 4700
+	1    0    0    -1  
+$EndComp
+Text GLabel 4650 6200 2    60   Output ~ 0
++RD_6
+Wire Wire Line
+	4650 6200 3750 6200
+Wire Wire Line
+	3950 6300 3750 6300
+Wire Wire Line
+	2750 6300 2950 6300
+Text GLabel 2050 6400 0    60   Output ~ 0
++RI_6
+Wire Wire Line
+	2050 6400 2950 6400
+Text GLabel 2050 5400 0    60   Output ~ 0
++CI_3
+Wire Wire Line
+	2050 5400 2950 5400
+Text GLabel 2750 6100 0    60   Output ~ 0
++RD_4
+Wire Wire Line
+	2750 6100 2950 6100
+Text GLabel 2750 5900 0    60   Output ~ 0
++RI_0
+Text GLabel 2750 5700 0    60   Output ~ 0
++RD_0
+Text GLabel 2750 5500 0    60   Output ~ 0
++AC_7
+Wire Wire Line
+	2050 6000 2950 6000
+Wire Wire Line
+	2950 5900 2750 5900
+Wire Wire Line
+	2950 5700 2750 5700
+Wire Wire Line
+	2750 5500 2950 5500
+Text GLabel 2050 5800 0    60   Output ~ 0
++CI_8
+Wire Wire Line
+	2050 5800 2950 5800
+Text GLabel 2750 5300 0    60   Output ~ 0
++RE_11
+Wire Wire Line
+	2750 5300 2950 5300
+Text GLabel 2050 5200 0    60   Output ~ 0
++RE_7
+Wire Wire Line
+	2050 5200 2950 5200
+Text GLabel 2750 5100 0    60   Output ~ 0
++AC_3
+Wire Wire Line
+	2750 5100 2950 5100
+Text GLabel 2750 4900 0    60   Output ~ 0
++RE_5
+Wire Wire Line
+	2750 4900 2950 4900
+Text GLabel 2050 4800 0    60   Output ~ 0
++RE_1
+Wire Wire Line
+	2050 4800 2950 4800
+Text GLabel 2050 4600 0    60   Output ~ 0
++RI_5
+Wire Wire Line
+	2050 4600 2950 4600
+Text GLabel 2750 4500 0    60   Output ~ 0
++RD_7
+Wire Wire Line
+	2750 4500 2950 4500
+Wire Wire Line
+	2750 4300 2950 4300
+Text GLabel 2050 4200 0    60   Output ~ 0
++RI_1
+Wire Wire Line
+	2050 4200 2950 4200
+Text GLabel 2750 4100 0    60   Output ~ 0
++CI_9
+Wire Wire Line
+	2750 4100 2950 4100
+Text GLabel 2050 4000 0    60   Output ~ 0
++RD_1
+Wire Wire Line
+	2050 4000 2950 4000
+Text GLabel 2750 3700 0    60   Output ~ 0
++AC_6
+Wire Wire Line
+	2750 3700 2950 3700
+Text GLabel 2050 3600 0    60   Output ~ 0
++CI_2
+Wire Wire Line
+	2050 3600 2950 3600
+Text GLabel 2750 3500 0    60   Output ~ 0
++RE_10
+Wire Wire Line
+	2750 3500 2950 3500
+Text GLabel 2050 3400 0    60   Output ~ 0
++RE_6
+Wire Wire Line
+	2050 3400 2950 3400
+Text GLabel 2050 3200 0    60   Output ~ 0
++AC_0
+Wire Wire Line
+	2050 3200 2950 3200
+Text GLabel 2750 3100 0    60   Output ~ 0
++RE_2
+Wire Wire Line
+	2750 3100 2950 3100
+Text GLabel 3950 5900 2    60   Output ~ 0
++RI_2
+Wire Wire Line
+	3950 5900 3750 5900
+Text GLabel 4650 5800 2    60   Output ~ 0
++CI_10
+Wire Wire Line
+	4650 5800 3750 5800
+Text GLabel 3950 5700 2    60   Output ~ 0
++CI_6
+Wire Wire Line
+	3950 5700 3750 5700
+Text GLabel 4650 5400 2    60   Output ~ 0
++CI_5
+Wire Wire Line
+	4650 5400 3750 5400
+Text GLabel 3950 5300 2    60   Output ~ 0
++CI_1
+Wire Wire Line
+	3950 5300 3750 5300
+Text GLabel 4650 5200 2    60   Output ~ 0
++RE_9
+Wire Wire Line
+	4650 5200 3750 5200
+Wire Wire Line
+	3950 5100 3750 5100
+Text GLabel 3950 4900 2    60   Output ~ 0
++AC_1
+Wire Wire Line
+	3950 4900 3750 4900
+Text GLabel 4650 4800 2    60   Output ~ 0
++RE_3
+Wire Wire Line
+	4650 4800 3750 4800
+Text GLabel 4650 4600 2    60   Output ~ 0
++RI_7
+Wire Wire Line
+	4650 4600 3750 4600
+Wire Wire Line
+	3950 4500 3750 4500
+Text GLabel 4650 4400 2    60   Output ~ 0
++RD_5
+Wire Wire Line
+	4650 4400 3750 4400
+Text GLabel 3950 4300 2    60   Output ~ 0
++RD_3
+Wire Wire Line
+	3950 4300 3750 4300
+Wire Wire Line
+	4650 4200 3750 4200
+Text GLabel 3950 4100 2    60   Output ~ 0
++CI_11
+Wire Wire Line
+	3950 4100 3750 4100
+Text GLabel 4650 4000 2    60   Output ~ 0
++CI_7
+Wire Wire Line
+	4650 4000 3750 4000
+Text GLabel 3950 3900 2    60   Output ~ 0
++OVF
+Wire Wire Line
+	3950 3900 3750 3900
+Text GLabel 3950 3700 2    60   Output ~ 0
++T
+Wire Wire Line
+	3950 3700 3750 3700
+Text GLabel 4650 3600 2    60   Output ~ 0
++CI_4
+Wire Wire Line
+	4650 3600 3750 3600
+Text GLabel 4650 6000 2    60   Output ~ 0
++RD_2
+Wire Wire Line
+	4650 6000 3750 6000
+Text GLabel 3950 3500 2    60   Output ~ 0
++CI_0
+Wire Wire Line
+	3950 3500 3750 3500
+Text GLabel 4650 3400 2    60   Output ~ 0
++RE_8
+Wire Wire Line
+	4650 3400 3750 3400
+Text GLabel 3950 3300 2    60   Output ~ 0
++AC_4
+Wire Wire Line
+	3950 3300 3750 3300
+Text GLabel 4650 3200 2    60   Output ~ 0
++AC_2
+Wire Wire Line
+	4650 3200 3750 3200
+Text GLabel 3950 3100 2    60   Output ~ 0
++RE_4
+Wire Wire Line
+	3950 3100 3750 3100
+Text GLabel 4650 3000 2    60   Output ~ 0
++RE_0
+Wire Wire Line
+	4650 3000 3750 3000
+Text GLabel 4650 4200 2    60   Output ~ 0
++RI_3
+Text Notes 2750 13300 0    157  ~ 0
+CONECTOR\nFRONTAL
+Text Notes 2800 7050 0    157  ~ 0
+CONECTOR\nTRASEIRO
+Text GLabel 4600 10400 2    60   Input ~ 0
++LE_7
+Text GLabel 3950 5100 2    60   Output ~ 0
++AC_5
+Text GLabel 3900 12500 2    60   Input ~ 0
++LA_0
+Text GLabel 2050 6000 0    60   Output ~ 0
+T61
+Text GLabel 2750 4300 0    60   Output ~ 0
+T27
+Text GLabel 2750 6300 0    60   Output ~ 0
+T67
+Text GLabel 3950 4500 2    60   Output ~ 0
+T32
+Text GLabel 4600 9600 2    60   Input ~ 0
+F10
+Text GLabel 2000 11400 0    60   Input ~ 0
+F45
+Text GLabel 2700 9300 0    60   Input ~ 0
+F3
+Text GLabel 2700 11100 0    60   Input ~ 0
+F39
+Text GLabel 3900 9300 2    60   Input ~ 0
++LR_4
+$Comp
+L 74HC04 5E_P7
+U 1 1 587F91CB
+P 19950 6350
+F 0 "5E_P7" H 19650 6250 40  0000 C CNN
+F 1 "74HC04" H 20100 6250 40  0000 C CNN
+F 2 "" H 19950 6350 60  0000 C CNN
+F 3 "" H 19950 6350 60  0000 C CNN
+	1    19950 6350
+	1    0    0    -1  
+$EndComp
+Text GLabel 19050 6350 0    60   Input ~ 0
++RI_0
+Wire Wire Line
+	19500 6350 19050 6350
+Text GLabel 20950 6350 2    60   Output ~ 0
++LR_0
+Wire Wire Line
+	20950 6350 20400 6350
+$Comp
+L 74HC04 5E_P7
+U 2 1 587F91D5
+P 19950 6900
+F 0 "5E_P7" H 19650 6800 40  0000 C CNN
+F 1 "74HC04" H 20100 6800 40  0000 C CNN
+F 2 "" H 19950 6900 60  0000 C CNN
+F 3 "" H 19950 6900 60  0000 C CNN
+	2    19950 6900
+	1    0    0    -1  
+$EndComp
+Text GLabel 19050 6900 0    60   Input ~ 0
++RI_1
+Wire Wire Line
+	19500 6900 19050 6900
+Text GLabel 20950 6900 2    60   Output ~ 0
++LR_1
+Wire Wire Line
+	20950 6900 20400 6900
+$Comp
+L 74HC04 5E_P7
+U 3 1 587F91DF
+P 19950 7450
+F 0 "5E_P7" H 19650 7350 40  0000 C CNN
+F 1 "74HC04" H 20100 7350 40  0000 C CNN
+F 2 "" H 19950 7450 60  0000 C CNN
+F 3 "" H 19950 7450 60  0000 C CNN
+	3    19950 7450
+	1    0    0    -1  
+$EndComp
+Text GLabel 19050 7450 0    60   Input ~ 0
++RI_2
+Wire Wire Line
+	19500 7450 19050 7450
+Text GLabel 20950 7450 2    60   Output ~ 0
++LR_2
+Wire Wire Line
+	20950 7450 20400 7450
+$Comp
+L 74HC04 5E_P7
+U 4 1 587F91E9
+P 19950 8000
+F 0 "5E_P7" H 19650 7900 40  0000 C CNN
+F 1 "74HC04" H 20100 7900 40  0000 C CNN
+F 2 "" H 19950 8000 60  0000 C CNN
+F 3 "" H 19950 8000 60  0000 C CNN
+	4    19950 8000
+	1    0    0    -1  
+$EndComp
+Text GLabel 19050 8000 0    60   Input ~ 0
++RI_5
+Wire Wire Line
+	19500 8000 19050 8000
+Text GLabel 20950 8000 2    60   Output ~ 0
++LR_5
+Wire Wire Line
+	20950 8000 20400 8000
+$Comp
+L 74HC04 5E_P7
+U 5 1 587F91F3
+P 19950 8550
+F 0 "5E_P7" H 19650 8450 40  0000 C CNN
+F 1 "74HC04" H 20100 8450 40  0000 C CNN
+F 2 "" H 19950 8550 60  0000 C CNN
+F 3 "" H 19950 8550 60  0000 C CNN
+	5    19950 8550
+	1    0    0    -1  
+$EndComp
+Text GLabel 19050 8550 0    60   Input ~ 0
++RI_6
+Wire Wire Line
+	19500 8550 19050 8550
+Text GLabel 20950 8550 2    60   Output ~ 0
++LR_6
+Wire Wire Line
+	20950 8550 20400 8550
+$Comp
+L 74HC04 5E_P7
+U 6 1 587F91FD
+P 19950 9100
+F 0 "5E_P7" H 19650 9000 40  0000 C CNN
+F 1 "74HC04" H 20100 9000 40  0000 C CNN
+F 2 "" H 19950 9100 60  0000 C CNN
+F 3 "" H 19950 9100 60  0000 C CNN
+	6    19950 9100
+	1    0    0    -1  
+$EndComp
+Text GLabel 19050 9100 0    60   Input ~ 0
++RI_7
+Wire Wire Line
+	19500 9100 19050 9100
+Text GLabel 20950 9100 2    60   Output ~ 0
++LR_7
+Wire Wire Line
+	20950 9100 20400 9100
+$Comp
+L 74HC04 5A_P7
+U 1 1 587F9581
+P 19950 1600
+F 0 "5A_P7" H 19650 1500 40  0000 C CNN
+F 1 "74HC04" H 20100 1500 40  0000 C CNN
+F 2 "" H 19950 1600 60  0000 C CNN
+F 3 "" H 19950 1600 60  0000 C CNN
+	1    19950 1600
+	1    0    0    -1  
+$EndComp
+Text GLabel 19050 1600 0    60   Input ~ 0
++RD_2
+Wire Wire Line
+	19500 1600 19050 1600
+Text GLabel 20950 1600 2    60   Output ~ 0
++LD_2
+Wire Wire Line
+	20950 1600 20400 1600
+$Comp
+L 74HC04 5A_P7
+U 2 1 587F958B
+P 19950 2150
+F 0 "5A_P7" H 19650 2050 40  0000 C CNN
+F 1 "74HC04" H 20100 2050 40  0000 C CNN
+F 2 "" H 19950 2150 60  0000 C CNN
+F 3 "" H 19950 2150 60  0000 C CNN
+	2    19950 2150
+	1    0    0    -1  
+$EndComp
+Text GLabel 19050 2150 0    60   Input ~ 0
++RD_3
+Wire Wire Line
+	19500 2150 19050 2150
+Text GLabel 20950 2150 2    60   Output ~ 0
++LD_3
+Wire Wire Line
+	20950 2150 20400 2150
+$Comp
+L 74HC04 5A_P7
+U 3 1 587F9595
+P 19950 2700
+F 0 "5A_P7" H 19650 2600 40  0000 C CNN
+F 1 "74HC04" H 20100 2600 40  0000 C CNN
+F 2 "" H 19950 2700 60  0000 C CNN
+F 3 "" H 19950 2700 60  0000 C CNN
+	3    19950 2700
+	1    0    0    -1  
+$EndComp
+Text GLabel 19050 2700 0    60   Input ~ 0
++RD_4
+Wire Wire Line
+	19500 2700 19050 2700
+Text GLabel 20950 2700 2    60   Output ~ 0
++LD_4
+Wire Wire Line
+	20950 2700 20400 2700
+$Comp
+L 74HC04 5A_P7
+U 4 1 587F959F
+P 19950 3250
+F 0 "5A_P7" H 19650 3150 40  0000 C CNN
+F 1 "74HC04" H 20100 3150 40  0000 C CNN
+F 2 "" H 19950 3250 60  0000 C CNN
+F 3 "" H 19950 3250 60  0000 C CNN
+	4    19950 3250
+	1    0    0    -1  
+$EndComp
+Text GLabel 19050 3250 0    60   Input ~ 0
++RD_5
+Wire Wire Line
+	19500 3250 19050 3250
+Text GLabel 20950 3250 2    60   Output ~ 0
++LD_5
+Wire Wire Line
+	20950 3250 20400 3250
+$Comp
+L 74HC04 5A_P7
+U 5 1 587F95A9
+P 19950 3800
+F 0 "5A_P7" H 19650 3700 40  0000 C CNN
+F 1 "74HC04" H 20100 3700 40  0000 C CNN
+F 2 "" H 19950 3800 60  0000 C CNN
+F 3 "" H 19950 3800 60  0000 C CNN
+	5    19950 3800
+	1    0    0    -1  
+$EndComp
+Text GLabel 19050 3800 0    60   Input ~ 0
++RD_6
+Wire Wire Line
+	19500 3800 19050 3800
+Text GLabel 20950 3800 2    60   Output ~ 0
++LD_6
+Wire Wire Line
+	20950 3800 20400 3800
+$Comp
+L 74HC04 5A_P7
+U 6 1 587F95B3
+P 19950 4350
+F 0 "5A_P7" H 19650 4250 40  0000 C CNN
+F 1 "74HC04" H 20100 4250 40  0000 C CNN
+F 2 "" H 19950 4350 60  0000 C CNN
+F 3 "" H 19950 4350 60  0000 C CNN
+	6    19950 4350
+	1    0    0    -1  
+$EndComp
+Text GLabel 19050 4350 0    60   Input ~ 0
++RD_7
+Wire Wire Line
+	19500 4350 19050 4350
+Text GLabel 20950 4350 2    60   Output ~ 0
++LD_7
+Wire Wire Line
+	20950 4350 20400 4350
+$Comp
+L 74HC04 3A_P7
+U 1 1 587F9FE1
+P 14400 11100
+F 0 "3A_P7" H 14100 11000 40  0000 C CNN
+F 1 "74HC04" H 14550 11000 40  0000 C CNN
+F 2 "" H 14400 11100 60  0000 C CNN
+F 3 "" H 14400 11100 60  0000 C CNN
+	1    14400 11100
+	1    0    0    -1  
+$EndComp
+Text GLabel 13500 11100 0    60   Input ~ 0
++AC_6
+Wire Wire Line
+	13950 11100 13500 11100
+Text GLabel 15400 11100 2    60   Output ~ 0
++LA_6
+Wire Wire Line
+	15400 11100 14850 11100
+$Comp
+L 74HC04 3A_P7
+U 2 1 587F9FEB
+P 14400 11650
+F 0 "3A_P7" H 14100 11550 40  0000 C CNN
+F 1 "74HC04" H 14550 11550 40  0000 C CNN
+F 2 "" H 14400 11650 60  0000 C CNN
+F 3 "" H 14400 11650 60  0000 C CNN
+	2    14400 11650
+	1    0    0    -1  
+$EndComp
+Text GLabel 13500 11650 0    60   Input ~ 0
++AC_7
+Wire Wire Line
+	13950 11650 13500 11650
+Text GLabel 15400 11650 2    60   Output ~ 0
++LA_7
+Wire Wire Line
+	15400 11650 14850 11650
+$Comp
+L 74HC04 3A_P7
+U 3 1 587F9FF5
+P 14400 12200
+F 0 "3A_P7" H 14100 12100 40  0000 C CNN
+F 1 "74HC04" H 14550 12100 40  0000 C CNN
+F 2 "" H 14400 12200 60  0000 C CNN
+F 3 "" H 14400 12200 60  0000 C CNN
+	3    14400 12200
+	1    0    0    -1  
+$EndComp
+Text GLabel 13500 12200 0    60   Input ~ 0
++T
+Wire Wire Line
+	13950 12200 13500 12200
+Text GLabel 15400 12200 2    60   Output ~ 0
+LT
+Wire Wire Line
+	15400 12200 14850 12200
+$Comp
+L 74HC04 3A_P7
+U 4 1 587F9FFF
+P 14400 12750
+F 0 "3A_P7" H 14100 12650 40  0000 C CNN
+F 1 "74HC04" H 14550 12650 40  0000 C CNN
+F 2 "" H 14400 12750 60  0000 C CNN
+F 3 "" H 14400 12750 60  0000 C CNN
+	4    14400 12750
+	1    0    0    -1  
+$EndComp
+Text GLabel 13500 12750 0    60   Input ~ 0
++OVF
+Wire Wire Line
+	13950 12750 13500 12750
+Text GLabel 15400 12750 2    60   Output ~ 0
+LEX
+Wire Wire Line
+	15400 12750 14850 12750
+$Comp
+L 74HC04 3A_P7
+U 5 1 587FA009
+P 14400 13300
+F 0 "3A_P7" H 14100 13200 40  0000 C CNN
+F 1 "74HC04" H 14550 13200 40  0000 C CNN
+F 2 "" H 14400 13300 60  0000 C CNN
+F 3 "" H 14400 13300 60  0000 C CNN
+	5    14400 13300
+	1    0    0    -1  
+$EndComp
+Text GLabel 13500 13300 0    60   Input ~ 0
++RD_0
+Wire Wire Line
+	13950 13300 13500 13300
+Text GLabel 15400 13300 2    60   Output ~ 0
++LD_0
+Wire Wire Line
+	15400 13300 14850 13300
+$Comp
+L 74HC04 3A_P7
+U 6 1 587FA013
+P 14400 13850
+F 0 "3A_P7" H 14100 13750 40  0000 C CNN
+F 1 "74HC04" H 14550 13750 40  0000 C CNN
+F 2 "" H 14400 13850 60  0000 C CNN
+F 3 "" H 14400 13850 60  0000 C CNN
+	6    14400 13850
+	1    0    0    -1  
+$EndComp
+Text GLabel 13500 13850 0    60   Input ~ 0
++RD_1
+Wire Wire Line
+	13950 13850 13500 13850
+Text GLabel 15400 13850 2    60   Output ~ 0
++LD_1
+Wire Wire Line
+	15400 13850 14850 13850
+$Comp
+L 74HC04 3C_P7
+U 1 1 587FA01D
+P 14450 6350
+F 0 "3C_P7" H 14150 6250 40  0000 C CNN
+F 1 "74HC04" H 14600 6250 40  0000 C CNN
+F 2 "" H 14450 6350 60  0000 C CNN
+F 3 "" H 14450 6350 60  0000 C CNN
+	1    14450 6350
+	1    0    0    -1  
+$EndComp
+Text GLabel 13550 6350 0    60   Input ~ 0
++CI_3
+Wire Wire Line
+	14000 6350 13550 6350
+Text GLabel 15450 6350 2    60   Output ~ 0
++LI_3
+Wire Wire Line
+	15450 6350 14900 6350
+$Comp
+L 74HC04 3C_P7
+U 2 1 587FA027
+P 14450 6900
+F 0 "3C_P7" H 14150 6800 40  0000 C CNN
+F 1 "74HC04" H 14600 6800 40  0000 C CNN
+F 2 "" H 14450 6900 60  0000 C CNN
+F 3 "" H 14450 6900 60  0000 C CNN
+	2    14450 6900
+	1    0    0    -1  
+$EndComp
+Text GLabel 13550 6900 0    60   Input ~ 0
++CI_4
+Wire Wire Line
+	14000 6900 13550 6900
+Text GLabel 15450 6900 2    60   Output ~ 0
++LI_4
+Wire Wire Line
+	15450 6900 14900 6900
+$Comp
+L 74HC04 3C_P7
+U 3 1 587FA031
+P 14450 7450
+F 0 "3C_P7" H 14150 7350 40  0000 C CNN
+F 1 "74HC04" H 14600 7350 40  0000 C CNN
+F 2 "" H 14450 7450 60  0000 C CNN
+F 3 "" H 14450 7450 60  0000 C CNN
+	3    14450 7450
+	1    0    0    -1  
+$EndComp
+Text GLabel 13550 7450 0    60   Input ~ 0
++CI_5
+Wire Wire Line
+	14000 7450 13550 7450
+Text GLabel 15450 7450 2    60   Output ~ 0
++LI_5
+Wire Wire Line
+	15450 7450 14900 7450
+$Comp
+L 74HC04 3C_P7
+U 4 1 587FA03B
+P 14450 8000
+F 0 "3C_P7" H 14150 7900 40  0000 C CNN
+F 1 "74HC04" H 14600 7900 40  0000 C CNN
+F 2 "" H 14450 8000 60  0000 C CNN
+F 3 "" H 14450 8000 60  0000 C CNN
+	4    14450 8000
+	1    0    0    -1  
+$EndComp
+Text GLabel 13550 8000 0    60   Input ~ 0
++CI_6
+Wire Wire Line
+	14000 8000 13550 8000
+Text GLabel 15450 8000 2    60   Output ~ 0
++LI_6
+Wire Wire Line
+	15450 8000 14900 8000
+$Comp
+L 74HC04 3C_P7
+U 5 1 587FA045
+P 14450 8550
+F 0 "3C_P7" H 14150 8450 40  0000 C CNN
+F 1 "74HC04" H 14600 8450 40  0000 C CNN
+F 2 "" H 14450 8550 60  0000 C CNN
+F 3 "" H 14450 8550 60  0000 C CNN
+	5    14450 8550
+	1    0    0    -1  
+$EndComp
+Text GLabel 13550 8550 0    60   Input ~ 0
++CI_7
+Wire Wire Line
+	14000 8550 13550 8550
+Text GLabel 15450 8550 2    60   Output ~ 0
++LI_7
+Wire Wire Line
+	15450 8550 14900 8550
+$Comp
+L 74HC04 3C_P7
+U 6 1 587FA04F
+P 14450 9100
+F 0 "3C_P7" H 14150 9000 40  0000 C CNN
+F 1 "74HC04" H 14600 9000 40  0000 C CNN
+F 2 "" H 14450 9100 60  0000 C CNN
+F 3 "" H 14450 9100 60  0000 C CNN
+	6    14450 9100
+	1    0    0    -1  
+$EndComp
+Text GLabel 13550 9100 0    60   Input ~ 0
++CI_8
+Wire Wire Line
+	14000 9100 13550 9100
+Text GLabel 15450 9100 2    60   Output ~ 0
++LI_8
+Wire Wire Line
+	15450 9100 14900 9100
+$Comp
+L 74HC04 3E_P7
+U 1 1 587FA059
+P 14450 1600
+F 0 "3E_P7" H 14150 1500 40  0000 C CNN
+F 1 "74HC04" H 14600 1500 40  0000 C CNN
+F 2 "" H 14450 1600 60  0000 C CNN
+F 3 "" H 14450 1600 60  0000 C CNN
+	1    14450 1600
+	1    0    0    -1  
+$EndComp
+Text GLabel 13550 1600 0    60   Input ~ 0
++CI_0
+Wire Wire Line
+	14000 1600 13550 1600
+Text GLabel 15450 1600 2    60   Output ~ 0
++LI_0
+Wire Wire Line
+	15450 1600 14900 1600
+$Comp
+L 74HC04 3E_P7
+U 2 1 587FA063
+P 14450 2150
+F 0 "3E_P7" H 14150 2050 40  0000 C CNN
+F 1 "74HC04" H 14600 2050 40  0000 C CNN
+F 2 "" H 14450 2150 60  0000 C CNN
+F 3 "" H 14450 2150 60  0000 C CNN
+	2    14450 2150
+	1    0    0    -1  
+$EndComp
+Text GLabel 13550 2150 0    60   Input ~ 0
++CI_1
+Wire Wire Line
+	14000 2150 13550 2150
+Text GLabel 15450 2150 2    60   Output ~ 0
++LI_1
+Wire Wire Line
+	15450 2150 14900 2150
+$Comp
+L 74HC04 3E_P7
+U 3 1 587FA06D
+P 14450 2700
+F 0 "3E_P7" H 14150 2600 40  0000 C CNN
+F 1 "74HC04" H 14600 2600 40  0000 C CNN
+F 2 "" H 14450 2700 60  0000 C CNN
+F 3 "" H 14450 2700 60  0000 C CNN
+	3    14450 2700
+	1    0    0    -1  
+$EndComp
+Text GLabel 13550 2700 0    60   Input ~ 0
++CI_2
+Wire Wire Line
+	14000 2700 13550 2700
+Text GLabel 15450 2700 2    60   Output ~ 0
++LI_2
+Wire Wire Line
+	15450 2700 14900 2700
+$Comp
+L 74HC04 3E_P7
+U 4 1 587FA077
+P 14450 3250
+F 0 "3E_P7" H 14150 3150 40  0000 C CNN
+F 1 "74HC04" H 14600 3150 40  0000 C CNN
+F 2 "" H 14450 3250 60  0000 C CNN
+F 3 "" H 14450 3250 60  0000 C CNN
+	4    14450 3250
+	1    0    0    -1  
+$EndComp
+Text GLabel 13550 3250 0    60   Input ~ 0
++CI_9
+Wire Wire Line
+	14000 3250 13550 3250
+Text GLabel 15450 3250 2    60   Output ~ 0
++LI_9
+Wire Wire Line
+	15450 3250 14900 3250
+$Comp
+L 74HC04 3E_P7
+U 5 1 587FA081
+P 14450 3800
+F 0 "3E_P7" H 14150 3700 40  0000 C CNN
+F 1 "74HC04" H 14600 3700 40  0000 C CNN
+F 2 "" H 14450 3800 60  0000 C CNN
+F 3 "" H 14450 3800 60  0000 C CNN
+	5    14450 3800
+	1    0    0    -1  
+$EndComp
+Text GLabel 13550 3800 0    60   Input ~ 0
++CI_10
+Wire Wire Line
+	14000 3800 13550 3800
+Text GLabel 15450 3800 2    60   Output ~ 0
++LI_10
+Wire Wire Line
+	15450 3800 14900 3800
+$Comp
+L 74HC04 3E_P7
+U 6 1 587FA08B
+P 14450 4350
+F 0 "3E_P7" H 14150 4250 40  0000 C CNN
+F 1 "74HC04" H 14600 4250 40  0000 C CNN
+F 2 "" H 14450 4350 60  0000 C CNN
+F 3 "" H 14450 4350 60  0000 C CNN
+	6    14450 4350
+	1    0    0    -1  
+$EndComp
+Text GLabel 13550 4350 0    60   Input ~ 0
++CI_11
+Wire Wire Line
+	14000 4350 13550 4350
+Text GLabel 15450 4350 2    60   Output ~ 0
++LI_11
+Wire Wire Line
+	15450 4350 14900 4350
+$Comp
+L 74HC04 1A_P7
+U 1 1 587FABDD
+P 8750 11100
+F 0 "1A_P7" H 8450 11000 40  0000 C CNN
+F 1 "74HC04" H 8900 11000 40  0000 C CNN
+F 2 "" H 8750 11100 60  0000 C CNN
+F 3 "" H 8750 11100 60  0000 C CNN
+	1    8750 11100
+	1    0    0    -1  
+$EndComp
+Text GLabel 7850 11100 0    60   Input ~ 0
++AC_0
+Wire Wire Line
+	8300 11100 7850 11100
+Text GLabel 9750 11100 2    60   Output ~ 0
++LA_0
+Wire Wire Line
+	9750 11100 9200 11100
+$Comp
+L 74HC04 1A_P7
+U 2 1 587FABE7
+P 8750 11650
+F 0 "1A_P7" H 8450 11550 40  0000 C CNN
+F 1 "74HC04" H 8900 11550 40  0000 C CNN
+F 2 "" H 8750 11650 60  0000 C CNN
+F 3 "" H 8750 11650 60  0000 C CNN
+	2    8750 11650
+	1    0    0    -1  
+$EndComp
+Text GLabel 7850 11650 0    60   Input ~ 0
++AC_1
+Wire Wire Line
+	8300 11650 7850 11650
+Text GLabel 9750 11650 2    60   Output ~ 0
++LA_1
+Wire Wire Line
+	9750 11650 9200 11650
+$Comp
+L 74HC04 1A_P7
+U 3 1 587FABF1
+P 8750 12200
+F 0 "1A_P7" H 8450 12100 40  0000 C CNN
+F 1 "74HC04" H 8900 12100 40  0000 C CNN
+F 2 "" H 8750 12200 60  0000 C CNN
+F 3 "" H 8750 12200 60  0000 C CNN
+	3    8750 12200
+	1    0    0    -1  
+$EndComp
+Text GLabel 7850 12200 0    60   Input ~ 0
++AC_2
+Wire Wire Line
+	8300 12200 7850 12200
+Text GLabel 9750 12200 2    60   Output ~ 0
++LA_2
+Wire Wire Line
+	9750 12200 9200 12200
+$Comp
+L 74HC04 1A_P7
+U 4 1 587FABFB
+P 8750 12750
+F 0 "1A_P7" H 8450 12650 40  0000 C CNN
+F 1 "74HC04" H 8900 12650 40  0000 C CNN
+F 2 "" H 8750 12750 60  0000 C CNN
+F 3 "" H 8750 12750 60  0000 C CNN
+	4    8750 12750
+	1    0    0    -1  
+$EndComp
+Text GLabel 7850 12750 0    60   Input ~ 0
++AC_3
+Wire Wire Line
+	8300 12750 7850 12750
+Text GLabel 9750 12750 2    60   Output ~ 0
++LA_3
+Wire Wire Line
+	9750 12750 9200 12750
+$Comp
+L 74HC04 1A_P7
+U 5 1 587FAC05
+P 8750 13300
+F 0 "1A_P7" H 8450 13200 40  0000 C CNN
+F 1 "74HC04" H 8900 13200 40  0000 C CNN
+F 2 "" H 8750 13300 60  0000 C CNN
+F 3 "" H 8750 13300 60  0000 C CNN
+	5    8750 13300
+	1    0    0    -1  
+$EndComp
+Text GLabel 7850 13300 0    60   Input ~ 0
++AC_4
+Wire Wire Line
+	8300 13300 7850 13300
+Text GLabel 9750 13300 2    60   Output ~ 0
++LA_4
+Wire Wire Line
+	9750 13300 9200 13300
+$Comp
+L 74HC04 1A_P7
+U 6 1 587FAC0F
+P 8750 13850
+F 0 "1A_P7" H 8450 13750 40  0000 C CNN
+F 1 "74HC04" H 8900 13750 40  0000 C CNN
+F 2 "" H 8750 13850 60  0000 C CNN
+F 3 "" H 8750 13850 60  0000 C CNN
+	6    8750 13850
+	1    0    0    -1  
+$EndComp
+Text GLabel 7850 13850 0    60   Input ~ 0
++AC_5
+Wire Wire Line
+	8300 13850 7850 13850
+Text GLabel 9750 13850 2    60   Output ~ 0
++LA_5
+Wire Wire Line
+	9750 13850 9200 13850
+$Comp
+L 74HC04 1C_P7
+U 1 1 587FAC19
+P 8800 6350
+F 0 "1C_P7" H 8500 6250 40  0000 C CNN
+F 1 "74HC04" H 8950 6250 40  0000 C CNN
+F 2 "" H 8800 6350 60  0000 C CNN
+F 3 "" H 8800 6350 60  0000 C CNN
+	1    8800 6350
+	1    0    0    -1  
+$EndComp
+Text GLabel 7900 6350 0    60   Input ~ 0
++RE_3
+Wire Wire Line
+	8350 6350 7900 6350
+Text GLabel 9800 6350 2    60   Output ~ 0
++LE_3
+Wire Wire Line
+	9800 6350 9250 6350
+$Comp
+L 74HC04 1C_P7
+U 2 1 587FAC23
+P 8800 6900
+F 0 "1C_P7" H 8500 6800 40  0000 C CNN
+F 1 "74HC04" H 8950 6800 40  0000 C CNN
+F 2 "" H 8800 6900 60  0000 C CNN
+F 3 "" H 8800 6900 60  0000 C CNN
+	2    8800 6900
+	1    0    0    -1  
+$EndComp
+Text GLabel 7900 6900 0    60   Input ~ 0
++RE_4
+Wire Wire Line
+	8350 6900 7900 6900
+Text GLabel 9800 6900 2    60   Output ~ 0
++LE_4
+Wire Wire Line
+	9800 6900 9250 6900
+$Comp
+L 74HC04 1C_P7
+U 3 1 587FAC2D
+P 8800 7450
+F 0 "1C_P7" H 8500 7350 40  0000 C CNN
+F 1 "74HC04" H 8950 7350 40  0000 C CNN
+F 2 "" H 8800 7450 60  0000 C CNN
+F 3 "" H 8800 7450 60  0000 C CNN
+	3    8800 7450
+	1    0    0    -1  
+$EndComp
+Text GLabel 7900 7450 0    60   Input ~ 0
++RE_5
+Wire Wire Line
+	8350 7450 7900 7450
+Text GLabel 9800 7450 2    60   Output ~ 0
++LE_5
+Wire Wire Line
+	9800 7450 9250 7450
+$Comp
+L 74HC04 1C_P7
+U 4 1 587FAC37
+P 8800 8000
+F 0 "1C_P7" H 8500 7900 40  0000 C CNN
+F 1 "74HC04" H 8950 7900 40  0000 C CNN
+F 2 "" H 8800 8000 60  0000 C CNN
+F 3 "" H 8800 8000 60  0000 C CNN
+	4    8800 8000
+	1    0    0    -1  
+$EndComp
+Text GLabel 7900 8000 0    60   Input ~ 0
++RE_6
+Wire Wire Line
+	8350 8000 7900 8000
+Text GLabel 9800 8000 2    60   Output ~ 0
++LE_6
+Wire Wire Line
+	9800 8000 9250 8000
+$Comp
+L 74HC04 1C_P7
+U 5 1 587FAC41
+P 8800 8550
+F 0 "1C_P7" H 8500 8450 40  0000 C CNN
+F 1 "74HC04" H 8950 8450 40  0000 C CNN
+F 2 "" H 8800 8550 60  0000 C CNN
+F 3 "" H 8800 8550 60  0000 C CNN
+	5    8800 8550
+	1    0    0    -1  
+$EndComp
+Text GLabel 7900 8550 0    60   Input ~ 0
++RE_7
+Wire Wire Line
+	8350 8550 7900 8550
+Text GLabel 9800 8550 2    60   Output ~ 0
++LE_7
+Wire Wire Line
+	9800 8550 9250 8550
+$Comp
+L 74HC04 1C_P7
+U 6 1 587FAC4B
+P 8800 9100
+F 0 "1C_P7" H 8500 9000 40  0000 C CNN
+F 1 "74HC04" H 8950 9000 40  0000 C CNN
+F 2 "" H 8800 9100 60  0000 C CNN
+F 3 "" H 8800 9100 60  0000 C CNN
+	6    8800 9100
+	1    0    0    -1  
+$EndComp
+Text GLabel 7900 9100 0    60   Input ~ 0
++RE_8
+Wire Wire Line
+	8350 9100 7900 9100
+Text GLabel 9800 9100 2    60   Output ~ 0
++LE_8
+Wire Wire Line
+	9800 9100 9250 9100
+$Comp
+L 74HC04 1E_P7
+U 1 1 587FAC55
+P 8800 1600
+F 0 "1E_P7" H 8500 1500 40  0000 C CNN
+F 1 "74HC04" H 8950 1500 40  0000 C CNN
+F 2 "" H 8800 1600 60  0000 C CNN
+F 3 "" H 8800 1600 60  0000 C CNN
+	1    8800 1600
+	1    0    0    -1  
+$EndComp
+Text GLabel 7900 1600 0    60   Input ~ 0
++RE_0
+Wire Wire Line
+	8350 1600 7900 1600
+Text GLabel 9800 1600 2    60   Output ~ 0
++LE_0
+Wire Wire Line
+	9800 1600 9250 1600
+$Comp
+L 74HC04 1E_P7
+U 2 1 587FAC5F
+P 8800 2150
+F 0 "1E_P7" H 8500 2050 40  0000 C CNN
+F 1 "74HC04" H 8950 2050 40  0000 C CNN
+F 2 "" H 8800 2150 60  0000 C CNN
+F 3 "" H 8800 2150 60  0000 C CNN
+	2    8800 2150
+	1    0    0    -1  
+$EndComp
+Text GLabel 7900 2150 0    60   Input ~ 0
++RE_1
+Wire Wire Line
+	8350 2150 7900 2150
+Text GLabel 9800 2150 2    60   Output ~ 0
++LE_1
+Wire Wire Line
+	9800 2150 9250 2150
+$Comp
+L 74HC04 1E_P7
+U 3 1 587FAC69
+P 8800 2700
+F 0 "1E_P7" H 8500 2600 40  0000 C CNN
+F 1 "74HC04" H 8950 2600 40  0000 C CNN
+F 2 "" H 8800 2700 60  0000 C CNN
+F 3 "" H 8800 2700 60  0000 C CNN
+	3    8800 2700
+	1    0    0    -1  
+$EndComp
+Text GLabel 7900 2700 0    60   Input ~ 0
++RE_2
+Wire Wire Line
+	8350 2700 7900 2700
+Text GLabel 9800 2700 2    60   Output ~ 0
++LE_2
+Wire Wire Line
+	9800 2700 9250 2700
+$Comp
+L 74HC04 1E_P7
+U 4 1 587FAC73
+P 8800 3250
+F 0 "1E_P7" H 8500 3150 40  0000 C CNN
+F 1 "74HC04" H 8950 3150 40  0000 C CNN
+F 2 "" H 8800 3250 60  0000 C CNN
+F 3 "" H 8800 3250 60  0000 C CNN
+	4    8800 3250
+	1    0    0    -1  
+$EndComp
+Text GLabel 7900 3250 0    60   Input ~ 0
++RE_9
+Wire Wire Line
+	8350 3250 7900 3250
+Text GLabel 9800 3250 2    60   Output ~ 0
++LE_9
+Wire Wire Line
+	9800 3250 9250 3250
+$Comp
+L 74HC04 1E_P7
+U 5 1 587FAC7D
+P 8800 3800
+F 0 "1E_P7" H 8500 3700 40  0000 C CNN
+F 1 "74HC04" H 8950 3700 40  0000 C CNN
+F 2 "" H 8800 3800 60  0000 C CNN
+F 3 "" H 8800 3800 60  0000 C CNN
+	5    8800 3800
+	1    0    0    -1  
+$EndComp
+Text GLabel 7900 3800 0    60   Input ~ 0
++RE_10
+Wire Wire Line
+	8350 3800 7900 3800
+Text GLabel 9800 3800 2    60   Output ~ 0
++LE_10
+Wire Wire Line
+	9800 3800 9250 3800
+$Comp
+L 74HC04 1E_P7
+U 6 1 587FAC87
+P 8800 4350
+F 0 "1E_P7" H 8500 4250 40  0000 C CNN
+F 1 "74HC04" H 8950 4250 40  0000 C CNN
+F 2 "" H 8800 4350 60  0000 C CNN
+F 3 "" H 8800 4350 60  0000 C CNN
+	6    8800 4350
+	1    0    0    -1  
+$EndComp
+Text GLabel 7900 4350 0    60   Input ~ 0
++RE_11
+Wire Wire Line
+	8350 4350 7900 4350
+Text GLabel 9800 4350 2    60   Output ~ 0
++LE_11
+Wire Wire Line
+	9800 4350 9250 4350
+NoConn ~ 2950 3300
+NoConn ~ 2950 3800
+NoConn ~ 2950 3900
+NoConn ~ 3750 3800
+NoConn ~ 2950 4400
+$Comp
+L PWR_FLAG #FLG01
+U 1 1 587FCFF2
+P 2850 2850
+F 0 "#FLG01" H 2850 2945 30  0001 C CNN
+F 1 "PWR_FLAG" H 2850 3058 30  0000 C CNN
+F 2 "" H 2850 2850 60  0001 C CNN
+F 3 "" H 2850 2850 60  0001 C CNN
+	1    2850 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR02
+U 1 1 587FD076
+P 2650 2850
+F 0 "#PWR02" H 2650 2950 30  0001 C CNN
+F 1 "VCC" H 2653 2978 30  0000 C CNN
+F 2 "" H 2650 2850 60  0001 C CNN
+F 3 "" H 2650 2850 60  0001 C CNN
+	1    2650 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 2850 2650 3000
+Wire Wire Line
+	2650 3000 2950 3000
+Wire Wire Line
+	2850 2850 2850 3000
+Connection ~ 2850 3000
+$Comp
+L VCC #PWR03
+U 1 1 587FD92D
+P 2600 9050
+F 0 "#PWR03" H 2600 9150 30  0001 C CNN
+F 1 "VCC" H 2603 9178 30  0000 C CNN
+F 2 "" H 2600 9050 60  0001 C CNN
+F 3 "" H 2600 9050 60  0001 C CNN
+	1    2600 9050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 9050 2600 9200
+Wire Wire Line
+	2600 9200 2900 9200
+$Comp
+L GND #PWR04
+U 1 1 587FDDB5
+P 3850 6500
+F 0 "#PWR04" H 3850 6500 30  0001 C CNN
+F 1 "GND" H 3850 6430 30  0001 C CNN
+F 2 "" H 3850 6500 60  0001 C CNN
+F 3 "" H 3850 6500 60  0001 C CNN
+	1    3850 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG05
+U 1 1 587FE4DB
+P 5150 12550
+F 0 "#FLG05" H 5150 12645 30  0001 C CNN
+F 1 "PWR_FLAG" H 5150 12758 30  0000 C CNN
+F 2 "" H 5150 12550 60  0001 C CNN
+F 3 "" H 5150 12550 60  0001 C CNN
+	1    5150 12550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 12550 5150 12700
+Wire Wire Line
+	5150 12600 3700 12600
+$Comp
+L GND #PWR06
+U 1 1 587FE4E3
+P 5150 12700
+F 0 "#PWR06" H 5150 12700 30  0001 C CNN
+F 1 "GND" H 5150 12630 30  0001 C CNN
+F 2 "" H 5150 12700 60  0001 C CNN
+F 3 "" H 5150 12700 60  0001 C CNN
+	1    5150 12700
+	1    0    0    -1  
+$EndComp
+Connection ~ 5150 12600
+NoConn ~ 3750 4700
+NoConn ~ 3750 5000
+NoConn ~ 2950 5000
+NoConn ~ 2950 4700
+NoConn ~ 2950 5600
+NoConn ~ 3750 5600
+NoConn ~ 3750 5500
+NoConn ~ 3750 6100
+NoConn ~ 2950 6200
+NoConn ~ 3700 9400
+NoConn ~ 2900 9500
+NoConn ~ 2900 10000
+NoConn ~ 2900 10100
+NoConn ~ 3700 10000
+NoConn ~ 3700 10600
+NoConn ~ 3700 10900
+NoConn ~ 3700 11200
+NoConn ~ 2900 10900
+NoConn ~ 2900 10600
+NoConn ~ 2900 11800
+NoConn ~ 3700 11800
+NoConn ~ 3700 11700
+NoConn ~ 3700 12300
+Wire Wire Line
+	3750 6400 3850 6400
+Wire Wire Line
+	3850 6400 3850 6500
+Text GLabel 2000 9800 0    60   Input ~ 0
++LD_0
+Wire Wire Line
+	2000 9800 2900 9800
+Text GLabel 2700 11900 0    60   Input ~ 0
++LI_0
+Wire Wire Line
+	2700 11900 2900 11900
+Text GLabel 2700 10300 0    60   Input ~ 0
++LA_7
+Wire Wire Line
+	2700 10300 2900 10300
+Text GLabel 3900 10100 2    60   Input ~ 0
++LI_1
+Wire Wire Line
+	3900 10100 3700 10100
+Text GLabel 3900 11900 2    60   Input ~ 0
++LI_2
+Wire Wire Line
+	3900 11900 3700 11900
+Text GLabel 4600 11600 2    60   Input ~ 0
++LI_9
+Wire Wire Line
+	4600 11600 3700 11600
+Text GLabel 3900 9900 2    60   Input ~ 0
++LI_10
+Wire Wire Line
+	3900 9900 3700 9900
+Text GLabel 2700 11700 0    60   Input ~ 0
++LI_11
+Wire Wire Line
+	2700 11700 2900 11700
+Text GLabel 2000 10200 0    60   Input ~ 0
++LI_3
+Wire Wire Line
+	2000 10200 2900 10200
+Text GLabel 2000 12000 0    60   Input ~ 0
++LI_4
+Wire Wire Line
+	2000 12000 2900 12000
+Text GLabel 4600 10200 2    60   Input ~ 0
++LI_5
+Wire Wire Line
+	4600 10200 3700 10200
+Text GLabel 4600 9800 2    60   Input ~ 0
++LI_6
+Wire Wire Line
+	3700 9800 4600 9800
+Text GLabel 2000 11600 0    60   Input ~ 0
++LI_7
+Wire Wire Line
+	2000 11600 2900 11600
+Text GLabel 3900 11500 2    60   Input ~ 0
++LD_1
+Wire Wire Line
+	3900 11500 3700 11500
+Text GLabel 2700 9900 0    60   Input ~ 0
++LI_8
+Wire Wire Line
+	2700 9900 2900 9900
+Text GLabel 4600 12000 2    60   Input ~ 0
++LA_6
+Wire Wire Line
+	4600 12000 3700 12000
+Text GLabel 2700 12100 0    60   Input ~ 0
+LT
+Wire Wire Line
+	2700 12100 2900 12100
+Text GLabel 2700 11500 0    60   Input ~ 0
+LEX
+Wire Wire Line
+	2700 11500 2900 11500
 $EndSCHEMATC
