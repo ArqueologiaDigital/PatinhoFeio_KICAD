@@ -1,4 +1,4 @@
-update=Ter 17 Jan 2017 11:44:26 BRST
+update=Seg 23 Jan 2017 14:25:46 BRST
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,5 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=/home/felipe/devel/github_felipesanches/PatinhoFeio_KICAD/libs/conn_35x2
+LibName31=/home/felipe/devel/github_felipesanches/PatinhoFeio_KICAD/libs/7460
+LibName32=/home/felipe/devel/github_felipesanches/PatinhoFeio_KICAD/libs/7454
