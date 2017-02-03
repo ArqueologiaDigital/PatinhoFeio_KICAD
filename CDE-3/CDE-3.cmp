@@ -1,0 +1,347 @@
+Cmp-Mod V01 Created by PcbNew   date = Sex 03 Fev 2017 13:35:26 BRST
+
+BeginCmp
+TimeStamp = 5894A5ED
+Path = /576C1F51
+Reference = 1A_P10;
+ValeurCmp = 74HC04;
+IdModule  = Housings_DIP:DIP-14_W7.62mm_Socket_LongPads;
+EndCmp
+
+BeginCmp
+TimeStamp = 5894A616
+Path = /576C1F33
+Reference = 1B_P10;
+ValeurCmp = 74HC04;
+IdModule  = Housings_DIP:DIP-14_W7.62mm_Socket_LongPads;
+EndCmp
+
+BeginCmp
+TimeStamp = 5894A63F
+Path = /576D0457
+Reference = 1C_P10;
+ValeurCmp = 74LS10;
+IdModule  = Housings_DIP:DIP-14_W7.62mm_Socket_LongPads;
+EndCmp
+
+BeginCmp
+TimeStamp = 5894A668
+Path = /576D308E
+Reference = 1D_P10;
+ValeurCmp = 74LS10;
+IdModule  = Housings_DIP:DIP-14_W7.62mm_Socket_LongPads;
+EndCmp
+
+BeginCmp
+TimeStamp = 5894A691
+Path = /576D3079
+Reference = 1E_P10;
+ValeurCmp = 74LS10;
+IdModule  = Housings_DIP:DIP-14_W7.62mm_Socket_LongPads;
+EndCmp
+
+BeginCmp
+TimeStamp = 5894A6BA
+Path = /576C1DB5
+Reference = 2A_P10;
+ValeurCmp = 74HC04;
+IdModule  = Housings_DIP:DIP-14_W7.62mm_Socket_LongPads;
+EndCmp
+
+BeginCmp
+TimeStamp = 5894A6E3
+Path = /576C1D52
+Reference = 2B_P10;
+ValeurCmp = 74HC04;
+IdModule  = Housings_DIP:DIP-14_W7.62mm_Socket_LongPads;
+EndCmp
+
+BeginCmp
+TimeStamp = 5894A70C
+Path = /576DFFB1
+Reference = 2C_P10;
+ValeurCmp = 74LS30;
+IdModule  = Housings_DIP:DIP-14_W7.62mm_Socket_LongPads;
+EndCmp
+
+BeginCmp
+TimeStamp = 5894A735
+Path = /576D3080
+Reference = 2D_P10;
+ValeurCmp = 74LS10;
+IdModule  = Housings_DIP:DIP-14_W7.62mm_Socket_LongPads;
+EndCmp
+
+BeginCmp
+TimeStamp = 5894A75E
+Path = /576C1BBD
+Reference = 2E_P10;
+ValeurCmp = 74LS13;
+IdModule  = Housings_DIP:DIP-14_W7.62mm_Socket_LongPads;
+EndCmp
+
+BeginCmp
+TimeStamp = 5894A787
+Path = /576C9530
+Reference = 3A_P10;
+ValeurCmp = 74HC04;
+IdModule  = Housings_DIP:DIP-14_W7.62mm_Socket_LongPads;
+EndCmp
+
+BeginCmp
+TimeStamp = 5894A7B0
+Path = /576C1A43
+Reference = 3B_P10;
+ValeurCmp = 74HC04;
+IdModule  = Housings_DIP:DIP-14_W7.62mm_Socket_LongPads;
+EndCmp
+
+BeginCmp
+TimeStamp = 5894A7D9
+Path = /576D2998
+Reference = 3C_P10;
+ValeurCmp = 7402;
+IdModule  = Housings_DIP:DIP-14_W7.62mm_Socket_LongPads;
+EndCmp
+
+BeginCmp
+TimeStamp = 5894A802
+Path = /576D29DA
+Reference = 3D_P10;
+ValeurCmp = 74LS10;
+IdModule  = Housings_DIP:DIP-14_W7.62mm_Socket_LongPads;
+EndCmp
+
+BeginCmp
+TimeStamp = 5894A82B
+Path = /576D29AA
+Reference = 4A_P10;
+ValeurCmp = 7402;
+IdModule  = Housings_DIP:DIP-14_W7.62mm_Socket_LongPads;
+EndCmp
+
+BeginCmp
+TimeStamp = 5894A854
+Path = /576C19A3
+Reference = 4B_P10;
+ValeurCmp = 7402;
+IdModule  = Housings_DIP:DIP-14_W7.62mm_Socket_LongPads;
+EndCmp
+
+BeginCmp
+TimeStamp = 5894A87D
+Path = /576C9524
+Reference = 4C_P10;
+ValeurCmp = 7402;
+IdModule  = Housings_DIP:DIP-14_W7.62mm_Socket_LongPads;
+EndCmp
+
+BeginCmp
+TimeStamp = 5894A8A6
+Path = /576C9748
+Reference = 4D_P10;
+ValeurCmp = 7400;
+IdModule  = Housings_DIP:DIP-14_W7.62mm_Socket_LongPads;
+EndCmp
+
+BeginCmp
+TimeStamp = 5894A8CF
+Path = /576D2986
+Reference = 5A_P10;
+ValeurCmp = 7402;
+IdModule  = Housings_DIP:DIP-14_W7.62mm_Socket_LongPads;
+EndCmp
+
+BeginCmp
+TimeStamp = 5894A8F8
+Path = /576D1023
+Reference = 5B_P10;
+ValeurCmp = 7402;
+IdModule  = Housings_DIP:DIP-14_W7.62mm_Socket_LongPads;
+EndCmp
+
+BeginCmp
+TimeStamp = 5894A921
+Path = /576D028C
+Reference = 5C_P10;
+ValeurCmp = 7402;
+IdModule  = Housings_DIP:DIP-14_W7.62mm_Socket_LongPads;
+EndCmp
+
+BeginCmp
+TimeStamp = 5894A927
+Path = /589554B6
+Reference = C1A_P10;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_ThroughHole:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5894A92D
+Path = /589588BF
+Reference = C1B_P10;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_ThroughHole:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5894A933
+Path = /5895943E
+Reference = C1C_P10;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_ThroughHole:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5894A939
+Path = /5895A2B6
+Reference = C1D_P10;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_ThroughHole:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5894A93F
+Path = /5895BAD1
+Reference = C1E_P10;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_ThroughHole:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5894A945
+Path = /5895599A
+Reference = C2A_P10;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_ThroughHole:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5894A94B
+Path = /589588C5
+Reference = C2B_P10;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_ThroughHole:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5894A951
+Path = /58959444
+Reference = C2C_P10;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_ThroughHole:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5894A957
+Path = /5895A2BC
+Reference = C2D_P10;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_ThroughHole:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5894A95D
+Path = /5895BAE3
+Reference = C2E_P10;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_ThroughHole:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5894A963
+Path = /58956F6B
+Reference = C3A_P10;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_ThroughHole:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5894A969
+Path = /589588CB
+Reference = C3B_P10;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_ThroughHole:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5894A96F
+Path = /5895944A
+Reference = C3C_P10;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_ThroughHole:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5894A975
+Path = /5895A2C2
+Reference = C3D_P10;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_ThroughHole:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5894A97B
+Path = /58956F71
+Reference = C4A_P10;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_ThroughHole:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5894A981
+Path = /589588D1
+Reference = C4B_P10;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_ThroughHole:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5894A987
+Path = /58959450
+Reference = C4C_P10;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_ThroughHole:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5894A98D
+Path = /5895A2C8
+Reference = C4D_P10;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_ThroughHole:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5894A993
+Path = /58957223
+Reference = C5A_P10;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_ThroughHole:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5894A999
+Path = /589588D7
+Reference = C5B_P10;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_ThroughHole:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5894A99F
+Path = /58959456
+Reference = C5C_P10;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_ThroughHole:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5894ACB2
+Path = /587C70C2
+Reference = CONECTOR_P10;
+ValeurCmp = CONN_35X2;
+IdModule  = Pin_Headers:Pin_Header_Angled_2x35_Pitch2.54mm;
+EndCmp
+
+EndListe
