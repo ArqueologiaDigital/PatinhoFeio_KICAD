@@ -1,0 +1,89 @@
+
+(rules PCB CDE-3
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 2261)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.5)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.7)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clear 200.2)
+    (clear 125.0 (type smd_to_turn_gap))
+    (clear 50.0 (type smd_smd))
+  )
+  (padstack "Via[0-1]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
+  )
+  (via 
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-1]_800:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_800:400_um-kicad_default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    GND "+RI_2" "-RI_0" "-RI_2" "+RI_0" "-RI_1" "(+)RI_0" "(+)RI_1"
+    "+RI_1" "(+)RI_2" VCC "+RI_5" "-RI_3" "-RI_5" "+RI_3" "-RI_4"
+    "(+)RI_3" "(+)RI_4" "+RI_4" "(+)RI_5" "Net-(1C_P10-Pad8)" "(+)RI_7" "(+)RI_6" "Net-(1C_P10-Pad12)"
+    "Net-(1C_P10-Pad6)" +MIC "Net-(1D_P10-Pad8)" "-RI_7" "Net-(1D_P10-Pad12)" "Net-(1D_P10-Pad6)" "Net-(1E_P10-Pad12)" "+RD_0"
+    "-RI_6" "-RD_0" "+RI_6" "+RI_7" "-RD_1" "+RD_1" "+RD_4" "-RD_5"
+    "-RD_4" "+RD_5" "+RD_3" "-RD_6" "-RD_3" "+RD_6" "+RD_2" "-RD_7"
+    "-RD_2" "+RD_7" "-RDZ" "Net-(2D_P10-Pad8)" "Net-(2D_P10-Pad12)" "Net-(2D_P10-Pad6)" "Net-(2E_P10-Pad8)" "Net-(2E_P10-Pad6)"
+    "Net-(3A_P10-Pad1)" +IME +INDICE "Net-(3A_P10-Pad3)" "+(PAN+PAZ)" "+(CAC+SOM)" "Net-(3A_P10-Pad5)" "+(SUS+PUG)"
+    "+(PLI+ARA)" +SAE +MICG2A +MICG2B +RESERVADO "Net-(3D_P10-Pad8)" "Net-(3D_P10-Pad12)" "Net-(3D_P10-Pad6)"
+    +MICG1 +INI +PUL +TRO +SAEDS +SAEFU +SAEDE +SAESA
+    +PLI +SOM +ARA +CAC +PER +TRI "+ESP-D" "+PAR-D"
+    +IMEADD +SHIFT +IMENAND +IMEXOR +SUS +PAZ +PUG +PAN
+    "Net-(CONECTOR_P10-Pad11)" "Net-(CONECTOR_P10-Pad12)" "Net-(CONECTOR_P10-Pad13)" "Net-(CONECTOR_P10-Pad14)" "Net-(CONECTOR_P10-Pad15)" "Net-(CONECTOR_P10-Pad35)" "Net-(CONECTOR_P10-Pad36)" "Net-(CONECTOR_P10-Pad46)"
+    "Net-(CONECTOR_P10-Pad47)" "Net-(CONECTOR_P10-Pad48)" "Net-(CONECTOR_P10-Pad49)" "Net-(CONECTOR_P10-Pad50)" "Net-(CONECTOR_P10-Pad55)" "Net-(CONECTOR_P10-Pad56)" "Net-(CONECTOR_P10-Pad57)"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
