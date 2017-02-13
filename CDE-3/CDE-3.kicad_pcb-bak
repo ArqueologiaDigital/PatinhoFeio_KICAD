@@ -64,7 +64,7 @@
     (aux_axis_origin 0 0)
     (visible_elements FFFFF77F)
     (pcbplotparams
-      (layerselection 0x00030_ffffffff)
+      (layerselection 0x010e0_ffffffff)
       (usegerberextensions false)
       (excludeedgelayer true)
       (linewidth 0.100000)
@@ -84,7 +84,7 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
       (outputdirectory ""))
   )
@@ -932,6 +932,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model /home/felipe/kicad_sources/library-repos/kicad-library/modules/packages3d/Sockets_DIP.3dshapes/DIP-14__300.wrl
+      (at (xyz 0.1456692913385827 -0.3031496062992126 0.03937007874015748))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module Housings_DIP:DIP-14_W7.62mm_Socket_LongPads (layer F.Cu) (tedit 5894AF92) (tstamp 5894A75E)
@@ -1068,6 +1073,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model /home/felipe/kicad_sources/library-repos/kicad-library/modules/packages3d/Sockets_DIP.3dshapes/DIP-14__300.wrl
+      (at (xyz 0.1496062992125984 -0.3031496062992126 0.03937007874015748))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module Housings_DIP:DIP-14_W7.62mm_Socket_LongPads (layer F.Cu) (tedit 586281B4) (tstamp 5894A7B0)
@@ -1132,6 +1142,11 @@
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model /home/felipe/kicad_sources/library-repos/kicad-library/modules/packages3d/Sockets_DIP.3dshapes/DIP-14__300.wrl
+      (at (xyz 0.1496062992125984 -0.3031496062992126 0.03937007874015748))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
     )
   )
 
@@ -1331,6 +1346,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model /home/felipe/kicad_sources/library-repos/kicad-library/modules/packages3d/Sockets_DIP.3dshapes/DIP-14__300.wrl
+      (at (xyz 0.1496062992125984 -0.3031496062992126 0.03937007874015748))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module Housings_DIP:DIP-14_W7.62mm_Socket_LongPads (layer F.Cu) (tedit 586281B4) (tstamp 5894A854)
@@ -1396,9 +1416,14 @@
     (pad 14 thru_hole oval (at 7.62 0 90) (size 2.4 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 11 VCC))
     (model Housings_DIP.3dshapes/DIP-14_W7.62mm_Socket_LongPads.wrl
-      (at (xyz 0 0 0))
+      (at (xyz 0.1496062992125984 -0.3031496062992126 0.03937007874015748))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 90))
+    )
+    (model /home/felipe/kicad_sources/library-repos/kicad-library/modules/packages3d/Sockets_DIP.3dshapes/DIP-14__300.wrl
+      (at (xyz 0.1496062992125984 -0.3031496062992126 0.03937007874015748))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
     )
   )
 
@@ -1469,6 +1494,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model /home/felipe/kicad_sources/library-repos/kicad-library/modules/packages3d/Sockets_DIP.3dshapes/DIP-14__300.wrl
+      (at (xyz 0.1496062992125984 -0.3031496062992126 0.03937007874015748))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module Housings_DIP:DIP-14_W7.62mm_Socket_LongPads (layer F.Cu) (tedit 586281B4) (tstamp 5894A8A6)
@@ -1531,9 +1561,14 @@
     (pad 14 thru_hole oval (at 7.62 0 90) (size 2.4 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 11 VCC))
     (model Housings_DIP.3dshapes/DIP-14_W7.62mm_Socket_LongPads.wrl
-      (at (xyz 0 0 0))
+      (at (xyz 0.1496062992125984 -0.3031496062992126 0.03937007874015748))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 90))
+    )
+    (model /home/felipe/kicad_sources/library-repos/kicad-library/modules/packages3d/Sockets_DIP.3dshapes/DIP-14__300.wrl
+      (at (xyz 0.1496062992125984 -0.3031496062992126 0.03937007874015748))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
     )
   )
 
@@ -1604,6 +1639,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model /home/felipe/kicad_sources/library-repos/kicad-library/modules/packages3d/Sockets_DIP.3dshapes/DIP-14__300.wrl
+      (at (xyz 0.1496062992125984 -0.3031496062992126 0.03937007874015748))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module Housings_DIP:DIP-14_W7.62mm_Socket_LongPads (layer F.Cu) (tedit 586281B4) (tstamp 5894A8F8)
@@ -1673,6 +1713,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model /home/felipe/kicad_sources/library-repos/kicad-library/modules/packages3d/Sockets_DIP.3dshapes/DIP-14__300.wrl
+      (at (xyz 0.1496062992125984 -0.3031496062992126 0.03937007874015748))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module Housings_DIP:DIP-14_W7.62mm_Socket_LongPads (layer F.Cu) (tedit 586281B4) (tstamp 5894A921)
@@ -1741,6 +1786,11 @@
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model /home/felipe/kicad_sources/library-repos/kicad-library/modules/packages3d/Sockets_DIP.3dshapes/DIP-14__300.wrl
+      (at (xyz 0.1496062992125984 -0.3031496062992126 0.03937007874015748))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
     )
   )
 
