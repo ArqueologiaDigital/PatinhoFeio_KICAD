@@ -1,9 +1,44 @@
-EESchema Schematic File Version 4
-EELAYER 26 0
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:7451
+LIBS:7454
+LIBS:7460
+LIBS:conn_35x2
+LIBS:patinhofeio-cache
+EELAYER 25 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 1 1
+Sheet 16 17
 Title ""
 Date "2 aug 2016"
 Rev ""
@@ -13,6 +48,17 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L CONN_35X2 CONECTOR_P2
+U 1 1 587C16C6
+P 2200 2550
+F 0 "CONECTOR_P2" H 2200 4472 60  0000 C CNN
+F 1 "CONN_35X2" H 2200 4374 50  0000 C CNN
+F 2 "" H 2200 2800 60  0000 C CNN
+F 3 "" H 2200 2800 60  0000 C CNN
+	1    2200 2550
+	1    0    0    -1  
+$EndComp
 Text GLabel 3500 4050 2    60   Output ~ 0
 ?
 Wire Wire Line
@@ -293,15 +339,4 @@ Text GLabel 3500 4250 2    60   Output ~ 0
 ?
 Wire Wire Line
 	3500 4250 2600 4250
-$Comp
-L conn_35x2:CONN_35X2 P?
-U 1 1 5C7BF3E5
-P 2200 2550
-F 0 "P?" H 2200 4472 60  0000 C CNN
-F 1 "CONN_35X2" H 2200 4374 50  0000 C CNN
-F 2 "" H 2200 2800 60  0000 C CNN
-F 3 "" H 2200 2800 60  0000 C CNN
-	1    2200 2550
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC
