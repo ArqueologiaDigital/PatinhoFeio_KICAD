@@ -1,3 +1,6 @@
+Para o desenvolvimento desse projeto estou utilizando o Kicad compilado a partir do git de 15/FEV/2018.
+----
+
 Existe um arquivo patinhofeio.pro na raiz desse repo, mas, se não me falha a memória, passei a usar arquivos de projeto individuais para cada placa dentro dos subdiretórios.
 
 Originalmente a idéia era ter um único projeto gerando um PDF completo dos esquemáticos. Mas isso atrapalhou um pouco o processo de geração das PCBs individuais, o que me levou a separar os esquemáticos em diversos projetos.
