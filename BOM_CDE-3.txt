@@ -1,0 +1,22 @@
+ 1 7400
+ 7 7402
+ 6 7404
+ 5 7410
+ 1 7413
+ 1 7430
+21 capacitores cerâmicos 0.1uF
+21 soquete DIP14
+ 2 barra de pinos 90 graus 35x2 macho
+ 2 conector 90 graus 35x2 fêmea
+ 2 barra de pinos 16x2 macho
+16 jumpers
+60 leds vermelhos 3mm
+ 9 Redes resistivas 9 pinos 330ohms
+ 9 Redes resistivas 9 pinos 470ohms
+ 9 Redes resistivas 9 pinos 1k
+ 9 Redes resistivas 9 pinos 10k
+ 20 resitores 330ohms
+ 20 resitores 470ohms
+ 20 resitores 1k
+ 20 resitores 10k
+
