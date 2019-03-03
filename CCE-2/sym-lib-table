@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name CCE-2-rescue)(type Legacy)(uri ${KIPRJMOD}/CCE-2-rescue.lib)(options "")(descr ""))
+)
