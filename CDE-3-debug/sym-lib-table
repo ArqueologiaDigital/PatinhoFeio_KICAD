@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name CDE-3-debug-rescue)(type Legacy)(uri ${KIPRJMOD}/CDE-3-debug-rescue.lib)(options "")(descr ""))
+)
