@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name conn_35x2)(type Legacy)(uri /home/felipe/devel/github_ArqueologiaDigital/PatinhoFeio_KICAD/libs/conn_35x2.lib)(options "")(descr ""))
+  (lib (name "conn_35x2")(type "Legacy")(uri "/home/felipe/devel/github_ArqueologiaDigital/PatinhoFeio_KICAD/libs/conn_35x2.lib")(options "")(descr ""))
+  (lib (name "FAC-5-rescue")(type "Legacy")(uri "${KIPRJMOD}/FAC-5-rescue.lib")(options "")(descr ""))
 )
