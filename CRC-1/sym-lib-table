@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name CRC-1-rescue)(type Legacy)(uri ${KIPRJMOD}/CRC-1-rescue.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "CRC-1-rescue")(type "KiCad")(uri "${KIPRJMOD}/CRC-1-rescue.kicad_sym")(options "")(descr ""))
 )

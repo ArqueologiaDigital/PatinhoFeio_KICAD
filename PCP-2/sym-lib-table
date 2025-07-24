@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name PCP-2-rescue)(type Legacy)(uri ${KIPRJMOD}/PCP-2-rescue.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "PCP-2-rescue")(type "KiCad")(uri "${KIPRJMOD}/PCP-2-rescue.kicad_sym")(options "")(descr ""))
 )

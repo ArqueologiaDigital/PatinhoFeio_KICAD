@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name CCE-2-rescue)(type Legacy)(uri ${KIPRJMOD}/CCE-2-rescue.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "CCE-2-rescue")(type "KiCad")(uri "${KIPRJMOD}/CCE-2-rescue.kicad_sym")(options "")(descr ""))
 )

@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name CT2-5-rescue)(type Legacy)(uri ${KIPRJMOD}/CT2-5-rescue.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "CT2-5-rescue")(type "KiCad")(uri "${KIPRJMOD}/CT2-5-rescue.kicad_sym")(options "")(descr ""))
 )

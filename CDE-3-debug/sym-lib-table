@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name CDE-3-debug-rescue)(type Legacy)(uri ${KIPRJMOD}/CDE-3-debug-rescue.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "CDE-3-debug-rescue")(type "KiCad")(uri "${KIPRJMOD}/CDE-3-debug-rescue.kicad_sym")(options "")(descr ""))
 )

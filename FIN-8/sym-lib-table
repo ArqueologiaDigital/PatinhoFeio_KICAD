@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name FIN-8-rescue)(type Legacy)(uri ${KIPRJMOD}/FIN-8-rescue.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "FIN-8-rescue")(type "KiCad")(uri "${KIPRJMOD}/FIN-8-rescue.kicad_sym")(options "")(descr ""))
 )

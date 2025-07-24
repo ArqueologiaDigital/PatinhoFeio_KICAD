@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name FCM-7-rescue)(type Legacy)(uri ${KIPRJMOD}/FCM-7-rescue.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "FCM-7-rescue")(type "KiCad")(uri "${KIPRJMOD}/FCM-7-rescue.kicad_sym")(options "")(descr ""))
 )
