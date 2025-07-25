@@ -3701,12 +3701,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "P?")
+					(unit 1)
+				)
+			)
 		)
 	)
-	(sheet_instances
-		(path "/"
-			(page "1")
-		)
-	)
-	(embedded_fonts no)
 )

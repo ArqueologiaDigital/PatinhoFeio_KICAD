@@ -3696,6 +3696,12 @@
 		)
 		(instances
 			(project ""
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/c4fc9564-1c4f-4175-9e51-1a074c56e995"
+					(reference "P?")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/e5add45f-df40-4ef0-8454-0b29bfe8f155"
 					(reference "P?")
 					(unit 1)
@@ -3703,10 +3709,4 @@
 			)
 		)
 	)
-	(sheet_instances
-		(path "/"
-			(page "1")
-		)
-	)
-	(embedded_fonts no)
 )

@@ -1,0 +1,1200 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "aca06203-542d-4682-a7e3-8839e24cce95")
+	(paper "A4")
+	(title_block
+		(title "PRANCHA XVI")
+		(date "2 aug 2016")
+		(company "EPUSP LSD")
+		(comment 1 "Computador de Controle - Patinho Feio")
+		(comment 2 "Sinais de Controle")
+		(comment 3 "Projeto: Edson Fregni")
+		(comment 4 "Re-desenho: Felipe Sanches")
+	)
+	(lib_symbols)
+	(text "TO-DO!"
+		(exclude_from_sim no)
+		(at 50.8 118.11 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "02f9842f-c4f2-4076-8c55-9e5166206ffb")
+	)
+	(text "OK"
+		(exclude_from_sim no)
+		(at 171.45 100.33 0)
+		(effects
+			(font
+				(size 2.9972 2.9972)
+			)
+			(justify left bottom)
+		)
+		(uuid "02fb71cd-3aa9-4afd-b0ec-51de0ad0e515")
+	)
+	(text "Placa:\n* CT3-6"
+		(exclude_from_sim no)
+		(at 186.69 116.84 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "03242d76-2fe4-449b-877e-cbfa111290f6")
+	)
+	(text "Placa:\n* CCE-2"
+		(exclude_from_sim no)
+		(at 186.69 67.31 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d546ddc-2218-47f0-964a-a2aa7ef9e9b3")
+	)
+	(text "Placa:\n* FCM-7 (interface com memória)"
+		(exclude_from_sim no)
+		(at 66.04 102.87 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "1420ce22-a6cd-41cf-ba67-6e9ce6d3936d")
+	)
+	(text "Placa:\n* CDE-3"
+		(exclude_from_sim no)
+		(at 186.69 50.8 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "174df2fa-9a98-4e5c-a9bd-70617eab7144")
+	)
+	(text "OK"
+		(exclude_from_sim no)
+		(at 52.07 83.82 0)
+		(effects
+			(font
+				(size 2.9972 2.9972)
+			)
+			(justify left bottom)
+		)
+		(uuid "377b8627-86bc-4baa-ad2f-4a6db254a90e")
+	)
+	(text "Placa:\n* FM1-6 (mais-um e porta de seleção 6)"
+		(exclude_from_sim no)
+		(at 66.04 86.36 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "38369662-5ebc-4646-8b52-5cb95fbbad88")
+	)
+	(text "OK"
+		(exclude_from_sim no)
+		(at 171.45 34.29 0)
+		(effects
+			(font
+				(size 2.9972 2.9972)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c3ca775-feb0-49bf-abf8-9cd60fa1a5e0")
+	)
+	(text "OK"
+		(exclude_from_sim no)
+		(at 171.45 133.35 0)
+		(effects
+			(font
+				(size 2.9972 2.9972)
+			)
+			(justify left bottom)
+		)
+		(uuid "3dd1c21c-db7b-4415-8c07-70e607e26d02")
+	)
+	(text "Placa de acumulador:\n* FAC-5"
+		(exclude_from_sim no)
+		(at 66.04 69.85 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e018340-a915-4ce4-9040-898bd56aed2f")
+	)
+	(text "Placa:\n* CT4-7"
+		(exclude_from_sim no)
+		(at 186.69 134.62 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "50d259ed-4e10-4d50-9b3c-aaa18b0258ad")
+	)
+	(text "Placa:\n* CT2-5"
+		(exclude_from_sim no)
+		(at 186.69 100.33 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "65685c12-702a-409b-9ad5-9b182195606b")
+	)
+	(text "OK"
+		(exclude_from_sim no)
+		(at 171.45 50.8 0)
+		(effects
+			(font
+				(size 2.9972 2.9972)
+			)
+			(justify left bottom)
+		)
+		(uuid "73d4305b-4836-4a5a-a6a7-5ab79ccd7420")
+	)
+	(text "TO-DO!"
+		(exclude_from_sim no)
+		(at 50.8 175.26 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "7cd9588d-bcc3-4f24-9d23-4f8dc11cb4db")
+	)
+	(text "UNIDADE DE CONTROLE"
+		(exclude_from_sim no)
+		(at 259.08 151.13 90)
+		(effects
+			(font
+				(size 7.0104 7.0104)
+			)
+			(justify left bottom)
+		)
+		(uuid "7de51bc8-ac34-4e55-8e61-697a240bd742")
+	)
+	(text "Placa:\n* PCP-2 (\"debounce\" para chaves\ne drivers para lâmpadas piloto)"
+		(exclude_from_sim no)
+		(at 66.04 179.07 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "8327e8c0-89b5-4840-8fdb-35d3061d6b08")
+	)
+	(text "Placas de registradores:\n* FR1-1 (bits pares)\n* FR2-2 (bits ímpares)"
+		(exclude_from_sim no)
+		(at 66.04 38.1 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "8480af54-05ca-4093-b666-9381492dc26c")
+	)
+	(text "OK"
+		(exclude_from_sim no)
+		(at 171.45 149.86 0)
+		(effects
+			(font
+				(size 2.9972 2.9972)
+			)
+			(justify left bottom)
+		)
+		(uuid "86740ab2-a903-49a3-8318-822e6ab6cdcf")
+	)
+	(text "Placa:\n* CRC-1"
+		(exclude_from_sim no)
+		(at 186.69 34.29 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "86f38927-9483-4e45-be7c-fa20bd2af4b5")
+	)
+	(text "OK"
+		(exclude_from_sim no)
+		(at 171.45 116.84 0)
+		(effects
+			(font
+				(size 2.9972 2.9972)
+			)
+			(justify left bottom)
+		)
+		(uuid "8807e3eb-7cde-4305-93ec-c388214cb329")
+	)
+	(text "TO-DO!"
+		(exclude_from_sim no)
+		(at 50.8 53.34 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "949285cf-09fe-4af1-8922-b118375ca574")
+	)
+	(text "TO-DO!"
+		(exclude_from_sim no)
+		(at 170.18 82.55 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "9804dfb6-cb02-4207-b7a9-8700af7d0215")
+	)
+	(text "Placas de somador:\n* FS1-3 (bits menos significativos)\n* FS2-4 (bits mais significativos)"
+		(exclude_from_sim no)
+		(at 66.04 54.61 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "982a0bb1-38fd-4d4c-8864-e9512d20077f")
+	)
+	(text "Placa:\n* CT5-8"
+		(exclude_from_sim no)
+		(at 186.69 149.86 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "990fe016-61e9-4eee-adc4-5ee768ed799f")
+	)
+	(text "Placa:\n* CT1-4"
+		(exclude_from_sim no)
+		(at 186.69 83.82 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "a081eda0-91a1-4617-b8a5-49477c86d311")
+	)
+	(text "FLUXO DE DADOS"
+		(exclude_from_sim no)
+		(at 139.7 121.92 90)
+		(effects
+			(font
+				(size 7.0104 7.0104)
+			)
+			(justify left bottom)
+		)
+		(uuid "aff29583-5e4c-47ef-a378-e48f4a97986c")
+	)
+	(text "TO-DO!"
+		(exclude_from_sim no)
+		(at 50.8 69.85 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "b599061e-08e9-4f0c-90bf-e10db7e325f4")
+	)
+	(text "PAINEL"
+		(exclude_from_sim no)
+		(at 139.7 182.88 90)
+		(effects
+			(font
+				(size 5.9944 5.9944)
+			)
+			(justify left bottom)
+		)
+		(uuid "b93d2fb9-a2ae-484b-8c39-0daa6ba6aee6")
+	)
+	(text "W.I.P."
+		(exclude_from_sim no)
+		(at 168.91 66.04 0)
+		(effects
+			(font
+				(size 2.9972 2.9972)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb473f72-b748-48e9-94da-309a8c30416e")
+	)
+	(text "Placa:\n* PMR-1 (drivers para os LED's)"
+		(exclude_from_sim no)
+		(at 66.04 161.29 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "cfe5838d-5909-4c06-8224-0847c4683d3a")
+	)
+	(text "TO-DO!"
+		(exclude_from_sim no)
+		(at 50.8 160.02 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "d5a432d3-1e76-427c-bd1e-f53936b0426f")
+	)
+	(text "OK"
+		(exclude_from_sim no)
+		(at 52.07 101.6 0)
+		(effects
+			(font
+				(size 2.9972 2.9972)
+			)
+			(justify left bottom)
+		)
+		(uuid "dcf501e6-2ab6-4135-ab96-d8ce7985074a")
+	)
+	(text "Placa:\n* FIN-8 (sinais para cartões de interface)"
+		(exclude_from_sim no)
+		(at 66.04 120.65 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "dfc7fdcf-9e75-44b9-bef2-0b592a2ea0c6")
+	)
+	(text "TO-DO!"
+		(exclude_from_sim no)
+		(at 50.8 36.83 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "ec3d8ed6-c550-4293-88ff-5525de01b635")
+	)
+	(polyline
+		(pts
+			(xy 48.26 189.23) (xy 144.78 189.23)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "15f06683-5875-4299-a03a-b6622d6582d6")
+	)
+	(polyline
+		(pts
+			(xy 168.91 20.32) (xy 264.16 20.32)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "3b048c89-dd96-48f4-92ac-31fe40276043")
+	)
+	(polyline
+		(pts
+			(xy 48.26 189.23) (xy 48.26 143.51)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "43377b77-9a8c-4254-a733-ce22ae7422cd")
+	)
+	(polyline
+		(pts
+			(xy 144.78 143.51) (xy 144.78 189.23)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "586454f4-33e5-45d3-8aeb-0813fc5330e9")
+	)
+	(polyline
+		(pts
+			(xy 144.78 133.35) (xy 48.26 133.35)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "5ca7742a-a24f-4e3a-b776-dadc5d9f3ee7")
+	)
+	(polyline
+		(pts
+			(xy 48.26 20.32) (xy 144.78 20.32)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "5f9dd845-e784-4561-ae6e-734fd02d6ad0")
+	)
+	(polyline
+		(pts
+			(xy 264.16 20.32) (xy 264.16 160.02)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "8ef68897-a2dd-4fff-841a-6d5b222c35ae")
+	)
+	(polyline
+		(pts
+			(xy 168.91 160.02) (xy 168.91 20.32)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "9783cd03-1c22-4801-8faf-4a9455d21783")
+	)
+	(polyline
+		(pts
+			(xy 48.26 143.51) (xy 144.78 143.51)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "aedab973-c8cf-44f1-8ec5-8d93c4b35e68")
+	)
+	(polyline
+		(pts
+			(xy 48.26 133.35) (xy 48.26 20.32)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "b92bde4a-8091-4373-8ef1-f52c5156f229")
+	)
+	(polyline
+		(pts
+			(xy 144.78 20.32) (xy 144.78 133.35)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "f6448da6-0db5-4d5a-b7c8-c2d12aa171b8")
+	)
+	(polyline
+		(pts
+			(xy 264.16 160.02) (xy 168.91 160.02)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "fa84f9d9-6b1d-4b79-b48c-57bc47439810")
+	)
+	(sheet
+		(at 181.61 142.24)
+		(size 64.77 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-0000576c167d")
+		(property "Sheetname" "PRANCHA XVI: SINAIS DE CONTROLE"
+			(at 181.61 141.5284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CT5-8/CT5-8.kicad_sch"
+			(at 181.61 154.2546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 62.23 95.25)
+		(size 64.77 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0409f498-34cc-479f-b031-007216005e3f")
+		(property "Sheetname" "PRANCHA V: PLACA CONTROLE DA MEMÓRIA"
+			(at 62.23 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FCM-7/FCM-7.kicad_sch"
+			(at 62.23 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 62.23 170.18)
+		(size 64.77 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "053788d3-9bb3-44f4-9df2-cd47e5e806b1")
+		(property "Sheetname" "PRANCHA VIII: PLACA CHAVES E PILOTO"
+			(at 62.23 169.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PCP-2/PCP-2.kicad_sch"
+			(at 62.23 182.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 181.61 92.71)
+		(size 64.77 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0ff63b6e-fe66-4362-b658-b472d3c61499")
+		(property "Sheetname" "PRANCHA XIII: PLACA SINAIS CONTROLE"
+			(at 181.61 91.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CT2-5/CT2-5.kicad_sch"
+			(at 181.61 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 181.61 125.73)
+		(size 64.77 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "20195246-952b-457f-8d3f-2119f4e5893d")
+		(property "Sheetname" "PRANCHA XV: SINAIS DE CONTROLE"
+			(at 181.61 125.0184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CT4-7/CT4-7.kicad_sch"
+			(at 181.61 139.0146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 62.23 78.74)
+		(size 64.77 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4f0a3916-76cc-4860-a813-760a2721157d")
+		(property "Sheetname" "PRANCHA IV: FLUXO DE DADOS"
+			(at 62.23 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FM1-6/FM1-6.kicad_sch"
+			(at 62.23 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 62.23 45.72)
+		(size 64.77 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "513c6191-fb8d-4702-a239-0db81c50d326")
+		(property "Sheetname" "PRANCHA II: CIRCUITO - UNIDADE ARITMÉTICA"
+			(at 62.23 45.0084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FS1-3/FS1-3.kicad_sch"
+			(at 62.23 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 181.61 76.2)
+		(size 64.77 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "58050eef-51bb-485d-b6f6-c260fc96a7e7")
+		(property "Sheetname" "PRANCHA XII: PLACA CONTROLE 1"
+			(at 181.61 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CT1-4/CT1-4.kicad_sch"
+			(at 181.61 88.2146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 181.61 43.18)
+		(size 64.77 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "66c98193-5e9c-4ee0-b18c-21adfe296f8d")
+		(property "Sheetname" "PRANCHA X: DECODIFICADOR"
+			(at 181.61 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CDE-3/CDE-3.kicad_sch"
+			(at 181.61 55.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 181.61 109.22)
+		(size 64.77 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "82a6b9a1-e2c2-43c3-8b89-cab4531715ee")
+		(property "Sheetname" "PRANCHA XIV: PLACA DE CONTROLE"
+			(at 181.61 108.5084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CT3-6/CT3-6.kicad_sch"
+			(at 181.61 121.2346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 62.23 111.76)
+		(size 64.77 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8431fe73-c409-4911-974c-c727a5dc461e")
+		(property "Sheetname" "PRANCHA VI: DADOS PARA CARTÕES INTERFACE"
+			(at 62.23 111.0484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FIN-8/FIN-8.kicad_sch"
+			(at 62.23 125.0446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 181.61 26.67)
+		(size 64.77 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "953025c0-c249-406a-b635-15d71cc54afc")
+		(property "Sheetname" "PRANCHA IX: RELÓGIO CENTRAL"
+			(at 181.61 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CRC-1/CRC-1.kicad_sch"
+			(at 181.61 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 62.23 153.67)
+		(size 64.77 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a4f4823c-2ff3-41ac-bc83-eeeb03b1c1d2")
+		(property "Sheetname" "PRANCHA VII: PLACA MOSTRA REGISTRADORES"
+			(at 62.23 152.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PMR-1/PMR-1.kicad_sch"
+			(at 62.23 165.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 62.23 29.21)
+		(size 64.77 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b383f260-e697-4084-9247-6984c2eebf73")
+		(property "Sheetname" "PRANCHA I: PLACA DOS REGISTRADORES"
+			(at 62.23 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FR1-1/FR1-1.kicad_sch"
+			(at 62.23 41.2246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 181.61 59.69)
+		(size 64.77 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bba15d3c-50cc-4e33-8f05-e25d292c5848")
+		(property "Sheetname" "PRANCHA XI: CONTROLE DE ESTADO"
+			(at 181.61 58.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CCE-2/CCE-2.kicad_sch"
+			(at 181.61 71.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 62.23 62.23)
+		(size 64.77 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c4fc9564-1c4f-4175-9e51-1a074c56e995")
+		(property "Sheetname" "PRANCHA III: ACUMULADOR"
+			(at 62.23 61.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FAC-5/FAC-5.kicad_sch"
+			(at 62.23 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
