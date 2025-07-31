@@ -5364,6 +5364,12 @@
 		(uuid "9764a3b3-f028-4b9f-b000-deb1ea3853be")
 	)
 	(junction
+		(at 289.56 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "987bac4f-f116-478d-ba41-70c532f81baa")
+	)
+	(junction
 		(at 289.56 445.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5652,12 +5658,6 @@
 		(uuid "eb97294a-14ea-4b94-a590-b4aec43821af")
 	)
 	(junction
-		(at 289.56 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ebd977cc-b0ff-4e00-8996-1e102068ef48")
-	)
-	(junction
 		(at 402.59 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5710,6 +5710,14 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "faf7996a-1b3f-40cf-b884-4ba9db4b41de")
+	)
+	(no_connect
+		(at 292.1 109.22)
+		(uuid "17d6716f-c886-42be-9d85-a200b37926e1")
+	)
+	(no_connect
+		(at 292.1 96.52)
+		(uuid "18521a00-89d3-4395-ae34-e32aa548c934")
 	)
 	(wire
 		(pts
@@ -6020,16 +6028,6 @@
 			(type default)
 		)
 		(uuid "0fe40a6f-debd-4cb9-b608-5d20ff38e48f")
-	)
-	(wire
-		(pts
-			(xy 289.56 109.22) (xy 292.1 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1000344a-94d7-4211-800a-bbb46a315ef1")
 	)
 	(wire
 		(pts
@@ -7563,6 +7561,16 @@
 	)
 	(wire
 		(pts
+			(xy 289.56 106.68) (xy 292.1 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47ee57fb-219e-4012-bb34-ec3d610c3884")
+	)
+	(wire
+		(pts
 			(xy 449.58 292.1) (xy 455.93 292.1)
 		)
 		(stroke
@@ -8113,7 +8121,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 78.74) (xy 289.56 109.22)
+			(xy 289.56 78.74) (xy 289.56 106.68)
 		)
 		(stroke
 			(width 0)
@@ -9423,7 +9431,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 109.22) (xy 289.56 119.38)
+			(xy 289.56 106.68) (xy 289.56 119.38)
 		)
 		(stroke
 			(width 0)
@@ -15609,18 +15617,24 @@
 					(unit 1)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "P?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74AHC04")
 		(at 436.88 267.97 0)
-		(unit 4)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "00224fea-2787-4d5b-b086-f8d66f0e4fdc")
-		(property "Reference" "U41"
+		(property "Reference" "U?"
 			(at 441.96 270.51 0)
 			(effects
 				(font
@@ -15711,18 +15725,24 @@
 					(unit 4)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74HC00")
 		(at 374.65 374.65 0)
-		(unit 4)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "03b0caae-719f-447d-9c02-12e26adb9603")
-		(property "Reference" "U14"
+		(property "Reference" "U?"
 			(at 381 377.19 0)
 			(effects
 				(font
@@ -15813,19 +15833,25 @@
 					(unit 4)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74LS51")
 		(at 304.8 387.35 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "060c835c-e932-46b4-96da-3fea99c53b5a")
-		(property "Reference" "U6"
+		(property "Reference" "U?"
 			(at 304.8 374.65 0)
 			(effects
 				(font
@@ -15916,18 +15942,24 @@
 					(unit 2)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74LS51")
 		(at 379.73 335.28 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "0720747f-23fe-492e-9648-06d7fbb75301")
-		(property "Reference" "U27"
+		(property "Reference" "U?"
 			(at 383.54 327.66 0)
 			(effects
 				(font
@@ -16018,18 +16050,24 @@
 					(unit 2)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74LS51")
 		(at 378.46 222.25 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "07af799f-e08f-4be1-842e-9518097079dc")
-		(property "Reference" "U44"
+		(property "Reference" "U?"
 			(at 378.46 209.55 0)
 			(effects
 				(font
@@ -16120,18 +16158,24 @@
 					(unit 2)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74HC00")
 		(at 374.65 149.86 0)
-		(unit 4)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "09cc5a8d-3e6f-4de3-9f75-a8b8ba16ac18")
-		(property "Reference" "U43"
+		(property "Reference" "U?"
 			(at 381 152.4 0)
 			(effects
 				(font
@@ -16222,6 +16266,12 @@
 					(unit 4)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -16234,7 +16284,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0cd08b70-8c20-44eb-8114-897f8e2cef72")
-		(property "Reference" "U1"
+		(property "Reference" "U?"
 			(at 299.7581 505.46 0)
 			(effects
 				(font
@@ -16316,18 +16366,24 @@
 					(unit 1)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74LS51")
 		(at 467.36 478.79 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "0e498129-e3d7-4755-8889-3a437a3f874a")
-		(property "Reference" "U20"
+		(property "Reference" "U?"
 			(at 471.17 471.17 0)
 			(effects
 				(font
@@ -16418,18 +16474,24 @@
 					(unit 2)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74HC02")
 		(at 373.38 519.43 0)
-		(unit 3)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "10d701f1-a9ef-4dd4-8158-f5ef7e916b77")
-		(property "Reference" "U11"
+		(property "Reference" "U?"
 			(at 381 514.35 0)
 			(effects
 				(font
@@ -16520,18 +16582,24 @@
 					(unit 3)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74HC00")
 		(at 462.28 194.31 0)
-		(unit 3)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "135d6226-9229-45cb-85ce-43824c5f82cb")
-		(property "Reference" "U43"
+		(property "Reference" "U?"
 			(at 471.17 195.58 0)
 			(effects
 				(font
@@ -16622,18 +16690,24 @@
 					(unit 3)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74AHC04")
 		(at 438.15 462.28 0)
-		(unit 5)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "18c6ea34-c2e7-42dc-bb64-fdba9462bf7e")
-		(property "Reference" "U18"
+		(property "Reference" "U?"
 			(at 441.96 464.82 0)
 			(effects
 				(font
@@ -16724,18 +16798,24 @@
 					(unit 5)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74AHC04")
 		(at 351.79 270.51 0)
-		(unit 4)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "1d4184c4-5759-4f25-9f85-7c054541c117")
-		(property "Reference" "U40"
+		(property "Reference" "U?"
 			(at 356.87 265.43 0)
 			(effects
 				(font
@@ -16826,18 +16906,24 @@
 					(unit 4)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74LS51")
 		(at 467.36 142.24 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "22c21ba4-0ec3-41fa-889f-7f0b955d7041")
-		(property "Reference" "U52"
+		(property "Reference" "U?"
 			(at 471.17 147.32 0)
 			(effects
 				(font
@@ -16928,18 +17014,24 @@
 					(unit 2)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74LS51")
 		(at 567.69 237.49 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "291eec3e-e978-4b4e-9b73-c406e78e5664")
-		(property "Reference" "U61"
+		(property "Reference" "U?"
 			(at 567.69 224.79 0)
 			(effects
 				(font
@@ -17030,18 +17122,24 @@
 					(unit 2)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74LS51")
 		(at 304.8 270.51 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "29202b09-8bfc-4a7e-bd7a-c38af74b83cf")
-		(property "Reference" "U39"
+		(property "Reference" "U?"
 			(at 328.93 257.81 0)
 			(effects
 				(font
@@ -17132,18 +17230,24 @@
 					(unit 2)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74LS51")
 		(at 567.69 279.4 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "29b69880-0609-4a6c-b6d2-29cea5094fe9")
-		(property "Reference" "U62"
+		(property "Reference" "U?"
 			(at 567.69 266.7 0)
 			(effects
 				(font
@@ -17234,6 +17338,12 @@
 					(unit 2)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -17244,10 +17354,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "30340326-3268-4c29-9acf-66182804c542")
-		(property "Reference" "U32"
-			(at 299.7581 111.76 0)
+		(property "Reference" "1B_P2"
+			(at 303.022 118.872 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17255,7 +17364,7 @@
 			)
 		)
 		(property "Value" "74LS54"
-			(at 299.7581 114.3 0)
+			(at 305.054 120.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17328,18 +17437,24 @@
 					(unit 1)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "1B_P2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74AHC04")
 		(at 439.42 115.57 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "31d92d7f-3c3a-4740-9c85-b54e6dbd238f")
-		(property "Reference" "U41"
+		(property "Reference" "U?"
 			(at 444.5 110.49 0)
 			(effects
 				(font
@@ -17430,18 +17545,24 @@
 					(unit 2)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74LS51")
 		(at 491.49 196.85 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "3235660a-ed3e-4d39-b172-0ed7a7f8dbc9")
-		(property "Reference" "U57"
+		(property "Reference" "U?"
 			(at 495.3 189.23 0)
 			(effects
 				(font
@@ -17532,6 +17653,12 @@
 					(unit 2)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -17544,7 +17671,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3478ec9e-eeab-45d4-9fd5-862b051cd3d9")
-		(property "Reference" "U35"
+		(property "Reference" "U?"
 			(at 299.7581 280.67 0)
 			(effects
 				(font
@@ -17626,18 +17753,24 @@
 					(unit 1)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74AHC04")
 		(at 353.06 445.77 0)
-		(unit 3)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "3af8efb0-1a41-49e9-9f56-960e3bdf2f81")
-		(property "Reference" "U9"
+		(property "Reference" "U?"
 			(at 358.14 440.69 0)
 			(effects
 				(font
@@ -17728,18 +17861,24 @@
 					(unit 3)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74LS51")
 		(at 467.36 367.03 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "3c37ed59-71f2-436b-8ca8-e85a271e918d")
-		(property "Reference" "U28"
+		(property "Reference" "U?"
 			(at 471.17 372.11 0)
 			(effects
 				(font
@@ -17830,18 +17969,24 @@
 					(unit 2)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74AHC04")
 		(at 439.42 125.73 0)
-		(unit 5)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "3e06c939-3930-43b1-9a08-e05a2ac366df")
-		(property "Reference" "U50"
+		(property "Reference" "U?"
 			(at 443.23 128.27 0)
 			(effects
 				(font
@@ -17932,18 +18077,24 @@
 					(unit 5)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74LS51")
 		(at 304.8 495.3 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "3f0194e8-6981-40b9-a934-a6268c1f1e71")
-		(property "Reference" "U2"
+		(property "Reference" "U?"
 			(at 328.93 482.6 0)
 			(effects
 				(font
@@ -18034,18 +18185,24 @@
 					(unit 2)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74LS51")
 		(at 467.36 254 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "3fd8afa7-7c7c-426a-a8a6-26549de91d25")
-		(property "Reference" "U55"
+		(property "Reference" "U?"
 			(at 471.17 246.38 0)
 			(effects
 				(font
@@ -18136,18 +18293,24 @@
 					(unit 2)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74LS51")
 		(at 567.69 504.19 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "403eb260-8f10-48cd-936a-caf262cffc5e")
-		(property "Reference" "U16"
+		(property "Reference" "U?"
 			(at 567.69 491.49 0)
 			(effects
 				(font
@@ -18238,18 +18401,24 @@
 					(unit 2)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74AHC04")
 		(at 438.15 394.97 0)
-		(unit 5)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "40f74298-5670-405d-8a94-755e9b93b4cc")
-		(property "Reference" "U22"
+		(property "Reference" "U?"
 			(at 443.23 397.51 0)
 			(effects
 				(font
@@ -18340,18 +18509,24 @@
 					(unit 5)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74LS51")
 		(at 467.36 229.87 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "41cc4e97-c477-4fec-9a1e-2de61445d732")
-		(property "Reference" "U54"
+		(property "Reference" "U?"
 			(at 471.17 222.25 0)
 			(effects
 				(font
@@ -18442,18 +18617,24 @@
 					(unit 2)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74LS51")
 		(at 491.49 421.64 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "43b37778-0a25-4b6e-b041-30fec0433b61")
-		(property "Reference" "U25"
+		(property "Reference" "U?"
 			(at 495.3 414.02 0)
 			(effects
 				(font
@@ -18544,18 +18725,24 @@
 					(unit 2)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74HC02")
 		(at 373.38 245.11 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "44751340-60c4-493e-82a0-120852d1a1bb")
-		(property "Reference" "U42"
+		(property "Reference" "U?"
 			(at 381 238.76 0)
 			(effects
 				(font
@@ -18646,18 +18833,24 @@
 					(unit 2)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74AHC04")
 		(at 353.06 213.36 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "46bc0b34-4c97-41a7-84af-b278037eab37")
-		(property "Reference" "U40"
+		(property "Reference" "U?"
 			(at 358.14 208.28 0)
 			(effects
 				(font
@@ -18748,18 +18941,24 @@
 					(unit 2)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74LS51")
 		(at 567.69 462.28 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "4e6530fd-cb3d-446e-8e5f-bb5c6371248a")
-		(property "Reference" "U21"
+		(property "Reference" "U?"
 			(at 567.69 449.58 0)
 			(effects
 				(font
@@ -18850,18 +19049,24 @@
 					(unit 2)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74LS51")
 		(at 567.69 179.07 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "509b09e9-baa1-49de-b174-200230670335")
-		(property "Reference" "U60"
+		(property "Reference" "U?"
 			(at 567.69 166.37 0)
 			(effects
 				(font
@@ -18952,18 +19157,24 @@
 					(unit 2)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74LS51")
 		(at 491.49 297.18 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "56de1a65-5627-4fed-b144-cc913a69f4b8")
-		(property "Reference" "U58"
+		(property "Reference" "U?"
 			(at 495.3 289.56 0)
 			(effects
 				(font
@@ -19054,18 +19265,24 @@
 					(unit 2)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74LS51")
 		(at 379.73 110.49 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "5b8682c4-c63c-429f-95d8-e684ca2145f1")
-		(property "Reference" "U46"
+		(property "Reference" "U?"
 			(at 383.54 102.87 0)
 			(effects
 				(font
@@ -19156,18 +19373,24 @@
 					(unit 2)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74AHC04")
 		(at 353.06 170.18 0)
-		(unit 6)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "5bfb46b9-ec9d-4779-890a-c935b08629e2")
-		(property "Reference" "U40"
+		(property "Reference" "U?"
 			(at 358.14 165.1 0)
 			(effects
 				(font
@@ -19258,18 +19481,24 @@
 					(unit 6)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74LS51")
 		(at 467.36 342.9 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "60e8a025-2ebc-4a18-a63c-051397a4c5bf")
-		(property "Reference" "U29"
+		(property "Reference" "U?"
 			(at 471.17 335.28 0)
 			(effects
 				(font
@@ -19360,6 +19589,12 @@
 					(unit 2)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -19372,7 +19607,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "633001ae-3a8b-4fd8-8c2d-98e6ee5cca3b")
-		(property "Reference" "U34"
+		(property "Reference" "U?"
 			(at 299.7581 223.52 0)
 			(effects
 				(font
@@ -19454,18 +19689,24 @@
 					(unit 1)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74AHC04")
 		(at 438.15 227.33 0)
-		(unit 4)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "6358be71-fc98-464b-a7e8-9c7be8cedcea")
-		(property "Reference" "U49"
+		(property "Reference" "U?"
 			(at 444.5 228.6 0)
 			(effects
 				(font
@@ -19556,18 +19797,24 @@
 					(unit 4)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74AHC04")
 		(at 438.15 170.18 0)
-		(unit 5)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "67e6e2ea-9292-41b2-8e48-09b028445bc5")
-		(property "Reference" "U48"
+		(property "Reference" "U?"
 			(at 443.23 172.72 0)
 			(effects
 				(font
@@ -19658,6 +19905,12 @@
 					(unit 5)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -19670,7 +19923,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69c5835a-a668-47a8-a9e2-6df02f9dcf23")
-		(property "Reference" "U33"
+		(property "Reference" "U?"
 			(at 299.7581 172.72 0)
 			(effects
 				(font
@@ -19752,19 +20005,25 @@
 					(unit 1)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74LS51")
 		(at 304.8 213.36 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a107066-cbcc-4d1c-b35e-8f72ca263f96")
-		(property "Reference" "U38"
+		(property "Reference" "U?"
 			(at 304.8 200.66 0)
 			(effects
 				(font
@@ -19855,18 +20114,24 @@
 					(unit 2)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74HC02")
 		(at 374.65 133.35 0)
-		(unit 4)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "6c2f197e-823c-44ce-9b93-e87cc6f7abf1")
-		(property "Reference" "U42"
+		(property "Reference" "U?"
 			(at 381 135.89 0)
 			(effects
 				(font
@@ -19957,18 +20222,24 @@
 					(unit 4)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74HC02")
 		(at 373.38 294.64 0)
-		(unit 3)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "6ca1a3b7-297b-46ec-b433-a08e772af341")
-		(property "Reference" "U42"
+		(property "Reference" "U?"
 			(at 381 289.56 0)
 			(effects
 				(font
@@ -20059,18 +20330,24 @@
 					(unit 3)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74LS51")
 		(at 378.46 279.4 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "6d931f8a-dc20-46ff-881a-fe0deb120524")
-		(property "Reference" "U45"
+		(property "Reference" "U?"
 			(at 382.27 271.78 0)
 			(effects
 				(font
@@ -20161,6 +20438,12 @@
 					(unit 2)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -20172,7 +20455,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6e44f4be-2b03-4dce-8c8b-d62790eb8723")
-		(property "Reference" "U41"
+		(property "Reference" "U?"
 			(at 358.14 95.25 0)
 			(effects
 				(font
@@ -20263,6 +20546,12 @@
 					(unit 1)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -20275,7 +20564,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f03eb34-193c-4793-b5c5-562c163d7aec")
-		(property "Reference" "U5"
+		(property "Reference" "U?"
 			(at 299.7581 397.51 0)
 			(effects
 				(font
@@ -20357,18 +20646,24 @@
 					(unit 1)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74AHC04")
 		(at 438.15 452.12 0)
-		(unit 4)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "6f36f10b-5a3a-46b7-b671-ce01911acfd9")
-		(property "Reference" "U18"
+		(property "Reference" "U?"
 			(at 444.5 453.39 0)
 			(effects
 				(font
@@ -20459,18 +20754,24 @@
 					(unit 4)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74HC00")
 		(at 462.28 419.1 0)
-		(unit 3)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "76ad56bd-5643-46df-9709-03cc00b994b5")
-		(property "Reference" "U14"
+		(property "Reference" "U?"
 			(at 471.17 420.37 0)
 			(effects
 				(font
@@ -20561,18 +20862,24 @@
 					(unit 3)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74LS51")
 		(at 565.15 350.52 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "7a9c1c1b-469a-4926-b0b7-89c4b1145f5b")
-		(property "Reference" "U31"
+		(property "Reference" "U?"
 			(at 565.15 337.82 0)
 			(effects
 				(font
@@ -20663,18 +20970,24 @@
 					(unit 2)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74LS51")
 		(at 378.46 504.19 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "82a607bd-3707-4614-bbc5-b85058ac5410")
-		(property "Reference" "U10"
+		(property "Reference" "U?"
 			(at 382.27 496.57 0)
 			(effects
 				(font
@@ -20765,18 +21078,24 @@
 					(unit 2)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74AHC04")
 		(at 351.79 502.92 0)
-		(unit 5)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "83b0e717-68fb-40e1-ab42-96738d745f7f")
-		(property "Reference" "U9"
+		(property "Reference" "U?"
 			(at 356.87 497.84 0)
 			(effects
 				(font
@@ -20867,18 +21186,24 @@
 					(unit 5)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74AHC04")
 		(at 438.15 162.56 0)
-		(unit 4)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "8448db91-f4c8-45e7-ab08-09e9f2e63f47")
-		(property "Reference" "U48"
+		(property "Reference" "U?"
 			(at 443.23 165.1 0)
 			(effects
 				(font
@@ -20969,6 +21294,12 @@
 					(unit 4)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -20980,7 +21311,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "88b23796-3129-46e5-8a25-902475ae1f46")
-		(property "Reference" "U12"
+		(property "Reference" "U?"
 			(at 358.14 320.04 0)
 			(effects
 				(font
@@ -21071,19 +21402,25 @@
 					(unit 1)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74LS51")
 		(at 304.8 438.15 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c6844e6-df26-4d5c-8b6f-bee16d52fd5e")
-		(property "Reference" "U4"
+		(property "Reference" "U?"
 			(at 304.8 425.45 0)
 			(effects
 				(font
@@ -21174,18 +21511,24 @@
 					(unit 2)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74AHC04")
 		(at 436.88 492.76 0)
-		(unit 4)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "9081100f-b09f-434d-9c68-3d9a0ab027c6")
-		(property "Reference" "U12"
+		(property "Reference" "U?"
 			(at 441.96 495.3 0)
 			(effects
 				(font
@@ -21276,18 +21619,24 @@
 					(unit 4)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74AHC04")
 		(at 351.79 278.13 0)
-		(unit 5)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "915fb288-aeab-4460-a28b-f049bfc4326d")
-		(property "Reference" "U40"
+		(property "Reference" "U?"
 			(at 356.87 273.05 0)
 			(effects
 				(font
@@ -21378,18 +21727,24 @@
 					(unit 5)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74LS51")
 		(at 467.36 501.65 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "92a24588-3b02-4487-ac51-1ff9ecbf48f7")
-		(property "Reference" "U13"
+		(property "Reference" "U?"
 			(at 471.17 494.03 0)
 			(effects
 				(font
@@ -21480,18 +21835,24 @@
 					(unit 2)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74AHC04")
 		(at 439.42 350.52 0)
-		(unit 5)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "9407de3f-afb4-439e-9c1f-3d3615f8aba3")
-		(property "Reference" "U30"
+		(property "Reference" "U?"
 			(at 443.23 353.06 0)
 			(effects
 				(font
@@ -21582,19 +21943,25 @@
 					(unit 5)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74LS51")
 		(at 304.8 162.56 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "974db2ca-958e-4c47-9543-b4b71371193a")
-		(property "Reference" "U37"
+		(property "Reference" "U?"
 			(at 304.8 149.86 0)
 			(effects
 				(font
@@ -21685,18 +22052,24 @@
 					(unit 2)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74LS51")
 		(at 467.36 118.11 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "995661bc-b7d5-4f04-bc47-cffdc328fa1b")
-		(property "Reference" "U51"
+		(property "Reference" "U?"
 			(at 471.17 110.49 0)
 			(effects
 				(font
@@ -21787,18 +22160,24 @@
 					(unit 2)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74AHC04")
 		(at 353.06 220.98 0)
-		(unit 3)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "9abdfa29-1ba9-40dc-9e37-cea265760325")
-		(property "Reference" "U40"
+		(property "Reference" "U?"
 			(at 358.14 215.9 0)
 			(effects
 				(font
@@ -21889,19 +22268,25 @@
 					(unit 3)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74LS51")
 		(at 304.8 101.6 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6306abc-1038-4a0a-8745-e82ac6449a89")
-		(property "Reference" "U36"
+		(property "Reference" "1A_P2"
 			(at 304.8 88.9 0)
 			(effects
 				(font
@@ -21992,18 +22377,24 @@
 					(unit 2)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "1A_P2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74HC00")
 		(at 373.38 486.41 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "a83d58b8-040c-4563-b895-7fc2ddc47795")
-		(property "Reference" "U14"
+		(property "Reference" "U?"
 			(at 381 481.33 0)
 			(effects
 				(font
@@ -22094,6 +22485,12 @@
 					(unit 2)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -22106,7 +22503,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba9f5a21-0ed1-416f-b6f8-edaa05ceaf9f")
-		(property "Reference" "U3"
+		(property "Reference" "U?"
 			(at 299.7581 448.31 0)
 			(effects
 				(font
@@ -22188,18 +22585,24 @@
 					(unit 1)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74AHC04")
 		(at 436.88 275.59 0)
-		(unit 5)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "c0853ec2-9072-4811-94cf-e7b03b2d8f39")
-		(property "Reference" "U41"
+		(property "Reference" "U?"
 			(at 441.96 278.13 0)
 			(effects
 				(font
@@ -22290,18 +22693,24 @@
 					(unit 5)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74LS51")
 		(at 491.49 521.97 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "c11f2a59-c8ac-4904-80f2-24fa00b1762e")
-		(property "Reference" "U15"
+		(property "Reference" "U?"
 			(at 495.3 514.35 0)
 			(effects
 				(font
@@ -22392,18 +22801,24 @@
 					(unit 2)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74LS51")
 		(at 379.73 396.24 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "c21e321e-1e93-4555-965d-ab6ce52a3894")
-		(property "Reference" "U23"
+		(property "Reference" "U?"
 			(at 383.54 388.62 0)
 			(effects
 				(font
@@ -22494,18 +22909,24 @@
 					(unit 2)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74LS51")
 		(at 467.36 454.66 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "c2ed5440-b2d5-41e8-9ff2-2eae350b2d43")
-		(property "Reference" "U19"
+		(property "Reference" "U?"
 			(at 471.17 447.04 0)
 			(effects
 				(font
@@ -22596,6 +23017,12 @@
 					(unit 2)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -22607,7 +23034,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c4f691b3-5108-400e-a485-24f1c7f45f6f")
-		(property "Reference" "U40"
+		(property "Reference" "U?"
 			(at 358.14 156.21 0)
 			(effects
 				(font
@@ -22698,18 +23125,24 @@
 					(unit 1)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74LS51")
 		(at 565.15 125.73 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "c50e35fd-a738-4b6c-93ee-c440df8b69e0")
-		(property "Reference" "U59"
+		(property "Reference" "U?"
 			(at 565.15 113.03 0)
 			(effects
 				(font
@@ -22800,18 +23233,24 @@
 					(unit 2)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74AHC04")
 		(at 438.15 387.35 0)
-		(unit 4)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "cd29dd5d-d35d-4701-8c74-d08070f66a3b")
-		(property "Reference" "U22"
+		(property "Reference" "U?"
 			(at 443.23 389.89 0)
 			(effects
 				(font
@@ -22902,18 +23341,24 @@
 					(unit 4)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74LS51")
 		(at 467.36 171.45 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "cd5a14db-a0bc-4251-b0cf-58bf77f05d03")
-		(property "Reference" "U53"
+		(property "Reference" "U?"
 			(at 471.17 163.83 0)
 			(effects
 				(font
@@ -23004,18 +23449,24 @@
 					(unit 2)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74LS51")
 		(at 379.73 171.45 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "d1339f72-e000-4c39-bfee-3e7b1039e597")
-		(property "Reference" "U47"
+		(property "Reference" "U?"
 			(at 383.54 163.83 0)
 			(effects
 				(font
@@ -23106,19 +23557,25 @@
 					(unit 2)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74LS51")
 		(at 304.8 326.39 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d65010ba-a0d9-4f12-b31a-338bfc8fdeb2")
-		(property "Reference" "U8"
+		(property "Reference" "U?"
 			(at 304.8 313.69 0)
 			(effects
 				(font
@@ -23209,6 +23666,12 @@
 					(unit 2)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -23220,7 +23683,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d6772b39-e24a-4f4d-9822-bea80e91d3c3")
-		(property "Reference" "U11"
+		(property "Reference" "U?"
 			(at 374.65 410.21 0)
 			(effects
 				(font
@@ -23311,18 +23774,24 @@
 					(unit 1)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74AHC04")
 		(at 353.06 109.22 0)
-		(unit 6)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "ddb22bd6-bba9-4752-8075-4e5434edae6b")
-		(property "Reference" "U41"
+		(property "Reference" "U?"
 			(at 358.14 104.14 0)
 			(effects
 				(font
@@ -23413,6 +23882,12 @@
 					(unit 6)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -23424,7 +23899,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e08b89e0-1697-43a9-bee0-f8e023843d6c")
-		(property "Reference" "U43"
+		(property "Reference" "U?"
 			(at 472.44 295.91 0)
 			(effects
 				(font
@@ -23515,18 +23990,24 @@
 					(unit 1)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74LS51")
 		(at 467.36 396.24 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "e2150bac-fae8-4230-9c91-df6cf2cbffd3")
-		(property "Reference" "U24"
+		(property "Reference" "U?"
 			(at 471.17 388.62 0)
 			(effects
 				(font
@@ -23617,6 +24098,12 @@
 					(unit 2)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -23628,7 +24115,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e247c185-caa5-489b-a2a3-3dfb608c9cce")
-		(property "Reference" "U42"
+		(property "Reference" "U?"
 			(at 374.65 185.42 0)
 			(effects
 				(font
@@ -23719,18 +24206,24 @@
 					(unit 1)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74AHC04")
 		(at 436.88 500.38 0)
-		(unit 5)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "e91e355e-cf5f-45fa-9f9e-0c9278d58392")
-		(property "Reference" "U12"
+		(property "Reference" "U?"
 			(at 441.96 502.92 0)
 			(effects
 				(font
@@ -23821,18 +24314,24 @@
 					(unit 5)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74AHC04")
 		(at 351.79 495.3 0)
-		(unit 4)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "e99182ce-19f7-462b-a97f-20875746134f")
-		(property "Reference" "U9"
+		(property "Reference" "U?"
 			(at 356.87 490.22 0)
 			(effects
 				(font
@@ -23923,18 +24422,24 @@
 					(unit 4)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74AHC04")
 		(at 438.15 237.49 0)
-		(unit 5)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "ec13eef9-0c18-4793-b875-ded50813dbf3")
-		(property "Reference" "U49"
+		(property "Reference" "U?"
 			(at 441.96 240.03 0)
 			(effects
 				(font
@@ -24025,18 +24530,24 @@
 					(unit 5)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74AHC04")
 		(at 353.06 334.01 0)
-		(unit 6)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "ed6bd622-b062-4d62-b3f6-f2ee0982b6e2")
-		(property "Reference" "U12"
+		(property "Reference" "U?"
 			(at 358.14 328.93 0)
 			(effects
 				(font
@@ -24127,6 +24638,12 @@
 					(unit 6)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -24139,7 +24656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee95cf17-5253-41f6-bdf4-4eb1bc64397b")
-		(property "Reference" "U7"
+		(property "Reference" "U?"
 			(at 299.7581 336.55 0)
 			(effects
 				(font
@@ -24221,18 +24738,24 @@
 					(unit 1)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74LS51")
 		(at 567.69 403.86 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "ef7d075e-03bc-4350-b9c3-6e62a262b4e4")
-		(property "Reference" "U26"
+		(property "Reference" "U?"
 			(at 567.69 391.16 0)
 			(effects
 				(font
@@ -24323,18 +24846,24 @@
 					(unit 2)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74LS51")
 		(at 378.46 447.04 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "efd3043f-8f09-47cc-88c9-66f564b963e7")
-		(property "Reference" "U17"
+		(property "Reference" "U?"
 			(at 378.46 434.34 0)
 			(effects
 				(font
@@ -24425,18 +24954,24 @@
 					(unit 2)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74HC00")
 		(at 373.38 261.62 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "f0c95f76-e64e-41c5-8b2d-0a726a95df70")
-		(property "Reference" "U43"
+		(property "Reference" "U?"
 			(at 381 256.54 0)
 			(effects
 				(font
@@ -24527,18 +25062,24 @@
 					(unit 2)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74AHC04")
 		(at 353.06 438.15 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "f215c3e1-0535-4a8d-a3e9-ca168779867f")
-		(property "Reference" "U9"
+		(property "Reference" "U?"
 			(at 358.14 433.07 0)
 			(effects
 				(font
@@ -24629,18 +25170,24 @@
 					(unit 2)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74HC02")
 		(at 373.38 469.9 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "f368e202-72ed-4b56-9642-a6c7963cffa3")
-		(property "Reference" "U11"
+		(property "Reference" "U?"
 			(at 381 463.55 0)
 			(effects
 				(font
@@ -24731,18 +25278,24 @@
 					(unit 2)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74LS51")
 		(at 467.36 276.86 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "f4c0c0d4-8d74-4537-aa54-b8b9c8a66660")
-		(property "Reference" "U56"
+		(property "Reference" "U?"
 			(at 471.17 269.24 0)
 			(effects
 				(font
@@ -24833,18 +25386,24 @@
 					(unit 2)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74AHC04")
 		(at 439.42 340.36 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "f7a4b200-60d5-4ea8-91aa-78cf07326039")
-		(property "Reference" "U12"
+		(property "Reference" "U?"
 			(at 444.5 335.28 0)
 			(effects
 				(font
@@ -24935,18 +25494,24 @@
 					(unit 2)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74HC02")
 		(at 374.65 358.14 0)
-		(unit 4)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "f87b8556-033c-472e-ba55-be2cf1a1fd56")
-		(property "Reference" "U11"
+		(property "Reference" "U?"
 			(at 381 360.68 0)
 			(effects
 				(font
@@ -25037,6 +25602,12 @@
 					(unit 4)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -25048,7 +25619,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f8d760ec-c41e-4e8d-92dc-d3d3fe52b8fc")
-		(property "Reference" "U14"
+		(property "Reference" "U?"
 			(at 472.44 520.7 0)
 			(effects
 				(font
@@ -25139,18 +25710,24 @@
 					(unit 1)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "74xx:74AHC04")
 		(at 353.06 394.97 0)
-		(unit 6)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "fa2a4492-00c9-4a34-9db1-9f89ea40b14a")
-		(property "Reference" "U9"
+		(property "Reference" "U?"
 			(at 358.14 389.89 0)
 			(effects
 				(font
@@ -25241,6 +25818,12 @@
 					(unit 6)
 				)
 			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -25252,7 +25835,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fd053051-47c5-4498-99f7-f02469cf71c2")
-		(property "Reference" "U9"
+		(property "Reference" "U?"
 			(at 358.14 381 0)
 			(effects
 				(font
@@ -25340,6 +25923,12 @@
 			(project "FS1-3"
 				(path "/14940d02-815f-40a9-b28b-9ae9c516511c"
 					(reference "U9")
+					(unit 1)
+				)
+			)
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "U?")
 					(unit 1)
 				)
 			)

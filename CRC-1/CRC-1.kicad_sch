@@ -11765,8 +11765,8 @@
 			)
 		)
 	)
-	(global_label "-T(3/4)2"
-		(shape output)
+	(global_label "-T(3{slash}4)2"
+		(shape input)
 		(at 55.88 80.01 180)
 		(effects
 			(font
@@ -12125,8 +12125,8 @@
 			)
 		)
 	)
-	(global_label "+T(3/4)2"
-		(shape output)
+	(global_label "+T(3{slash}4)2"
+		(shape input)
 		(at 55.88 34.29 180)
 		(effects
 			(font

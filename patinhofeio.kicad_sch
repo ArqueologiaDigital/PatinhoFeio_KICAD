@@ -137,7 +137,7 @@
 	)
 	(text "Placa:\n* CT4-7"
 		(exclude_from_sim no)
-		(at 186.69 134.62 0)
+		(at 186.69 133.604 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -168,7 +168,7 @@
 		)
 		(uuid "73d4305b-4836-4a5a-a6a7-5ab79ccd7420")
 	)
-	(text "TO-DO!"
+	(text "OK"
 		(exclude_from_sim no)
 		(at 50.8 175.26 0)
 		(effects
@@ -355,7 +355,7 @@
 		)
 		(uuid "cfe5838d-5909-4c06-8224-0847c4683d3a")
 	)
-	(text "TO-DO!"
+	(text "OK"
 		(exclude_from_sim no)
 		(at 50.8 160.02 0)
 		(effects
@@ -646,8 +646,50 @@
 		)
 	)
 	(sheet
+		(at 25.4 27.94)
+		(size 12.7 161.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05")
+		(property "Sheetname" "Backplane"
+			(at 25.4 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "backplane/backplane.kicad_sch"
+			(at 25.4 189.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 181.61 125.73)
-		(size 64.77 12.7)
+		(size 64.77 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -671,7 +713,7 @@
 			)
 		)
 		(property "Sheetfile" "CT4-7/CT4-7.kicad_sch"
-			(at 181.61 139.0146 0)
+			(at 181.61 137.7446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
