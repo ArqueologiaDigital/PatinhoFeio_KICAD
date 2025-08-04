@@ -410,7 +410,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "./",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -425,6 +425,10 @@
     [
       "aca06203-542d-4682-a7e3-8839e24cce95",
       "Root"
+    ],
+    [
+      "196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05",
+      "Backplane"
     ],
     [
       "b383f260-e697-4084-9247-6984c2eebf73",
@@ -489,10 +493,6 @@
     [
       "a95f568a-1ac6-4cdd-a7e9-88a5e8192029",
       "PRANCHA XVI: SINAIS DE CONTROLE"
-    ],
-    [
-      "196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05",
-      "Backplane"
     ]
   ],
   "text_variables": {}
