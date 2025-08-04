@@ -14,20 +14,9 @@
 		(comment 4 "Re-desenho: Felipe Sanches")
 	)
 	(lib_symbols)
-	(text "TO-DO!"
-		(exclude_from_sim no)
-		(at 50.8 118.11 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left bottom)
-		)
-		(uuid "02f9842f-c4f2-4076-8c55-9e5166206ffb")
-	)
 	(text "OK"
 		(exclude_from_sim no)
-		(at 171.45 100.33 0)
+		(at 176.53 100.33 0)
 		(effects
 			(font
 				(size 2.9972 2.9972)
@@ -38,7 +27,7 @@
 	)
 	(text "Placa:\n* CT3-6"
 		(exclude_from_sim no)
-		(at 186.69 116.84 0)
+		(at 191.77 116.84 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -47,9 +36,20 @@
 		)
 		(uuid "03242d76-2fe4-449b-877e-cbfa111290f6")
 	)
+	(text "OK"
+		(exclude_from_sim no)
+		(at 177.038 87.376 0)
+		(effects
+			(font
+				(size 2.9972 2.9972)
+			)
+			(justify left bottom)
+		)
+		(uuid "03898da2-0111-41aa-9fba-8d05c0973beb")
+	)
 	(text "Placa:\n* CCE-2"
 		(exclude_from_sim no)
-		(at 186.69 67.31 0)
+		(at 191.77 67.31 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -60,7 +60,7 @@
 	)
 	(text "Placa:\n* FCM-7 (interface com memória)"
 		(exclude_from_sim no)
-		(at 66.04 102.87 0)
+		(at 78.74 102.87 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -71,7 +71,7 @@
 	)
 	(text "Placa:\n* CDE-3"
 		(exclude_from_sim no)
-		(at 186.69 50.8 0)
+		(at 191.77 50.8 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -82,7 +82,7 @@
 	)
 	(text "OK"
 		(exclude_from_sim no)
-		(at 52.07 83.82 0)
+		(at 64.77 83.82 0)
 		(effects
 			(font
 				(size 2.9972 2.9972)
@@ -93,7 +93,7 @@
 	)
 	(text "Placa:\n* FM1-6 (mais-um e porta de seleção 6)"
 		(exclude_from_sim no)
-		(at 66.04 86.36 0)
+		(at 78.74 86.36 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -104,7 +104,7 @@
 	)
 	(text "OK"
 		(exclude_from_sim no)
-		(at 171.45 34.29 0)
+		(at 176.53 34.29 0)
 		(effects
 			(font
 				(size 2.9972 2.9972)
@@ -115,7 +115,7 @@
 	)
 	(text "OK"
 		(exclude_from_sim no)
-		(at 171.45 133.35 0)
+		(at 176.53 133.35 0)
 		(effects
 			(font
 				(size 2.9972 2.9972)
@@ -126,7 +126,7 @@
 	)
 	(text "Placa de acumulador:\n* FAC-5"
 		(exclude_from_sim no)
-		(at 66.04 69.85 0)
+		(at 78.74 69.85 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -137,7 +137,7 @@
 	)
 	(text "Placa:\n* CT4-7"
 		(exclude_from_sim no)
-		(at 186.69 133.604 0)
+		(at 191.77 133.604 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -146,9 +146,20 @@
 		)
 		(uuid "50d259ed-4e10-4d50-9b3c-aaa18b0258ad")
 	)
+	(text "WIP"
+		(exclude_from_sim no)
+		(at 65.786 68.834 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "56ab724c-a18b-4d92-bf9d-a80ffe2992b0")
+	)
 	(text "Placa:\n* CT2-5"
 		(exclude_from_sim no)
-		(at 186.69 100.33 0)
+		(at 191.77 100.33 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -159,7 +170,7 @@
 	)
 	(text "OK"
 		(exclude_from_sim no)
-		(at 171.45 50.8 0)
+		(at 176.53 50.8 0)
 		(effects
 			(font
 				(size 2.9972 2.9972)
@@ -170,7 +181,7 @@
 	)
 	(text "OK"
 		(exclude_from_sim no)
-		(at 50.8 175.26 0)
+		(at 63.5 175.26 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -181,7 +192,7 @@
 	)
 	(text "UNIDADE DE CONTROLE"
 		(exclude_from_sim no)
-		(at 259.08 151.13 90)
+		(at 264.16 151.13 90)
 		(effects
 			(font
 				(size 7.0104 7.0104)
@@ -192,7 +203,7 @@
 	)
 	(text "Placa:\n* PCP-2 (\"debounce\" para chaves\ne drivers para lâmpadas piloto)"
 		(exclude_from_sim no)
-		(at 66.04 179.07 0)
+		(at 78.74 179.07 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -203,7 +214,7 @@
 	)
 	(text "Placas de registradores:\n* FR1-1 (bits pares)\n* FR2-2 (bits ímpares)"
 		(exclude_from_sim no)
-		(at 66.04 38.1 0)
+		(at 78.74 38.1 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -214,7 +225,7 @@
 	)
 	(text "OK"
 		(exclude_from_sim no)
-		(at 171.45 149.86 0)
+		(at 176.53 149.86 0)
 		(effects
 			(font
 				(size 2.9972 2.9972)
@@ -225,7 +236,7 @@
 	)
 	(text "Placa:\n* CRC-1"
 		(exclude_from_sim no)
-		(at 186.69 34.29 0)
+		(at 191.77 34.29 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -236,7 +247,7 @@
 	)
 	(text "OK"
 		(exclude_from_sim no)
-		(at 171.45 116.84 0)
+		(at 176.53 116.84 0)
 		(effects
 			(font
 				(size 2.9972 2.9972)
@@ -245,9 +256,9 @@
 		)
 		(uuid "8807e3eb-7cde-4305-93ec-c388214cb329")
 	)
-	(text "TO-DO!"
+	(text "WIP"
 		(exclude_from_sim no)
-		(at 50.8 53.34 0)
+		(at 65.278 53.34 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -256,20 +267,9 @@
 		)
 		(uuid "949285cf-09fe-4af1-8922-b118375ca574")
 	)
-	(text "TO-DO!"
-		(exclude_from_sim no)
-		(at 170.18 82.55 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left bottom)
-		)
-		(uuid "9804dfb6-cb02-4207-b7a9-8700af7d0215")
-	)
 	(text "Placas de somador:\n* FS1-3 (bits menos significativos)\n* FS2-4 (bits mais significativos)"
 		(exclude_from_sim no)
-		(at 66.04 54.61 0)
+		(at 78.74 54.61 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -280,7 +280,7 @@
 	)
 	(text "Placa:\n* CT5-8"
 		(exclude_from_sim no)
-		(at 186.69 149.86 0)
+		(at 191.77 149.86 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -291,7 +291,7 @@
 	)
 	(text "Placa:\n* CT1-4"
 		(exclude_from_sim no)
-		(at 186.69 83.82 0)
+		(at 191.77 83.82 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -300,9 +300,20 @@
 		)
 		(uuid "a081eda0-91a1-4617-b8a5-49477c86d311")
 	)
+	(text "OK"
+		(exclude_from_sim no)
+		(at 64.77 120.65 0)
+		(effects
+			(font
+				(size 2.9972 2.9972)
+			)
+			(justify left bottom)
+		)
+		(uuid "a6f32e82-f69e-49b8-b124-d91eacfbbdf9")
+	)
 	(text "FLUXO DE DADOS"
 		(exclude_from_sim no)
-		(at 139.7 121.92 90)
+		(at 152.4 121.92 90)
 		(effects
 			(font
 				(size 7.0104 7.0104)
@@ -311,20 +322,9 @@
 		)
 		(uuid "aff29583-5e4c-47ef-a378-e48f4a97986c")
 	)
-	(text "TO-DO!"
-		(exclude_from_sim no)
-		(at 50.8 69.85 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left bottom)
-		)
-		(uuid "b599061e-08e9-4f0c-90bf-e10db7e325f4")
-	)
 	(text "PAINEL"
 		(exclude_from_sim no)
-		(at 139.7 182.88 90)
+		(at 152.4 182.88 90)
 		(effects
 			(font
 				(size 5.9944 5.9944)
@@ -335,7 +335,7 @@
 	)
 	(text "W.I.P."
 		(exclude_from_sim no)
-		(at 168.91 66.04 0)
+		(at 173.99 66.04 0)
 		(effects
 			(font
 				(size 2.9972 2.9972)
@@ -344,9 +344,9 @@
 		)
 		(uuid "bb473f72-b748-48e9-94da-309a8c30416e")
 	)
-	(text "Placa:\n* PMR-1 (drivers para os LED's)"
+	(text "Placa:\n* PMR-1 (drivers para os LEDs)"
 		(exclude_from_sim no)
-		(at 66.04 161.29 0)
+		(at 78.74 161.29 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -357,7 +357,7 @@
 	)
 	(text "OK"
 		(exclude_from_sim no)
-		(at 50.8 160.02 0)
+		(at 63.5 160.02 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -368,7 +368,7 @@
 	)
 	(text "OK"
 		(exclude_from_sim no)
-		(at 52.07 101.6 0)
+		(at 64.77 101.6 0)
 		(effects
 			(font
 				(size 2.9972 2.9972)
@@ -379,7 +379,7 @@
 	)
 	(text "Placa:\n* FIN-8 (sinais para cartões de interface)"
 		(exclude_from_sim no)
-		(at 66.04 120.65 0)
+		(at 78.74 120.65 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -390,7 +390,7 @@
 	)
 	(text "TO-DO!"
 		(exclude_from_sim no)
-		(at 50.8 36.83 0)
+		(at 63.5 36.83 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -399,9 +399,20 @@
 		)
 		(uuid "ec3d8ed6-c550-4293-88ff-5525de01b635")
 	)
+	(text "BACKPLANE"
+		(exclude_from_sim no)
+		(at 40.132 132.08 90)
+		(effects
+			(font
+				(size 5.9944 5.9944)
+			)
+			(justify left bottom)
+		)
+		(uuid "f714a38f-bf94-4aad-8f73-83a3d15f98d9")
+	)
 	(polyline
 		(pts
-			(xy 48.26 189.23) (xy 144.78 189.23)
+			(xy 60.96 189.23) (xy 157.48 189.23)
 		)
 		(stroke
 			(width 0)
@@ -411,7 +422,7 @@
 	)
 	(polyline
 		(pts
-			(xy 168.91 20.32) (xy 264.16 20.32)
+			(xy 173.99 20.32) (xy 269.24 20.32)
 		)
 		(stroke
 			(width 0)
@@ -421,7 +432,7 @@
 	)
 	(polyline
 		(pts
-			(xy 48.26 189.23) (xy 48.26 143.51)
+			(xy 60.96 189.23) (xy 60.96 143.51)
 		)
 		(stroke
 			(width 0)
@@ -431,7 +442,7 @@
 	)
 	(polyline
 		(pts
-			(xy 144.78 143.51) (xy 144.78 189.23)
+			(xy 157.48 143.51) (xy 157.48 189.23)
 		)
 		(stroke
 			(width 0)
@@ -441,7 +452,7 @@
 	)
 	(polyline
 		(pts
-			(xy 144.78 133.35) (xy 48.26 133.35)
+			(xy 157.48 133.35) (xy 60.96 133.35)
 		)
 		(stroke
 			(width 0)
@@ -451,7 +462,7 @@
 	)
 	(polyline
 		(pts
-			(xy 48.26 20.32) (xy 144.78 20.32)
+			(xy 60.96 20.32) (xy 157.48 20.32)
 		)
 		(stroke
 			(width 0)
@@ -461,7 +472,7 @@
 	)
 	(polyline
 		(pts
-			(xy 264.16 20.32) (xy 264.16 160.02)
+			(xy 269.24 20.32) (xy 269.24 160.02)
 		)
 		(stroke
 			(width 0)
@@ -471,7 +482,7 @@
 	)
 	(polyline
 		(pts
-			(xy 168.91 160.02) (xy 168.91 20.32)
+			(xy 173.99 160.02) (xy 173.99 20.32)
 		)
 		(stroke
 			(width 0)
@@ -481,7 +492,7 @@
 	)
 	(polyline
 		(pts
-			(xy 48.26 143.51) (xy 144.78 143.51)
+			(xy 60.96 143.51) (xy 157.48 143.51)
 		)
 		(stroke
 			(width 0)
@@ -491,7 +502,7 @@
 	)
 	(polyline
 		(pts
-			(xy 48.26 133.35) (xy 48.26 20.32)
+			(xy 60.96 133.35) (xy 60.96 20.32)
 		)
 		(stroke
 			(width 0)
@@ -501,7 +512,7 @@
 	)
 	(polyline
 		(pts
-			(xy 144.78 20.32) (xy 144.78 133.35)
+			(xy 157.48 20.32) (xy 157.48 133.35)
 		)
 		(stroke
 			(width 0)
@@ -511,7 +522,7 @@
 	)
 	(polyline
 		(pts
-			(xy 264.16 160.02) (xy 168.91 160.02)
+			(xy 269.24 160.02) (xy 173.99 160.02)
 		)
 		(stroke
 			(width 0)
@@ -520,7 +531,7 @@
 		(uuid "fa84f9d9-6b1d-4b79-b48c-57bc47439810")
 	)
 	(sheet
-		(at 62.23 95.25)
+		(at 74.93 95.25)
 		(size 64.77 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -536,7 +547,7 @@
 		)
 		(uuid "0409f498-34cc-479f-b031-007216005e3f")
 		(property "Sheetname" "PRANCHA V: PLACA CONTROLE DA MEMÓRIA"
-			(at 62.23 94.5384 0)
+			(at 74.93 94.5384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -545,7 +556,7 @@
 			)
 		)
 		(property "Sheetfile" "FCM-7/FCM-7.kicad_sch"
-			(at 62.23 107.2646 0)
+			(at 74.93 107.2646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -562,7 +573,7 @@
 		)
 	)
 	(sheet
-		(at 62.23 170.18)
+		(at 74.93 170.18)
 		(size 64.77 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -578,7 +589,7 @@
 		)
 		(uuid "053788d3-9bb3-44f4-9df2-cd47e5e806b1")
 		(property "Sheetname" "PRANCHA VIII: PLACA CHAVES E PILOTO"
-			(at 62.23 169.4684 0)
+			(at 74.93 169.4684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -587,7 +598,7 @@
 			)
 		)
 		(property "Sheetfile" "PCP-2/PCP-2.kicad_sch"
-			(at 62.23 182.1946 0)
+			(at 74.93 182.1946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -604,7 +615,7 @@
 		)
 	)
 	(sheet
-		(at 181.61 92.71)
+		(at 186.69 92.71)
 		(size 64.77 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -620,7 +631,7 @@
 		)
 		(uuid "0ff63b6e-fe66-4362-b658-b472d3c61499")
 		(property "Sheetname" "PRANCHA XIII: PLACA SINAIS CONTROLE"
-			(at 181.61 91.9984 0)
+			(at 186.69 91.9984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -629,7 +640,7 @@
 			)
 		)
 		(property "Sheetfile" "CT2-5/CT2-5.kicad_sch"
-			(at 181.61 104.7246 0)
+			(at 186.69 104.7246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -646,7 +657,7 @@
 		)
 	)
 	(sheet
-		(at 25.4 27.94)
+		(at 30.48 27.94)
 		(size 12.7 161.29)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -662,7 +673,7 @@
 		)
 		(uuid "196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05")
 		(property "Sheetname" "Backplane"
-			(at 25.4 27.2284 0)
+			(at 30.48 27.2284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -671,7 +682,7 @@
 			)
 		)
 		(property "Sheetfile" "backplane/backplane.kicad_sch"
-			(at 25.4 189.8146 0)
+			(at 30.48 189.8146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -688,7 +699,7 @@
 		)
 	)
 	(sheet
-		(at 181.61 125.73)
+		(at 186.69 125.73)
 		(size 64.77 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -704,7 +715,7 @@
 		)
 		(uuid "20195246-952b-457f-8d3f-2119f4e5893d")
 		(property "Sheetname" "PRANCHA XV: SINAIS DE CONTROLE"
-			(at 181.61 125.0184 0)
+			(at 186.69 125.0184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -713,7 +724,7 @@
 			)
 		)
 		(property "Sheetfile" "CT4-7/CT4-7.kicad_sch"
-			(at 181.61 137.7446 0)
+			(at 186.69 137.7446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -730,7 +741,7 @@
 		)
 	)
 	(sheet
-		(at 62.23 78.74)
+		(at 74.93 78.74)
 		(size 64.77 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -746,7 +757,7 @@
 		)
 		(uuid "4f0a3916-76cc-4860-a813-760a2721157d")
 		(property "Sheetname" "PRANCHA IV: FLUXO DE DADOS"
-			(at 62.23 78.0284 0)
+			(at 74.93 78.0284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -755,7 +766,7 @@
 			)
 		)
 		(property "Sheetfile" "FM1-6/FM1-6.kicad_sch"
-			(at 62.23 90.7546 0)
+			(at 74.93 90.7546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -772,7 +783,7 @@
 		)
 	)
 	(sheet
-		(at 62.23 45.72)
+		(at 74.93 45.72)
 		(size 64.77 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -788,7 +799,7 @@
 		)
 		(uuid "513c6191-fb8d-4702-a239-0db81c50d326")
 		(property "Sheetname" "PRANCHA II: CIRCUITO - UNIDADE ARITMÉTICA"
-			(at 62.23 45.0084 0)
+			(at 74.93 45.0084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -797,7 +808,7 @@
 			)
 		)
 		(property "Sheetfile" "FS1-3/FS1-3.kicad_sch"
-			(at 62.23 57.7346 0)
+			(at 74.93 57.7346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -814,7 +825,7 @@
 		)
 	)
 	(sheet
-		(at 181.61 76.2)
+		(at 186.69 76.2)
 		(size 64.77 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -830,7 +841,7 @@
 		)
 		(uuid "58050eef-51bb-485d-b6f6-c260fc96a7e7")
 		(property "Sheetname" "PRANCHA XII: PLACA CONTROLE 1"
-			(at 181.61 75.4884 0)
+			(at 186.69 75.4884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -839,7 +850,7 @@
 			)
 		)
 		(property "Sheetfile" "CT1-4/CT1-4.kicad_sch"
-			(at 181.61 88.2146 0)
+			(at 186.69 88.2146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -856,7 +867,7 @@
 		)
 	)
 	(sheet
-		(at 181.61 43.18)
+		(at 186.69 43.18)
 		(size 64.77 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -872,7 +883,7 @@
 		)
 		(uuid "66c98193-5e9c-4ee0-b18c-21adfe296f8d")
 		(property "Sheetname" "PRANCHA X: DECODIFICADOR"
-			(at 181.61 42.4684 0)
+			(at 186.69 42.4684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -881,7 +892,7 @@
 			)
 		)
 		(property "Sheetfile" "CDE-3/CDE-3.kicad_sch"
-			(at 181.61 55.1946 0)
+			(at 186.69 55.1946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -898,7 +909,7 @@
 		)
 	)
 	(sheet
-		(at 181.61 109.22)
+		(at 186.69 109.22)
 		(size 64.77 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -914,7 +925,7 @@
 		)
 		(uuid "82a6b9a1-e2c2-43c3-8b89-cab4531715ee")
 		(property "Sheetname" "PRANCHA XIV: PLACA DE CONTROLE"
-			(at 181.61 108.5084 0)
+			(at 186.69 108.5084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -923,7 +934,7 @@
 			)
 		)
 		(property "Sheetfile" "CT3-6/CT3-6.kicad_sch"
-			(at 181.61 121.2346 0)
+			(at 186.69 121.2346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -940,7 +951,7 @@
 		)
 	)
 	(sheet
-		(at 62.23 111.76)
+		(at 74.93 111.76)
 		(size 64.77 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -956,7 +967,7 @@
 		)
 		(uuid "8431fe73-c409-4911-974c-c727a5dc461e")
 		(property "Sheetname" "PRANCHA VI: DADOS PARA CARTÕES INTERFACE"
-			(at 62.23 111.0484 0)
+			(at 74.93 111.0484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -965,7 +976,7 @@
 			)
 		)
 		(property "Sheetfile" "FIN-8/FIN-8.kicad_sch"
-			(at 62.23 125.0446 0)
+			(at 74.93 125.0446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -982,7 +993,7 @@
 		)
 	)
 	(sheet
-		(at 181.61 26.67)
+		(at 186.69 26.67)
 		(size 64.77 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -998,7 +1009,7 @@
 		)
 		(uuid "953025c0-c249-406a-b635-15d71cc54afc")
 		(property "Sheetname" "PRANCHA IX: RELÓGIO CENTRAL"
-			(at 181.61 25.9584 0)
+			(at 186.69 25.9584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1007,7 +1018,7 @@
 			)
 		)
 		(property "Sheetfile" "CRC-1/CRC-1.kicad_sch"
-			(at 181.61 38.6846 0)
+			(at 186.69 38.6846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1024,7 +1035,7 @@
 		)
 	)
 	(sheet
-		(at 62.23 153.67)
+		(at 74.93 153.67)
 		(size 64.77 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1040,7 +1051,7 @@
 		)
 		(uuid "a4f4823c-2ff3-41ac-bc83-eeeb03b1c1d2")
 		(property "Sheetname" "PRANCHA VII: PLACA MOSTRA REGISTRADORES"
-			(at 62.23 152.9584 0)
+			(at 74.93 152.9584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1049,7 +1060,7 @@
 			)
 		)
 		(property "Sheetfile" "PMR-1/PMR-1.kicad_sch"
-			(at 62.23 165.6846 0)
+			(at 74.93 165.6846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1066,7 +1077,7 @@
 		)
 	)
 	(sheet
-		(at 181.61 142.24)
+		(at 186.69 142.24)
 		(size 64.77 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1082,7 +1093,7 @@
 		)
 		(uuid "a95f568a-1ac6-4cdd-a7e9-88a5e8192029")
 		(property "Sheetname" "PRANCHA XVI: SINAIS DE CONTROLE"
-			(at 181.61 141.5284 0)
+			(at 186.69 141.5284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1091,7 +1102,7 @@
 			)
 		)
 		(property "Sheetfile" "CT5-8/CT5-8.kicad_sch"
-			(at 181.61 154.2546 0)
+			(at 186.69 154.2546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1108,7 +1119,7 @@
 		)
 	)
 	(sheet
-		(at 62.23 29.21)
+		(at 74.93 29.21)
 		(size 64.77 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1124,7 +1135,7 @@
 		)
 		(uuid "b383f260-e697-4084-9247-6984c2eebf73")
 		(property "Sheetname" "PRANCHA I: PLACA DOS REGISTRADORES"
-			(at 62.23 28.4984 0)
+			(at 74.93 28.4984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1133,7 +1144,7 @@
 			)
 		)
 		(property "Sheetfile" "FR1-1/FR1-1.kicad_sch"
-			(at 62.23 41.2246 0)
+			(at 74.93 41.2246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1150,7 +1161,7 @@
 		)
 	)
 	(sheet
-		(at 181.61 59.69)
+		(at 186.69 59.69)
 		(size 64.77 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1166,7 +1177,7 @@
 		)
 		(uuid "bba15d3c-50cc-4e33-8f05-e25d292c5848")
 		(property "Sheetname" "PRANCHA XI: CONTROLE DE ESTADO"
-			(at 181.61 58.9784 0)
+			(at 186.69 58.9784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1175,7 +1186,7 @@
 			)
 		)
 		(property "Sheetfile" "CCE-2/CCE-2.kicad_sch"
-			(at 181.61 71.7046 0)
+			(at 186.69 71.7046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1192,7 +1203,7 @@
 		)
 	)
 	(sheet
-		(at 62.23 62.23)
+		(at 74.93 62.23)
 		(size 64.77 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1208,7 +1219,7 @@
 		)
 		(uuid "c4fc9564-1c4f-4175-9e51-1a074c56e995")
 		(property "Sheetname" "PRANCHA III: ACUMULADOR"
-			(at 62.23 61.5184 0)
+			(at 74.93 61.5184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1217,7 +1228,7 @@
 			)
 		)
 		(property "Sheetfile" "FAC-5/FAC-5.kicad_sch"
-			(at 62.23 74.2446 0)
+			(at 74.93 74.2446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
