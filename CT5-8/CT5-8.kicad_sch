@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "8dd0d409-5aaf-4e71-90f1-464fc883daa9")
 	(paper "A1")
 	(title_block
@@ -15,14 +15,19 @@
 	)
 	(lib_symbols
 		(symbol "CT5-8-rescue:7400"
+			(body_styles demorgan)
 			(pin_names
 				(offset 0.762)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -31,6 +36,8 @@
 			)
 			(property "Value" "7400"
 				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -39,6 +46,8 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -47,6 +56,8 @@
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -55,42 +66,27 @@
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "14DIP300* SO14*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "7400_0_0"
-				(pin power_in line
-					(at -5.08 5.08 270)
-					(length 0)
-					(hide yes)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at -5.08 -5.08 90)
 					(length 0)
@@ -103,6 +99,25 @@
 						)
 					)
 					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 5.08 270)
+					(length 0)
+					(hide yes)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "14"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -203,7 +218,7 @@
 				(pin input line
 					(at -15.24 2.54 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -221,7 +236,7 @@
 				(pin input line
 					(at -15.24 -2.54 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -239,7 +254,7 @@
 				(pin output inverted
 					(at 15.24 0 180)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -259,7 +274,7 @@
 				(pin input inverted
 					(at -15.24 2.54 0)
 					(length 9.398)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -277,7 +292,7 @@
 				(pin input inverted
 					(at -15.24 -2.54 0)
 					(length 9.398)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -295,7 +310,7 @@
 				(pin output line
 					(at 15.24 0 180)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -315,7 +330,7 @@
 				(pin input line
 					(at -15.24 2.54 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -333,7 +348,7 @@
 				(pin input line
 					(at -15.24 -2.54 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -351,7 +366,7 @@
 				(pin output inverted
 					(at 15.24 0 180)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -371,7 +386,7 @@
 				(pin input inverted
 					(at -15.24 2.54 0)
 					(length 9.398)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -389,7 +404,7 @@
 				(pin input inverted
 					(at -15.24 -2.54 0)
 					(length 9.398)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -407,7 +422,7 @@
 				(pin output line
 					(at 15.24 0 180)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -424,10 +439,28 @@
 				)
 			)
 			(symbol "7400_3_1"
+				(pin output inverted
+					(at 15.24 0 180)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at -15.24 2.54 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -445,7 +478,7 @@
 				(pin input line
 					(at -15.24 -2.54 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -453,24 +486,6 @@
 						)
 					)
 					(number "10"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 15.24 0 180)
-					(length 7.62)
-					(name "~"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "8"
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -480,10 +495,28 @@
 				)
 			)
 			(symbol "7400_3_2"
+				(pin output line
+					(at 15.24 0 180)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
 				(pin input inverted
 					(at -15.24 2.54 0)
 					(length 9.398)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -501,7 +534,7 @@
 				(pin input inverted
 					(at -15.24 -2.54 0)
 					(length 9.398)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -516,17 +549,19 @@
 						)
 					)
 				)
-				(pin output line
+			)
+			(symbol "7400_4_1"
+				(pin output inverted
 					(at 15.24 0 180)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
 							)
 						)
 					)
-					(number "8"
+					(number "11"
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -534,12 +569,10 @@
 						)
 					)
 				)
-			)
-			(symbol "7400_4_1"
 				(pin input line
 					(at -15.24 2.54 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -557,7 +590,7 @@
 				(pin input line
 					(at -15.24 -2.54 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -565,24 +598,6 @@
 						)
 					)
 					(number "13"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 15.24 0 180)
-					(length 7.62)
-					(name "~"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "11"
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -592,10 +607,28 @@
 				)
 			)
 			(symbol "7400_4_2"
+				(pin output line
+					(at 15.24 0 180)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
 				(pin input inverted
 					(at -15.24 2.54 0)
 					(length 9.398)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -613,7 +646,7 @@
 				(pin input inverted
 					(at -15.24 -2.54 0)
 					(length 9.398)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -621,24 +654,6 @@
 						)
 					)
 					(number "13"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 15.24 0 180)
-					(length 7.62)
-					(name "~"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "11"
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -650,14 +665,19 @@
 			(embedded_fonts no)
 		)
 		(symbol "CT5-8-rescue:74HC02"
+			(body_styles demorgan)
 			(pin_names
 				(offset 0.762)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -666,6 +686,8 @@
 			)
 			(property "Value" "74HC02"
 				(at 1.27 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -674,6 +696,8 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -682,6 +706,8 @@
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -690,42 +716,27 @@
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "SO14* 14DIP*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "74HC02_0_0"
-				(pin power_in line
-					(at -5.08 5.08 270)
-					(length 0)
-					(hide yes)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at -5.08 -5.08 90)
 					(length 0)
@@ -738,6 +749,25 @@
 						)
 					)
 					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 5.08 270)
+					(length 0)
+					(hide yes)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "14"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -835,10 +865,28 @@
 				)
 			)
 			(symbol "74HC02_1_1"
+				(pin output inverted
+					(at 15.24 0 180)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at -15.24 2.54 0)
 					(length 9.398)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -856,7 +904,7 @@
 				(pin input line
 					(at -15.24 -2.54 0)
 					(length 9.398)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -864,24 +912,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 15.24 0 180)
-					(length 7.62)
-					(name "~"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -891,10 +921,28 @@
 				)
 			)
 			(symbol "74HC02_1_2"
+				(pin output line
+					(at 15.24 0 180)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
 				(pin input inverted
 					(at -15.24 2.54 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -912,7 +960,7 @@
 				(pin input inverted
 					(at -15.24 -2.54 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -927,17 +975,19 @@
 						)
 					)
 				)
-				(pin output line
+			)
+			(symbol "74HC02_2_1"
+				(pin output inverted
 					(at 15.24 0 180)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
 							)
 						)
 					)
-					(number "1"
+					(number "4"
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -945,12 +995,10 @@
 						)
 					)
 				)
-			)
-			(symbol "74HC02_2_1"
 				(pin input line
 					(at -15.24 2.54 0)
 					(length 9.398)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -968,7 +1016,7 @@
 				(pin input line
 					(at -15.24 -2.54 0)
 					(length 9.398)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -976,24 +1024,6 @@
 						)
 					)
 					(number "6"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 15.24 0 180)
-					(length 7.62)
-					(name "~"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -1003,10 +1033,28 @@
 				)
 			)
 			(symbol "74HC02_2_2"
+				(pin output line
+					(at 15.24 0 180)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
 				(pin input inverted
 					(at -15.24 2.54 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -1024,7 +1072,7 @@
 				(pin input inverted
 					(at -15.24 -2.54 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -1032,24 +1080,6 @@
 						)
 					)
 					(number "6"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 15.24 0 180)
-					(length 7.62)
-					(name "~"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -1062,7 +1092,7 @@
 				(pin input line
 					(at -15.24 2.54 0)
 					(length 9.398)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -1080,7 +1110,7 @@
 				(pin input line
 					(at -15.24 -2.54 0)
 					(length 9.398)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -1098,7 +1128,7 @@
 				(pin output inverted
 					(at 15.24 0 180)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -1118,7 +1148,7 @@
 				(pin input inverted
 					(at -15.24 2.54 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -1136,7 +1166,7 @@
 				(pin input inverted
 					(at -15.24 -2.54 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -1154,7 +1184,7 @@
 				(pin output line
 					(at 15.24 0 180)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -1174,7 +1204,7 @@
 				(pin input line
 					(at -15.24 2.54 0)
 					(length 9.398)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -1192,7 +1222,7 @@
 				(pin input line
 					(at -15.24 -2.54 0)
 					(length 9.398)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -1210,7 +1240,7 @@
 				(pin output inverted
 					(at 15.24 0 180)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -1230,7 +1260,7 @@
 				(pin input inverted
 					(at -15.24 2.54 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -1248,7 +1278,7 @@
 				(pin input inverted
 					(at -15.24 -2.54 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -1266,7 +1296,7 @@
 				(pin output line
 					(at 15.24 0 180)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -1285,14 +1315,19 @@
 			(embedded_fonts no)
 		)
 		(symbol "CT5-8-rescue:74HC04"
+			(body_styles demorgan)
 			(pin_names
 				(offset 0.762)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at 3.81 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.016 1.016)
@@ -1301,6 +1336,8 @@
 			)
 			(property "Value" "74HC04"
 				(at 5.08 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.016 1.016)
@@ -1309,6 +1346,8 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -1317,6 +1356,8 @@
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -1325,11 +1366,13 @@
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "74HC04_0_0"
@@ -1343,25 +1386,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(pin power_in line
-					(at -1.27 2.54 270)
-					(length 0)
-					(hide yes)
-					(name "VCC"
-						(effects
-							(font
-								(size 0.508 0.508)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
 					)
 				)
 				(pin power_in line
@@ -1383,12 +1407,31 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at -1.27 2.54 270)
+					(length 0)
+					(hide yes)
+					(name "VCC"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
 			)
 			(symbol "74HC04_1_1"
 				(pin input line
 					(at -11.43 0 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -1406,7 +1449,7 @@
 				(pin output inverted
 					(at 11.43 0 180)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -1426,7 +1469,7 @@
 				(pin input inverted
 					(at -11.43 0 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -1444,7 +1487,7 @@
 				(pin output line
 					(at 11.43 0 180)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -1464,7 +1507,7 @@
 				(pin input line
 					(at -11.43 0 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -1482,7 +1525,7 @@
 				(pin output inverted
 					(at 11.43 0 180)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -1502,7 +1545,7 @@
 				(pin input inverted
 					(at -11.43 0 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -1520,7 +1563,7 @@
 				(pin output line
 					(at 11.43 0 180)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -1540,7 +1583,7 @@
 				(pin input line
 					(at -11.43 0 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -1558,7 +1601,7 @@
 				(pin output inverted
 					(at 11.43 0 180)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -1578,7 +1621,7 @@
 				(pin input inverted
 					(at -11.43 0 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -1596,7 +1639,7 @@
 				(pin output line
 					(at 11.43 0 180)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -1613,28 +1656,10 @@
 				)
 			)
 			(symbol "74HC04_4_1"
-				(pin input line
-					(at -11.43 0 0)
-					(length 7.62)
-					(name "~"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
 				(pin output inverted
 					(at 11.43 0 180)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -1642,6 +1667,24 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -11.43 0 0)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -1651,28 +1694,10 @@
 				)
 			)
 			(symbol "74HC04_4_2"
-				(pin input inverted
-					(at -11.43 0 0)
-					(length 7.62)
-					(name "~"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
 				(pin output line
 					(at 11.43 0 180)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -1687,19 +1712,17 @@
 						)
 					)
 				)
-			)
-			(symbol "74HC04_5_1"
-				(pin input line
+				(pin input inverted
 					(at -11.43 0 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
 							)
 						)
 					)
-					(number "11"
+					(number "9"
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -1707,10 +1730,12 @@
 						)
 					)
 				)
+			)
+			(symbol "74HC04_5_1"
 				(pin output inverted
 					(at 11.43 0 180)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -1718,6 +1743,24 @@
 						)
 					)
 					(number "10"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -11.43 0 0)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "11"
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -1727,28 +1770,10 @@
 				)
 			)
 			(symbol "74HC04_5_2"
-				(pin input inverted
-					(at -11.43 0 0)
-					(length 7.62)
-					(name "~"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
 				(pin output line
 					(at 11.43 0 180)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -1763,19 +1788,17 @@
 						)
 					)
 				)
-			)
-			(symbol "74HC04_6_1"
-				(pin input line
+				(pin input inverted
 					(at -11.43 0 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
 							)
 						)
 					)
-					(number "13"
+					(number "11"
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -1783,10 +1806,12 @@
 						)
 					)
 				)
+			)
+			(symbol "74HC04_6_1"
 				(pin output inverted
 					(at 11.43 0 180)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -1794,6 +1819,24 @@
 						)
 					)
 					(number "12"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -11.43 0 0)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "13"
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -1803,28 +1846,10 @@
 				)
 			)
 			(symbol "74HC04_6_2"
-				(pin input inverted
-					(at -11.43 0 0)
-					(length 7.62)
-					(name "~"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
 				(pin output line
 					(at 11.43 0 180)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -1832,6 +1857,24 @@
 						)
 					)
 					(number "12"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at -11.43 0 0)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "13"
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -1843,14 +1886,19 @@
 			(embedded_fonts no)
 		)
 		(symbol "CT5-8-rescue:74LS10"
+			(body_styles demorgan)
 			(pin_names
 				(offset 0.762)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -1859,6 +1907,8 @@
 			)
 			(property "Value" "74LS10"
 				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -1867,6 +1917,8 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -1875,6 +1927,8 @@
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -1883,33 +1937,16 @@
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "74LS10_0_0"
-				(pin power_in line
-					(at -5.08 5.08 90)
-					(length 0)
-					(hide yes)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at -5.08 -5.08 90)
 					(length 0)
@@ -1922,6 +1959,25 @@
 						)
 					)
 					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 5.08 90)
+					(length 0)
+					(hide yes)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "14"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2022,7 +2078,7 @@
 				(pin input line
 					(at -15.24 3.81 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -2040,7 +2096,7 @@
 				(pin input line
 					(at -15.24 0 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -2055,28 +2111,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -15.24 -3.81 0)
-					(length 7.62)
-					(name "~"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
 				(pin output inverted
 					(at 15.24 0 180)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -2091,12 +2129,30 @@
 						)
 					)
 				)
+				(pin input line
+					(at -15.24 -3.81 0)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
 			)
 			(symbol "74LS10_1_2"
 				(pin input inverted
 					(at -15.24 3.81 0)
 					(length 8.382)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -2114,7 +2170,7 @@
 				(pin input inverted
 					(at -15.24 0 0)
 					(length 9.906)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -2129,28 +2185,10 @@
 						)
 					)
 				)
-				(pin input inverted
-					(at -15.24 -3.81 0)
-					(length 8.382)
-					(name "~"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
 				(pin output line
 					(at 15.24 0 180)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -2165,12 +2203,30 @@
 						)
 					)
 				)
+				(pin input inverted
+					(at -15.24 -3.81 0)
+					(length 8.382)
+					(name ""
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
 			)
 			(symbol "74LS10_2_1"
 				(pin input line
 					(at -15.24 3.81 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -2188,7 +2244,7 @@
 				(pin input line
 					(at -15.24 0 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -2206,7 +2262,7 @@
 				(pin input line
 					(at -15.24 -3.81 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -2224,7 +2280,7 @@
 				(pin output inverted
 					(at 15.24 0 180)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -2244,7 +2300,7 @@
 				(pin input inverted
 					(at -15.24 3.81 0)
 					(length 8.382)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -2262,7 +2318,7 @@
 				(pin input inverted
 					(at -15.24 0 0)
 					(length 9.906)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -2280,7 +2336,7 @@
 				(pin input inverted
 					(at -15.24 -3.81 0)
 					(length 8.382)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -2298,7 +2354,7 @@
 				(pin output line
 					(at 15.24 0 180)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -2315,10 +2371,28 @@
 				)
 			)
 			(symbol "74LS10_3_1"
+				(pin output inverted
+					(at 15.24 0 180)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at -15.24 3.81 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -2336,7 +2410,7 @@
 				(pin input line
 					(at -15.24 0 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -2354,7 +2428,7 @@
 				(pin input line
 					(at -15.24 -3.81 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -2369,10 +2443,12 @@
 						)
 					)
 				)
-				(pin output inverted
+			)
+			(symbol "74LS10_3_2"
+				(pin output line
 					(at 15.24 0 180)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -2387,12 +2463,10 @@
 						)
 					)
 				)
-			)
-			(symbol "74LS10_3_2"
 				(pin input inverted
 					(at -15.24 3.81 0)
 					(length 8.382)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -2410,7 +2484,7 @@
 				(pin input inverted
 					(at -15.24 0 0)
 					(length 9.906)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -2428,7 +2502,7 @@
 				(pin input inverted
 					(at -15.24 -3.81 0)
 					(length 8.382)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -2443,36 +2517,23 @@
 						)
 					)
 				)
-				(pin output line
-					(at 15.24 0 180)
-					(length 7.62)
-					(name "~"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
 			)
 			(embedded_fonts no)
 		)
 		(symbol "CT5-8-rescue:74LS40"
+			(body_styles demorgan)
 			(pin_names
 				(offset 0.762)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -2481,6 +2542,8 @@
 			)
 			(property "Value" "74LS40"
 				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -2489,6 +2552,8 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -2497,6 +2562,8 @@
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -2505,33 +2572,16 @@
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "74LS40_0_0"
-				(pin power_in line
-					(at -5.08 5.08 90)
-					(length 0)
-					(hide yes)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at -5.08 -5.08 90)
 					(length 0)
@@ -2544,6 +2594,25 @@
 						)
 					)
 					(number "7"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 5.08 90)
+					(length 0)
+					(hide yes)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "14"
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -2644,7 +2713,7 @@
 				(pin input line
 					(at -15.24 3.81 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -2662,7 +2731,7 @@
 				(pin input line
 					(at -15.24 1.27 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -2680,7 +2749,7 @@
 				(pin input line
 					(at -15.24 -1.27 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -2698,7 +2767,7 @@
 				(pin input line
 					(at -15.24 -3.81 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -2716,7 +2785,7 @@
 				(pin output inverted
 					(at 15.24 0 180)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -2736,7 +2805,7 @@
 				(pin input inverted
 					(at -15.24 3.81 0)
 					(length 8.509)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -2754,7 +2823,7 @@
 				(pin input inverted
 					(at -15.24 1.27 0)
 					(length 9.779)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -2772,7 +2841,7 @@
 				(pin output inverted
 					(at -15.24 -1.27 0)
 					(length 9.779)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -2790,7 +2859,7 @@
 				(pin input inverted
 					(at -15.24 -3.81 0)
 					(length 8.509)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -2808,7 +2877,7 @@
 				(pin output line
 					(at 15.24 0 180)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -2825,10 +2894,28 @@
 				)
 			)
 			(symbol "74LS40_2_1"
+				(pin output inverted
+					(at 15.24 0 180)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at -15.24 3.81 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -2846,7 +2933,7 @@
 				(pin input line
 					(at -15.24 1.27 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -2864,7 +2951,7 @@
 				(pin input line
 					(at -15.24 -1.27 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -2882,7 +2969,7 @@
 				(pin input line
 					(at -15.24 -3.81 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -2890,24 +2977,6 @@
 						)
 					)
 					(number "13"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 15.24 0 180)
-					(length 7.62)
-					(name "~"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "8"
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -2917,10 +2986,28 @@
 				)
 			)
 			(symbol "74LS40_2_2"
+				(pin output line
+					(at 15.24 0 180)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
 				(pin input inverted
 					(at -15.24 3.81 0)
 					(length 8.509)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -2936,9 +3023,27 @@
 					)
 				)
 				(pin input inverted
+					(at -15.24 -3.81 0)
+					(length 8.509)
+					(name ""
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin input inverted
 					(at -15.24 1.27 0)
 					(length 9.779)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -2956,7 +3061,7 @@
 				(pin input inverted
 					(at -15.24 -1.27 0)
 					(length 9.779)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -2964,42 +3069,6 @@
 						)
 					)
 					(number "13"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin input inverted
-					(at -15.24 -3.81 0)
-					(length 8.509)
-					(name "~"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 15.24 0 180)
-					(length 7.62)
-					(name "~"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "8"
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -3017,8 +3086,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at 3.81 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -3027,6 +3100,8 @@
 			)
 			(property "Value" "74LS51"
 				(at 6.35 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -3035,6 +3110,8 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -3043,6 +3120,8 @@
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -3051,33 +3130,16 @@
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "74LS51_0_0"
-				(pin power_in line
-					(at -2.54 4.318 0)
-					(length 0)
-					(hide yes)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at -2.54 -4.318 0)
 					(length 0)
@@ -3090,6 +3152,25 @@
 						)
 					)
 					(number "7"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 4.318 0)
+					(length 0)
+					(hide yes)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "14"
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -3236,7 +3317,7 @@
 				(pin input line
 					(at -11.43 3.81 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -3254,7 +3335,7 @@
 				(pin input line
 					(at -11.43 1.27 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -3272,7 +3353,7 @@
 				(pin input line
 					(at -11.43 -1.27 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -3290,7 +3371,7 @@
 				(pin input line
 					(at -11.43 -3.81 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -3308,7 +3389,7 @@
 				(pin output inverted
 					(at 11.43 0 180)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -3328,7 +3409,7 @@
 				(pin input line
 					(at -11.43 3.81 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -3343,10 +3424,28 @@
 						)
 					)
 				)
+				(pin output inverted
+					(at 11.43 0 180)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at -11.43 1.27 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -3364,7 +3463,7 @@
 				(pin input line
 					(at -11.43 -1.27 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -3382,7 +3481,7 @@
 				(pin input line
 					(at -11.43 -3.81 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -3390,24 +3489,6 @@
 						)
 					)
 					(number "13"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 11.43 0 180)
-					(length 7.62)
-					(name "~"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "9"
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -3425,8 +3506,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at 3.81 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -3435,6 +3520,8 @@
 			)
 			(property "Value" "74LS54"
 				(at 6.35 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -3443,6 +3530,8 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -3451,6 +3540,8 @@
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -3459,33 +3550,16 @@
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "74LS54_0_0"
-				(pin power_in line
-					(at -2.54 9.398 0)
-					(length 0)
-					(hide yes)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at -2.54 -9.398 0)
 					(length 0)
@@ -3498,6 +3572,25 @@
 						)
 					)
 					(number "7"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 9.398 0)
+					(length 0)
+					(hide yes)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "14"
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -3716,7 +3809,7 @@
 				(pin input line
 					(at -11.43 8.89 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -3732,27 +3825,9 @@
 					)
 				)
 				(pin input line
-					(at -11.43 6.35 0)
-					(length 7.62)
-					(name "~"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -11.43 3.81 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -3770,7 +3845,7 @@
 				(pin input line
 					(at -11.43 1.27 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -3788,7 +3863,7 @@
 				(pin input line
 					(at -11.43 -1.27 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -3806,7 +3881,7 @@
 				(pin input line
 					(at -11.43 -3.81 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -3821,10 +3896,28 @@
 						)
 					)
 				)
+				(pin output inverted
+					(at 11.43 0 180)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at -11.43 -6.35 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -3842,7 +3935,7 @@
 				(pin input line
 					(at -11.43 -8.89 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -3857,17 +3950,17 @@
 						)
 					)
 				)
-				(pin output inverted
-					(at 11.43 0 180)
+				(pin input line
+					(at -11.43 6.35 0)
 					(length 7.62)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.524 1.524)
 							)
 						)
 					)
-					(number "8"
+					(number "13"
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -3886,8 +3979,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "P"
 				(at 0 45.72 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -3896,6 +3993,8 @@
 			)
 			(property "Value" "CONN_35X2"
 				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3904,6 +4003,8 @@
 			)
 			(property "Footprint" ""
 				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -3912,6 +4013,8 @@
 			)
 			(property "Datasheet" ""
 				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -3920,11 +4023,13 @@
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "CONN_35X2_0_1"
@@ -3960,618 +4065,6 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 40.64 0)
-					(length 7.62)
-					(name "P3"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 38.1 0)
-					(length 7.62)
-					(name "P5"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 35.56 0)
-					(length 7.62)
-					(name "P7"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 33.02 0)
-					(length 7.62)
-					(name "P9"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 30.48 0)
-					(length 7.62)
-					(name "P11"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 27.94 0)
-					(length 7.62)
-					(name "P13"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 25.4 0)
-					(length 7.62)
-					(name "P15"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 22.86 0)
-					(length 7.62)
-					(name "P17"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 20.32 0)
-					(length 7.62)
-					(name "P19"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 17.78 0)
-					(length 7.62)
-					(name "P21"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 15.24 0)
-					(length 7.62)
-					(name "P23"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 12.7 0)
-					(length 7.62)
-					(name "~"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 10.16 0)
-					(length 7.62)
-					(name "P27"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 7.62 0)
-					(length 7.62)
-					(name "P29"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "29"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 5.08 0)
-					(length 7.62)
-					(name "P31"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "31"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 2.54 0)
-					(length 7.62)
-					(name "P33"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "33"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 0 0)
-					(length 7.62)
-					(name "P35"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "35"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -2.54 0)
-					(length 7.62)
-					(name "P37"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "37"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -5.08 0)
-					(length 7.62)
-					(name "P39"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "39"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -7.62 0)
-					(length 7.62)
-					(name "P41"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "41"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -10.16 0)
-					(length 7.62)
-					(name "P43"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "43"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -12.7 0)
-					(length 7.62)
-					(name "P45"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "45"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -15.24 0)
-					(length 7.62)
-					(name "P47"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "47"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -17.78 0)
-					(length 7.62)
-					(name "P49"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "49"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -20.32 0)
-					(length 7.62)
-					(name "P51"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "51"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -22.86 0)
-					(length 7.62)
-					(name "P53"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "53"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -25.4 0)
-					(length 7.62)
-					(name "P55"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "55"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -27.94 0)
-					(length 7.62)
-					(name "P57"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "57"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -30.48 0)
-					(length 7.62)
-					(name "P59"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "59"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -33.02 0)
-					(length 7.62)
-					(name "P61"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "61"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -35.56 0)
-					(length 7.62)
-					(name "P63"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "63"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -38.1 0)
-					(length 7.62)
-					(name "P65"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "65"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -40.64 0)
-					(length 7.62)
-					(name "P67"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "67"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -43.18 0)
-					(length 7.62)
-					(name "P69"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "69"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 10.16 43.18 180)
 					(length 7.62)
 					(name "P2"
@@ -4582,6 +4075,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 40.64 0)
+					(length 7.62)
+					(name "P3"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -4608,6 +4119,24 @@
 					)
 				)
 				(pin passive line
+					(at -10.16 38.1 0)
+					(length 7.62)
+					(name "P5"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 10.16 38.1 180)
 					(length 7.62)
 					(name "P6"
@@ -4618,6 +4147,24 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 35.56 0)
+					(length 7.62)
+					(name "P7"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "7"
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -4644,6 +4191,24 @@
 					)
 				)
 				(pin passive line
+					(at -10.16 33.02 0)
+					(length 7.62)
+					(name "P9"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 10.16 33.02 180)
 					(length 7.62)
 					(name "P10"
@@ -4654,6 +4219,24 @@
 						)
 					)
 					(number "10"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 30.48 0)
+					(length 7.62)
+					(name "P11"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "11"
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -4680,6 +4263,24 @@
 					)
 				)
 				(pin passive line
+					(at -10.16 27.94 0)
+					(length 7.62)
+					(name "P13"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 10.16 27.94 180)
 					(length 7.62)
 					(name "P14"
@@ -4690,6 +4291,24 @@
 						)
 					)
 					(number "14"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 25.4 0)
+					(length 7.62)
+					(name "P15"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "15"
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -4716,6 +4335,24 @@
 					)
 				)
 				(pin passive line
+					(at -10.16 22.86 0)
+					(length 7.62)
+					(name "P17"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 10.16 22.86 180)
 					(length 7.62)
 					(name "P18"
@@ -4726,6 +4363,24 @@
 						)
 					)
 					(number "18"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 20.32 0)
+					(length 7.62)
+					(name "P19"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "19"
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -4752,6 +4407,24 @@
 					)
 				)
 				(pin passive line
+					(at -10.16 17.78 0)
+					(length 7.62)
+					(name "P21"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 10.16 17.78 180)
 					(length 7.62)
 					(name "P22"
@@ -4762,6 +4435,24 @@
 						)
 					)
 					(number "22"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 15.24 0)
+					(length 7.62)
+					(name "P23"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "23"
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -4788,6 +4479,24 @@
 					)
 				)
 				(pin passive line
+					(at -10.16 12.7 0)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 10.16 12.7 180)
 					(length 7.62)
 					(name "P26"
@@ -4798,6 +4507,24 @@
 						)
 					)
 					(number "26"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 10.16 0)
+					(length 7.62)
+					(name "P27"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "27"
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -4824,6 +4551,24 @@
 					)
 				)
 				(pin passive line
+					(at -10.16 7.62 0)
+					(length 7.62)
+					(name "P29"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 10.16 7.62 180)
 					(length 7.62)
 					(name "P30"
@@ -4834,6 +4579,24 @@
 						)
 					)
 					(number "30"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 5.08 0)
+					(length 7.62)
+					(name "P31"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "31"
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -4860,6 +4623,24 @@
 					)
 				)
 				(pin passive line
+					(at -10.16 2.54 0)
+					(length 7.62)
+					(name "P33"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 10.16 2.54 180)
 					(length 7.62)
 					(name "P34"
@@ -4870,6 +4651,24 @@
 						)
 					)
 					(number "34"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 7.62)
+					(name "P35"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "35"
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -4896,6 +4695,24 @@
 					)
 				)
 				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 7.62)
+					(name "P37"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 10.16 -2.54 180)
 					(length 7.62)
 					(name "P38"
@@ -4906,6 +4723,24 @@
 						)
 					)
 					(number "38"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -5.08 0)
+					(length 7.62)
+					(name "P39"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "39"
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -4932,6 +4767,24 @@
 					)
 				)
 				(pin passive line
+					(at -10.16 -7.62 0)
+					(length 7.62)
+					(name "P41"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 10.16 -7.62 180)
 					(length 7.62)
 					(name "P42"
@@ -4942,6 +4795,24 @@
 						)
 					)
 					(number "42"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -10.16 0)
+					(length 7.62)
+					(name "P43"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "43"
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -4968,6 +4839,24 @@
 					)
 				)
 				(pin passive line
+					(at -10.16 -12.7 0)
+					(length 7.62)
+					(name "P45"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 10.16 -12.7 180)
 					(length 7.62)
 					(name "P46"
@@ -4978,6 +4867,24 @@
 						)
 					)
 					(number "46"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -15.24 0)
+					(length 7.62)
+					(name "P47"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "47"
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -5004,6 +4911,24 @@
 					)
 				)
 				(pin passive line
+					(at -10.16 -17.78 0)
+					(length 7.62)
+					(name "P49"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 10.16 -17.78 180)
 					(length 7.62)
 					(name "P50"
@@ -5022,6 +4947,24 @@
 					)
 				)
 				(pin passive line
+					(at -10.16 -20.32 0)
+					(length 7.62)
+					(name "P51"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "51"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 10.16 -20.32 180)
 					(length 7.62)
 					(name "P52"
@@ -5032,6 +4975,24 @@
 						)
 					)
 					(number "52"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -22.86 0)
+					(length 7.62)
+					(name "P53"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "53"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5058,6 +5019,24 @@
 					)
 				)
 				(pin passive line
+					(at -10.16 -25.4 0)
+					(length 7.62)
+					(name "P55"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "55"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 10.16 -25.4 180)
 					(length 7.62)
 					(name "P56"
@@ -5068,6 +5047,24 @@
 						)
 					)
 					(number "56"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -27.94 0)
+					(length 7.62)
+					(name "P57"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "57"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5094,6 +5091,24 @@
 					)
 				)
 				(pin passive line
+					(at -10.16 -30.48 0)
+					(length 7.62)
+					(name "P59"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "59"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 10.16 -30.48 180)
 					(length 7.62)
 					(name "P60"
@@ -5112,6 +5127,24 @@
 					)
 				)
 				(pin passive line
+					(at -10.16 -33.02 0)
+					(length 7.62)
+					(name "P61"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "61"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 10.16 -33.02 180)
 					(length 7.62)
 					(name "P62"
@@ -5122,6 +5155,24 @@
 						)
 					)
 					(number "62"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -35.56 0)
+					(length 7.62)
+					(name "P63"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "63"
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -5148,6 +5199,24 @@
 					)
 				)
 				(pin passive line
+					(at -10.16 -38.1 0)
+					(length 7.62)
+					(name "P65"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "65"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 10.16 -38.1 180)
 					(length 7.62)
 					(name "P66"
@@ -5166,6 +5235,24 @@
 					)
 				)
 				(pin passive line
+					(at -10.16 -40.64 0)
+					(length 7.62)
+					(name "P67"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "67"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 10.16 -40.64 180)
 					(length 7.62)
 					(name "P68"
@@ -5176,6 +5263,24 @@
 						)
 					)
 					(number "68"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -43.18 0)
+					(length 7.62)
+					(name "P69"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "69"
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -5205,56 +5310,68 @@
 			(embedded_fonts no)
 		)
 		(symbol "CT5-8-rescue:GND"
-			(power)
+			(power global)
 			(pin_names
 				(offset 0)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 0.762 0.762)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "GND"
 				(at 0 -1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 0.762 0.762)
 					)
-					(hide yes)
 				)
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "GND_0_1"
@@ -5295,7 +5412,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "CT5-8-rescue:PWR_FLAG-power"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -5306,17 +5423,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#FLG"
 				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "power:PWR_FLAG"
 				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5325,29 +5448,35 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "PWR_FLAG-power_0_0"
@@ -5387,24 +5516,30 @@
 			(embedded_fonts no)
 		)
 		(symbol "CT5-8-rescue:VCC-power"
-			(power)
+			(power global)
 			(pin_names
 				(offset 0)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "power:VCC"
 				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5413,29 +5548,35 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "VCC-power_0_1"
@@ -7290,11 +7431,13 @@
 		(uuid "0157a16f-7ec6-4161-808e-043833672c63")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 701.04 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -7310,11 +7453,13 @@
 		(uuid "044343b9-33ee-4621-a293-e378561ecbb6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 254 434.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -7330,11 +7475,13 @@
 		(uuid "066539c8-2f5f-42fc-b18f-c2db1a27092b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 110.49 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -7350,11 +7497,13 @@
 		(uuid "08eefd1c-8fcb-4049-9510-a2c3b49e1b4c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 110.49 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -7370,11 +7519,13 @@
 		(uuid "14e689f4-034d-4096-9982-1b66c5df49e3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 701.04 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -7390,11 +7541,13 @@
 		(uuid "1be0fbc6-f516-4aac-b395-6ddf19d5f243")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 701.04 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -7410,11 +7563,13 @@
 		(uuid "1f08f61a-bea5-4d06-86b5-a977df1974f4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 255.27 361.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -7430,11 +7585,13 @@
 		(uuid "1fc438fd-2a15-4119-b81f-7e6b4d5eb523")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 633.73 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -7450,11 +7607,13 @@
 		(uuid "24f6e96e-3082-41d3-a904-1ac12fd53cf8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 158.75 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -7470,11 +7629,13 @@
 		(uuid "2657d51a-417e-48a4-9b96-aed27f1bc218")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 158.75 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -7490,11 +7651,13 @@
 		(uuid "2b04fd39-d999-4e20-8ff5-249be6a62c37")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 303.53 383.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -7510,11 +7673,13 @@
 		(uuid "2cf7042c-1918-4c32-9aa8-aa9a0b7dd47e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 128.27 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -7530,11 +7695,13 @@
 		(uuid "2f2af3eb-9cc0-42b9-99ce-4afe5d407a1f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 453.39 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -7550,11 +7717,13 @@
 		(uuid "32e8641b-df2f-448b-9443-be00a4be3a4b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 632.46 358.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -7570,11 +7739,13 @@
 		(uuid "3b095042-a6f4-4201-aad7-25996cb50fc3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 455.93 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -7590,11 +7761,13 @@
 		(uuid "48cd4320-9c97-4739-8fc9-f9d1762c1edd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 128.27 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -7610,11 +7783,13 @@
 		(uuid "4c0584f2-9031-48c5-a1ca-0d89d35d0d74")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 389.89 377.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -7630,11 +7805,13 @@
 		(uuid "52487b38-ae4e-4b33-aacd-214a29e840b8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 255.27 367.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -7650,11 +7827,13 @@
 		(uuid "572c41e3-7bad-4cdd-af7e-9a1cf1ee8a80")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 369.57 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -7670,11 +7849,13 @@
 		(uuid "572fe370-ce12-424a-a60b-7ce7399d7871")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 128.27 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -7690,11 +7871,13 @@
 		(uuid "57de76d4-1300-42f8-b254-7c4533c984f2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 252.73 441.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -7710,11 +7893,13 @@
 		(uuid "643906da-0936-4049-a1dd-d6032e03c92d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 256.54 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -7730,11 +7915,13 @@
 		(uuid "659cc55c-e2a8-42d3-a31d-81931072ac0d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 256.54 294.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -7750,11 +7937,13 @@
 		(uuid "6cf61ef9-d923-458a-b9a9-dc2dd4403986")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 254 373.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -7770,11 +7959,13 @@
 		(uuid "737bb13a-2a84-4f0f-be1a-c2c269f1cc24")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 176.53 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -7790,11 +7981,13 @@
 		(uuid "751f726e-e1c8-4954-a4a4-d6bddf3362b5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 256.54 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -7810,11 +8003,13 @@
 		(uuid "78bac0a4-087e-48b9-9928-92a1892feaa1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 110.49 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -7830,11 +8025,13 @@
 		(uuid "7d652d20-86b0-41d0-98fd-348edcbd31a5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 176.53 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -7850,11 +8047,13 @@
 		(uuid "7f0384c8-f089-4ca0-820c-eb4ae016f42b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 256.54 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -7870,11 +8069,13 @@
 		(uuid "82f93585-6612-444f-a4a5-39f28c30722b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 110.49 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -7890,11 +8091,13 @@
 		(uuid "853e692f-6325-4716-ad3b-7a61a2644793")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 128.27 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -7910,11 +8113,13 @@
 		(uuid "8753cd52-8aeb-433c-99d9-6527b63d6770")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 447.04 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -7930,11 +8135,13 @@
 		(uuid "91e6a8a6-3a46-43cf-a8d2-0445c81a7f3d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 128.27 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -7950,11 +8157,13 @@
 		(uuid "97f7844c-d882-47ee-b9f3-31f9a5321ab8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 110.49 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -7970,11 +8179,13 @@
 		(uuid "997fd64e-e557-44d9-94f7-810ed9193126")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 158.75 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -7990,11 +8201,13 @@
 		(uuid "a19a9e33-ba27-4e37-a7be-c06dee1649b9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 701.04 386.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -8010,11 +8223,13 @@
 		(uuid "a3c90abc-7d02-4b9c-8bac-3fb1efb4c93d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 176.53 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -8030,11 +8245,13 @@
 		(uuid "a62cd39e-35b2-411a-ade6-cca4dcbd12ee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 701.04 358.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -8050,11 +8267,13 @@
 		(uuid "a941659e-1307-484c-abc6-4b28e218bbb0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 256.54 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -8070,11 +8289,13 @@
 		(uuid "a9be526a-f8f2-465f-8e0c-c52944a5736b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 455.93 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -8090,11 +8311,13 @@
 		(uuid "ae7c7bec-9769-4c86-838f-856fe9a4cd09")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 370.84 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -8110,11 +8333,13 @@
 		(uuid "af450432-3c6e-473d-a3a6-efad195faea0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 176.53 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -8130,11 +8355,13 @@
 		(uuid "b16167cf-d495-4540-8040-ee9ba0de025e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 256.54 280.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -8150,11 +8377,13 @@
 		(uuid "b506bfbd-cde0-42ad-b425-8304fa2b754b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 158.75 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -8170,11 +8399,13 @@
 		(uuid "b7c55ecf-7085-4fdd-a03f-11b43b0a58fd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 406.4 447.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -8190,11 +8421,13 @@
 		(uuid "bdb09ea0-b044-47e8-a864-7cad3eb759df")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 701.04 328.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -8210,11 +8443,13 @@
 		(uuid "c93c05f8-609c-42a4-83fb-2cb3586ba694")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 389.89 273.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -8230,11 +8465,13 @@
 		(uuid "ca3f2ff1-292c-492e-9144-cbf4bac21f9e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 256.54 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -8250,11 +8487,13 @@
 		(uuid "cb118f16-a289-4977-8709-602f74f43958")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 256.54 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -8270,11 +8509,13 @@
 		(uuid "cb4e9170-58ed-4017-bb32-bb3d9a00c1e1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 158.75 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -8290,11 +8531,13 @@
 		(uuid "cea20a3a-862f-49a1-bb8f-535bfd5c2432")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 256.54 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -8310,11 +8553,13 @@
 		(uuid "d045863e-9c32-4154-b82c-1d26d8ef67e6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 632.46 386.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -8330,11 +8575,13 @@
 		(uuid "d0995a97-0f13-4fc9-bad6-96fbe34caef8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 256.54 285.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -8350,11 +8597,13 @@
 		(uuid "d3be4e1e-f009-4cc6-967a-619d009ca060")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 176.53 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -8370,11 +8619,13 @@
 		(uuid "d68dd9bc-8079-41bf-b799-ca06bf37d12c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 441.96 288.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -8390,11 +8641,13 @@
 		(uuid "dabf5d83-581e-4b2d-bacf-35762d827856")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 632.46 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -8410,11 +8663,13 @@
 		(uuid "dbb41732-1082-47ad-9f95-cc04075abd1b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 254 379.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -8430,11 +8685,13 @@
 		(uuid "df54a994-1970-48bf-8e42-7fd139bd56b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 256.54 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -8450,11 +8707,13 @@
 		(uuid "e07f1444-27f2-4bf9-bbce-0f6dffa2a4c0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 369.57 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -8470,11 +8729,13 @@
 		(uuid "e128753e-83c7-41c8-9e83-53c228a23c88")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 632.46 328.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -8490,11 +8751,13 @@
 		(uuid "e33cc6d0-b08c-4144-8cec-6e991d95ca3f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 363.22 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -8510,11 +8773,13 @@
 		(uuid "e588e876-2127-480e-ac39-30a7d825178f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 256.54 275.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -8530,11 +8795,13 @@
 		(uuid "ec3cd653-a0c2-40a3-b9e3-0262d1f0773f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 256.54 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -8550,11 +8817,13 @@
 		(uuid "edee1a8e-2116-4ddb-88f7-a59f6a92d179")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 256.54 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -8570,11 +8839,13 @@
 		(uuid "ee287edc-b67d-445a-b354-1b2286dd1bc5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 252.73 449.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -8590,11 +8861,13 @@
 		(uuid "ef451d51-3878-47bb-a50e-d68203456cbb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 633.73 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -8610,11 +8883,13 @@
 		(uuid "f0098724-12ec-42fc-9427-102a5aca1361")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 633.73 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -8630,11 +8905,13 @@
 		(uuid "f2ca862e-1030-4dbf-ab0b-263702fbf0f6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 633.73 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -8650,11 +8927,13 @@
 		(uuid "f67f08ba-07fb-40e3-a4e0-1df4d9199ee1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 256.54 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -8670,11 +8949,13 @@
 		(uuid "f70bb2d9-3736-4ab8-8788-bb814c9a2a1c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 518.16 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -8690,11 +8971,13 @@
 		(uuid "fee13a5b-d0e5-4a44-ba7e-9cdd0b611e38")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 455.93 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -8702,13 +8985,17 @@
 		(lib_id "CT5-8-rescue:74HC04")
 		(at 276.86 175.26 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000576979ed")
 		(property "Reference" "1A_P16"
 			(at 280.67 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -8717,22 +9004,28 @@
 		)
 		(property "Value" "74HC04"
 			(at 281.94 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
 				)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" ""
 			(at 276.86 175.26 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 276.86 175.26 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8741,6 +9034,8 @@
 		)
 		(property "Description" ""
 			(at 276.86 175.26 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8796,7 +9091,7 @@
 					(unit 1)
 				)
 			)
-			(project ""
+			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/a95f568a-1ac6-4cdd-a7e9-88a5e8192029"
 					(reference "1A_P16")
 					(unit 1)
@@ -8808,13 +9103,17 @@
 		(lib_id "CT5-8-rescue:74HC02")
 		(at 317.5 172.72 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000057697a9a")
 		(property "Reference" "1C_P16"
 			(at 317.5 171.45 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8823,22 +9122,28 @@
 		)
 		(property "Value" "74HC02"
 			(at 318.77 173.99 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" ""
 			(at 317.5 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 317.5 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8847,6 +9152,8 @@
 		)
 		(property "Description" ""
 			(at 317.5 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8902,7 +9209,7 @@
 					(unit 1)
 				)
 			)
-			(project ""
+			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/a95f568a-1ac6-4cdd-a7e9-88a5e8192029"
 					(reference "1C_P16")
 					(unit 1)
@@ -8914,13 +9221,17 @@
 		(lib_id "CT5-8-rescue:74LS54")
 		(at 472.44 261.62 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000057697d0c")
 		(property "Reference" "2B_P16"
 			(at 478.79 257.81 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8929,22 +9240,28 @@
 		)
 		(property "Value" "74LS54"
 			(at 478.79 264.16 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" ""
 			(at 472.44 261.62 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 472.44 261.62 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8953,6 +9270,8 @@
 		)
 		(property "Description" ""
 			(at 472.44 261.62 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8999,7 +9318,7 @@
 					(unit 1)
 				)
 			)
-			(project ""
+			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/a95f568a-1ac6-4cdd-a7e9-88a5e8192029"
 					(reference "2B_P16")
 					(unit 1)
@@ -9011,13 +9330,17 @@
 		(lib_id "CT5-8-rescue:74LS51")
 		(at 364.49 172.72 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000057697ffd")
 		(property "Reference" "2C_P16"
 			(at 368.3 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9026,22 +9349,28 @@
 		)
 		(property "Value" "74LS51"
 			(at 370.84 175.26 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" ""
 			(at 364.49 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 364.49 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9050,6 +9379,8 @@
 		)
 		(property "Description" ""
 			(at 364.49 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9099,7 +9430,7 @@
 					(unit 1)
 				)
 			)
-			(project ""
+			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/a95f568a-1ac6-4cdd-a7e9-88a5e8192029"
 					(reference "2C_P16")
 					(unit 1)
@@ -9111,13 +9442,17 @@
 		(lib_id "CT5-8-rescue:74HC04")
 		(at 389.89 172.72 0)
 		(unit 2)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005769818c")
 		(property "Reference" "1D_P16"
 			(at 393.7 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -9126,22 +9461,28 @@
 		)
 		(property "Value" "74HC04"
 			(at 394.97 175.26 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
 				)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" ""
 			(at 389.89 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 389.89 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9150,6 +9491,8 @@
 		)
 		(property "Description" ""
 			(at 389.89 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9205,7 +9548,7 @@
 					(unit 2)
 				)
 			)
-			(project ""
+			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/a95f568a-1ac6-4cdd-a7e9-88a5e8192029"
 					(reference "1D_P16")
 					(unit 2)
@@ -9217,13 +9560,17 @@
 		(lib_id "CT5-8-rescue:74LS40")
 		(at 425.45 172.72 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000057698257")
 		(property "Reference" "3C_P16"
 			(at 425.45 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9232,22 +9579,28 @@
 		)
 		(property "Value" "74LS40"
 			(at 425.45 175.26 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" ""
 			(at 425.45 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 425.45 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9256,6 +9609,8 @@
 		)
 		(property "Description" ""
 			(at 425.45 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9305,7 +9660,7 @@
 					(unit 1)
 				)
 			)
-			(project ""
+			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/a95f568a-1ac6-4cdd-a7e9-88a5e8192029"
 					(reference "3C_P16")
 					(unit 1)
@@ -9317,13 +9672,17 @@
 		(lib_id "CT5-8-rescue:7400")
 		(at 313.69 241.3 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005769c6d6")
 		(property "Reference" "2A_P16"
 			(at 313.69 240.03 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9332,22 +9691,28 @@
 		)
 		(property "Value" "7400"
 			(at 313.69 243.84 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" ""
 			(at 313.69 241.3 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 313.69 241.3 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9356,6 +9721,8 @@
 		)
 		(property "Description" ""
 			(at 313.69 241.3 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9411,7 +9778,7 @@
 					(unit 1)
 				)
 			)
-			(project ""
+			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/a95f568a-1ac6-4cdd-a7e9-88a5e8192029"
 					(reference "2A_P16")
 					(unit 1)
@@ -9423,13 +9790,17 @@
 		(lib_id "CT5-8-rescue:74LS10")
 		(at 287.02 254 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005769c73b")
 		(property "Reference" "3A_P16"
 			(at 287.02 252.73 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9438,22 +9809,28 @@
 		)
 		(property "Value" "74LS10"
 			(at 287.02 255.27 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" ""
 			(at 287.02 254 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 287.02 254 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9462,6 +9839,8 @@
 		)
 		(property "Description" ""
 			(at 287.02 254 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9517,7 +9896,7 @@
 					(unit 1)
 				)
 			)
-			(project ""
+			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/a95f568a-1ac6-4cdd-a7e9-88a5e8192029"
 					(reference "3A_P16")
 					(unit 1)
@@ -9529,13 +9908,17 @@
 		(lib_id "CT5-8-rescue:74LS10")
 		(at 350.52 245.11 0)
 		(unit 2)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005769c7b2")
 		(property "Reference" "3A_P16"
 			(at 350.52 243.84 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9544,22 +9927,28 @@
 		)
 		(property "Value" "74LS10"
 			(at 350.52 246.38 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" ""
 			(at 350.52 245.11 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 350.52 245.11 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9568,6 +9957,8 @@
 		)
 		(property "Description" ""
 			(at 350.52 245.11 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9623,7 +10014,7 @@
 					(unit 2)
 				)
 			)
-			(project ""
+			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/a95f568a-1ac6-4cdd-a7e9-88a5e8192029"
 					(reference "3A_P16")
 					(unit 2)
@@ -9635,13 +10026,17 @@
 		(lib_id "CT5-8-rescue:7400")
 		(at 386.08 251.46 0)
 		(unit 2)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005769cf57")
 		(property "Reference" "2D_P16"
 			(at 386.08 250.19 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9650,22 +10045,28 @@
 		)
 		(property "Value" "7400"
 			(at 386.08 254 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" ""
 			(at 386.08 251.46 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 386.08 251.46 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9674,6 +10075,8 @@
 		)
 		(property "Description" ""
 			(at 386.08 251.46 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9729,7 +10132,7 @@
 					(unit 2)
 				)
 			)
-			(project ""
+			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/a95f568a-1ac6-4cdd-a7e9-88a5e8192029"
 					(reference "2D_P16")
 					(unit 2)
@@ -9742,13 +10145,17 @@
 		(at 420.37 255.27 0)
 		(mirror x)
 		(unit 3)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005769d0cb")
 		(property "Reference" "3A_P16"
 			(at 420.37 256.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9757,22 +10164,28 @@
 		)
 		(property "Value" "74LS10"
 			(at 420.37 254 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" ""
 			(at 420.37 255.27 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 420.37 255.27 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9781,6 +10194,8 @@
 		)
 		(property "Description" ""
 			(at 420.37 255.27 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9836,7 +10251,7 @@
 					(unit 3)
 				)
 			)
-			(project ""
+			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/a95f568a-1ac6-4cdd-a7e9-88a5e8192029"
 					(reference "3A_P16")
 					(unit 3)
@@ -9848,13 +10263,17 @@
 		(lib_id "CT5-8-rescue:74LS40")
 		(at 420.37 274.32 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005769d29e")
 		(property "Reference" "1B_P16"
 			(at 420.37 271.78 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9863,22 +10282,28 @@
 		)
 		(property "Value" "74LS40"
 			(at 420.37 276.86 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" ""
 			(at 420.37 274.32 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 420.37 274.32 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9887,6 +10312,8 @@
 		)
 		(property "Description" ""
 			(at 420.37 274.32 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9936,7 +10363,7 @@
 					(unit 1)
 				)
 			)
-			(project ""
+			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/a95f568a-1ac6-4cdd-a7e9-88a5e8192029"
 					(reference "1B_P16")
 					(unit 1)
@@ -9948,13 +10375,17 @@
 		(lib_id "CT5-8-rescue:74HC04")
 		(at 497.84 261.62 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005769d66d")
 		(property "Reference" "1D_P16"
 			(at 490.22 264.16 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -9963,22 +10394,28 @@
 		)
 		(property "Value" "74HC04"
 			(at 502.92 264.16 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
 				)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" ""
 			(at 497.84 261.62 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 497.84 261.62 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -9987,6 +10424,8 @@
 		)
 		(property "Description" ""
 			(at 497.84 261.62 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10042,7 +10481,7 @@
 					(unit 1)
 				)
 			)
-			(project ""
+			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/a95f568a-1ac6-4cdd-a7e9-88a5e8192029"
 					(reference "1D_P16")
 					(unit 1)
@@ -10055,13 +10494,17 @@
 		(at 298.45 278.13 0)
 		(mirror x)
 		(unit 3)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005769df36")
 		(property "Reference" "3B_P16"
 			(at 298.45 279.4 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10070,22 +10513,28 @@
 		)
 		(property "Value" "7400"
 			(at 298.45 275.59 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" ""
 			(at 298.45 278.13 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 298.45 278.13 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10094,6 +10543,8 @@
 		)
 		(property "Description" ""
 			(at 298.45 278.13 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10149,7 +10600,7 @@
 					(unit 3)
 				)
 			)
-			(project ""
+			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/a95f568a-1ac6-4cdd-a7e9-88a5e8192029"
 					(reference "3B_P16")
 					(unit 3)
@@ -10161,13 +10612,17 @@
 		(lib_id "CT5-8-rescue:74HC04")
 		(at 294.64 294.64 0)
 		(unit 3)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005769df54")
 		(property "Reference" "1A_P16"
 			(at 298.45 292.1 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -10176,22 +10631,28 @@
 		)
 		(property "Value" "74HC04"
 			(at 299.72 297.18 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
 				)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" ""
 			(at 294.64 294.64 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 294.64 294.64 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10200,6 +10661,8 @@
 		)
 		(property "Description" ""
 			(at 294.64 294.64 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10255,7 +10718,7 @@
 					(unit 3)
 				)
 			)
-			(project ""
+			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/a95f568a-1ac6-4cdd-a7e9-88a5e8192029"
 					(reference "1A_P16")
 					(unit 3)
@@ -10267,13 +10730,17 @@
 		(lib_id "CT5-8-rescue:7400")
 		(at 335.28 297.18 0)
 		(unit 4)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005769df86")
 		(property "Reference" "2A_P16"
 			(at 335.28 295.91 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10282,22 +10749,28 @@
 		)
 		(property "Value" "7400"
 			(at 335.28 299.72 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" ""
 			(at 335.28 297.18 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 335.28 297.18 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10306,6 +10779,8 @@
 		)
 		(property "Description" ""
 			(at 335.28 297.18 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10361,7 +10836,7 @@
 					(unit 4)
 				)
 			)
-			(project ""
+			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/a95f568a-1ac6-4cdd-a7e9-88a5e8192029"
 					(reference "2A_P16")
 					(unit 4)
@@ -10373,13 +10848,17 @@
 		(lib_id "CT5-8-rescue:7400")
 		(at 335.28 280.67 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005769df8c")
 		(property "Reference" "2D_P16"
 			(at 335.28 279.4 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10388,22 +10867,28 @@
 		)
 		(property "Value" "7400"
 			(at 335.28 283.21 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" ""
 			(at 335.28 280.67 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 335.28 280.67 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10412,6 +10897,8 @@
 		)
 		(property "Description" ""
 			(at 335.28 280.67 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10467,7 +10954,7 @@
 					(unit 1)
 				)
 			)
-			(project ""
+			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/a95f568a-1ac6-4cdd-a7e9-88a5e8192029"
 					(reference "2D_P16")
 					(unit 1)
@@ -10479,13 +10966,17 @@
 		(lib_id "CT5-8-rescue:7400")
 		(at 666.75 196.85 0)
 		(unit 2)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000576a8e5f")
 		(property "Reference" "2A_P16"
 			(at 666.75 195.58 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10494,22 +10985,28 @@
 		)
 		(property "Value" "7400"
 			(at 666.75 199.39 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" ""
 			(at 666.75 196.85 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 666.75 196.85 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10518,6 +11015,8 @@
 		)
 		(property "Description" ""
 			(at 666.75 196.85 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10573,7 +11072,7 @@
 					(unit 2)
 				)
 			)
-			(project ""
+			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/a95f568a-1ac6-4cdd-a7e9-88a5e8192029"
 					(reference "2A_P16")
 					(unit 2)
@@ -10585,13 +11084,17 @@
 		(lib_id "CT5-8-rescue:74HC04")
 		(at 665.48 300.99 0)
 		(unit 2)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000576a8e65")
 		(property "Reference" "1A_P16"
 			(at 669.29 298.45 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -10600,22 +11103,28 @@
 		)
 		(property "Value" "74HC04"
 			(at 670.56 303.53 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
 				)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" ""
 			(at 665.48 300.99 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 665.48 300.99 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10624,6 +11133,8 @@
 		)
 		(property "Description" ""
 			(at 665.48 300.99 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10679,7 +11190,7 @@
 					(unit 2)
 				)
 			)
-			(project ""
+			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/a95f568a-1ac6-4cdd-a7e9-88a5e8192029"
 					(reference "1A_P16")
 					(unit 2)
@@ -10691,13 +11202,17 @@
 		(lib_id "CT5-8-rescue:7400")
 		(at 666.75 229.87 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000576a90a7")
 		(property "Reference" "3B_P16"
 			(at 666.75 228.6 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10706,22 +11221,28 @@
 		)
 		(property "Value" "7400"
 			(at 666.75 232.41 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" ""
 			(at 666.75 229.87 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 666.75 229.87 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10730,6 +11251,8 @@
 		)
 		(property "Description" ""
 			(at 666.75 229.87 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10785,7 +11308,7 @@
 					(unit 1)
 				)
 			)
-			(project ""
+			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/a95f568a-1ac6-4cdd-a7e9-88a5e8192029"
 					(reference "3B_P16")
 					(unit 1)
@@ -10797,13 +11320,17 @@
 		(lib_id "CT5-8-rescue:74HC04")
 		(at 665.48 328.93 0)
 		(unit 3)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000576a90b6")
 		(property "Reference" "1D_P16"
 			(at 669.29 326.39 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -10812,22 +11339,28 @@
 		)
 		(property "Value" "74HC04"
 			(at 670.56 331.47 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
 				)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" ""
 			(at 665.48 328.93 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 665.48 328.93 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10836,6 +11369,8 @@
 		)
 		(property "Description" ""
 			(at 665.48 328.93 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10891,7 +11426,7 @@
 					(unit 3)
 				)
 			)
-			(project ""
+			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/a95f568a-1ac6-4cdd-a7e9-88a5e8192029"
 					(reference "1D_P16")
 					(unit 3)
@@ -10903,13 +11438,17 @@
 		(lib_id "CT5-8-rescue:74HC04")
 		(at 665.48 358.14 0)
 		(unit 5)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000576a90c2")
 		(property "Reference" "1A_P16"
 			(at 669.29 355.6 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -10918,22 +11457,28 @@
 		)
 		(property "Value" "74HC04"
 			(at 670.56 360.68 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
 				)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" ""
 			(at 665.48 358.14 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 665.48 358.14 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10942,6 +11487,8 @@
 		)
 		(property "Description" ""
 			(at 665.48 358.14 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10997,7 +11544,7 @@
 					(unit 5)
 				)
 			)
-			(project ""
+			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/a95f568a-1ac6-4cdd-a7e9-88a5e8192029"
 					(reference "1A_P16")
 					(unit 5)
@@ -11009,13 +11556,17 @@
 		(lib_id "CT5-8-rescue:74HC04")
 		(at 665.48 386.08 0)
 		(unit 4)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000576a90ce")
 		(property "Reference" "1A_P16"
 			(at 669.29 383.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -11024,22 +11575,28 @@
 		)
 		(property "Value" "74HC04"
 			(at 670.56 388.62 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
 				)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" ""
 			(at 665.48 386.08 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 665.48 386.08 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11048,6 +11605,8 @@
 		)
 		(property "Description" ""
 			(at 665.48 386.08 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11103,7 +11662,7 @@
 					(unit 4)
 				)
 			)
-			(project ""
+			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/a95f568a-1ac6-4cdd-a7e9-88a5e8192029"
 					(reference "1A_P16")
 					(unit 4)
@@ -11115,13 +11674,17 @@
 		(lib_id "CT5-8-rescue:74HC04")
 		(at 287.02 379.73 0)
 		(unit 6)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000576aa583")
 		(property "Reference" "1A_P16"
 			(at 290.83 377.19 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -11130,22 +11693,28 @@
 		)
 		(property "Value" "74HC04"
 			(at 292.1 382.27 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
 				)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" ""
 			(at 287.02 379.73 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 287.02 379.73 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11154,6 +11723,8 @@
 		)
 		(property "Description" ""
 			(at 287.02 379.73 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11209,7 +11780,7 @@
 					(unit 6)
 				)
 			)
-			(project ""
+			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/a95f568a-1ac6-4cdd-a7e9-88a5e8192029"
 					(reference "1A_P16")
 					(unit 6)
@@ -11222,13 +11793,17 @@
 		(at 288.29 364.49 0)
 		(mirror x)
 		(unit 3)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000576aa58f")
 		(property "Reference" "2A_P16"
 			(at 288.29 365.76 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11237,22 +11812,28 @@
 		)
 		(property "Value" "7400"
 			(at 288.29 361.95 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" ""
 			(at 288.29 364.49 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 288.29 364.49 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11261,6 +11842,8 @@
 		)
 		(property "Description" ""
 			(at 288.29 364.49 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11316,7 +11899,7 @@
 					(unit 3)
 				)
 			)
-			(project ""
+			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/a95f568a-1ac6-4cdd-a7e9-88a5e8192029"
 					(reference "2A_P16")
 					(unit 3)
@@ -11328,13 +11911,17 @@
 		(lib_id "CT5-8-rescue:7400")
 		(at 326.39 370.84 0)
 		(unit 2)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000576aa5a1")
 		(property "Reference" "3B_P16"
 			(at 326.39 369.57 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11343,22 +11930,28 @@
 		)
 		(property "Value" "7400"
 			(at 326.39 373.38 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" ""
 			(at 326.39 370.84 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 326.39 370.84 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11367,6 +11960,8 @@
 		)
 		(property "Description" ""
 			(at 326.39 370.84 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11422,7 +12017,7 @@
 					(unit 2)
 				)
 			)
-			(project ""
+			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/a95f568a-1ac6-4cdd-a7e9-88a5e8192029"
 					(reference "3B_P16")
 					(unit 2)
@@ -11434,13 +12029,17 @@
 		(lib_id "CT5-8-rescue:7400")
 		(at 365.76 377.19 0)
 		(unit 4)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000576aa5aa")
 		(property "Reference" "3B_P16"
 			(at 365.76 375.92 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11449,22 +12048,28 @@
 		)
 		(property "Value" "7400"
 			(at 365.76 379.73 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" ""
 			(at 365.76 377.19 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 365.76 377.19 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11473,6 +12078,8 @@
 		)
 		(property "Description" ""
 			(at 365.76 377.19 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11528,7 +12135,7 @@
 					(unit 4)
 				)
 			)
-			(project ""
+			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/a95f568a-1ac6-4cdd-a7e9-88a5e8192029"
 					(reference "3B_P16")
 					(unit 4)
@@ -11540,13 +12147,17 @@
 		(lib_id "CT5-8-rescue:74HC04")
 		(at 285.75 441.96 0)
 		(unit 6)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000576aadb6")
 		(property "Reference" "1D_P16"
 			(at 289.56 439.42 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -11555,22 +12166,28 @@
 		)
 		(property "Value" "74HC04"
 			(at 290.83 444.5 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
 				)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" ""
 			(at 285.75 441.96 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 285.75 441.96 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11579,6 +12196,8 @@
 		)
 		(property "Description" ""
 			(at 285.75 441.96 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11634,7 +12253,7 @@
 					(unit 6)
 				)
 			)
-			(project ""
+			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/a95f568a-1ac6-4cdd-a7e9-88a5e8192029"
 					(reference "1D_P16")
 					(unit 6)
@@ -11647,13 +12266,17 @@
 		(at 364.49 447.04 0)
 		(mirror x)
 		(unit 3)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000576aadd7")
 		(property "Reference" "2D_P16"
 			(at 364.49 448.31 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11662,22 +12285,28 @@
 		)
 		(property "Value" "7400"
 			(at 364.49 444.5 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" ""
 			(at 364.49 447.04 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 364.49 447.04 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11686,6 +12315,8 @@
 		)
 		(property "Description" ""
 			(at 364.49 447.04 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11741,7 +12372,7 @@
 					(unit 3)
 				)
 			)
-			(project ""
+			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/a95f568a-1ac6-4cdd-a7e9-88a5e8192029"
 					(reference "2D_P16")
 					(unit 3)
@@ -11753,13 +12384,17 @@
 		(lib_id "CT5-8-rescue:74HC02")
 		(at 320.04 439.42 0)
 		(unit 2)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000576aaf09")
 		(property "Reference" "1C_P16"
 			(at 320.04 438.15 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11768,22 +12403,28 @@
 		)
 		(property "Value" "74HC02"
 			(at 321.31 440.69 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "~"
+		(property "Footprint" ""
 			(at 320.04 439.42 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 320.04 439.42 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11792,6 +12433,8 @@
 		)
 		(property "Description" ""
 			(at 320.04 439.42 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11847,7 +12490,7 @@
 					(unit 2)
 				)
 			)
-			(project ""
+			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/a95f568a-1ac6-4cdd-a7e9-88a5e8192029"
 					(reference "1C_P16")
 					(unit 2)
@@ -11859,13 +12502,17 @@
 		(lib_id "CT5-8-rescue:CONN_35X2")
 		(at 143.51 213.36 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000587d4844")
 		(property "Reference" "CONECTOR_P16"
 			(at 143.51 164.5412 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11874,6 +12521,8 @@
 		)
 		(property "Value" "CONN_35X2"
 			(at 143.51 167.0304 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11882,6 +12531,8 @@
 		)
 		(property "Footprint" ""
 			(at 143.51 207.01 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11890,6 +12541,8 @@
 		)
 		(property "Datasheet" ""
 			(at 143.51 207.01 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11898,6 +12551,8 @@
 		)
 		(property "Description" ""
 			(at 143.51 213.36 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12121,7 +12776,7 @@
 					(unit 1)
 				)
 			)
-			(project ""
+			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/a95f568a-1ac6-4cdd-a7e9-88a5e8192029"
 					(reference "CONECTOR_P16")
 					(unit 1)
@@ -12133,22 +12788,28 @@
 		(lib_id "CT5-8-rescue:PWR_FLAG-power")
 		(at 130.81 167.64 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000587efa4f")
 		(property "Reference" "#FLG01"
 			(at 130.81 165.227 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "PWR_FLAG"
 			(at 130.81 162.3568 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -12157,24 +12818,30 @@
 		)
 		(property "Footprint" ""
 			(at 130.81 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 130.81 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 130.81 167.64 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12191,7 +12858,7 @@
 					(unit 1)
 				)
 			)
-			(project ""
+			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/a95f568a-1ac6-4cdd-a7e9-88a5e8192029"
 					(reference "#FLG01")
 					(unit 1)
@@ -12203,22 +12870,28 @@
 		(lib_id "CT5-8-rescue:VCC-power")
 		(at 127 167.64 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000587efaa1")
 		(property "Reference" "#PWR02"
 			(at 127 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "VCC"
 			(at 127.0762 164.3888 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -12227,24 +12900,30 @@
 		)
 		(property "Footprint" ""
 			(at 127 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 127 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 127 167.64 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12261,7 +12940,7 @@
 					(unit 1)
 				)
 			)
-			(project ""
+			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/a95f568a-1ac6-4cdd-a7e9-88a5e8192029"
 					(reference "#PWR02")
 					(unit 1)
@@ -12273,22 +12952,28 @@
 		(lib_id "CT5-8-rescue:PWR_FLAG-power")
 		(at 161.29 255.27 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000587efcd1")
 		(property "Reference" "#FLG03"
 			(at 161.29 252.857 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "PWR_FLAG"
 			(at 161.29 249.9868 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 0.762 0.762)
@@ -12297,24 +12982,30 @@
 		)
 		(property "Footprint" ""
 			(at 161.29 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 161.29 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 161.29 255.27 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12331,7 +13022,7 @@
 					(unit 1)
 				)
 			)
-			(project ""
+			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/a95f568a-1ac6-4cdd-a7e9-88a5e8192029"
 					(reference "#FLG03")
 					(unit 1)
@@ -12343,49 +13034,61 @@
 		(lib_id "CT5-8-rescue:GND")
 		(at 161.29 259.08 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000587eff16")
 		(property "Reference" "#PWR04"
 			(at 161.29 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 161.29 260.858 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 0.762 0.762)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 161.29 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 161.29 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 161.29 259.08 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12402,7 +13105,7 @@
 					(unit 1)
 				)
 			)
-			(project ""
+			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/a95f568a-1ac6-4cdd-a7e9-88a5e8192029"
 					(reference "#PWR04")
 					(unit 1)
