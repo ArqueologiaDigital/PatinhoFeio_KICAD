@@ -82,6 +82,17 @@
 	)
 	(text "OK"
 		(exclude_from_sim no)
+		(at 64.77 54.102 0)
+		(effects
+			(font
+				(size 2.9972 2.9972)
+			)
+			(justify left bottom)
+		)
+		(uuid "288fe6ec-4498-4360-89bf-045b890c094e")
+	)
+	(text "OK"
+		(exclude_from_sim no)
 		(at 64.77 83.82 0)
 		(effects
 			(font
@@ -255,17 +266,6 @@
 			(justify left bottom)
 		)
 		(uuid "8807e3eb-7cde-4305-93ec-c388214cb329")
-	)
-	(text "WIP"
-		(exclude_from_sim no)
-		(at 65.278 53.34 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left bottom)
-		)
-		(uuid "949285cf-09fe-4af1-8922-b118375ca574")
 	)
 	(text "Placas de somador:\n* FS1-3 (bits menos significativos)\n* FS2-4 (bits mais significativos)"
 		(exclude_from_sim no)
