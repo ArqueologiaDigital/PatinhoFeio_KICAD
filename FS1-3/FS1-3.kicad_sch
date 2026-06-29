@@ -7743,16 +7743,6 @@
 		)
 		(uuid "8c8a6fcc-c27a-443b-9ed5-c32a2c45908c")
 	)
-	(polyline
-		(pts
-			(xy 219.71 308.61) (xy 217.17 308.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cc05202-a13f-48f9-ab84-be5fd376d5cd")
-	)
 	(wire
 		(pts
 			(xy 427.99 170.18) (xy 430.53 170.18)
@@ -12998,8 +12988,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "31d92d7f-3c3a-4740-9c85-b54e6dbd238f")
-		(property "Reference" "U?"
-			(at 441.452 112.522 0)
+		(property "Reference" "3E_P2A_"
+			(at 444.5 112.522 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13101,7 +13091,7 @@
 			)
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "U?")
+					(reference "3E_P2A_")
 					(unit 2)
 				)
 			)
@@ -13349,8 +13339,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3e06c939-3930-43b1-9a08-e05a2ac366df")
-		(property "Reference" "U?"
-			(at 441.706 122.682 0)
+		(property "Reference" "1C_P2A_"
+			(at 444.5 122.682 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13452,7 +13442,7 @@
 			)
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "U?")
+					(reference "1C_P2A_")
 					(unit 5)
 				)
 			)

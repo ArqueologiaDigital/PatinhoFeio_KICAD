@@ -663,7 +663,7 @@
         "uuid": "aca06203-542d-4682-a7e3-8839e24cce95"
       }
     ],
-    "used_designators": "CONECTOR_FS1_4,CONECTOR_P2A1,#PWR87-90,#FLG45-48",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
