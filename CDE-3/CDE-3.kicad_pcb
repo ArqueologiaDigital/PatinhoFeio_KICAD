@@ -13881,7 +13881,7 @@
 		(property "Reference" "CONECTOR_P10"
 			(at -5.08 1 90)
 			(layer "F.SilkS")
-			(uuid "b2472227-5999-4e6b-82c6-ddbbcf3db082")
+			(uuid "de3ff91c-3ba3-4858-b847-936ef4c29404")
 			(effects
 				(font
 					(size 1 1)
@@ -13892,7 +13892,7 @@
 		(property "Value" "CONN_35X2"
 			(at 39.37 7.62 90)
 			(layer "F.Fab")
-			(uuid "1f9c99c6-3a2e-40fd-b11c-888b6dd45324")
+			(uuid "503c68ac-2763-45a0-ba73-10774ccc6686")
 			(effects
 				(font
 					(size 1 1)
@@ -13904,7 +13904,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c7902e5d-0dcb-49ff-bde4-1e8951b68442")
+			(uuid "461bf8dc-de2b-4559-8f03-e4103bb222a4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13915,7 +13915,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "79e5d422-7536-4410-b2ba-960d820aea65")
+			(uuid "42166ae2-1dba-45f5-aa4e-cc446b6f796c")
 			(effects
 				(font
 					(size 1.27 1.27)
