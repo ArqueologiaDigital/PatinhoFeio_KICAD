@@ -388,9 +388,9 @@
 		)
 		(uuid "dfc7fdcf-9e75-44b9-bef2-0b592a2ea0c6")
 	)
-	(text "TO-DO!"
+	(text "OK"
 		(exclude_from_sim no)
-		(at 63.5 36.83 0)
+		(at 66.294 36.068 0)
 		(effects
 			(font
 				(size 1.524 1.524)
