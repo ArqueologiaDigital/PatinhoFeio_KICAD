@@ -663,7 +663,7 @@
         "uuid": "aca06203-542d-4682-a7e3-8839e24cce95"
       }
     ],
-    "used_designators": "5A_FR3-4,#PWR214-217,5C_FR3,5B_FR3-4,#FLG7,#FLG12,#FLG24",
+    "used_designators": "4B_P6,4B_P9,4D_P4,3B_P7,1A_P5,1A_P8,1A_P11,1A_P17-20,U2,U4,U6-12,5F_P7,3F_FS3,5B_FR3-4,#PWR216-315,3D_P5,5A_FR3-4,4C_P4,4C_FS3,1F_FS3-5,1B_FS3,3B_FS3,5A_FS3,5C_FR3,1D_FR3-6,1C_FS3-5,5E_P10,5C_FS3-4,3C_FS3-6,#FLG1,3A_FS3-14",
     "variants": []
   },
   "sheets": [
