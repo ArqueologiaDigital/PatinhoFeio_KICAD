@@ -1343,108 +1343,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "CCE-2-rescue:GND"
-			(power global)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 0.762 0.762)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -1.778 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 0.762 0.762)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 0 -1.27) (xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "CCE-2-rescue:PWR_FLAG-power"
 			(power global)
 			(pin_numbers
@@ -1544,118 +1442,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "CCE-2-rescue:VCC-power"
-			(power global)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "power:VCC"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VCC-power_0_1"
-				(circle
-					(center 0 1.905)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VCC-power_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -2999,108 +2785,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "CDE-3-rescue:GND-RESCUE-CDE-3"
-			(power global)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 0.762 0.762)
-					)
-				)
-			)
-			(property "Value" "GND-RESCUE-CDE-3"
-				(at 0 -1.778 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 0.762 0.762)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND-RESCUE-CDE-3_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 0 -1.27) (xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND-RESCUE-CDE-3_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "CDE-3-rescue:PWR_FLAG-power"
 			(power global)
 			(pin_numbers
@@ -3200,118 +2884,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "CDE-3-rescue:VCC-power"
-			(power global)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "power:VCC"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VCC-power_0_1"
-				(circle
-					(center 0 1.905)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VCC-power_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -4655,108 +4227,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "CRC-1-rescue:GND"
-			(power global)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 0.762 0.762)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -1.778 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 0.762 0.762)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 0 -1.27) (xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "CRC-1-rescue:PWR_FLAG-power"
 			(power global)
 			(pin_numbers
@@ -4856,118 +4326,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "CRC-1-rescue:VCC-power"
-			(power global)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "power:VCC"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VCC-power_0_1"
-				(circle
-					(center 0 1.905)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VCC-power_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -6311,108 +5669,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "CT1-4-rescue:GND"
-			(power global)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 0.762 0.762)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -1.778 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 0.762 0.762)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 0 -1.27) (xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "CT1-4-rescue:PWR_FLAG-power"
 			(power global)
 			(pin_numbers
@@ -6512,118 +5768,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "CT1-4-rescue:VCC-power"
-			(power global)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "power:VCC"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VCC-power_0_1"
-				(circle
-					(center 0 1.905)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VCC-power_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -7967,108 +7111,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "CT2-5-rescue:GND"
-			(power global)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 0.762 0.762)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -1.778 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 0.762 0.762)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 0 -1.27) (xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "CT2-5-rescue:PWR_FLAG-power"
 			(power global)
 			(pin_numbers
@@ -8168,118 +7210,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "CT2-5-rescue:VCC-power"
-			(power global)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "power:VCC"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VCC-power_0_1"
-				(circle
-					(center 0 1.905)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VCC-power_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -9623,108 +8553,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "CT3-6-rescue:GND"
-			(power global)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 0.762 0.762)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -1.778 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 0.762 0.762)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 0 -1.27) (xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "CT3-6-rescue:PWR_FLAG-power"
 			(power global)
 			(pin_numbers
@@ -9824,118 +8652,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "CT3-6-rescue:VCC-power"
-			(power global)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "power:VCC"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VCC-power_0_1"
-				(circle
-					(center 0 1.905)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VCC-power_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -11279,108 +9995,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "CT4-7-rescue:GND"
-			(power global)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 0.762 0.762)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -1.778 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 0.762 0.762)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 0 -1.27) (xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "CT4-7-rescue:PWR_FLAG-power"
 			(power global)
 			(pin_numbers
@@ -11480,118 +10094,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "CT4-7-rescue:VCC-power"
-			(power global)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "power:VCC"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VCC-power_0_1"
-				(circle
-					(center 0 1.905)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VCC-power_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -12935,108 +11437,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "CT5-8-rescue:GND"
-			(power global)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 0.762 0.762)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -1.778 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 0.762 0.762)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 0 -1.27) (xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "CT5-8-rescue:PWR_FLAG-power"
 			(power global)
 			(pin_numbers
@@ -13136,118 +11536,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "CT5-8-rescue:VCC-power"
-			(power global)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "power:VCC"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VCC-power_0_1"
-				(circle
-					(center 0 1.905)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VCC-power_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -15929,108 +14217,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FCM-7-rescue:GND"
-			(power global)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 0.762 0.762)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -1.778 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 0.762 0.762)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 0 -1.27) (xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "FCM-7-rescue:PWR_FLAG-power"
 			(power global)
 			(pin_numbers
@@ -16130,118 +14316,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "FCM-7-rescue:VCC-power"
-			(power global)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "power:VCC"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VCC-power_0_1"
-				(circle
-					(center 0 1.905)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VCC-power_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -17585,108 +15659,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FIN-8-rescue:GND"
-			(power global)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 0.762 0.762)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -1.778 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 0.762 0.762)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 0 -1.27) (xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "FIN-8-rescue:PWR_FLAG-power"
 			(power global)
 			(pin_numbers
@@ -17786,118 +15758,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "FIN-8-rescue:VCC-power"
-			(power global)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "power:VCC"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VCC-power_0_1"
-				(circle
-					(center 0 1.905)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VCC-power_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -19241,108 +17101,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FM1-6-rescue:GND"
-			(power global)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 0.762 0.762)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -1.778 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 0.762 0.762)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 0 -1.27) (xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "FM1-6-rescue:PWR_FLAG-power"
 			(power global)
 			(pin_numbers
@@ -19442,118 +17200,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "FM1-6-rescue:VCC-power"
-			(power global)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "power:VCC"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VCC-power_0_1"
-				(circle
-					(center 0 1.905)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VCC-power_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -23698,108 +21344,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCP-2-rescue:GND"
-			(power global)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 0.762 0.762)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -1.778 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 0.762 0.762)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 0 -1.27) (xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PCP-2-rescue:PWR_FLAG-power"
 			(power global)
 			(pin_numbers
@@ -23899,118 +21443,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "PCP-2-rescue:VCC-power"
-			(power global)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "power:VCC"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VCC-power_0_1"
-				(circle
-					(center 0 1.905)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VCC-power_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -25354,108 +22786,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PMR-1-rescue:GND"
-			(power global)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 0.762 0.762)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -1.778 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 0.762 0.762)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 0 -1.27) (xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PMR-1-rescue:PWR_FLAG-power"
 			(power global)
 			(pin_numbers
@@ -25560,10 +22890,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PMR-1-rescue:VCC-power"
+		(symbol "power:GND"
 			(power global)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -25571,7 +22905,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
+				(at 0 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -25581,8 +22915,8 @@
 					)
 				)
 			)
-			(property "Value" "power:VCC"
-				(at 0 3.81 0)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -25613,7 +22947,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -25624,13 +22958,140 @@
 					)
 				)
 			)
-			(symbol "VCC-power_0_1"
-				(circle
-					(center 0 1.905)
-					(radius 0.635)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VCC"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -25638,23 +23099,34 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 1.27)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
 			)
-			(symbol "VCC-power_1_1"
+			(symbol "VCC_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "VCC"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -25960,34 +23432,10 @@
 		(uuid "19b14f4e-ea92-4796-9d0e-b007d45e8870")
 	)
 	(junction
-		(at 483.87 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "26d9662e-94fe-4418-a8c2-27a2f4c60569")
-	)
-	(junction
 		(at 309.88 464.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "272bade3-a48b-4e8b-b5ba-16ba04780e70")
-	)
-	(junction
-		(at 308.61 209.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3e650d86-d310-4d8c-9538-d5797423633e")
-	)
-	(junction
-		(at 781.05 419.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "41d244d5-3ed2-44dc-8416-b2f05517b423")
-	)
-	(junction
-		(at 306.07 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5b0ebd7a-92d4-4201-848e-bfcc3c2e22e6")
 	)
 	(junction
 		(at 605.79 204.47)
@@ -26000,12 +23448,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "661a7475-c657-4f38-89c0-8a5a2d1a51ad")
-	)
-	(junction
-		(at 426.72 209.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6ff03671-204b-4e2a-9077-46589b04c2cd")
 	)
 	(junction
 		(at 255.27 295.91)
@@ -26032,12 +23474,6 @@
 		(uuid "8c8dd1cf-73df-47ae-8fc2-fb26c3f275e6")
 	)
 	(junction
-		(at 62.23 210.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8dddeec2-5a6a-47fd-a156-8cddfe92451c")
-	)
-	(junction
 		(at 476.25 421.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -26056,34 +23492,10 @@
 		(uuid "a360afee-3aa6-431e-8965-3743f3d8658e")
 	)
 	(junction
-		(at 419.1 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a5dbeaf0-a3ed-4834-b6b9-d506362cbb06")
-	)
-	(junction
-		(at 254 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a67c0e83-98e4-49bc-9568-d833960ee8eb")
-	)
-	(junction
-		(at 370.84 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a89ae205-bd89-4d72-9088-bca8563196d6")
-	)
-	(junction
 		(at 67.31 464.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b08faf4e-6aed-48ee-a9d6-15be45c03f0e")
-	)
-	(junction
-		(at 121.92 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b735d86c-cacc-4555-859a-419e0e31223e")
 	)
 	(junction
 		(at 709.93 332.74)
@@ -26116,12 +23528,6 @@
 		(uuid "ccf233b9-ea8c-453a-a716-fcad063f88a0")
 	)
 	(junction
-		(at 189.23 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cecd4cbd-f099-4142-9f09-2af6071c97c3")
-	)
-	(junction
 		(at 337.82 551.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -26134,28 +23540,22 @@
 		(uuid "f0eb90c8-b6f6-42ed-9d3d-b40298daaeb9")
 	)
 	(junction
-		(at 58.42 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f3ddb8c0-9f16-4098-8187-a9d93fbf649e")
-	)
-	(junction
 		(at 462.28 551.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f615291e-62b5-4bc0-b2ca-d18eaf682363")
 	)
 	(junction
+		(at 762 419.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f61a06da-a3b6-4245-a616-8d0ab7b69339")
+	)
+	(junction
 		(at 190.5 464.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f64114ff-62cd-4adb-892e-60f0b0c36855")
-	)
-	(junction
-		(at 196.85 209.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f8abf781-9506-44b9-83b7-0230cbbed10b")
 	)
 	(junction
 		(at 69.85 334.01)
@@ -27571,7 +24971,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 91.44) (xy 189.23 91.44)
+			(xy 184.15 91.44) (xy 191.77 91.44)
 		)
 		(stroke
 			(width 0)
@@ -27618,16 +25018,6 @@
 			(type default)
 		)
 		(uuid "01c96040-00aa-4cdc-860c-a466c5d4b34d")
-	)
-	(wire
-		(pts
-			(xy 57.15 210.82) (xy 62.23 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01e50745-ca6e-4a10-9e25-879e66dff10b")
 	)
 	(wire
 		(pts
@@ -27851,7 +25241,7 @@
 	)
 	(wire
 		(pts
-			(xy 410.21 335.28) (xy 414.02 335.28)
+			(xy 407.67 335.28) (xy 414.02 335.28)
 		)
 		(stroke
 			(width 0)
@@ -27941,7 +25331,7 @@
 	)
 	(wire
 		(pts
-			(xy 427.99 464.82) (xy 431.8 464.82)
+			(xy 425.45 464.82) (xy 431.8 464.82)
 		)
 		(stroke
 			(width 0)
@@ -28191,7 +25581,7 @@
 	)
 	(wire
 		(pts
-			(xy 638.81 290.83) (xy 638.81 293.37)
+			(xy 646.43 290.83) (xy 646.43 293.37)
 		)
 		(stroke
 			(width 0)
@@ -28341,16 +25731,6 @@
 	)
 	(wire
 		(pts
-			(xy 483.87 175.26) (xy 483.87 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "122a4d6b-ceb3-4f20-9fc0-dfaf88c4a149")
-	)
-	(wire
-		(pts
 			(xy 576.58 375.92) (xy 614.68 375.92)
 		)
 		(stroke
@@ -28388,16 +25768,6 @@
 			(type default)
 		)
 		(uuid "14119fe8-36d9-4221-893d-93166309cfa7")
-	)
-	(wire
-		(pts
-			(xy 121.92 175.26) (xy 121.92 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1431238d-cc28-4226-88a4-b545903e95f0")
 	)
 	(wire
 		(pts
@@ -28578,16 +25948,6 @@
 			(type default)
 		)
 		(uuid "17c344af-1235-4787-9dd6-d3d9184686d3")
-	)
-	(wire
-		(pts
-			(xy 308.61 209.55) (xy 312.42 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17cbbba3-41af-48f7-a8f7-96abb91bd293")
 	)
 	(wire
 		(pts
@@ -28821,7 +26181,7 @@
 	)
 	(wire
 		(pts
-			(xy 781.05 419.1) (xy 781.05 422.91)
+			(xy 762 419.1) (xy 762 422.91)
 		)
 		(stroke
 			(width 0)
@@ -28851,7 +26211,7 @@
 	)
 	(wire
 		(pts
-			(xy 426.72 209.55) (xy 431.8 209.55)
+			(xy 419.1 209.55) (xy 431.8 209.55)
 		)
 		(stroke
 			(width 0)
@@ -29061,16 +26421,6 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 88.9) (xy 306.07 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "253fab74-51ed-41c0-a708-263ee933d1f6")
-	)
-	(wire
-		(pts
 			(xy 605.79 200.66) (xy 605.79 204.47)
 		)
 		(stroke
@@ -29201,7 +26551,7 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 330.2) (xy 300.99 335.28)
+			(xy 299.72 331.47) (xy 299.72 335.28)
 		)
 		(stroke
 			(width 0)
@@ -29521,7 +26871,7 @@
 	)
 	(wire
 		(pts
-			(xy 412.75 91.44) (xy 419.1 91.44)
+			(xy 412.75 91.44) (xy 422.91 91.44)
 		)
 		(stroke
 			(width 0)
@@ -29541,7 +26891,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 91.44) (xy 309.88 91.44)
+			(xy 299.72 91.44) (xy 309.88 91.44)
 		)
 		(stroke
 			(width 0)
@@ -29788,16 +27138,6 @@
 			(type default)
 		)
 		(uuid "36dc9194-eec7-4ea1-b9b1-59680d683732")
-	)
-	(wire
-		(pts
-			(xy 370.84 175.26) (xy 370.84 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3704c7ba-8efd-4c4f-aae1-56a21a808d97")
 	)
 	(wire
 		(pts
@@ -30051,16 +27391,6 @@
 	)
 	(wire
 		(pts
-			(xy 254 175.26) (xy 254 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d5a4971-2c04-477d-a3ee-d71ec7d238ca")
-	)
-	(wire
-		(pts
 			(xy 707.39 419.1) (xy 723.9 419.1)
 		)
 		(stroke
@@ -30088,16 +27418,6 @@
 			(type default)
 		)
 		(uuid "3dcb9016-2c9b-40b6-8edd-e5e3cae85a2d")
-	)
-	(wire
-		(pts
-			(xy 189.23 91.44) (xy 191.77 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3dcf7b65-18ae-4bdd-866e-0552bacf1097")
 	)
 	(wire
 		(pts
@@ -30821,7 +28141,7 @@
 	)
 	(wire
 		(pts
-			(xy 781.05 416.56) (xy 781.05 419.1)
+			(xy 762 416.56) (xy 762 419.1)
 		)
 		(stroke
 			(width 0)
@@ -31031,16 +28351,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 209.55) (xy 196.85 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "500e6416-4cc0-439f-9a51-bd1838eea9ef")
-	)
-	(wire
-		(pts
 			(xy 287.02 127) (xy 309.88 127)
 		)
 		(stroke
@@ -31111,7 +28421,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 334.01) (xy 69.85 334.01)
+			(xy 63.5 334.01) (xy 69.85 334.01)
 		)
 		(stroke
 			(width 0)
@@ -31201,16 +28511,6 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 209.55) (xy 308.61 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53d2643d-9c3d-4506-b0bf-c2d8a5006506")
-	)
-	(wire
-		(pts
 			(xy 411.48 363.22) (xy 416.56 363.22)
 		)
 		(stroke
@@ -31251,7 +28551,7 @@
 	)
 	(wire
 		(pts
-			(xy 427.99 462.28) (xy 427.99 464.82)
+			(xy 425.45 462.28) (xy 425.45 464.82)
 		)
 		(stroke
 			(width 0)
@@ -32201,16 +29501,6 @@
 	)
 	(wire
 		(pts
-			(xy 419.1 209.55) (xy 426.72 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67d2a35e-9c32-48b6-a128-f4d9db7761ab")
-	)
-	(wire
-		(pts
 			(xy 280.67 245.11) (xy 312.42 245.11)
 		)
 		(stroke
@@ -32291,7 +29581,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 91.44) (xy 60.96 91.44)
+			(xy 53.34 91.44) (xy 60.96 91.44)
 		)
 		(stroke
 			(width 0)
@@ -33131,16 +30421,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 209.55) (xy 199.39 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80773ce2-62eb-4d73-bc48-7117bf7e2611")
-	)
-	(wire
-		(pts
 			(xy 572.77 375.92) (xy 576.58 375.92)
 		)
 		(stroke
@@ -33761,7 +31041,7 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 335.28) (xy 307.34 335.28)
+			(xy 299.72 335.28) (xy 307.34 335.28)
 		)
 		(stroke
 			(width 0)
@@ -33901,7 +31181,7 @@
 	)
 	(wire
 		(pts
-			(xy 410.21 335.28) (xy 410.21 331.47)
+			(xy 407.67 335.28) (xy 407.67 331.47)
 		)
 		(stroke
 			(width 0)
@@ -34031,23 +31311,13 @@
 	)
 	(wire
 		(pts
-			(xy 636.27 290.83) (xy 638.81 290.83)
+			(xy 636.27 290.83) (xy 646.43 290.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9250c9c1-d0ba-493e-843f-6dbade58888b")
-	)
-	(wire
-		(pts
-			(xy 419.1 91.44) (xy 422.91 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92577a39-993f-4703-b4f9-990ddcef2624")
 	)
 	(wire
 		(pts
@@ -34138,16 +31408,6 @@
 			(type default)
 		)
 		(uuid "959a9927-ff59-4a45-bfaa-1ee93f415948")
-	)
-	(wire
-		(pts
-			(xy 419.1 88.9) (xy 419.1 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95b35283-a1ba-4d37-b30c-0617121ee28a")
 	)
 	(wire
 		(pts
@@ -34391,7 +31651,7 @@
 	)
 	(wire
 		(pts
-			(xy 640.08 422.91) (xy 640.08 419.1)
+			(xy 646.43 422.91) (xy 646.43 419.1)
 		)
 		(stroke
 			(width 0)
@@ -34408,16 +31668,6 @@
 			(type default)
 		)
 		(uuid "9c500330-61b1-45ee-a761-51ea7830abdc")
-	)
-	(wire
-		(pts
-			(xy 189.23 91.44) (xy 189.23 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c5912b2-5425-46c6-b4ea-3ebf17909b42")
 	)
 	(wire
 		(pts
@@ -34831,7 +32081,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 464.82) (xy 309.88 464.82)
+			(xy 304.8 464.82) (xy 309.88 464.82)
 		)
 		(stroke
 			(width 0)
@@ -35581,7 +32831,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 209.55) (xy 308.61 209.55)
+			(xy 303.53 209.55) (xy 312.42 209.55)
 		)
 		(stroke
 			(width 0)
@@ -35628,16 +32878,6 @@
 			(type default)
 		)
 		(uuid "b6e77841-f271-4873-b22e-f03c31a59188")
-	)
-	(wire
-		(pts
-			(xy 58.42 91.44) (xy 58.42 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6f28362-97ff-4174-ab03-2824c54bfab0")
 	)
 	(wire
 		(pts
@@ -36071,7 +33311,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 464.82) (xy 306.07 462.28)
+			(xy 304.8 464.82) (xy 304.8 462.28)
 		)
 		(stroke
 			(width 0)
@@ -36341,7 +33581,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 209.55) (xy 196.85 209.55)
+			(xy 191.77 209.55) (xy 199.39 209.55)
 		)
 		(stroke
 			(width 0)
@@ -36411,7 +33651,7 @@
 	)
 	(wire
 		(pts
-			(xy 640.08 419.1) (xy 635 419.1)
+			(xy 646.43 419.1) (xy 635 419.1)
 		)
 		(stroke
 			(width 0)
@@ -36728,16 +33968,6 @@
 			(type default)
 		)
 		(uuid "ce00e36b-1200-4f00-be6d-5958152adf70")
-	)
-	(wire
-		(pts
-			(xy 53.34 91.44) (xy 58.42 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce5a72dd-1519-47a6-b116-6ec420110678")
 	)
 	(wire
 		(pts
@@ -37331,7 +34561,7 @@
 	)
 	(wire
 		(pts
-			(xy 744.22 419.1) (xy 781.05 419.1)
+			(xy 744.22 419.1) (xy 762 419.1)
 		)
 		(stroke
 			(width 0)
@@ -37421,7 +34651,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 334.01) (xy 64.77 328.93)
+			(xy 63.5 334.01) (xy 63.5 330.2)
 		)
 		(stroke
 			(width 0)
@@ -37658,16 +34888,6 @@
 			(type default)
 		)
 		(uuid "e1d29102-f098-43f0-830a-f6efd2da5500")
-	)
-	(wire
-		(pts
-			(xy 426.72 204.47) (xy 426.72 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1d5adde-334f-41b2-9332-9179ae543ae5")
 	)
 	(wire
 		(pts
@@ -38851,16 +36071,6 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 91.44) (xy 306.07 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fab7b173-33f5-4eec-86f0-0398bf496f14")
-	)
-	(wire
-		(pts
 			(xy 186.69 129.54) (xy 191.77 129.54)
 		)
 		(stroke
@@ -38901,16 +36111,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 210.82) (xy 62.23 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb3c3020-a077-47f5-a47a-e1c86f281c43")
-	)
-	(wire
-		(pts
 			(xy 107.95 220.98) (xy 85.09 220.98)
 		)
 		(stroke
@@ -38931,7 +36131,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 210.82) (xy 64.77 210.82)
+			(xy 57.15 210.82) (xy 64.77 210.82)
 		)
 		(stroke
 			(width 0)
@@ -61558,159 +58758,6 @@
 		)
 	)
 	(symbol
-		(lib_id "FM1-6-rescue:VCC-power")
-		(at 57.15 207.01 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "004eee5d-6dbb-42ae-8455-bd51e7f2b613")
-		(property "Reference" "#PWR0111"
-			(at 57.15 204.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 57.2262 203.7588 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 57.15 207.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fdc68e2f-9c0c-430b-b511-90f367b4f753")
-		)
-		(instances
-			(project "patinhofeio"
-				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
-					(reference "#PWR0111")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CRC-1-rescue:GND")
-		(at 132.08 424.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "049bb88c-1bf6-4287-8e79-4f1a327cbf8a")
-		(property "Reference" "#PWR056"
-			(at 132.08 424.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 132.08 425.958 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 424.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 424.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 132.08 424.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "727adffa-4826-43c4-b8ca-5b49cd2bc970")
-		)
-		(instances
-			(project "patinhofeio"
-				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
-					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCP-2-rescue:PWR_FLAG-power")
 		(at 576.58 373.38 0)
 		(unit 1)
@@ -61787,85 +58834,8 @@
 		)
 	)
 	(symbol
-		(lib_id "FM1-6-rescue:GND")
-		(at 255.27 300.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "085212ac-e653-4428-b841-a9e65912052a")
-		(property "Reference" "#PWR052"
-			(at 255.27 300.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 255.27 302.768 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 255.27 300.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 255.27 300.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 255.27 300.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dbe61e04-58f6-47e4-936a-6e7c5f0933ba")
-		)
-		(instances
-			(project "patinhofeio"
-				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
-					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCP-2-rescue:PWR_FLAG-power")
-		(at 781.05 416.56 0)
+		(at 762 416.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -61875,7 +58845,7 @@
 		(dnp no)
 		(uuid "0d5ff2cf-e532-4b2a-990b-1582ebc21aa0")
 		(property "Reference" "#FLG035"
-			(at 781.05 414.147 0)
+			(at 762 414.147 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -61886,7 +58856,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 781.05 411.2768 0)
+			(at 762 411.2768 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -61896,7 +58866,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 781.05 416.56 0)
+			(at 762 416.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -61907,7 +58877,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 781.05 416.56 0)
+			(at 762 416.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -61918,7 +58888,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 781.05 416.56 0)
+			(at 762 416.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -61940,8 +58910,8 @@
 		)
 	)
 	(symbol
-		(lib_id "CCE-2-rescue:VCC-power")
-		(at 189.23 332.74 0)
+		(lib_id "power:GND")
+		(at 777.24 293.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -61949,52 +58919,54 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "0d896cbe-5254-40b9-be6c-e0fa5d93cf6a")
-		(property "Reference" "#PWR079"
-			(at 189.23 330.2 0)
+		(fields_autoplaced yes)
+		(uuid "16a9cda1-ec34-44ac-85bb-6b6eb189ca3f")
+		(property "Reference" "#PWR070"
+			(at 777.24 299.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "VCC"
-			(at 189.3062 329.4888 0)
+		(property "Value" "GND"
+			(at 777.24 298.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 332.74 0)
+			(at 777.24 293.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 332.74 0)
+			(at 777.24 293.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
-			(at 189.23 332.74 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 777.24 293.37 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -62004,164 +58976,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "07581098-fc73-4fbc-acbe-cfe68f2cb9ad")
+			(uuid "a28bd7f7-90f7-4b3d-83b8-52f874647c8f")
 		)
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
-					(reference "#PWR079")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FM1-6-rescue:PWR_FLAG-power")
-		(at 58.42 88.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "15d906a4-6d91-483e-8f11-27a5d70278bc")
-		(property "Reference" "#FLG058"
-			(at 58.42 86.487 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 58.42 83.6168 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 58.42 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0c809877-804b-4630-b2a2-ac53461de69d")
-		)
-		(instances
-			(project "patinhofeio"
-				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
-					(reference "#FLG058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FM1-6-rescue:VCC-power")
-		(at 191.77 205.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "171be64f-c24b-40c0-a263-0d078c229a85")
-		(property "Reference" "#PWR051"
-			(at 191.77 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 191.8462 202.4888 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 191.77 205.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7271ad01-bf32-4066-af59-5495a2144ad0")
-		)
-		(instances
-			(project "patinhofeio"
-				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
-					(reference "#PWR051")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -62320,8 +59140,8 @@
 		)
 	)
 	(symbol
-		(lib_id "CDE-3-rescue:PWR_FLAG-power")
-		(at 306.07 88.9 0)
+		(lib_id "power:GND")
+		(at 121.92 182.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -62329,52 +59149,54 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "1d24abb7-30ec-4641-8d7c-0c179467a755")
-		(property "Reference" "#FLG045"
-			(at 306.07 86.487 0)
+		(fields_autoplaced yes)
+		(uuid "19176604-7d5f-4046-9fd6-400cb96f7082")
+		(property "Reference" "#PWR0108"
+			(at 121.92 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "PWR_FLAG"
-			(at 306.07 83.6168 0)
+		(property "Value" "GND"
+			(at 121.92 187.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 306.07 88.9 0)
+			(at 121.92 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Datasheet" ""
-			(at 306.07 88.9 0)
+			(at 121.92 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
-			(at 306.07 88.9 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 121.92 182.88 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -62384,20 +59206,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "bbe616e5-15eb-4d7d-8172-65aa0e84091e")
+			(uuid "9249ad7d-66f1-4949-becd-cc84561a2ccf")
 		)
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
-					(reference "#FLG045")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "CT2-5-rescue:GND")
-		(at 96.52 553.72 0)
+		(lib_id "power:VCC")
+		(at 704.85 328.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -62405,53 +59227,54 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "21e0233f-6aab-4504-b5cf-477ce12edba5")
-		(property "Reference" "#PWR060"
-			(at 96.52 553.72 0)
+		(fields_autoplaced yes)
+		(uuid "1bacf14d-0b4c-453b-b5e6-b7e7d025d88a")
+		(property "Reference" "#PWR072"
+			(at 704.85 332.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 96.52 555.498 0)
-			(hide yes)
+		(property "Value" "VCC"
+			(at 704.85 323.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 553.72 0)
+			(at 704.85 328.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 553.72 0)
+			(at 704.85 328.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
-			(at 96.52 553.72 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 704.85 328.93 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -62461,12 +59284,246 @@
 			)
 		)
 		(pin "1"
-			(uuid "5b2c628f-a077-459c-ac9d-bb1832496afb")
+			(uuid "81f41165-48b3-490a-bf09-7c4269444f80")
 		)
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
-					(reference "#PWR060")
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 646.43 422.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1cd0f7b9-7c71-4df4-b2d2-2c6db7f00733")
+		(property "Reference" "#PWR077"
+			(at 646.43 429.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 646.43 427.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 646.43 422.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 646.43 422.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 646.43 422.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6572b7db-5b3c-4023-b83b-899b68494ddb")
+		)
+		(instances
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
+					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 250.19 553.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ce6b1f4-7fe3-4b36-8b4b-fa005f314636")
+		(property "Reference" "#PWR062"
+			(at 250.19 560.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 250.19 558.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 553.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 553.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 250.19 553.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d8759b4c-4280-41d9-844b-27d6710961da")
+		)
+		(instances
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 476.25 424.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "215de355-a7a9-435b-a81f-3fd2a1060b69")
+		(property "Reference" "#PWR082"
+			(at 476.25 430.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 476.25 429.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 476.25 424.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 476.25 424.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 476.25 424.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2e59992f-6e2d-4ca2-b50d-23e1e6cce524")
+		)
+		(instances
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -63109,8 +60166,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PCP-2-rescue:VCC-power")
-		(at 704.85 328.93 0)
+		(lib_id "power:GND")
+		(at 497.84 300.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -63118,52 +60175,132 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "27c23cfb-b620-45f9-8341-030f8ad06bb2")
-		(property "Reference" "#PWR072"
-			(at 704.85 326.39 0)
+		(fields_autoplaced yes)
+		(uuid "2a28ac83-12fd-46e6-9bf9-48d10a1d6f49")
+		(property "Reference" "#PWR084"
+			(at 497.84 307.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 497.84 306.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 497.84 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 497.84 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 497.84 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9b3d0c08-db57-400e-9be7-2b3d2675f3d8")
+		)
+		(instances
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
+					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 53.34 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2af54374-b9d8-4f4c-b3a5-9fa3bddbe74e")
+		(property "Reference" "#PWR0106"
+			(at 53.34 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Value" "VCC"
-			(at 704.9262 325.6788 0)
+			(at 53.34 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 704.85 328.93 0)
+			(at 53.34 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Datasheet" ""
-			(at 704.85 328.93 0)
+			(at 53.34 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
-			(at 704.85 328.93 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 53.34 87.63 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -63173,20 +60310,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "16521901-f8f7-4829-b9da-fa7f8c2556a5")
+			(uuid "18f464c7-5545-4c7e-86d0-777e6f50da13")
 		)
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
-					(reference "#PWR072")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FCM-7-rescue:GND")
-		(at 377.19 299.72 0)
+		(lib_id "power:VCC")
+		(at 184.15 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -63194,129 +60331,54 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "2cf5cf59-45be-4153-8659-310ddac15c51")
-		(property "Reference" "#PWR054"
-			(at 377.19 299.72 0)
+		(fields_autoplaced yes)
+		(uuid "2d5cb7d2-a646-4082-97e8-7e7f8a8703b8")
+		(property "Reference" "#PWR0105"
+			(at 184.15 91.44 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 377.19 301.498 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 377.19 299.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 377.19 299.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 377.19 299.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9bac7055-fffe-465e-8108-5ba0210d03ab")
-		)
-		(instances
-			(project "patinhofeio"
-				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
-					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PMR-1-rescue:VCC-power")
-		(at 712.47 200.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2d30906d-820f-42d1-a12d-827b2d2fa24a")
-		(property "Reference" "#PWR067"
-			(at 712.47 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
 				)
 			)
 		)
 		(property "Value" "VCC"
-			(at 712.5462 197.4088 0)
+			(at 184.15 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 712.47 200.66 0)
+			(at 184.15 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Datasheet" ""
-			(at 712.47 200.66 0)
+			(at 184.15 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
-			(at 712.47 200.66 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 184.15 87.63 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -63326,20 +60388,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "b0f21797-d1a5-4c8f-bc44-404e5e3d78b7")
+			(uuid "f7e99d6c-a719-4e1c-9750-4ba1622fb6ee")
 		)
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
-					(reference "#PWR067")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FM1-6-rescue:GND")
-		(at 254 182.88 0)
+		(lib_id "power:VCC")
+		(at 425.45 462.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -63347,53 +60409,54 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "2f48a193-2186-41fc-a7ab-40eb12248fd8")
-		(property "Reference" "#PWR0107"
-			(at 254 182.88 0)
+		(fields_autoplaced yes)
+		(uuid "321a74b8-e330-4920-b601-69ba9ebe54b7")
+		(property "Reference" "#PWR063"
+			(at 425.45 466.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 254 184.658 0)
-			(hide yes)
+		(property "Value" "VCC"
+			(at 425.45 457.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 254 182.88 0)
+			(at 425.45 462.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 182.88 0)
+			(at 425.45 462.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
-			(at 254 182.88 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 425.45 462.28 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -63403,242 +60466,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "c8562726-175c-4cf0-a3e4-6d3862d6e07c")
+			(uuid "23504bd0-3fc7-4075-b943-a64a11e969a5")
 		)
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
-					(reference "#PWR0107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PMR-1-rescue:GND")
-		(at 638.81 293.37 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "31b42ee8-902a-4214-806f-0685018656db")
-		(property "Reference" "#PWR069"
-			(at 638.81 293.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 638.81 295.148 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 638.81 293.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 638.81 293.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 638.81 293.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "38a566cd-9ad9-489c-b76f-40e9fbd0f86a")
-		)
-		(instances
-			(project "patinhofeio"
-				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
-					(reference "#PWR069")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CDE-3-rescue:GND-RESCUE-CDE-3")
-		(at 372.11 425.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "32077179-5eb4-485c-91df-cc44ff5013b1")
-		(property "Reference" "#PWR058"
-			(at 372.11 425.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 372.11 427.228 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 372.11 425.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 372.11 425.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 372.11 425.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0022f7ff-4f60-44bf-b90d-7fad265f0b39")
-		)
-		(instances
-			(project "patinhofeio"
-				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
-					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FM1-6-rescue:PWR_FLAG-power")
-		(at 62.23 208.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "34049331-5442-4fb9-8d98-86d35c0115a7")
-		(property "Reference" "#FLG061"
-			(at 62.23 205.867 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 62.23 202.9968 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 62.23 208.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0fcd0701-e735-46c1-80c7-ea4afdc5966c")
-		)
-		(instances
-			(project "patinhofeio"
-				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
-					(reference "#FLG061")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -63721,8 +60554,8 @@
 		)
 	)
 	(symbol
-		(lib_id "CT4-7-rescue:VCC-power")
-		(at 306.07 462.28 0)
+		(lib_id "power:GND")
+		(at 96.52 553.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -63730,52 +60563,54 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "369c616c-9ef9-4de5-85d5-e3eac9424ebb")
-		(property "Reference" "#PWR063"
-			(at 306.07 459.74 0)
+		(fields_autoplaced yes)
+		(uuid "3597c55d-aca4-4f8b-9cd9-c3bdd41eb50f")
+		(property "Reference" "#PWR060"
+			(at 96.52 560.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "VCC"
-			(at 306.1462 459.0288 0)
+		(property "Value" "GND"
+			(at 96.52 558.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 306.07 462.28 0)
+			(at 96.52 553.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Datasheet" ""
-			(at 306.07 462.28 0)
+			(at 96.52 553.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
-			(at 306.07 462.28 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 96.52 553.72 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -63785,12 +60620,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7a7cb6f7-dd00-4ac8-9208-afdea53e9659")
+			(uuid "a5b2e983-5644-4ae7-ad54-87038fa930ef")
 		)
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
-					(reference "#PWR063")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -63867,159 +60702,6 @@
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
 					(reference "#FLG039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CT5-8-rescue:GND")
-		(at 462.28 553.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3cd383e2-1769-439d-bffd-ffdb4802b106")
-		(property "Reference" "#PWR066"
-			(at 462.28 553.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 462.28 555.498 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 462.28 553.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 462.28 553.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 462.28 553.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "69119006-6b6a-4918-bc06-32ff68d09c68")
-		)
-		(instances
-			(project "patinhofeio"
-				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
-					(reference "#PWR066")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FIN-8-rescue:PWR_FLAG-power")
-		(at 426.72 204.47 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3e344fce-e7fa-425d-a241-c4912ec97cca")
-		(property "Reference" "#FLG041"
-			(at 426.72 202.057 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 426.72 199.1868 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 426.72 204.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 426.72 204.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 426.72 204.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d863dacf-9122-4d1e-a24d-67d92503d8f1")
-		)
-		(instances
-			(project "patinhofeio"
-				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
-					(reference "#FLG041")
 					(unit 1)
 				)
 			)
@@ -64103,6 +60785,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 372.11 425.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41801644-3fc3-430d-aaa2-d7d41226d0f6")
+		(property "Reference" "#PWR058"
+			(at 372.11 431.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 372.11 430.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 372.11 425.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 372.11 425.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 372.11 425.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e4d7256a-295f-4162-bd18-9f579032c086")
+		)
+		(instances
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCP-2-rescue:+24V-power")
 		(at 707.39 417.83 0)
 		(unit 1)
@@ -64179,8 +60939,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PMR-1-rescue:GND")
-		(at 777.24 293.37 0)
+		(lib_id "power:VCC")
+		(at 299.72 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -64188,53 +60948,132 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "46f02aaf-1c6b-4c92-a4c7-91810a99a0d0")
-		(property "Reference" "#PWR070"
-			(at 777.24 293.37 0)
+		(fields_autoplaced yes)
+		(uuid "4954bb4b-2bd7-4bc2-bd0a-350f90d08a54")
+		(property "Reference" "#PWR087"
+			(at 299.72 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 299.72 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 299.72 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 299.72 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 299.72 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e93776d6-127d-4645-870e-69fd9058fe38")
+		)
+		(instances
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
+					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 377.19 299.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49aa9341-1e8e-4a83-9377-88286e0351ce")
+		(property "Reference" "#PWR054"
+			(at 377.19 306.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Value" "GND"
-			(at 777.24 295.148 0)
-			(hide yes)
+			(at 377.19 304.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 777.24 293.37 0)
+			(at 377.19 299.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Datasheet" ""
-			(at 777.24 293.37 0)
+			(at 377.19 299.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
-			(at 777.24 293.37 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 377.19 299.72 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -64244,20 +61083,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "5de533ee-3d7c-4786-8e1d-bed0ca51cf37")
+			(uuid "c25f8f63-b4d1-4727-ab6f-2c91d198b385")
 		)
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
-					(reference "#PWR070")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "CRC-1-rescue:VCC-power")
-		(at 64.77 328.93 0)
+		(lib_id "power:VCC")
+		(at 303.53 205.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -64265,52 +61104,54 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "49777d6c-2cfc-4db6-9e1b-9c0c87f44b3a")
-		(property "Reference" "#PWR055"
-			(at 64.77 326.39 0)
+		(fields_autoplaced yes)
+		(uuid "4c830da6-252c-449a-98e0-de8bb047f552")
+		(property "Reference" "#PWR053"
+			(at 303.53 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Value" "VCC"
-			(at 64.8462 325.6788 0)
+			(at 303.53 200.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 328.93 0)
+			(at 303.53 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 328.93 0)
+			(at 303.53 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
-			(at 64.77 328.93 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 303.53 205.74 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -64320,88 +61161,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "41b25adb-9f03-415f-8417-d98660f22e22")
+			(uuid "e6e8e98d-bbe6-406c-9ad3-4d507c3aae8a")
 		)
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
-					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CT3-6-rescue:VCC-power")
-		(at 185.42 462.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4af0a411-da4b-4625-93b4-30997376788d")
-		(property "Reference" "#PWR061"
-			(at 185.42 459.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 185.4962 459.0288 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 462.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 462.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 185.42 462.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "38cbacdd-1dbd-45da-98f1-f7c5d7084043")
-		)
-		(instances
-			(project "patinhofeio"
-				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
-					(reference "#PWR061")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -64484,8 +61249,8 @@
 		)
 	)
 	(symbol
-		(lib_id "FM1-6-rescue:PWR_FLAG-power")
-		(at 121.92 175.26 0)
+		(lib_id "power:VCC")
+		(at 57.15 207.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -64493,357 +61258,54 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "57e198ae-e59e-44ff-98e2-87cc64d71bf3")
-		(property "Reference" "#FLG060"
-			(at 121.92 172.847 0)
+		(fields_autoplaced yes)
+		(uuid "57a30590-63e3-4d39-a1e7-0816e0077955")
+		(property "Reference" "#PWR079"
+			(at 57.15 210.82 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 121.92 169.9768 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 121.92 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "003c92ae-2b62-4a33-b6c9-84153f3fac50")
-		)
-		(instances
-			(project "patinhofeio"
-				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
-					(reference "#FLG060")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CDE-3-rescue:PWR_FLAG-power")
-		(at 483.87 175.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5b5aa888-7a64-46cc-8dd3-63dbab6930fe")
-		(property "Reference" "#FLG048"
-			(at 483.87 172.847 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 483.87 169.9768 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 483.87 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 483.87 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 483.87 175.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ad810da1-dee3-48fc-a6f4-c16f747e102d")
-		)
-		(instances
-			(project "patinhofeio"
-				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
-					(reference "#FLG048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FM1-6-rescue:PWR_FLAG-power")
-		(at 189.23 88.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5d40acd4-4a64-4579-9928-ddc7b66bf674")
-		(property "Reference" "#FLG057"
-			(at 189.23 86.487 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 189.23 83.6168 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 189.23 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c39f01af-3cdc-4137-950a-16947d82e2ea")
-		)
-		(instances
-			(project "patinhofeio"
-				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
-					(reference "#FLG057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CT3-6-rescue:GND")
-		(at 250.19 553.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "655276d2-f7e3-4fff-8617-a43c0a67c535")
-		(property "Reference" "#PWR062"
-			(at 250.19 553.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 250.19 555.498 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 250.19 553.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 250.19 553.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 250.19 553.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dd3e6af0-9cac-4f29-beb4-c01ddef5fdaa")
-		)
-		(instances
-			(project "patinhofeio"
-				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
-					(reference "#PWR062")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CT1-4-rescue:VCC-power")
-		(at 410.21 331.47 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "666b88da-9087-4689-a1dd-47a4f9d896a9")
-		(property "Reference" "#PWR081"
-			(at 410.21 328.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
 				)
 			)
 		)
 		(property "Value" "VCC"
-			(at 410.2862 328.2188 0)
+			(at 57.15 201.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 410.21 331.47 0)
+			(at 57.15 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Datasheet" ""
-			(at 410.21 331.47 0)
+			(at 57.15 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
-			(at 410.21 331.47 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 57.15 207.01 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -64853,20 +61315,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "a2e4e1b3-4f74-4a67-b5ff-a53cd3185cc6")
+			(uuid "1148ae14-4c31-4f32-9794-04aab0ce2196")
 		)
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
-					(reference "#PWR081")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "CDE-3-rescue:GND-RESCUE-CDE-3")
-		(at 370.84 181.61 0)
+		(lib_id "power:VCC")
+		(at 600.71 200.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -64874,53 +61336,54 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "667cbd57-b90e-4df7-a88d-90943c092876")
-		(property "Reference" "#PWR088"
-			(at 370.84 181.61 0)
+		(fields_autoplaced yes)
+		(uuid "59bb41b2-6d26-426c-a97f-d3d7db23e41f")
+		(property "Reference" "#PWR068"
+			(at 600.71 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 370.84 183.388 0)
-			(hide yes)
+		(property "Value" "VCC"
+			(at 600.71 195.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 370.84 181.61 0)
+			(at 600.71 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Datasheet" ""
-			(at 370.84 181.61 0)
+			(at 600.71 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
-			(at 370.84 181.61 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 600.71 200.66 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -64930,12 +61393,246 @@
 			)
 		)
 		(pin "1"
-			(uuid "f62a22a4-7a37-4f0c-944e-169cb63858b3")
+			(uuid "773e1d8f-63fd-4227-8fcc-2c6d3e9f765f")
 		)
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
-					(reference "#PWR088")
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 254 182.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b033ffe-2ad6-4486-8677-4d910807a84c")
+		(property "Reference" "#PWR0107"
+			(at 254 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 254 187.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 254 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2aad5eb8-bbf5-45c6-a021-d86512d194ae")
+		)
+		(instances
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 603.25 328.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c4fd9da-95b4-4f21-aba6-0be8d169c33c")
+		(property "Reference" "#PWR076"
+			(at 603.25 332.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 603.25 323.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 603.25 328.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 603.25 328.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 603.25 328.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c8ccea3d-3673-439d-97f9-bf38bf10f9ee")
+		)
+		(instances
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 407.67 331.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d48c722-c688-4759-94a4-d2b1051e6bfb")
+		(property "Reference" "#PWR065"
+			(at 407.67 335.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 407.67 326.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 407.67 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 407.67 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 407.67 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "48341814-faaf-4e21-b438-eadbbdff2412")
+		)
+		(instances
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -65298,8 +61995,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PCP-2-rescue:GND")
-		(at 640.08 422.91 0)
+		(lib_id "power:GND")
+		(at 370.84 181.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -65307,53 +62004,54 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "6fde2009-aa96-4d5c-92b8-eb5ff076286b")
-		(property "Reference" "#PWR077"
-			(at 640.08 422.91 0)
+		(fields_autoplaced yes)
+		(uuid "6fbe9a77-62b7-42af-8492-0bcc2ddb768c")
+		(property "Reference" "#PWR088"
+			(at 370.84 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Value" "GND"
-			(at 640.08 424.688 0)
-			(hide yes)
+			(at 370.84 186.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 640.08 422.91 0)
+			(at 370.84 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Datasheet" ""
-			(at 640.08 422.91 0)
+			(at 370.84 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
-			(at 640.08 422.91 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 370.84 181.61 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -65363,20 +62061,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "f9e18dbb-5a77-45fa-9635-705333e00b2c")
+			(uuid "20536889-3486-4c60-a573-c26829ce7aed")
 		)
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
-					(reference "#PWR077")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "CCE-2-rescue:GND")
-		(at 264.16 425.45 0)
+		(lib_id "power:VCC")
+		(at 304.8 462.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -65384,129 +62082,54 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "70fe4828-1f26-4e92-8fdc-c74943d55f22")
-		(property "Reference" "#PWR080"
-			(at 264.16 425.45 0)
+		(fields_autoplaced yes)
+		(uuid "722bdadd-70c6-4f0b-afac-0392d5e8aa9b")
+		(property "Reference" "#PWR061"
+			(at 304.8 466.09 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 264.16 427.228 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 264.16 425.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 264.16 425.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 264.16 425.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "02c88152-8a80-409c-bd6d-a557c9c2386a")
-		)
-		(instances
-			(project "patinhofeio"
-				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
-					(reference "#PWR080")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FCM-7-rescue:VCC-power")
-		(at 303.53 205.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "734c0bd3-f864-4a13-8295-908e5ea075d2")
-		(property "Reference" "#PWR053"
-			(at 303.53 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
 				)
 			)
 		)
 		(property "Value" "VCC"
-			(at 303.6062 202.4888 0)
+			(at 304.8 457.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 303.53 205.74 0)
+			(at 304.8 462.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Datasheet" ""
-			(at 303.53 205.74 0)
+			(at 304.8 462.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
-			(at 303.53 205.74 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 304.8 462.28 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -65516,12 +62139,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "c4465d66-ac66-44fb-aaac-47d59fd24228")
+			(uuid "421455ff-8d4f-4c57-998d-7352d5342992")
 		)
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
-					(reference "#PWR053")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -65808,8 +62431,8 @@
 		)
 	)
 	(symbol
-		(lib_id "CT2-5-rescue:VCC-power")
-		(at 62.23 461.01 0)
+		(lib_id "power:GND")
+		(at 337.82 553.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -65817,52 +62440,54 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "74cf4db4-590c-481e-b052-e32558c687a4")
-		(property "Reference" "#PWR059"
-			(at 62.23 458.47 0)
+		(fields_autoplaced yes)
+		(uuid "777888c2-4b24-4045-81c6-5e0ea21e3a7b")
+		(property "Reference" "#PWR064"
+			(at 337.82 560.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "VCC"
-			(at 62.3062 457.7588 0)
+		(property "Value" "GND"
+			(at 337.82 558.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 461.01 0)
+			(at 337.82 553.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 461.01 0)
+			(at 337.82 553.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
-			(at 62.23 461.01 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 337.82 553.72 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -65872,20 +62497,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "e66c9d0b-2b89-4b7e-842b-4e72da8a0ac9")
+			(uuid "aa3311da-333b-466f-82f4-f77eebbb9173")
 		)
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
-					(reference "#PWR059")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "CDE-3-rescue:VCC-power")
-		(at 412.75 86.36 0)
+		(lib_id "power:GND")
+		(at 120.65 302.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -65893,52 +62518,54 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "79d43ea8-11b2-4bf9-95e6-79a978b1dbc1")
-		(property "Reference" "#PWR089"
-			(at 412.75 83.82 0)
+		(fields_autoplaced yes)
+		(uuid "78991469-a18b-4a64-8a88-03138eb4c5d0")
+		(property "Reference" "#PWR0112"
+			(at 120.65 308.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "VCC"
-			(at 412.8262 83.1088 0)
+		(property "Value" "GND"
+			(at 120.65 307.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 412.75 86.36 0)
+			(at 120.65 302.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Datasheet" ""
-			(at 412.75 86.36 0)
+			(at 120.65 302.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
-			(at 412.75 86.36 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 120.65 302.26 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -65948,164 +62575,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "dd89c8e3-1655-4a21-977a-1fc31bc0ffb0")
+			(uuid "3759a983-7a01-4151-9fe2-e1a98ba63aba")
 		)
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
-					(reference "#PWR089")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CT5-8-rescue:VCC-power")
-		(at 427.99 462.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7abd5d19-9878-4630-ad3a-db75ff495d41")
-		(property "Reference" "#PWR065"
-			(at 427.99 459.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 428.0662 459.0288 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 427.99 462.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 427.99 462.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 427.99 462.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1e5666b7-dd7a-4898-a9d8-1c6be491619a")
-		)
-		(instances
-			(project "patinhofeio"
-				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
-					(reference "#PWR065")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CDE-3-rescue:PWR_FLAG-power")
-		(at 370.84 175.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7b5e9422-5f28-4f31-b4b1-dd0e166abd60")
-		(property "Reference" "#FLG046"
-			(at 370.84 172.847 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 370.84 169.9768 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 370.84 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 370.84 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 370.84 175.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0dfd8557-d7d0-4f1b-9020-42487e3ac8f3")
-		)
-		(instances
-			(project "patinhofeio"
-				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
-					(reference "#FLG046")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -66182,6 +62657,84 @@
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
 					(reference "#FLG015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 255.27 300.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c00b882-7085-45f0-b015-9c2af5e9d6a3")
+		(property "Reference" "#PWR052"
+			(at 255.27 307.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 255.27 306.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 255.27 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ec0543c2-3781-4b2c-bedd-ed30c66ff732")
+		)
+		(instances
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -66544,6 +63097,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 191.77 205.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "852ac8b7-c584-4392-afcf-7e57cb7df340")
+		(property "Reference" "#PWR051"
+			(at 191.77 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 191.77 200.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 191.77 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c129cd98-e2c2-43fa-b35d-262070d8178a")
+		)
+		(instances
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CRC-1-rescue:PWR_FLAG-power")
 		(at 132.08 419.1 0)
 		(unit 1)
@@ -66614,82 +63245,6 @@
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
 					(reference "#FLG020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FM1-6-rescue:PWR_FLAG-power")
-		(at 254 175.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8b594f18-9f56-4caf-b4f8-200f58326211")
-		(property "Reference" "#FLG059"
-			(at 254 172.847 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 254 169.926 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 254 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 254 175.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "58990832-93ef-45de-a8aa-26854827b9b5")
-		)
-		(instances
-			(project "patinhofeio"
-				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
-					(reference "#FLG059")
 					(unit 1)
 				)
 			)
@@ -66772,8 +63327,8 @@
 		)
 	)
 	(symbol
-		(lib_id "FIN-8-rescue:VCC-power")
-		(at 419.1 203.2 0)
+		(lib_id "power:VCC")
+		(at 185.42 462.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -66781,52 +63336,54 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "935b2183-9a93-4cfd-959e-86b4b7b26fb4")
-		(property "Reference" "#PWR083"
-			(at 419.1 200.66 0)
+		(fields_autoplaced yes)
+		(uuid "8ff2db3c-1675-46b4-b3df-9a2fcc2f6b8d")
+		(property "Reference" "#PWR0210"
+			(at 185.42 466.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Value" "VCC"
-			(at 419.1762 199.9488 0)
+			(at 185.42 457.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 419.1 203.2 0)
+			(at 185.42 462.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Datasheet" ""
-			(at 419.1 203.2 0)
+			(at 185.42 462.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
-			(at 419.1 203.2 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 185.42 462.28 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -66836,241 +63393,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e88e341d-57db-4d26-ad0e-53c7e3fabf07")
+			(uuid "3fa82d56-5fb9-4f0e-b4e0-559fbb75730c")
 		)
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
-					(reference "#PWR083")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FM1-6-rescue:PWR_FLAG-power")
-		(at 196.85 207.01 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "93a01007-7786-44ea-bc6d-abd02571f537")
-		(property "Reference" "#FLG07"
-			(at 196.85 204.597 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 196.85 201.7268 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 196.85 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 196.85 207.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "07d7ed58-1679-475d-ae04-66cae19334c3")
-		)
-		(instances
-			(project "patinhofeio"
-				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
-					(reference "#FLG07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FM1-6-rescue:VCC-power")
-		(at 184.15 87.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "94cce501-fea2-4bec-bb2e-a49732738560")
-		(property "Reference" "#PWR0105"
-			(at 184.15 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 184.2262 84.3788 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.15 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 184.15 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "830d4e8e-7490-4ec4-b12e-ec6e156e9202")
-		)
-		(instances
-			(project "patinhofeio"
-				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
-					(reference "#PWR0105")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CT4-7-rescue:GND")
-		(at 337.82 553.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "95c60783-4b0f-42d6-881c-a013ca38d126")
-		(property "Reference" "#PWR064"
-			(at 337.82 553.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 337.82 555.498 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 337.82 553.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 337.82 553.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 337.82 553.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "83bc1318-3743-44b7-b418-98dddd745af7")
-		)
-		(instances
-			(project "patinhofeio"
-				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
-					(reference "#PWR064")
+					(reference "#PWR0210")
 					(unit 1)
 				)
 			)
@@ -67433,82 +63761,6 @@
 		)
 	)
 	(symbol
-		(lib_id "FCM-7-rescue:PWR_FLAG-power")
-		(at 308.61 205.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9eb6a052-1aab-4043-a3d4-c5424810c1ac")
-		(property "Reference" "#FLG014"
-			(at 308.61 203.327 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 308.61 200.4568 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 308.61 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 308.61 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 308.61 205.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "66b940f3-ff05-438e-bf07-d90439a84461")
-		)
-		(instances
-			(project "patinhofeio"
-				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
-					(reference "#FLG014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "FIN-8-rescue:CONN_35X2")
 		(at 441.96 252.73 0)
 		(unit 1)
@@ -67859,6 +64111,162 @@
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
 					(reference "#FLG062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 264.16 425.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5976201-1bfc-4912-9d6e-d0eef6a3fee5")
+		(property "Reference" "#PWR080"
+			(at 264.16 431.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 264.16 430.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 425.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 425.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 264.16 425.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c6aade48-bd61-4e9a-9a89-90b78efe26d7")
+		)
+		(instances
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 412.75 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5b5de09-83fc-4081-bf14-40aacd8acb3a")
+		(property "Reference" "#PWR089"
+			(at 412.75 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 412.75 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 412.75 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 412.75 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 412.75 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cc4d9b33-40bb-4762-99f1-0245895ff63c")
+		)
+		(instances
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -68216,6 +64624,84 @@
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
 					(reference "#FLG034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 189.23 332.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7c4413c-28a0-4b65-acd1-04f0cc11835b")
+		(property "Reference" "#PWR081"
+			(at 189.23 336.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 189.23 327.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 332.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 332.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 189.23 332.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "33fcc283-98b7-4ed2-b692-847a3044731a")
+		)
+		(instances
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -68730,83 +65216,6 @@
 		)
 	)
 	(symbol
-		(lib_id "CDE-3-rescue:GND-RESCUE-CDE-3")
-		(at 483.87 181.61 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b2277f41-ed57-48b0-8ddb-9fc7f6218f92")
-		(property "Reference" "#PWR090"
-			(at 483.87 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 483.87 183.388 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 483.87 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 483.87 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 483.87 181.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6494bc27-7cce-4672-9a9a-c2ad48224519")
-		)
-		(instances
-			(project "patinhofeio"
-				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
-					(reference "#PWR090")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PMR-1-rescue:PWR_FLAG-power")
 		(at 605.79 200.66 0)
 		(unit 1)
@@ -68877,6 +65286,84 @@
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
 					(reference "#FLG032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 762 422.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4c60d65-c41d-45f5-a59d-43e54b8aef3d")
+		(property "Reference" "#PWR074"
+			(at 762 429.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 762 427.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 762 422.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 762 422.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 762 422.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2e51f1fa-ae72-4a4a-bbee-8212260850cf")
+		)
+		(instances
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -69163,82 +65650,6 @@
 		)
 	)
 	(symbol
-		(lib_id "CDE-3-rescue:VCC-power")
-		(at 300.99 330.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b50e877b-42c1-471c-a5be-ed7dfc759608")
-		(property "Reference" "#PWR057"
-			(at 300.99 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 301.0662 326.9488 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 300.99 330.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 300.99 330.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 300.99 330.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5a42fb45-d684-43aa-9ad9-acc8c4be7a62")
-		)
-		(instances
-			(project "patinhofeio"
-				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
-					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "CT4-7-rescue:PWR_FLAG-power")
 		(at 309.88 462.28 0)
 		(unit 1)
@@ -69315,6 +65726,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 63.5 330.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b661afe8-6b04-4b0d-b82a-5f3e21f68c8b")
+		(property "Reference" "#PWR055"
+			(at 63.5 334.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 63.5 325.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 330.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 330.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 63.5 330.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9d22943a-9d8e-4aa6-8e22-0e689e22471e")
+		)
+		(instances
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CT5-8-rescue:PWR_FLAG-power")
 		(at 431.8 462.28 0)
 		(unit 1)
@@ -69385,6 +65874,84 @@
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
 					(reference "#FLG030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 483.87 181.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd7bef2a-38be-4740-8d77-9f39bbed66ae")
+		(property "Reference" "#PWR090"
+			(at 483.87 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 483.87 186.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 483.87 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 483.87 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 483.87 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "985ec36e-34a1-44a7-8a28-13f1034322dd")
+		)
+		(instances
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -69823,8 +66390,8 @@
 		)
 	)
 	(symbol
-		(lib_id "CDE-3-rescue:VCC-power")
-		(at 299.72 86.36 0)
+		(lib_id "power:VCC")
+		(at 299.72 331.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -69832,52 +66399,54 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "c9053db7-5d1b-421d-a045-2acd640a44a6")
-		(property "Reference" "#PWR087"
-			(at 299.72 83.82 0)
+		(fields_autoplaced yes)
+		(uuid "c7ba007b-e92f-4823-a173-42e37e2781ca")
+		(property "Reference" "#PWR057"
+			(at 299.72 335.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Value" "VCC"
-			(at 299.7962 83.1088 0)
+			(at 299.72 326.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 299.72 86.36 0)
+			(at 299.72 331.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Datasheet" ""
-			(at 299.72 86.36 0)
+			(at 299.72 331.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
-			(at 299.72 86.36 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 299.72 331.47 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -69887,20 +66456,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "e2f244db-669d-45e8-b549-abc1ed79ce8c")
+			(uuid "a6b79bfd-b7ff-4511-ba5a-c0011480ccee")
 		)
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
-					(reference "#PWR087")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "FM1-6-rescue:GND")
-		(at 121.92 182.88 0)
+		(lib_id "power:GND")
+		(at 132.08 424.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -69908,53 +66477,54 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "cb1647a7-56e4-462b-93a3-b00f08baa80b")
-		(property "Reference" "#PWR0108"
-			(at 121.92 182.88 0)
+		(fields_autoplaced yes)
+		(uuid "cb52deb8-8307-452d-8d7b-a2885df2fa8f")
+		(property "Reference" "#PWR056"
+			(at 132.08 430.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Value" "GND"
-			(at 121.92 184.658 0)
-			(hide yes)
+			(at 132.08 429.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 182.88 0)
+			(at 132.08 424.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 182.88 0)
+			(at 132.08 424.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
-			(at 121.92 182.88 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 132.08 424.18 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -69964,12 +66534,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "10ea1f08-5787-4d3f-bfa3-b4e5a02ae197")
+			(uuid "a479442d-b3f3-480d-b69a-42239af38c5b")
 		)
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
-					(reference "#PWR0108")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -70256,159 +66826,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCP-2-rescue:GND")
-		(at 781.05 422.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ccc15a32-c3a3-439b-9937-8d234193eb45")
-		(property "Reference" "#PWR074"
-			(at 781.05 422.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 781.05 424.688 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 781.05 422.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 781.05 422.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 781.05 422.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "85d9f003-aaa9-47f4-98f4-2dbfe7dad346")
-		)
-		(instances
-			(project "patinhofeio"
-				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
-					(reference "#PWR074")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FM1-6-rescue:VCC-power")
-		(at 53.34 87.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d02638e4-f26f-4ba8-aaa3-b25e2a3c4bb9")
-		(property "Reference" "#PWR0106"
-			(at 53.34 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 53.4162 84.3788 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 53.34 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "abed00bf-7ccf-4355-8d32-ffa54381aaab")
-		)
-		(instances
-			(project "patinhofeio"
-				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
-					(reference "#PWR0106")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "FCM-7-rescue:CONN_35X2")
 		(at 322.58 252.73 0)
 		(unit 1)
@@ -70683,6 +67100,84 @@
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
 					(reference "CONECTOR_FCM_7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 62.23 461.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2ca14e0-d227-4577-8571-cc18b33a1cbd")
+		(property "Reference" "#PWR059"
+			(at 62.23 464.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 62.23 455.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 461.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 461.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 62.23 461.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "101a45c8-dfbf-45de-bd4e-da2378b24e28")
+		)
+		(instances
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -71681,236 +68176,6 @@
 		)
 	)
 	(symbol
-		(lib_id "FIN-8-rescue:GND")
-		(at 497.84 300.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "de09d719-81f2-4bfc-b748-07e4af9dde5f")
-		(property "Reference" "#PWR084"
-			(at 497.84 300.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 497.84 302.768 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 497.84 300.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 497.84 300.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 497.84 300.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6f8143ad-6de5-4946-8d95-dbaeb2539994")
-		)
-		(instances
-			(project "patinhofeio"
-				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
-					(reference "#PWR084")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CT1-4-rescue:GND")
-		(at 476.25 424.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "dfce2399-243d-49cb-820d-f53877d907de")
-		(property "Reference" "#PWR082"
-			(at 476.25 424.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 476.25 425.958 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 476.25 424.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 476.25 424.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 476.25 424.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3c6248be-6e15-4e55-8cb8-6872b0c71410")
-		)
-		(instances
-			(project "patinhofeio"
-				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
-					(reference "#PWR082")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCP-2-rescue:VCC-power")
-		(at 603.25 328.93 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e6510420-96bf-4d91-b216-8a5a6691bf27")
-		(property "Reference" "#PWR076"
-			(at 603.25 326.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 603.3262 325.6788 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 603.25 328.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 603.25 328.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 603.25 328.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dc194836-da57-4e77-b8b6-95b5cd0ecdd1")
-		)
-		(instances
-			(project "patinhofeio"
-				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
-					(reference "#PWR076")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "CT5-8-rescue:CONN_35X2")
 		(at 444.5 508 0)
 		(unit 1)
@@ -72191,8 +68456,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PMR-1-rescue:VCC-power")
-		(at 600.71 200.66 0)
+		(lib_id "power:VCC")
+		(at 712.47 200.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -72200,52 +68465,54 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f2a1d997-93f3-4460-8539-0385c771b9fe")
-		(property "Reference" "#PWR068"
-			(at 600.71 198.12 0)
+		(fields_autoplaced yes)
+		(uuid "f0fe5053-1eb5-4620-b803-ebf0f1979ee7")
+		(property "Reference" "#PWR067"
+			(at 712.47 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Value" "VCC"
-			(at 600.7862 197.4088 0)
+			(at 712.47 195.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 600.71 200.66 0)
+			(at 712.47 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Datasheet" ""
-			(at 600.71 200.66 0)
+			(at 712.47 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
-			(at 600.71 200.66 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 712.47 200.66 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -72255,12 +68522,90 @@
 			)
 		)
 		(pin "1"
-			(uuid "b8bd2374-efb5-4920-8100-bb30050270c2")
+			(uuid "e7db1d54-113c-4682-bcdc-8601b8d8ef59")
 		)
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
-					(reference "#PWR068")
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 462.28 553.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1c71b7b-6696-4c87-992d-bdc9e310e794")
+		(property "Reference" "#PWR066"
+			(at 462.28 560.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 462.28 558.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 462.28 553.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 462.28 553.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 462.28 553.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4494049c-d3e8-4eae-9174-369aefdfab8c")
+		)
+		(instances
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -72623,6 +68968,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 646.43 293.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5c71126-3d14-4692-9f0a-33dae0ba64ad")
+		(property "Reference" "#PWR069"
+			(at 646.43 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 646.43 298.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 646.43 293.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 646.43 293.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 646.43 293.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6628107a-0573-459b-996d-065fc7bc01f1")
+		)
+		(instances
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "FS1-3-rescue:CONN_35X2-conn_35x2")
 		(at 320.04 134.62 0)
 		(unit 1)
@@ -72903,8 +69326,8 @@
 		)
 	)
 	(symbol
-		(lib_id "FM1-6-rescue:GND")
-		(at 120.65 302.26 0)
+		(lib_id "power:VCC")
+		(at 419.1 203.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -72912,53 +69335,54 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "fa802c98-b791-46da-a25e-6e2ffec6b17f")
-		(property "Reference" "#PWR0112"
-			(at 120.65 302.26 0)
+		(fields_autoplaced yes)
+		(uuid "fd547ffd-32de-4630-b4fb-7daf975df99f")
+		(property "Reference" "#PWR083"
+			(at 419.1 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 120.65 304.038 0)
-			(hide yes)
+		(property "Value" "VCC"
+			(at 419.1 198.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 302.26 0)
+			(at 419.1 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 302.26 0)
+			(at 419.1 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
-			(at 120.65 302.26 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 419.1 203.2 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -72968,88 +69392,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0d9f485d-3705-4ae2-954a-e5480455657b")
+			(uuid "8d9fc4c6-a9b0-451f-8e01-c539cca9bb49")
 		)
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
-					(reference "#PWR0112")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CDE-3-rescue:PWR_FLAG-power")
-		(at 419.1 88.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fd60ac95-a58c-4d60-9f73-048221935521")
-		(property "Reference" "#FLG047"
-			(at 419.1 86.487 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 419.1 83.6168 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 419.1 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 419.1 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 419.1 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "298d281f-dc45-4ab3-8f4c-89d77b763645")
-		)
-		(instances
-			(project "patinhofeio"
-				(path "/aca06203-542d-4682-a7e3-8839e24cce95/196ff851-0ab2-4b3d-b1e8-bce9b4d7ca05"
-					(reference "#FLG047")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)

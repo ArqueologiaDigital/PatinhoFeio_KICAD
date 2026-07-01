@@ -14,17 +14,6 @@
 		(comment 4 "Re-desenho: Felipe Sanches")
 	)
 	(lib_symbols)
-	(text "OK"
-		(exclude_from_sim no)
-		(at 176.53 100.33 0)
-		(effects
-			(font
-				(size 2.9972 2.9972)
-			)
-			(justify left bottom)
-		)
-		(uuid "02fb71cd-3aa9-4afd-b0ec-51de0ad0e515")
-	)
 	(text "Placa:\n* CT3-6"
 		(exclude_from_sim no)
 		(at 191.77 116.84 0)
@@ -35,17 +24,6 @@
 			(justify left bottom)
 		)
 		(uuid "03242d76-2fe4-449b-877e-cbfa111290f6")
-	)
-	(text "OK"
-		(exclude_from_sim no)
-		(at 177.038 87.376 0)
-		(effects
-			(font
-				(size 2.9972 2.9972)
-			)
-			(justify left bottom)
-		)
-		(uuid "03898da2-0111-41aa-9fba-8d05c0973beb")
 	)
 	(text "Placa:\n* CCE-2"
 		(exclude_from_sim no)
@@ -80,28 +58,6 @@
 		)
 		(uuid "174df2fa-9a98-4e5c-a9bd-70617eab7144")
 	)
-	(text "OK"
-		(exclude_from_sim no)
-		(at 64.77 54.102 0)
-		(effects
-			(font
-				(size 2.9972 2.9972)
-			)
-			(justify left bottom)
-		)
-		(uuid "288fe6ec-4498-4360-89bf-045b890c094e")
-	)
-	(text "OK"
-		(exclude_from_sim no)
-		(at 64.77 83.82 0)
-		(effects
-			(font
-				(size 2.9972 2.9972)
-			)
-			(justify left bottom)
-		)
-		(uuid "377b8627-86bc-4baa-ad2f-4a6db254a90e")
-	)
 	(text "Placa:\n* FM1-6 (mais-um e porta de seleção 6)"
 		(exclude_from_sim no)
 		(at 78.74 86.36 0)
@@ -112,28 +68,6 @@
 			(justify left bottom)
 		)
 		(uuid "38369662-5ebc-4646-8b52-5cb95fbbad88")
-	)
-	(text "OK"
-		(exclude_from_sim no)
-		(at 176.53 34.29 0)
-		(effects
-			(font
-				(size 2.9972 2.9972)
-			)
-			(justify left bottom)
-		)
-		(uuid "3c3ca775-feb0-49bf-abf8-9cd60fa1a5e0")
-	)
-	(text "OK"
-		(exclude_from_sim no)
-		(at 176.53 133.35 0)
-		(effects
-			(font
-				(size 2.9972 2.9972)
-			)
-			(justify left bottom)
-		)
-		(uuid "3dd1c21c-db7b-4415-8c07-70e607e26d02")
 	)
 	(text "Placa de acumulador:\n* FAC-5"
 		(exclude_from_sim no)
@@ -157,17 +91,6 @@
 		)
 		(uuid "50d259ed-4e10-4d50-9b3c-aaa18b0258ad")
 	)
-	(text "OK"
-		(exclude_from_sim no)
-		(at 65.786 68.834 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left bottom)
-		)
-		(uuid "56ab724c-a18b-4d92-bf9d-a80ffe2992b0")
-	)
 	(text "Placa:\n* CT2-5"
 		(exclude_from_sim no)
 		(at 191.77 100.33 0)
@@ -178,28 +101,6 @@
 			(justify left bottom)
 		)
 		(uuid "65685c12-702a-409b-9ad5-9b182195606b")
-	)
-	(text "OK"
-		(exclude_from_sim no)
-		(at 176.53 50.8 0)
-		(effects
-			(font
-				(size 2.9972 2.9972)
-			)
-			(justify left bottom)
-		)
-		(uuid "73d4305b-4836-4a5a-a6a7-5ab79ccd7420")
-	)
-	(text "OK"
-		(exclude_from_sim no)
-		(at 63.5 175.26 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left bottom)
-		)
-		(uuid "7cd9588d-bcc3-4f24-9d23-4f8dc11cb4db")
 	)
 	(text "UNIDADE DE CONTROLE"
 		(exclude_from_sim no)
@@ -234,17 +135,6 @@
 		)
 		(uuid "8480af54-05ca-4093-b666-9381492dc26c")
 	)
-	(text "OK"
-		(exclude_from_sim no)
-		(at 176.53 149.86 0)
-		(effects
-			(font
-				(size 2.9972 2.9972)
-			)
-			(justify left bottom)
-		)
-		(uuid "86740ab2-a903-49a3-8318-822e6ab6cdcf")
-	)
 	(text "Placa:\n* CRC-1"
 		(exclude_from_sim no)
 		(at 191.77 34.29 0)
@@ -255,17 +145,6 @@
 			(justify left bottom)
 		)
 		(uuid "86f38927-9483-4e45-be7c-fa20bd2af4b5")
-	)
-	(text "OK"
-		(exclude_from_sim no)
-		(at 176.53 116.84 0)
-		(effects
-			(font
-				(size 2.9972 2.9972)
-			)
-			(justify left bottom)
-		)
-		(uuid "8807e3eb-7cde-4305-93ec-c388214cb329")
 	)
 	(text "Placas de somador:\n* FS1-3 (bits menos significativos)\n* FS2-4 (bits mais significativos)"
 		(exclude_from_sim no)
@@ -299,17 +178,6 @@
 			(justify left bottom)
 		)
 		(uuid "a081eda0-91a1-4617-b8a5-49477c86d311")
-	)
-	(text "OK"
-		(exclude_from_sim no)
-		(at 64.77 120.65 0)
-		(effects
-			(font
-				(size 2.9972 2.9972)
-			)
-			(justify left bottom)
-		)
-		(uuid "a6f32e82-f69e-49b8-b124-d91eacfbbdf9")
 	)
 	(text "FLUXO DE DADOS"
 		(exclude_from_sim no)
@@ -355,28 +223,6 @@
 		)
 		(uuid "cfe5838d-5909-4c06-8224-0847c4683d3a")
 	)
-	(text "OK"
-		(exclude_from_sim no)
-		(at 63.5 160.02 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left bottom)
-		)
-		(uuid "d5a432d3-1e76-427c-bd1e-f53936b0426f")
-	)
-	(text "OK"
-		(exclude_from_sim no)
-		(at 64.77 101.6 0)
-		(effects
-			(font
-				(size 2.9972 2.9972)
-			)
-			(justify left bottom)
-		)
-		(uuid "dcf501e6-2ab6-4135-ab96-d8ce7985074a")
-	)
 	(text "Placa:\n* FIN-8 (sinais para cartões de interface)"
 		(exclude_from_sim no)
 		(at 78.74 120.65 0)
@@ -387,17 +233,6 @@
 			(justify left bottom)
 		)
 		(uuid "dfc7fdcf-9e75-44b9-bef2-0b592a2ea0c6")
-	)
-	(text "OK"
-		(exclude_from_sim no)
-		(at 66.294 36.068 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left bottom)
-		)
-		(uuid "ec3d8ed6-c550-4293-88ff-5525de01b635")
 	)
 	(text "BACKPLANE"
 		(exclude_from_sim no)

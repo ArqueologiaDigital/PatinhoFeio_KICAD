@@ -3594,108 +3594,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "CDE-3-rescue:GND-RESCUE-CDE-3"
-			(power global)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 0.762 0.762)
-					)
-				)
-			)
-			(property "Value" "GND-RESCUE-CDE-3"
-				(at 0 -1.778 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 0.762 0.762)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND-RESCUE-CDE-3_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 0 -1.27) (xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND-RESCUE-CDE-3_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "CDE-3-rescue:PWR_FLAG-power"
 			(power global)
 			(pin_numbers
@@ -3795,118 +3693,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "CDE-3-rescue:VCC-power"
-			(power global)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "power:VCC"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VCC-power_0_1"
-				(circle
-					(center 0 1.905)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VCC-power_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -5243,6 +5029,260 @@
 						(effects
 							(font
 								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VCC"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -18002,7 +18042,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00224fea-2787-4d5b-b086-f8d66f0e4fdc")
-		(property "Reference" "5C_FS1_"
+		(property "Reference" "5C_FS1"
 			(at 497.84 230.886 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18105,7 +18145,7 @@
 			)
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "5C_FS1_")
+					(reference "5C_FS1")
 					(unit 6)
 				)
 			)
@@ -18198,7 +18238,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "03dbc125-041d-4881-af2c-0d274d30ed28")
-		(property "Reference" "5A_FS2_"
+		(property "Reference" "5A_FS2"
 			(at 360.172 469.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18286,7 +18326,7 @@
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "5A_FS2_")
+					(reference "5A_FS2")
 					(unit 1)
 				)
 			)
@@ -18303,7 +18343,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "07af799f-e08f-4be1-842e-9518097079dc")
-		(property "Reference" "5D_FS1_"
+		(property "Reference" "5D_FS1"
 			(at 435.61 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18406,7 +18446,7 @@
 			)
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "5D_FS1_")
+					(reference "5D_FS1")
 					(unit 2)
 				)
 			)
@@ -18499,7 +18539,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "09cc5a8d-3e6f-4de3-9f75-a8b8ba16ac18")
-		(property "Reference" "4C_FS1_"
+		(property "Reference" "4C_FS1"
 			(at 436.626 105.918 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18602,7 +18642,7 @@
 			)
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "4C_FS1_")
+					(reference "4C_FS1")
 					(unit 1)
 				)
 			)
@@ -18619,7 +18659,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "135d6226-9229-45cb-85ce-43824c5f82cb")
-		(property "Reference" "4C_FS1_"
+		(property "Reference" "4C_FS1"
 			(at 524.764 153.416 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18722,7 +18762,7 @@
 			)
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "4C_FS1_")
+					(reference "4C_FS1")
 					(unit 4)
 				)
 			)
@@ -18740,7 +18780,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "13f99dee-dfd6-427c-bc0a-304ecf440aff")
-		(property "Reference" "1E_FS2_"
+		(property "Reference" "1E_FS2"
 			(at 525.78 376.428 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18837,7 +18877,7 @@
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "1E_FS2_")
+					(reference "1E_FS2")
 					(unit 1)
 				)
 			)
@@ -18854,7 +18894,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "14a9791c-3ff4-45ad-b0f3-41aadbd1d024")
-		(property "Reference" "1E_FS2_"
+		(property "Reference" "1E_FS2"
 			(at 525.78 350.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18951,7 +18991,7 @@
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "1E_FS2_")
+					(reference "1E_FS2")
 					(unit 2)
 				)
 			)
@@ -18968,7 +19008,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1505684b-461a-4ca6-9715-a904aa169215")
-		(property "Reference" "5E_FS2_"
+		(property "Reference" "5E_FS2"
 			(at 525.78 462.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19065,7 +19105,7 @@
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "5E_FS2_")
+					(reference "5E_FS2")
 					(unit 2)
 				)
 			)
@@ -19082,7 +19122,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1830fce1-081d-4f8f-a4a3-4652be3e1a3d")
-		(property "Reference" "3E_FS2_"
+		(property "Reference" "3E_FS2"
 			(at 497.332 464.312 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19179,7 +19219,7 @@
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "3E_FS2_")
+					(reference "3E_FS2")
 					(unit 5)
 				)
 			)
@@ -19196,7 +19236,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "18f6cb68-f0a0-4c06-8af7-d64b078f6854")
-		(property "Reference" "3E_FS2_"
+		(property "Reference" "3E_FS2"
 			(at 499.11 352.552 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19293,7 +19333,7 @@
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "3E_FS2_")
+					(reference "3E_FS2")
 					(unit 2)
 				)
 			)
@@ -19310,7 +19350,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1d4184c4-5759-4f25-9f85-7c054541c117")
-		(property "Reference" "5C_FS1_"
+		(property "Reference" "5C_FS1"
 			(at 411.48 232.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19413,7 +19453,7 @@
 			)
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "5C_FS1_")
+					(reference "5C_FS1")
 					(unit 4)
 				)
 			)
@@ -19430,7 +19470,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1f3ae809-4459-4af8-a4a0-e5aeef679d54")
-		(property "Reference" "4C_FS2_"
+		(property "Reference" "4C_FS2"
 			(at 435.61 496.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19527,7 +19567,7 @@
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "4C_FS2_")
+					(reference "4C_FS2")
 					(unit 2)
 				)
 			)
@@ -19545,7 +19585,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "22c21ba4-0ec3-41fa-889f-7f0b955d7041")
-		(property "Reference" "1E_FS1_"
+		(property "Reference" "1E_FS1"
 			(at 525.78 98.298 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19648,7 +19688,7 @@
 			)
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "1E_FS1_")
+					(reference "1E_FS1")
 					(unit 1)
 				)
 			)
@@ -19665,7 +19705,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "291eec3e-e978-4b4e-9b73-c406e78e5664")
-		(property "Reference" "3F_FS1_"
+		(property "Reference" "3F_FS1"
 			(at 622.3 186.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19768,7 +19808,7 @@
 			)
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "3F_FS1_")
+					(reference "3F_FS1")
 					(unit 1)
 				)
 			)
@@ -19785,7 +19825,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "29202b09-8bfc-4a7e-bd7a-c38af74b83cf")
-		(property "Reference" "3A_FS1_"
+		(property "Reference" "3A_FS1"
 			(at 359.156 225.044 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19888,7 +19928,7 @@
 			)
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "3A_FS1_")
+					(reference "3A_FS1")
 					(unit 1)
 				)
 			)
@@ -19905,7 +19945,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "29b69880-0609-4a6c-b6d2-29cea5094fe9")
-		(property "Reference" "3F_FS1_"
+		(property "Reference" "3F_FS1"
 			(at 622.3 234.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20008,7 +20048,7 @@
 			)
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "3F_FS1_")
+					(reference "3F_FS1")
 					(unit 2)
 				)
 			)
@@ -20025,7 +20065,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2e9f2ae7-8775-4885-afde-ffefe60319db")
-		(property "Reference" "5B_FS2_"
+		(property "Reference" "5B_FS2"
 			(at 360.172 532.638 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20113,7 +20153,7 @@
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "5B_FS2_")
+					(reference "5B_FS2")
 					(unit 1)
 				)
 			)
@@ -20130,7 +20170,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "30340326-3268-4c29-9acf-66182804c542")
-		(property "Reference" "1B_FS1_"
+		(property "Reference" "1B_FS1"
 			(at 359.664 80.518 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20224,7 +20264,7 @@
 			)
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "1B_FS1_")
+					(reference "1B_FS1")
 					(unit 1)
 				)
 			)
@@ -20241,7 +20281,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "31d92d7f-3c3a-4740-9c85-b54e6dbd238f")
-		(property "Reference" "3E_FS1_"
+		(property "Reference" "3E_FS1"
 			(at 499.11 74.422 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20344,7 +20384,7 @@
 			)
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "3E_FS1_")
+					(reference "3E_FS1")
 					(unit 2)
 				)
 			)
@@ -20362,7 +20402,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "321519b9-88a8-4c83-8781-11ef57edd58e")
-		(property "Reference" "1F_FS2_"
+		(property "Reference" "1F_FS2"
 			(at 624.332 358.902 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20459,7 +20499,7 @@
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "1F_FS2_")
+					(reference "1F_FS2")
 					(unit 2)
 				)
 			)
@@ -20476,7 +20516,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3235660a-ed3e-4d39-b172-0ed7a7f8dbc9")
-		(property "Reference" "3D_FS1_"
+		(property "Reference" "3D_FS1"
 			(at 549.91 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20579,7 +20619,7 @@
 			)
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "3D_FS1_")
+					(reference "3D_FS1")
 					(unit 1)
 				)
 			)
@@ -20596,7 +20636,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3383f48b-fdb8-4424-a582-29600605d808")
-		(property "Reference" "5C_FS2_"
+		(property "Reference" "5C_FS2"
 			(at 497.84 509.016 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20693,7 +20733,7 @@
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "5C_FS2_")
+					(reference "5C_FS2")
 					(unit 6)
 				)
 			)
@@ -20710,7 +20750,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3478ec9e-eeab-45d4-9fd5-862b051cd3d9")
-		(property "Reference" "5B_FS1_"
+		(property "Reference" "5B_FS1"
 			(at 360.172 254.508 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20804,83 +20844,7 @@
 			)
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "5B_FS1_")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CDE-3-rescue:VCC-power")
-		(at 162.56 330.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "38f539a1-d43d-4605-8efe-b627aea2a159")
-		(property "Reference" "#PWR091"
-			(at 162.56 327.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 162.6362 326.9488 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 162.56 330.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 162.56 330.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 162.56 330.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0a974584-bc46-47da-8a47-b429ad7cc8d5")
-		)
-		(instances
-			(project "patinhofeio"
-				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "#PWR091")
+					(reference "5B_FS1")
 					(unit 1)
 				)
 			)
@@ -20897,7 +20861,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3e06c939-3930-43b1-9a08-e05a2ac366df")
-		(property "Reference" "1C_FS1_"
+		(property "Reference" "1C_FS1"
 			(at 499.11 84.582 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21000,7 +20964,7 @@
 			)
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "1C_FS1_")
+					(reference "1C_FS1")
 					(unit 5)
 				)
 			)
@@ -21017,7 +20981,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3fd8afa7-7c7c-426a-a8a6-26549de91d25")
-		(property "Reference" "5E_FS1_"
+		(property "Reference" "5E_FS1"
 			(at 525.78 210.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21120,7 +21084,7 @@
 			)
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "5E_FS1_")
+					(reference "5E_FS1")
 					(unit 1)
 				)
 			)
@@ -21137,7 +21101,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "40514066-279e-4b22-8603-614809653da8")
-		(property "Reference" "5E_FS2_"
+		(property "Reference" "5E_FS2"
 			(at 525.78 488.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21234,7 +21198,7 @@
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "5E_FS2_")
+					(reference "5E_FS2")
 					(unit 1)
 				)
 			)
@@ -21251,7 +21215,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "405ac8c9-4fe6-4c28-b0ce-ec2d8ec561a0")
-		(property "Reference" "5C_FS2_"
+		(property "Reference" "5C_FS2"
 			(at 412.75 457.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21348,7 +21312,7 @@
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "5C_FS2_")
+					(reference "5C_FS2")
 					(unit 3)
 				)
 			)
@@ -21365,7 +21329,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "41cc4e97-c477-4fec-9a1e-2de61445d732")
-		(property "Reference" "5E_FS1_"
+		(property "Reference" "5E_FS1"
 			(at 525.78 184.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21468,7 +21432,7 @@
 			)
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "5E_FS1_")
+					(reference "5E_FS1")
 					(unit 2)
 				)
 			)
@@ -21486,7 +21450,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41cd7226-f9b2-439c-89db-e65cafb500ee")
-		(property "Reference" "1A_FS2_"
+		(property "Reference" "1A_FS2"
 			(at 359.41 389.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21583,7 +21547,7 @@
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "1A_FS2_")
+					(reference "1A_FS2")
 					(unit 2)
 				)
 			)
@@ -21600,7 +21564,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "44751340-60c4-493e-82a0-120852d1a1bb")
-		(property "Reference" "3C_FS1_"
+		(property "Reference" "3C_FS1"
 			(at 435.61 200.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21703,85 +21667,8 @@
 			)
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "3C_FS1_")
+					(reference "3C_FS1")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CDE-3-rescue:GND-RESCUE-CDE-3")
-		(at 233.68 147.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "44ca0f07-8b8d-4c5a-afdf-56d9b4e7e39a")
-		(property "Reference" "#PWR086"
-			(at 233.68 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 233.68 149.098 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 233.68 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 233.68 147.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "54e0fd1d-e176-4d8e-b562-fec046d504e2")
-		)
-		(instances
-			(project "patinhofeio"
-				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "#PWR086")
-					(unit 1)
 				)
 			)
 		)
@@ -21797,7 +21684,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "46bc0b34-4c97-41a7-84af-b278037eab37")
-		(property "Reference" "5C_FS1_"
+		(property "Reference" "5C_FS1"
 			(at 412.75 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21900,7 +21787,7 @@
 			)
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "5C_FS1_")
+					(reference "5C_FS1")
 					(unit 2)
 				)
 			)
@@ -21917,7 +21804,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4826cab4-3326-41f0-ae34-6a9fe39d6289")
-		(property "Reference" "5C_FS2_"
+		(property "Reference" "5C_FS2"
 			(at 411.48 519.43 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22014,7 +21901,7 @@
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "5C_FS2_")
+					(reference "5C_FS2")
 					(unit 5)
 				)
 			)
@@ -22031,7 +21918,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "49c1b523-c997-44ea-a83a-87cb3d5c1893")
-		(property "Reference" "1C_FS2_"
+		(property "Reference" "1C_FS2"
 			(at 412.75 335.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22128,14 +22015,14 @@
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "1C_FS2_")
+					(reference "1C_FS2")
 					(unit 2)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "CDE-3-rescue:VCC-power")
+		(lib_id "power:VCC")
 		(at 162.56 52.07 0)
 		(unit 1)
 		(body_style 1)
@@ -22144,25 +22031,26 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "4ec1f097-84b6-4be0-b9ed-219405b6ac5a")
-		(property "Reference" "#PWR085"
-			(at 162.56 49.53 0)
+		(fields_autoplaced yes)
+		(uuid "4ee2204a-bc74-4446-bcb1-d1895714e4e4")
+		(property "Reference" "#PWR086"
+			(at 162.56 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
 		(property "Value" "VCC"
-			(at 162.6362 48.8188 0)
+			(at 162.56 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -22173,7 +22061,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -22184,12 +22072,13 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 162.56 52.07 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22199,12 +22088,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7fb573f4-5465-4faa-a5c9-65ce90b815c4")
+			(uuid "9f20738b-30cf-439a-8e34-a77737df7c7a")
 		)
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "#PWR085")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -22222,7 +22111,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "509b09e9-baa1-49de-b174-200230670335")
-		(property "Reference" "1F_FS1_"
+		(property "Reference" "1F_FS1"
 			(at 626.618 136.906 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22325,7 +22214,7 @@
 			)
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "1F_FS1_")
+					(reference "1F_FS1")
 					(unit 1)
 				)
 			)
@@ -22343,7 +22232,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55350396-23a9-43ba-9c93-40b3385c9ed6")
-		(property "Reference" "3A_FS2_"
+		(property "Reference" "3A_FS2"
 			(at 359.41 440.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22440,7 +22329,7 @@
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "3A_FS2_")
+					(reference "3A_FS2")
 					(unit 2)
 				)
 			)
@@ -22458,7 +22347,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "56de1a65-5627-4fed-b144-cc913a69f4b8")
-		(property "Reference" "5F_FS1_"
+		(property "Reference" "5F_FS1"
 			(at 561.086 266.7 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22561,7 +22450,7 @@
 			)
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "5F_FS1_")
+					(reference "5F_FS1")
 					(unit 2)
 				)
 			)
@@ -22578,7 +22467,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "57c43b5a-c5d8-46c8-a85f-c8dcea32c8db")
-		(property "Reference" "3B_FS2_"
+		(property "Reference" "3B_FS2"
 			(at 359.918 419.354 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22666,7 +22555,7 @@
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "3B_FS2_")
+					(reference "3B_FS2")
 					(unit 1)
 				)
 			)
@@ -22684,7 +22573,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5b8682c4-c63c-429f-95d8-e684ca2145f1")
-		(property "Reference" "1D_FS1_"
+		(property "Reference" "1D_FS1"
 			(at 438.912 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22787,7 +22676,7 @@
 			)
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "1D_FS1_")
+					(reference "1D_FS1")
 					(unit 1)
 				)
 			)
@@ -22804,7 +22693,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5bfb46b9-ec9d-4779-890a-c935b08629e2")
-		(property "Reference" "1C_FS1_"
+		(property "Reference" "1C_FS1"
 			(at 412.75 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22907,7 +22796,7 @@
 			)
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "1C_FS1_")
+					(reference "1C_FS1")
 					(unit 6)
 				)
 			)
@@ -22924,7 +22813,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6015513a-5a48-405c-97c5-8d9e4ffe400d")
-		(property "Reference" "3D_FS2_"
+		(property "Reference" "3D_FS2"
 			(at 549.91 429.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23021,7 +22910,7 @@
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "3D_FS2_")
+					(reference "3D_FS2")
 					(unit 1)
 				)
 			)
@@ -23038,7 +22927,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "633001ae-3a8b-4fd8-8c2d-98e6ee5cca3b")
-		(property "Reference" "5A_FS1_"
+		(property "Reference" "5A_FS1"
 			(at 360.172 191.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23132,7 +23021,7 @@
 			)
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "5A_FS1_")
+					(reference "5A_FS1")
 					(unit 1)
 				)
 			)
@@ -23149,7 +23038,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6358be71-fc98-464b-a7e8-9c7be8cedcea")
-		(property "Reference" "3E_FS1_"
+		(property "Reference" "3E_FS1"
 			(at 497.332 186.182 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23252,7 +23141,7 @@
 			)
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "3E_FS1_")
+					(reference "3E_FS1")
 					(unit 5)
 				)
 			)
@@ -23269,7 +23158,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6797b814-7c33-46cd-a067-e6ab387999ed")
-		(property "Reference" "3A_FS2_"
+		(property "Reference" "3A_FS2"
 			(at 359.156 503.174 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23366,7 +23255,7 @@
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "3A_FS2_")
+					(reference "3A_FS2")
 					(unit 1)
 				)
 			)
@@ -23383,7 +23272,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "67e6e2ea-9292-41b2-8e48-09b028445bc5")
-		(property "Reference" "3E_FS1_"
+		(property "Reference" "3E_FS1"
 			(at 497.84 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23486,7 +23375,7 @@
 			)
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "3E_FS1_")
+					(reference "3E_FS1")
 					(unit 3)
 				)
 			)
@@ -23503,7 +23392,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "69c5835a-a668-47a8-a9e2-6df02f9dcf23")
-		(property "Reference" "3B_FS1_"
+		(property "Reference" "3B_FS1"
 			(at 359.918 141.224 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23597,7 +23486,7 @@
 			)
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "3B_FS1_")
+					(reference "3B_FS1")
 					(unit 1)
 				)
 			)
@@ -23615,7 +23504,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a107066-cbcc-4d1c-b35e-8f72ca263f96")
-		(property "Reference" "3A_FS1_"
+		(property "Reference" "3A_FS1"
 			(at 359.41 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23718,7 +23607,7 @@
 			)
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "3A_FS1_")
+					(reference "3A_FS1")
 					(unit 2)
 				)
 			)
@@ -23735,7 +23624,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6c2f197e-823c-44ce-9b93-e87cc6f7abf1")
-		(property "Reference" "3C_FS1_"
+		(property "Reference" "3C_FS1"
 			(at 436.626 89.408 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23838,7 +23727,7 @@
 			)
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "3C_FS1_")
+					(reference "3C_FS1")
 					(unit 1)
 				)
 			)
@@ -23856,7 +23745,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6ca1a3b7-297b-46ec-b433-a08e772af341")
-		(property "Reference" "3C_FS1_"
+		(property "Reference" "3C_FS1"
 			(at 434.848 257.556 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23959,7 +23848,7 @@
 			)
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "3C_FS1_")
+					(reference "3C_FS1")
 					(unit 3)
 				)
 			)
@@ -23977,7 +23866,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6d931f8a-dc20-46ff-881a-fe0deb120524")
-		(property "Reference" "5D_FS1_"
+		(property "Reference" "5D_FS1"
 			(at 437.134 238.506 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24080,7 +23969,7 @@
 			)
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "5D_FS1_")
+					(reference "5D_FS1")
 					(unit 1)
 				)
 			)
@@ -24097,7 +23986,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6e44f4be-2b03-4dce-8c8b-d62790eb8723")
-		(property "Reference" "1C_FS1_"
+		(property "Reference" "1C_FS1"
 			(at 412.75 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24200,7 +24089,7 @@
 			)
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "1C_FS1_")
+					(reference "1C_FS1")
 					(unit 2)
 				)
 			)
@@ -24218,7 +24107,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "76a84e4f-20bf-4b63-ab75-a5faf85d04b7")
-		(property "Reference" "2C_FS2_"
+		(property "Reference" "2C_FS2"
 			(at 428.752 425.958 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24315,7 +24204,7 @@
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "2C_FS2_")
+					(reference "2C_FS2")
 					(unit 4)
 				)
 			)
@@ -24408,7 +24297,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "79191eef-0dbf-455c-9116-0d2d0cd8f494")
-		(property "Reference" "3E_FS2_"
+		(property "Reference" "3E_FS2"
 			(at 498.094 517.906 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24505,7 +24394,7 @@
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "3E_FS2_")
+					(reference "3E_FS2")
 					(unit 4)
 				)
 			)
@@ -24522,7 +24411,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7cec39aa-bfb3-42e8-a8d4-63566017cacb")
-		(property "Reference" "1C_FS2_"
+		(property "Reference" "1C_FS2"
 			(at 497.84 403.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24619,7 +24508,7 @@
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "1C_FS2_")
+					(reference "1C_FS2")
 					(unit 4)
 				)
 			)
@@ -24636,7 +24525,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7e5ec010-c460-4475-9de0-b76d95fa45da")
-		(property "Reference" "3C_FS2_"
+		(property "Reference" "3C_FS2"
 			(at 435.61 478.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24733,7 +24622,7 @@
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "3C_FS2_")
+					(reference "3C_FS2")
 					(unit 2)
 				)
 			)
@@ -24750,7 +24639,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "808fa1ca-eb06-4b6f-99e9-9ad953154b11")
-		(property "Reference" "4C_FS2_"
+		(property "Reference" "4C_FS2"
 			(at 524.764 431.546 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24847,7 +24736,7 @@
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "4C_FS2_")
+					(reference "4C_FS2")
 					(unit 4)
 				)
 			)
@@ -24864,7 +24753,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "80cbeaa2-6d74-4f3c-b351-c3d8ac2b58b3")
-		(property "Reference" "1C_FS2_"
+		(property "Reference" "1C_FS2"
 			(at 499.11 362.712 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24961,7 +24850,7 @@
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "1C_FS2_")
+					(reference "1C_FS2")
 					(unit 5)
 				)
 			)
@@ -24978,7 +24867,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8448db91-f4c8-45e7-ab08-09e9f2e63f47")
-		(property "Reference" "1C_FS1_"
+		(property "Reference" "1C_FS1"
 			(at 497.84 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25081,7 +24970,7 @@
 			)
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "1C_FS1_")
+					(reference "1C_FS1")
 					(unit 4)
 				)
 			)
@@ -25098,7 +24987,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "84d2c370-574b-4a43-b7eb-044ee365c11b")
-		(property "Reference" "3D_FS2_"
+		(property "Reference" "3D_FS2"
 			(at 525.78 403.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25195,8 +25084,86 @@
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "3D_FS2_")
+					(reference "3D_FS2")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 233.68 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c486f8b-cda6-46e4-bab4-aaac2885bb3c")
+		(property "Reference" "#PWR091"
+			(at 233.68 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 233.68 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 233.68 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1c503fdd-650e-4a6f-8d82-be58c70d5cd7")
+		)
+		(instances
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "#PWR091")
+					(unit 1)
 				)
 			)
 		)
@@ -25212,7 +25179,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "915fb288-aeab-4460-a28b-f049bfc4326d")
-		(property "Reference" "5C_FS1_"
+		(property "Reference" "5C_FS1"
 			(at 411.48 241.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25315,85 +25282,8 @@
 			)
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "5C_FS1_")
+					(reference "5C_FS1")
 					(unit 5)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CDE-3-rescue:GND-RESCUE-CDE-3")
-		(at 233.68 425.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "934f14a4-a63e-4b86-b116-413c12b90c02")
-		(property "Reference" "#PWR092"
-			(at 233.68 425.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 233.68 427.228 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 233.68 425.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 425.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 233.68 425.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "867d68e9-f926-49a4-873d-7b0fa46fb925")
-		)
-		(instances
-			(project "patinhofeio"
-				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "#PWR092")
-					(unit 1)
 				)
 			)
 		)
@@ -25410,7 +25300,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "961e7b92-ffab-427a-82f4-252ee8e7fe64")
-		(property "Reference" "5D_FS2_"
+		(property "Reference" "5D_FS2"
 			(at 437.134 516.636 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25507,7 +25397,7 @@
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "5D_FS2_")
+					(reference "5D_FS2")
 					(unit 1)
 				)
 			)
@@ -25525,7 +25415,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "974db2ca-958e-4c47-9543-b4b71371193a")
-		(property "Reference" "1A_FS1_"
+		(property "Reference" "1A_FS1"
 			(at 359.41 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25628,7 +25518,7 @@
 			)
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "1A_FS1_")
+					(reference "1A_FS1")
 					(unit 2)
 				)
 			)
@@ -25645,7 +25535,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "995661bc-b7d5-4f04-bc47-cffdc328fa1b")
-		(property "Reference" "1E_FS1_"
+		(property "Reference" "1E_FS1"
 			(at 525.78 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25748,7 +25638,7 @@
 			)
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "1E_FS1_")
+					(reference "1E_FS1")
 					(unit 2)
 				)
 			)
@@ -25765,7 +25655,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9abdfa29-1ba9-40dc-9e37-cea265760325")
-		(property "Reference" "5C_FS1_"
+		(property "Reference" "5C_FS1"
 			(at 412.75 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25868,7 +25758,7 @@
 			)
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "5C_FS1_")
+					(reference "5C_FS1")
 					(unit 3)
 				)
 			)
@@ -25886,7 +25776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6306abc-1038-4a0a-8745-e82ac6449a89")
-		(property "Reference" "1A_FS1_"
+		(property "Reference" "1A_FS1"
 			(at 359.41 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25989,7 +25879,7 @@
 			)
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "1A_FS1_")
+					(reference "1A_FS1")
 					(unit 1)
 				)
 			)
@@ -26006,7 +25896,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aca92f53-d866-49f0-a6f2-5710695e2c97")
-		(property "Reference" "1C_FS2_"
+		(property "Reference" "1C_FS2"
 			(at 412.75 345.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26103,7 +25993,7 @@
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "1C_FS2_")
+					(reference "1C_FS2")
 					(unit 1)
 				)
 			)
@@ -26120,7 +26010,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "af2f3f85-9b67-430c-8839-49ebb017a004")
-		(property "Reference" "5F_FS2_"
+		(property "Reference" "5F_FS2"
 			(at 525.78 515.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26217,7 +26107,7 @@
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "5F_FS2_")
+					(reference "5F_FS2")
 					(unit 1)
 				)
 			)
@@ -26235,7 +26125,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "af8f59a0-8c0c-4dde-8938-f22d1907a064")
-		(property "Reference" "3C_FS2_"
+		(property "Reference" "3C_FS2"
 			(at 434.848 535.686 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26332,7 +26222,7 @@
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "3C_FS2_")
+					(reference "3C_FS2")
 					(unit 3)
 				)
 			)
@@ -26349,7 +26239,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b0cfdd30-92ec-4e8f-929c-663d7c997c72")
-		(property "Reference" "3F_FS2_"
+		(property "Reference" "3F_FS2"
 			(at 622.3 464.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26446,7 +26336,7 @@
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "3F_FS2_")
+					(reference "3F_FS2")
 					(unit 1)
 				)
 			)
@@ -26463,7 +26353,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b46a0bd1-bdd4-442c-ba1a-09eb155c7502")
-		(property "Reference" "1B_FS2_"
+		(property "Reference" "1B_FS2"
 			(at 359.664 358.648 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26551,7 +26441,7 @@
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "1B_FS2_")
+					(reference "1B_FS2")
 					(unit 1)
 				)
 			)
@@ -26568,7 +26458,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b50dcc3f-44a7-4a3a-8e5a-c175b2642154")
-		(property "Reference" "3C_FS2_"
+		(property "Reference" "3C_FS2"
 			(at 436.626 367.538 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26665,7 +26555,7 @@
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "3C_FS2_")
+					(reference "3C_FS2")
 					(unit 1)
 				)
 			)
@@ -26683,7 +26573,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b8eeaecf-6110-4ecf-af92-44d49fc3706a")
-		(property "Reference" "5F_FS2_"
+		(property "Reference" "5F_FS2"
 			(at 561.086 544.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26780,7 +26670,7 @@
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "5F_FS2_")
+					(reference "5F_FS2")
 					(unit 2)
 				)
 			)
@@ -26797,7 +26687,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bcb8ba19-0ae2-4ecc-b9ba-c17be5e8ca15")
-		(property "Reference" "5C_FS2_"
+		(property "Reference" "5C_FS2"
 			(at 412.75 448.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26894,7 +26784,7 @@
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "5C_FS2_")
+					(reference "5C_FS2")
 					(unit 2)
 				)
 			)
@@ -26911,7 +26801,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c0853ec2-9072-4811-94cf-e7b03b2d8f39")
-		(property "Reference" "3E_FS1_"
+		(property "Reference" "3E_FS1"
 			(at 498.094 239.776 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27014,7 +26904,7 @@
 			)
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "3E_FS1_")
+					(reference "3E_FS1")
 					(unit 4)
 				)
 			)
@@ -27031,7 +26921,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c48deb56-3a47-4e55-9616-eb07a3313c85")
-		(property "Reference" "5C_FS2_"
+		(property "Reference" "5C_FS2"
 			(at 411.48 510.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27128,7 +27018,7 @@
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "5C_FS2_")
+					(reference "5C_FS2")
 					(unit 4)
 				)
 			)
@@ -27145,7 +27035,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c4f691b3-5108-400e-a485-24f1c7f45f6f")
-		(property "Reference" "1C_FS1_"
+		(property "Reference" "1C_FS1"
 			(at 412.75 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27248,7 +27138,7 @@
 			)
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "1C_FS1_")
+					(reference "1C_FS1")
 					(unit 3)
 				)
 			)
@@ -27266,7 +27156,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c50e35fd-a738-4b6c-93ee-c440df8b69e0")
-		(property "Reference" "1F_FS1_"
+		(property "Reference" "1F_FS1"
 			(at 624.332 80.772 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27369,7 +27259,7 @@
 			)
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "1F_FS1_")
+					(reference "1F_FS1")
 					(unit 2)
 				)
 			)
@@ -27462,7 +27352,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cd5a14db-a0bc-4251-b0cf-58bf77f05d03")
-		(property "Reference" "3D_FS1_"
+		(property "Reference" "3D_FS1"
 			(at 525.78 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27565,8 +27455,86 @@
 			)
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "3D_FS1_")
+					(reference "3D_FS1")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 162.56 330.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce549840-d9f5-4b24-8340-cf11d6b8e5e4")
+		(property "Reference" "#PWR085"
+			(at 162.56 334.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 162.56 325.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 330.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 330.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 162.56 330.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "212a50cc-f0d2-416a-9960-c0172b639958")
+		)
+		(instances
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "#PWR085")
+					(unit 1)
 				)
 			)
 		)
@@ -27582,7 +27550,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cf9d0658-b9f4-42cf-9334-c5ced5719d4d")
-		(property "Reference" "3E_FS2_"
+		(property "Reference" "3E_FS2"
 			(at 497.586 477.012 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27679,7 +27647,7 @@
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "3E_FS2_")
+					(reference "3E_FS2")
 					(unit 6)
 				)
 			)
@@ -27696,7 +27664,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d1339f72-e000-4c39-bfee-3e7b1039e597")
-		(property "Reference" "1D_FS1_"
+		(property "Reference" "1D_FS1"
 			(at 439.42 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27799,7 +27767,7 @@
 			)
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "1D_FS1_")
+					(reference "1D_FS1")
 					(unit 2)
 				)
 			)
@@ -27816,7 +27784,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d1517b87-f473-4188-a6ee-1d00efbbb6e1")
-		(property "Reference" "3F_FS2_"
+		(property "Reference" "3F_FS2"
 			(at 622.3 513.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27913,7 +27881,7 @@
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "3F_FS2_")
+					(reference "3F_FS2")
 					(unit 2)
 				)
 			)
@@ -27931,7 +27899,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d18fd220-e5e9-4bce-a795-3d36f6cf3f93")
-		(property "Reference" "1D_FS2_"
+		(property "Reference" "1D_FS2"
 			(at 438.912 341.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28028,7 +27996,7 @@
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "1D_FS2_")
+					(reference "1D_FS2")
 					(unit 1)
 				)
 			)
@@ -28046,7 +28014,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d3dc0adf-adb8-4f9b-9de8-9f9735f9cce5")
-		(property "Reference" "1F_FS2_"
+		(property "Reference" "1F_FS2"
 			(at 626.618 415.036 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28143,7 +28111,85 @@
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "1F_FS2_")
+					(reference "1F_FS2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 233.68 425.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4c6d21d-12ff-4256-959e-5cb4430caa43")
+		(property "Reference" "#PWR092"
+			(at 233.68 431.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 233.68 430.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 425.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 425.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 233.68 425.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d821ffc2-1920-4d34-ac63-a38aad000444")
+		)
+		(instances
+			(project "patinhofeio"
+				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -28160,7 +28206,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d6cab413-c576-4723-9dc2-25c9a61ced92")
-		(property "Reference" "5D_FS2_"
+		(property "Reference" "5D_FS2"
 			(at 435.61 449.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28257,7 +28303,7 @@
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "5D_FS2_")
+					(reference "5D_FS2")
 					(unit 2)
 				)
 			)
@@ -28274,7 +28320,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d81f5a39-633b-4c14-9b88-8c30db138ae6")
-		(property "Reference" "1D_FS2_"
+		(property "Reference" "1D_FS2"
 			(at 439.42 403.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28371,7 +28417,7 @@
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "1D_FS2_")
+					(reference "1D_FS2")
 					(unit 2)
 				)
 			)
@@ -28388,7 +28434,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dab99549-00a0-4ab6-b7e9-72ab4fd68561")
-		(property "Reference" "3E_FS2_"
+		(property "Reference" "3E_FS2"
 			(at 497.84 412.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28485,7 +28531,7 @@
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "3E_FS2_")
+					(reference "3E_FS2")
 					(unit 3)
 				)
 			)
@@ -28502,7 +28548,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ddb22bd6-bba9-4752-8075-4e5434edae6b")
-		(property "Reference" "1C_FS1_"
+		(property "Reference" "1C_FS1"
 			(at 412.75 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28605,7 +28651,7 @@
 			)
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "1C_FS1_")
+					(reference "1C_FS1")
 					(unit 1)
 				)
 			)
@@ -28622,7 +28668,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "deb4331d-0709-4a1c-be31-9bb6d82db14a")
-		(property "Reference" "1C_FS2_"
+		(property "Reference" "1C_FS2"
 			(at 412.75 396.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28719,7 +28765,7 @@
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "1C_FS2_")
+					(reference "1C_FS2")
 					(unit 3)
 				)
 			)
@@ -28737,7 +28783,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e08b89e0-1697-43a9-bee0-f8e023843d6c")
-		(property "Reference" "4C_FS1_"
+		(property "Reference" "4C_FS1"
 			(at 526.288 261.366 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28840,7 +28886,7 @@
 			)
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "4C_FS1_")
+					(reference "4C_FS1")
 					(unit 3)
 				)
 			)
@@ -28857,7 +28903,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e0bb4a4d-d142-4289-8cf7-aba6bd74ebd0")
-		(property "Reference" "4C_FS2_"
+		(property "Reference" "4C_FS2"
 			(at 436.626 384.048 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28954,7 +29000,7 @@
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "4C_FS2_")
+					(reference "4C_FS2")
 					(unit 1)
 				)
 			)
@@ -28972,7 +29018,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e247c185-caa5-489b-a2a3-3dfb608c9cce")
-		(property "Reference" "2C_FS1_"
+		(property "Reference" "2C_FS1"
 			(at 428.752 147.828 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29075,7 +29121,7 @@
 			)
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "2C_FS1_")
+					(reference "2C_FS1")
 					(unit 4)
 				)
 			)
@@ -29372,7 +29418,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e85331e0-2531-4d69-9b5d-23606bfba584")
-		(property "Reference" "1C_FS2_"
+		(property "Reference" "1C_FS2"
 			(at 412.75 406.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29469,7 +29515,7 @@
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "1C_FS2_")
+					(reference "1C_FS2")
 					(unit 6)
 				)
 			)
@@ -29486,7 +29532,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ec13eef9-0c18-4793-b875-ded50813dbf3")
-		(property "Reference" "3E_FS1_"
+		(property "Reference" "3E_FS1"
 			(at 497.586 198.882 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29589,7 +29635,7 @@
 			)
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "3E_FS1_")
+					(reference "3E_FS1")
 					(unit 6)
 				)
 			)
@@ -29607,7 +29653,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f07c2578-26ee-42b9-91b4-695ea1f8dbf8")
-		(property "Reference" "4C_FS2_"
+		(property "Reference" "4C_FS2"
 			(at 526.288 539.496 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29704,7 +29750,7 @@
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "4C_FS2_")
+					(reference "4C_FS2")
 					(unit 3)
 				)
 			)
@@ -29721,7 +29767,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f0c95f76-e64e-41c5-8b2d-0a726a95df70")
-		(property "Reference" "4C_FS1_"
+		(property "Reference" "4C_FS1"
 			(at 435.61 218.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29824,7 +29870,7 @@
 			)
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "4C_FS1_")
+					(reference "4C_FS1")
 					(unit 2)
 				)
 			)
@@ -29841,7 +29887,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f4c0c0d4-8d74-4537-aa54-b8b9c8a66660")
-		(property "Reference" "5F_FS1_"
+		(property "Reference" "5F_FS1"
 			(at 525.78 237.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29944,7 +29990,7 @@
 			)
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "5F_FS1_")
+					(reference "5F_FS1")
 					(unit 1)
 				)
 			)
@@ -29962,7 +30008,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8c57036-fc4d-41fe-9a33-6e66aa15f9f3")
-		(property "Reference" "1A_FS2_"
+		(property "Reference" "1A_FS2"
 			(at 359.41 328.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30059,7 +30105,7 @@
 		(instances
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/513c6191-fb8d-4702-a239-0db81c50d326"
-					(reference "1A_FS2_")
+					(reference "1A_FS2")
 					(unit 1)
 				)
 			)
