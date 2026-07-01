@@ -157,7 +157,7 @@
 		)
 		(uuid "50d259ed-4e10-4d50-9b3c-aaa18b0258ad")
 	)
-	(text "WIP"
+	(text "OK"
 		(exclude_from_sim no)
 		(at 65.786 68.834 0)
 		(effects
