@@ -5415,110 +5415,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "CT2-5-rescue:PWR_FLAG-power"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "power:PWR_FLAG"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PWR_FLAG-power_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name "pwr"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG-power_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -5929,12 +5825,6 @@
 		(uuid "89a6bedc-6e7f-4e68-811c-55e4d58004da")
 	)
 	(junction
-		(at 68.58 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8ae8380a-6498-4375-8969-0547300fb28d")
-	)
-	(junction
 		(at 622.3 219.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6017,12 +5907,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da6a918f-b2de-447c-b592-b07639cdbc1d")
-	)
-	(junction
-		(at 97.79 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dddd307f-b785-48f8-a361-cc7389df8abe")
 	)
 	(junction
 		(at 558.8 85.09)
@@ -6859,16 +6743,6 @@
 			(type default)
 		)
 		(uuid "295e302e-002e-42c5-9dee-82410d6f90c7")
-	)
-	(wire
-		(pts
-			(xy 68.58 38.1) (xy 71.12 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29ad65a5-8b4c-4dc2-a490-ab830b191914")
 	)
 	(wire
 		(pts
@@ -7792,16 +7666,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 123.19) (xy 97.79 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5acfadfa-12f5-45db-89f2-bec3c59914ac")
-	)
-	(wire
-		(pts
 			(xy 635 204.47) (xy 635 201.93)
 		)
 		(stroke
@@ -8062,7 +7926,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 38.1) (xy 68.58 38.1)
+			(xy 63.5 38.1) (xy 71.12 38.1)
 		)
 		(stroke
 			(width 0)
@@ -9059,16 +8923,6 @@
 			(type default)
 		)
 		(uuid "a17e9cfb-4455-436a-b2cc-788dd23446f9")
-	)
-	(wire
-		(pts
-			(xy 68.58 35.56) (xy 68.58 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1f33e7c-c5d7-43eb-a1b4-dc2476efae0f")
 	)
 	(wire
 		(pts
@@ -26539,170 +26393,6 @@
 			(project "patinhofeio"
 				(path "/aca06203-542d-4682-a7e3-8839e24cce95/0ff63b6e-fe66-4362-b658-b472d3c61499"
 					(reference "CONECTOR_P13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CT2-5-rescue:PWR_FLAG-power")
-		(at 97.79 123.19 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005883be7c")
-		(property "Reference" "#FLG05"
-			(at 97.79 120.777 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 97.79 117.9068 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.79 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 97.79 123.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fc54dcd3-5ed3-4115-aa36-aa1147a71696")
-		)
-		(instances
-			(project ""
-				(path "/683d5e33-b782-4d5a-b202-87dd847aa83f"
-					(reference "#FLG05")
-					(unit 1)
-				)
-			)
-			(project "patinhofeio"
-				(path "/aca06203-542d-4682-a7e3-8839e24cce95/0ff63b6e-fe66-4362-b658-b472d3c61499"
-					(reference "#FLG05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CT2-5-rescue:PWR_FLAG-power")
-		(at 68.58 35.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005883c74a")
-		(property "Reference" "#FLG08"
-			(at 68.58 33.147 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 68.58 30.2768 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.58 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 68.58 35.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a86af8ef-e35c-4b00-87a7-7c04c850a351")
-		)
-		(instances
-			(project ""
-				(path "/683d5e33-b782-4d5a-b202-87dd847aa83f"
-					(reference "#FLG08")
-					(unit 1)
-				)
-			)
-			(project "patinhofeio"
-				(path "/aca06203-542d-4682-a7e3-8839e24cce95/0ff63b6e-fe66-4362-b658-b472d3c61499"
-					(reference "#FLG08")
 					(unit 1)
 				)
 			)

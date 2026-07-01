@@ -663,7 +663,7 @@
         "uuid": "aca06203-542d-4682-a7e3-8839e24cce95"
       }
     ],
-    "used_designators": "#FLG1,#FLG6-7,#FLG14,#FLG41,#FLG45-48,#FLG51,#FLG57-60,#PWR9-12,#PWR14-32,#PWR35-40,#PWR45-70,#PWR72,#PWR74,#PWR76-77,#PWR79-94,#PWR98-99,#PWR103-109,#PWR111-112,#PWR120-213",
+    "used_designators": "5A_FR3-4,#PWR214-217,5C_FR3,5B_FR3-4,#FLG7,#FLG12,#FLG24",
     "variants": []
   },
   "sheets": [
