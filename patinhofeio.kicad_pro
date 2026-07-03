@@ -663,7 +663,7 @@
         "uuid": "aca06203-542d-4682-a7e3-8839e24cce95"
       }
     ],
-    "used_designators": "4B_P9,4C_P9,3E_P8,4E_P7,4E_P9-10,2A_P9,1E_P8,1E_P16-20,3B_P7,4F_P7,1F_P7-8,1F_P10,#PWR240-257,2E_P7,2E_P16,3D_P7,5A_P8,5A_P16,3F_P7,3A_P17,U1-4,5E_P10,5F_P7",
+    "used_designators": "3C_P17,5A_P16,#PWR258-261,U1-11",
     "variants": []
   },
   "sheets": [
