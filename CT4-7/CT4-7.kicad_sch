@@ -9806,6 +9806,66 @@
 		)
 		(uuid "ff8b294f-5114-48b0-ab03-9920980c51aa")
 	)
+	(label "-RI_6"
+		(at 461.01 430.53 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "0c69e806-e55a-4054-b0af-b3bf37db95b1")
+	)
+	(label "-RD_5"
+		(at 461.01 405.13 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "1aa01e91-b9cc-4b40-bd53-19241604ebb7")
+	)
+	(label "-RD_5"
+		(at 228.6 146.05 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "4fc10f37-24b2-4287-87bd-3e578b751804")
+	)
+	(label "-RD_5"
+		(at 304.8 406.4 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a7eb3f4-a017-44cf-a11c-5af68383657f")
+	)
+	(label "-RI_6"
+		(at 304.8 425.45 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "c0004cf4-cbd3-47b3-bf1b-2f103f14614e")
+	)
+	(label "-RI_6"
+		(at 330.2 146.05 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right bottom)
+		)
+		(uuid "e17bb944-1a4c-4c72-977e-09706c0587e4")
+	)
 	(global_label "+AC_4"
 		(shape input)
 		(at 209.55 444.5 180)
@@ -10686,28 +10746,6 @@
 			)
 		)
 	)
-	(global_label "-RI_6"
-		(shape input)
-		(at 461.01 430.53 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right)
-		)
-		(uuid "3a337932-bdfe-4be6-8b6d-a646256dbe0d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 461.01 430.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
 	(global_label "-RI_5"
 		(shape input)
 		(at 461.01 445.77 180)
@@ -10874,28 +10912,6 @@
 		(uuid "462bf72f-6197-403b-823f-69f661d33f06")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 300.99 233.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "-RI_5"
-		(shape input)
-		(at 228.6 146.05 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right)
-		)
-		(uuid "4753d8d1-5f04-42c1-8aff-2ffcceafe7fe")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 228.6 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12490,28 +12506,6 @@
 			)
 		)
 	)
-	(global_label "-RI_5"
-		(shape output)
-		(at 304.8 406.4 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left)
-		)
-		(uuid "a558aea7-247f-4efb-ae9c-4a50483c097f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 304.8 406.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
 	(global_label "+T56"
 		(shape input)
 		(at 645.16 168.91 180)
@@ -13678,28 +13672,6 @@
 			)
 		)
 	)
-	(global_label "-RI_6"
-		(shape input)
-		(at 330.2 146.05 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right)
-		)
-		(uuid "e70fcda6-404a-4e4d-b517-db80cc6815b8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 330.2 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
 	(global_label "-AC_2"
 		(shape input)
 		(at 222.25 269.24 180)
@@ -13810,28 +13782,6 @@
 			)
 		)
 	)
-	(global_label "-RI_6"
-		(shape output)
-		(at 304.8 425.45 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left)
-		)
-		(uuid "f033703e-806d-4cee-900f-f1970b716ae6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 304.8 425.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
 	(global_label "+T12"
 		(shape output)
 		(at 96.52 147.32 180)
@@ -13866,28 +13816,6 @@
 		(uuid "f1a7922c-4923-4ce7-83ca-190a980636d1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 162.56 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "-RI_5"
-		(shape input)
-		(at 461.01 405.13 180)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right)
-		)
-		(uuid "f47958ec-37d9-4c9d-ac9d-c20dde737ab0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 461.01 405.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
