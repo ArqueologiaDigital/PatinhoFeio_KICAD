@@ -6005,7 +6005,7 @@
 		)
 	)
 	(junction
-		(at 660.4 147.32)
+		(at 467.36 318.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0edb3745-f0ff-4bed-9fa8-79538f919094")
@@ -6023,7 +6023,7 @@
 		(uuid "11886174-859d-4d65-b422-a611bd618c12")
 	)
 	(junction
-		(at 648.97 101.6)
+		(at 543.56 320.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "19c70efb-58d2-40b1-9975-99975514f914")
@@ -6035,7 +6035,7 @@
 		(uuid "1e987821-76b9-4e92-bbac-bd8063c5831e")
 	)
 	(junction
-		(at 648.97 147.32)
+		(at 455.93 318.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1eab18bb-6096-41ea-ab0a-3dd1a0ceb0bc")
@@ -6053,7 +6053,7 @@
 		(uuid "317525fa-24d0-4fc0-a6b3-4f889bbbdd67")
 	)
 	(junction
-		(at 626.11 101.6)
+		(at 520.7 320.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33ffa14f-d16d-4343-a954-0bfa7b246ac8")
@@ -6077,13 +6077,13 @@
 		(uuid "399ad340-9af9-4ee8-b05c-b39310fb9a12")
 	)
 	(junction
-		(at 660.4 172.72)
+		(at 467.36 344.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3da7451a-f0b4-410a-9293-ffc7e70f47ea")
 	)
 	(junction
-		(at 637.54 124.46)
+		(at 532.13 342.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "417cc46c-d2c7-4668-9186-cc6980a803d6")
@@ -6137,7 +6137,7 @@
 		(uuid "5e54f803-2e63-4466-aa93-5626ee798d65")
 	)
 	(junction
-		(at 671.83 172.72)
+		(at 478.79 344.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69724ddf-395a-4d6d-9945-3348c2b22b45")
@@ -6149,7 +6149,7 @@
 		(uuid "6c5b87ac-68a1-4d59-b1e4-40d40438ebb4")
 	)
 	(junction
-		(at 671.83 147.32)
+		(at 478.79 318.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6deda5ec-043e-4156-841a-60efbb7f3d02")
@@ -6179,13 +6179,13 @@
 		(uuid "7930ab78-38ff-48d3-908a-bc3de02718bd")
 	)
 	(junction
-		(at 626.11 124.46)
+		(at 520.7 342.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "807e4f9c-e566-42d9-ba59-289abef69795")
 	)
 	(junction
-		(at 626.11 147.32)
+		(at 433.07 318.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "80a28057-7516-4821-b6bd-11ad53e80c05")
@@ -6209,7 +6209,7 @@
 		(uuid "996c1686-7fc9-4b95-bba7-77998a9684ad")
 	)
 	(junction
-		(at 660.4 124.46)
+		(at 554.99 342.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a2843f5c-8753-42d3-82f3-8005d1de6d70")
@@ -6227,7 +6227,7 @@
 		(uuid "aa3d9da3-dcb5-4144-bbe4-ee65ea1fd8d8")
 	)
 	(junction
-		(at 637.54 147.32)
+		(at 444.5 318.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa5067f1-721e-4c19-b13b-3a0694891707")
@@ -6251,25 +6251,25 @@
 		(uuid "b74a051a-8b0a-4e75-bff2-9544239b091f")
 	)
 	(junction
-		(at 648.97 172.72)
+		(at 455.93 344.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc3e4b3d-c051-4bcd-b724-58f9acc191ec")
 	)
 	(junction
-		(at 637.54 101.6)
+		(at 532.13 320.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bded69a7-7af0-4f18-a61e-1c3905892003")
 	)
 	(junction
-		(at 683.26 147.32)
+		(at 490.22 318.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1af24bd-0fc1-4657-bf85-ab552feaca5a")
 	)
 	(junction
-		(at 626.11 172.72)
+		(at 433.07 344.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cda20e58-9d78-4d9a-9cea-1204883909f4")
@@ -6293,7 +6293,7 @@
 		(uuid "d9c62a80-76b8-4038-a05c-c364dfd6f4e3")
 	)
 	(junction
-		(at 637.54 172.72)
+		(at 444.5 344.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e99c8c02-4007-4f28-872c-fef2252f509a")
@@ -6305,13 +6305,13 @@
 		(uuid "ed46522d-e295-4651-b8e6-11091c0769ee")
 	)
 	(junction
-		(at 648.97 124.46)
+		(at 543.56 342.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eeb68fc5-981d-4ecb-80d1-bc8e7e97b5eb")
 	)
 	(junction
-		(at 660.4 101.6)
+		(at 554.99 320.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1aa3e46-8478-49d5-8c6a-67ef54792a1e")
@@ -6335,7 +6335,7 @@
 		(uuid "f89116d9-7702-463c-a83a-12a602d77d39")
 	)
 	(junction
-		(at 683.26 172.72)
+		(at 490.22 344.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa4a2c7d-40da-4a1e-aa37-55ea52991021")
@@ -6510,7 +6510,7 @@
 	)
 	(wire
 		(pts
-			(xy 660.4 124.46) (xy 648.97 124.46)
+			(xy 554.99 342.9) (xy 543.56 342.9)
 		)
 		(stroke
 			(width 0)
@@ -6560,7 +6560,7 @@
 	)
 	(wire
 		(pts
-			(xy 660.4 147.32) (xy 671.83 147.32)
+			(xy 467.36 318.77) (xy 478.79 318.77)
 		)
 		(stroke
 			(width 0)
@@ -6660,7 +6660,7 @@
 	)
 	(wire
 		(pts
-			(xy 637.54 101.6) (xy 637.54 102.87)
+			(xy 532.13 320.04) (xy 532.13 321.31)
 		)
 		(stroke
 			(width 0)
@@ -6730,7 +6730,7 @@
 	)
 	(wire
 		(pts
-			(xy 660.4 101.6) (xy 671.83 101.6)
+			(xy 554.99 320.04) (xy 566.42 320.04)
 		)
 		(stroke
 			(width 0)
@@ -6770,7 +6770,7 @@
 	)
 	(wire
 		(pts
-			(xy 626.11 143.51) (xy 626.11 147.32)
+			(xy 433.07 314.96) (xy 433.07 318.77)
 		)
 		(stroke
 			(width 0)
@@ -6800,7 +6800,7 @@
 	)
 	(wire
 		(pts
-			(xy 671.83 101.6) (xy 671.83 102.87)
+			(xy 566.42 320.04) (xy 566.42 321.31)
 		)
 		(stroke
 			(width 0)
@@ -6860,7 +6860,7 @@
 	)
 	(wire
 		(pts
-			(xy 648.97 124.46) (xy 637.54 124.46)
+			(xy 543.56 342.9) (xy 532.13 342.9)
 		)
 		(stroke
 			(width 0)
@@ -6880,7 +6880,7 @@
 	)
 	(wire
 		(pts
-			(xy 648.97 101.6) (xy 648.97 102.87)
+			(xy 543.56 320.04) (xy 543.56 321.31)
 		)
 		(stroke
 			(width 0)
@@ -6960,7 +6960,7 @@
 	)
 	(wire
 		(pts
-			(xy 626.11 123.19) (xy 626.11 124.46)
+			(xy 520.7 341.63) (xy 520.7 342.9)
 		)
 		(stroke
 			(width 0)
@@ -6990,7 +6990,7 @@
 	)
 	(wire
 		(pts
-			(xy 637.54 101.6) (xy 648.97 101.6)
+			(xy 532.13 320.04) (xy 543.56 320.04)
 		)
 		(stroke
 			(width 0)
@@ -7100,7 +7100,7 @@
 	)
 	(wire
 		(pts
-			(xy 648.97 147.32) (xy 648.97 148.59)
+			(xy 455.93 318.77) (xy 455.93 320.04)
 		)
 		(stroke
 			(width 0)
@@ -7120,7 +7120,7 @@
 	)
 	(wire
 		(pts
-			(xy 694.69 171.45) (xy 694.69 172.72)
+			(xy 501.65 342.9) (xy 501.65 344.17)
 		)
 		(stroke
 			(width 0)
@@ -7190,7 +7190,7 @@
 	)
 	(wire
 		(pts
-			(xy 671.83 147.32) (xy 671.83 148.59)
+			(xy 478.79 318.77) (xy 478.79 320.04)
 		)
 		(stroke
 			(width 0)
@@ -7210,7 +7210,7 @@
 	)
 	(wire
 		(pts
-			(xy 683.26 171.45) (xy 683.26 172.72)
+			(xy 490.22 342.9) (xy 490.22 344.17)
 		)
 		(stroke
 			(width 0)
@@ -7290,7 +7290,7 @@
 	)
 	(wire
 		(pts
-			(xy 650.24 77.47) (xy 650.24 82.55)
+			(xy 454.66 393.7) (xy 454.66 398.78)
 		)
 		(stroke
 			(width 0)
@@ -7330,7 +7330,7 @@
 	)
 	(wire
 		(pts
-			(xy 637.54 123.19) (xy 637.54 124.46)
+			(xy 532.13 341.63) (xy 532.13 342.9)
 		)
 		(stroke
 			(width 0)
@@ -7340,7 +7340,7 @@
 	)
 	(wire
 		(pts
-			(xy 660.4 123.19) (xy 660.4 124.46)
+			(xy 554.99 341.63) (xy 554.99 342.9)
 		)
 		(stroke
 			(width 0)
@@ -7400,7 +7400,7 @@
 	)
 	(wire
 		(pts
-			(xy 626.11 101.6) (xy 626.11 102.87)
+			(xy 520.7 320.04) (xy 520.7 321.31)
 		)
 		(stroke
 			(width 0)
@@ -7430,7 +7430,7 @@
 	)
 	(wire
 		(pts
-			(xy 626.11 172.72) (xy 626.11 171.45)
+			(xy 433.07 344.17) (xy 433.07 342.9)
 		)
 		(stroke
 			(width 0)
@@ -7470,7 +7470,7 @@
 	)
 	(wire
 		(pts
-			(xy 626.11 99.06) (xy 626.11 101.6)
+			(xy 520.7 317.5) (xy 520.7 320.04)
 		)
 		(stroke
 			(width 0)
@@ -7640,7 +7640,7 @@
 	)
 	(wire
 		(pts
-			(xy 660.4 101.6) (xy 660.4 102.87)
+			(xy 554.99 320.04) (xy 554.99 321.31)
 		)
 		(stroke
 			(width 0)
@@ -7650,7 +7650,7 @@
 	)
 	(wire
 		(pts
-			(xy 671.83 147.32) (xy 683.26 147.32)
+			(xy 478.79 318.77) (xy 490.22 318.77)
 		)
 		(stroke
 			(width 0)
@@ -7690,7 +7690,7 @@
 	)
 	(wire
 		(pts
-			(xy 626.11 147.32) (xy 637.54 147.32)
+			(xy 433.07 318.77) (xy 444.5 318.77)
 		)
 		(stroke
 			(width 0)
@@ -7780,7 +7780,7 @@
 	)
 	(wire
 		(pts
-			(xy 671.83 123.19) (xy 671.83 124.46)
+			(xy 566.42 341.63) (xy 566.42 342.9)
 		)
 		(stroke
 			(width 0)
@@ -7870,7 +7870,7 @@
 	)
 	(wire
 		(pts
-			(xy 683.26 147.32) (xy 694.69 147.32)
+			(xy 490.22 318.77) (xy 501.65 318.77)
 		)
 		(stroke
 			(width 0)
@@ -7880,7 +7880,7 @@
 	)
 	(wire
 		(pts
-			(xy 660.4 147.32) (xy 660.4 148.59)
+			(xy 467.36 318.77) (xy 467.36 320.04)
 		)
 		(stroke
 			(width 0)
@@ -7920,7 +7920,7 @@
 	)
 	(wire
 		(pts
-			(xy 626.11 147.32) (xy 626.11 148.59)
+			(xy 433.07 318.77) (xy 433.07 320.04)
 		)
 		(stroke
 			(width 0)
@@ -7950,7 +7950,7 @@
 	)
 	(wire
 		(pts
-			(xy 671.83 124.46) (xy 660.4 124.46)
+			(xy 566.42 342.9) (xy 554.99 342.9)
 		)
 		(stroke
 			(width 0)
@@ -7980,7 +7980,7 @@
 	)
 	(wire
 		(pts
-			(xy 648.97 171.45) (xy 648.97 172.72)
+			(xy 455.93 342.9) (xy 455.93 344.17)
 		)
 		(stroke
 			(width 0)
@@ -8080,7 +8080,7 @@
 	)
 	(wire
 		(pts
-			(xy 660.4 172.72) (xy 648.97 172.72)
+			(xy 467.36 344.17) (xy 455.93 344.17)
 		)
 		(stroke
 			(width 0)
@@ -8110,7 +8110,7 @@
 	)
 	(wire
 		(pts
-			(xy 627.38 77.47) (xy 627.38 82.55)
+			(xy 431.8 393.7) (xy 431.8 398.78)
 		)
 		(stroke
 			(width 0)
@@ -8170,7 +8170,7 @@
 	)
 	(wire
 		(pts
-			(xy 637.54 124.46) (xy 626.11 124.46)
+			(xy 532.13 342.9) (xy 520.7 342.9)
 		)
 		(stroke
 			(width 0)
@@ -8290,7 +8290,7 @@
 	)
 	(wire
 		(pts
-			(xy 660.4 171.45) (xy 660.4 172.72)
+			(xy 467.36 342.9) (xy 467.36 344.17)
 		)
 		(stroke
 			(width 0)
@@ -8370,7 +8370,7 @@
 	)
 	(wire
 		(pts
-			(xy 627.38 48.26) (xy 627.38 52.07)
+			(xy 431.8 364.49) (xy 431.8 368.3)
 		)
 		(stroke
 			(width 0)
@@ -8500,7 +8500,7 @@
 	)
 	(wire
 		(pts
-			(xy 648.97 147.32) (xy 660.4 147.32)
+			(xy 455.93 318.77) (xy 467.36 318.77)
 		)
 		(stroke
 			(width 0)
@@ -8510,7 +8510,7 @@
 	)
 	(wire
 		(pts
-			(xy 626.11 172.72) (xy 626.11 176.53)
+			(xy 433.07 344.17) (xy 433.07 347.98)
 		)
 		(stroke
 			(width 0)
@@ -8540,7 +8540,7 @@
 	)
 	(wire
 		(pts
-			(xy 637.54 171.45) (xy 637.54 172.72)
+			(xy 444.5 342.9) (xy 444.5 344.17)
 		)
 		(stroke
 			(width 0)
@@ -8550,7 +8550,7 @@
 	)
 	(wire
 		(pts
-			(xy 648.97 172.72) (xy 637.54 172.72)
+			(xy 455.93 344.17) (xy 444.5 344.17)
 		)
 		(stroke
 			(width 0)
@@ -8620,7 +8620,7 @@
 	)
 	(wire
 		(pts
-			(xy 626.11 101.6) (xy 637.54 101.6)
+			(xy 520.7 320.04) (xy 532.13 320.04)
 		)
 		(stroke
 			(width 0)
@@ -8700,7 +8700,7 @@
 	)
 	(wire
 		(pts
-			(xy 671.83 172.72) (xy 660.4 172.72)
+			(xy 478.79 344.17) (xy 467.36 344.17)
 		)
 		(stroke
 			(width 0)
@@ -8760,7 +8760,7 @@
 	)
 	(wire
 		(pts
-			(xy 671.83 171.45) (xy 671.83 172.72)
+			(xy 478.79 342.9) (xy 478.79 344.17)
 		)
 		(stroke
 			(width 0)
@@ -8840,7 +8840,7 @@
 	)
 	(wire
 		(pts
-			(xy 694.69 172.72) (xy 683.26 172.72)
+			(xy 501.65 344.17) (xy 490.22 344.17)
 		)
 		(stroke
 			(width 0)
@@ -8880,7 +8880,7 @@
 	)
 	(wire
 		(pts
-			(xy 626.11 124.46) (xy 626.11 127)
+			(xy 520.7 342.9) (xy 520.7 345.44)
 		)
 		(stroke
 			(width 0)
@@ -8910,7 +8910,7 @@
 	)
 	(wire
 		(pts
-			(xy 683.26 172.72) (xy 671.83 172.72)
+			(xy 490.22 344.17) (xy 478.79 344.17)
 		)
 		(stroke
 			(width 0)
@@ -8950,7 +8950,7 @@
 	)
 	(wire
 		(pts
-			(xy 648.97 123.19) (xy 648.97 124.46)
+			(xy 543.56 341.63) (xy 543.56 342.9)
 		)
 		(stroke
 			(width 0)
@@ -9030,7 +9030,7 @@
 	)
 	(wire
 		(pts
-			(xy 637.54 147.32) (xy 648.97 147.32)
+			(xy 444.5 318.77) (xy 455.93 318.77)
 		)
 		(stroke
 			(width 0)
@@ -9040,7 +9040,7 @@
 	)
 	(wire
 		(pts
-			(xy 637.54 172.72) (xy 626.11 172.72)
+			(xy 444.5 344.17) (xy 433.07 344.17)
 		)
 		(stroke
 			(width 0)
@@ -9180,7 +9180,7 @@
 	)
 	(wire
 		(pts
-			(xy 637.54 147.32) (xy 637.54 148.59)
+			(xy 444.5 318.77) (xy 444.5 320.04)
 		)
 		(stroke
 			(width 0)
@@ -9260,7 +9260,7 @@
 	)
 	(wire
 		(pts
-			(xy 650.24 48.26) (xy 650.24 52.07)
+			(xy 454.66 364.49) (xy 454.66 368.3)
 		)
 		(stroke
 			(width 0)
@@ -9310,7 +9310,7 @@
 	)
 	(wire
 		(pts
-			(xy 648.97 101.6) (xy 660.4 101.6)
+			(xy 543.56 320.04) (xy 554.99 320.04)
 		)
 		(stroke
 			(width 0)
@@ -9460,7 +9460,7 @@
 	)
 	(wire
 		(pts
-			(xy 694.69 147.32) (xy 694.69 148.59)
+			(xy 501.65 318.77) (xy 501.65 320.04)
 		)
 		(stroke
 			(width 0)
@@ -9510,7 +9510,7 @@
 	)
 	(wire
 		(pts
-			(xy 683.26 147.32) (xy 683.26 148.59)
+			(xy 490.22 318.77) (xy 490.22 320.04)
 		)
 		(stroke
 			(width 0)
@@ -13665,7 +13665,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS54")
-		(at 637.54 160.02 0)
+		(at 444.5 331.47 0)
 		(mirror x)
 		(unit 2)
 		(body_style 1)
@@ -13676,7 +13676,7 @@
 		(dnp no)
 		(uuid "0ef3d87d-c563-4748-aab5-dbfbbcc3da51")
 		(property "Reference" "2B_P3"
-			(at 637.54 158.75 0)
+			(at 444.5 330.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13686,7 +13686,7 @@
 			)
 		)
 		(property "Value" "74LS54"
-			(at 637.794 161.544 0)
+			(at 444.754 332.994 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13696,7 +13696,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 637.54 160.02 0)
+			(at 444.5 331.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13707,7 +13707,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS54"
-			(at 637.54 160.02 0)
+			(at 444.5 331.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13718,7 +13718,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 637.54 160.02 0)
+			(at 444.5 331.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13850,7 +13850,7 @@
 	(symbol
 		(lib_name "GND_3")
 		(lib_id "power:GND")
-		(at 627.38 82.55 0)
+		(at 431.8 398.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13861,7 +13861,7 @@
 		(fields_autoplaced yes)
 		(uuid "1019613a-f6fe-42a2-9928-abfe3e1e7e5d")
 		(property "Reference" "#PWR0230"
-			(at 627.38 88.9 0)
+			(at 431.8 405.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13872,7 +13872,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 627.38 87.63 0)
+			(at 431.8 403.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13882,7 +13882,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 627.38 82.55 0)
+			(at 431.8 398.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13893,7 +13893,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 627.38 82.55 0)
+			(at 431.8 398.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13904,7 +13904,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 627.38 82.55 0)
+			(at 431.8 398.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14202,7 +14202,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS74")
-		(at 637.54 113.03 0)
+		(at 532.13 331.47 0)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14212,7 +14212,7 @@
 		(dnp no)
 		(uuid "323f536a-ac87-4ec4-8778-e30682d1b4ff")
 		(property "Reference" "2A_P3"
-			(at 634.238 112.268 0)
+			(at 528.828 330.708 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14223,7 +14223,7 @@
 			)
 		)
 		(property "Value" "74LS74"
-			(at 634.238 114.808 0)
+			(at 528.828 333.248 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14234,7 +14234,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 637.54 113.03 0)
+			(at 532.13 331.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14245,7 +14245,7 @@
 			)
 		)
 		(property "Datasheet" "74xx/74hc_hct74.pdf"
-			(at 637.54 113.03 0)
+			(at 532.13 331.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14256,7 +14256,7 @@
 			)
 		)
 		(property "Description" "AC0"
-			(at 638.556 106.68 0)
+			(at 533.146 325.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14432,7 +14432,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS54")
-		(at 626.11 160.02 0)
+		(at 433.07 331.47 0)
 		(mirror x)
 		(unit 2)
 		(body_style 1)
@@ -14443,7 +14443,7 @@
 		(dnp no)
 		(uuid "39e8a890-e8cf-41e5-8172-35eb58c3231c")
 		(property "Reference" "2C_P3"
-			(at 626.11 158.75 0)
+			(at 433.07 330.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14453,7 +14453,7 @@
 			)
 		)
 		(property "Value" "74LS54"
-			(at 626.364 161.544 0)
+			(at 433.324 332.994 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14463,7 +14463,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 626.11 160.02 0)
+			(at 433.07 331.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14474,7 +14474,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS54"
-			(at 626.11 160.02 0)
+			(at 433.07 331.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14485,7 +14485,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 626.11 160.02 0)
+			(at 433.07 331.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14538,7 +14538,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74AHC04")
-		(at 650.24 64.77 0)
+		(at 454.66 381 0)
 		(unit 7)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14548,7 +14548,7 @@
 		(dnp no)
 		(uuid "3ec208ff-557b-4739-bdbd-ad61068525de")
 		(property "Reference" "3D_P3"
-			(at 650.494 62.992 0)
+			(at 454.914 379.222 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14558,7 +14558,7 @@
 			)
 		)
 		(property "Value" "74AHC04"
-			(at 650.494 66.548 0)
+			(at 454.914 382.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14568,7 +14568,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 650.24 64.77 0)
+			(at 454.66 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14579,7 +14579,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT04.pdf"
-			(at 650.24 64.77 0)
+			(at 454.66 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14590,7 +14590,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 650.24 64.77 0)
+			(at 454.66 381 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14652,7 +14652,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS10")
-		(at 627.38 64.77 0)
+		(at 431.8 381 0)
 		(unit 4)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14662,7 +14662,7 @@
 		(dnp no)
 		(uuid "3f432a7c-dac9-438d-8571-6b6206d70fdd")
 		(property "Reference" "4D_P3"
-			(at 627.126 64.008 0)
+			(at 431.546 380.238 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14672,7 +14672,7 @@
 			)
 		)
 		(property "Value" "74LS10"
-			(at 627.38 66.548 0)
+			(at 431.8 382.778 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14682,7 +14682,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 627.38 64.77 0)
+			(at 431.8 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14693,7 +14693,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS10"
-			(at 627.38 64.77 0)
+			(at 431.8 381 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14704,7 +14704,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 627.38 64.77 0)
+			(at 431.8 381 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14891,7 +14891,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS54")
-		(at 683.26 160.02 0)
+		(at 490.22 331.47 0)
 		(mirror x)
 		(unit 2)
 		(body_style 1)
@@ -14902,7 +14902,7 @@
 		(dnp no)
 		(uuid "44e15cde-bb7a-4654-b4cb-6bdf8bcbe2e0")
 		(property "Reference" "4C_P3"
-			(at 683.26 158.75 0)
+			(at 490.22 330.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14912,7 +14912,7 @@
 			)
 		)
 		(property "Value" "74LS54"
-			(at 683.514 161.544 0)
+			(at 490.474 332.994 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14922,7 +14922,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 683.26 160.02 0)
+			(at 490.22 331.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14933,7 +14933,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS54"
-			(at 683.26 160.02 0)
+			(at 490.22 331.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14944,7 +14944,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 683.26 160.02 0)
+			(at 490.22 331.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15109,7 +15109,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS54")
-		(at 648.97 160.02 0)
+		(at 455.93 331.47 0)
 		(mirror x)
 		(unit 2)
 		(body_style 1)
@@ -15120,7 +15120,7 @@
 		(dnp no)
 		(uuid "48564b40-f2aa-4b13-a0b7-05151ad71afc")
 		(property "Reference" "3C_P3"
-			(at 648.97 158.75 0)
+			(at 455.93 330.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15130,7 +15130,7 @@
 			)
 		)
 		(property "Value" "74LS54"
-			(at 649.224 161.544 0)
+			(at 456.184 332.994 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15140,7 +15140,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 648.97 160.02 0)
+			(at 455.93 331.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15151,7 +15151,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS54"
-			(at 648.97 160.02 0)
+			(at 455.93 331.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15162,7 +15162,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 648.97 160.02 0)
+			(at 455.93 331.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15215,7 +15215,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 626.11 143.51 0)
+		(at 433.07 314.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15226,7 +15226,7 @@
 		(fields_autoplaced yes)
 		(uuid "4aeeb026-e95c-453c-8709-38d7ed6c0bb4")
 		(property "Reference" "#PWR0232"
-			(at 626.11 147.32 0)
+			(at 433.07 318.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15237,7 +15237,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 626.11 138.43 0)
+			(at 433.07 309.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15247,7 +15247,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 626.11 143.51 0)
+			(at 433.07 314.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15258,7 +15258,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 626.11 143.51 0)
+			(at 433.07 314.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15269,7 +15269,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 626.11 143.51 0)
+			(at 433.07 314.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15293,7 +15293,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS74")
-		(at 671.83 113.03 0)
+		(at 566.42 331.47 0)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15303,7 +15303,7 @@
 		(dnp no)
 		(uuid "4d1bf1ba-9941-415e-b51f-a4c96611d690")
 		(property "Reference" "5A_P3"
-			(at 668.528 112.268 0)
+			(at 563.118 330.708 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15314,7 +15314,7 @@
 			)
 		)
 		(property "Value" "74LS74"
-			(at 668.528 114.808 0)
+			(at 563.118 333.248 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15325,7 +15325,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 671.83 113.03 0)
+			(at 566.42 331.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15336,7 +15336,7 @@
 			)
 		)
 		(property "Datasheet" "74xx/74hc_hct74.pdf"
-			(at 671.83 113.03 0)
+			(at 566.42 331.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15347,7 +15347,7 @@
 			)
 		)
 		(property "Description" "AC0"
-			(at 672.846 106.68 0)
+			(at 567.436 325.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15971,7 +15971,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 627.38 48.26 0)
+		(at 431.8 364.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15982,7 +15982,7 @@
 		(fields_autoplaced yes)
 		(uuid "5ff5ccdb-6ba0-4483-9d45-775fc9b68276")
 		(property "Reference" "#PWR0231"
-			(at 627.38 52.07 0)
+			(at 431.8 368.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15993,7 +15993,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 627.38 43.18 0)
+			(at 431.8 359.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16003,7 +16003,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 627.38 48.26 0)
+			(at 431.8 364.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16014,7 +16014,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 627.38 48.26 0)
+			(at 431.8 364.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16025,7 +16025,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 627.38 48.26 0)
+			(at 431.8 364.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16254,7 +16254,7 @@
 	(symbol
 		(lib_name "GND_5")
 		(lib_id "power:GND")
-		(at 650.24 82.55 0)
+		(at 454.66 398.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16265,7 +16265,7 @@
 		(fields_autoplaced yes)
 		(uuid "650e1123-b5d9-43c7-835f-6e11b5147015")
 		(property "Reference" "#PWR0234"
-			(at 650.24 88.9 0)
+			(at 454.66 405.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16276,7 +16276,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 650.24 87.63 0)
+			(at 454.66 403.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16286,7 +16286,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 650.24 82.55 0)
+			(at 454.66 398.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16297,7 +16297,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 650.24 82.55 0)
+			(at 454.66 398.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16308,7 +16308,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 650.24 82.55 0)
+			(at 454.66 398.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16332,7 +16332,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 626.11 99.06 0)
+		(at 520.7 317.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16343,7 +16343,7 @@
 		(fields_autoplaced yes)
 		(uuid "6574e496-cddb-4ee9-bbbb-04865f683224")
 		(property "Reference" "#PWR0228"
-			(at 626.11 102.87 0)
+			(at 520.7 321.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16354,7 +16354,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 626.11 93.98 0)
+			(at 520.7 312.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16364,7 +16364,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 626.11 99.06 0)
+			(at 520.7 317.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16375,7 +16375,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 626.11 99.06 0)
+			(at 520.7 317.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16386,7 +16386,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 626.11 99.06 0)
+			(at 520.7 317.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16410,7 +16410,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS74")
-		(at 660.4 113.03 0)
+		(at 554.99 331.47 0)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16420,7 +16420,7 @@
 		(dnp no)
 		(uuid "6610f71f-6dfd-437b-ada1-95d01af13175")
 		(property "Reference" "4A_P3"
-			(at 657.098 112.268 0)
+			(at 551.688 330.708 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16431,7 +16431,7 @@
 			)
 		)
 		(property "Value" "74LS74"
-			(at 657.098 114.808 0)
+			(at 551.688 333.248 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16442,7 +16442,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 660.4 113.03 0)
+			(at 554.99 331.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16453,7 +16453,7 @@
 			)
 		)
 		(property "Datasheet" "74xx/74hc_hct74.pdf"
-			(at 660.4 113.03 0)
+			(at 554.99 331.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16464,7 +16464,7 @@
 			)
 		)
 		(property "Description" "AC0"
-			(at 661.416 106.68 0)
+			(at 556.006 325.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17054,7 +17054,7 @@
 	(symbol
 		(lib_name "GND_4")
 		(lib_id "power:GND")
-		(at 626.11 176.53 0)
+		(at 433.07 347.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17065,7 +17065,7 @@
 		(fields_autoplaced yes)
 		(uuid "7c67061b-741d-42a6-8f18-e566fc5f415c")
 		(property "Reference" "#PWR0233"
-			(at 626.11 182.88 0)
+			(at 433.07 354.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17076,7 +17076,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 626.11 181.61 0)
+			(at 433.07 353.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17086,7 +17086,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 626.11 176.53 0)
+			(at 433.07 347.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17097,7 +17097,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 626.11 176.53 0)
+			(at 433.07 347.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17108,7 +17108,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 626.11 176.53 0)
+			(at 433.07 347.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17132,7 +17132,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS74")
-		(at 648.97 113.03 0)
+		(at 543.56 331.47 0)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17142,7 +17142,7 @@
 		(dnp no)
 		(uuid "820a398a-3265-4322-b205-244d56def1f1")
 		(property "Reference" "3A_P3"
-			(at 645.668 112.268 0)
+			(at 540.258 330.708 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17153,7 +17153,7 @@
 			)
 		)
 		(property "Value" "74LS74"
-			(at 645.668 114.808 0)
+			(at 540.258 333.248 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17164,7 +17164,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 648.97 113.03 0)
+			(at 543.56 331.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17175,7 +17175,7 @@
 			)
 		)
 		(property "Datasheet" "74xx/74hc_hct74.pdf"
-			(at 648.97 113.03 0)
+			(at 543.56 331.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17186,7 +17186,7 @@
 			)
 		)
 		(property "Description" "AC0"
-			(at 649.986 106.68 0)
+			(at 544.576 325.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17252,7 +17252,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS54")
-		(at 671.83 160.02 0)
+		(at 478.79 331.47 0)
 		(mirror x)
 		(unit 2)
 		(body_style 1)
@@ -17263,7 +17263,7 @@
 		(dnp no)
 		(uuid "88661b66-f1fd-48a0-a190-d3be5c3a2c43")
 		(property "Reference" "3B_P3"
-			(at 671.83 158.75 0)
+			(at 478.79 330.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17273,7 +17273,7 @@
 			)
 		)
 		(property "Value" "74LS54"
-			(at 672.084 161.544 0)
+			(at 479.044 332.994 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17283,7 +17283,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 671.83 160.02 0)
+			(at 478.79 331.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17294,7 +17294,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS54"
-			(at 671.83 160.02 0)
+			(at 478.79 331.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17305,7 +17305,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 671.83 160.02 0)
+			(at 478.79 331.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17917,7 +17917,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 650.24 48.26 0)
+		(at 454.66 364.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17928,7 +17928,7 @@
 		(fields_autoplaced yes)
 		(uuid "9dfdb6c2-b8bb-404b-bddc-6f1c6848b7dc")
 		(property "Reference" "#PWR0235"
-			(at 650.24 52.07 0)
+			(at 454.66 368.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17939,7 +17939,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 650.24 43.18 0)
+			(at 454.66 359.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17949,7 +17949,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 650.24 48.26 0)
+			(at 454.66 364.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17960,7 +17960,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 650.24 48.26 0)
+			(at 454.66 364.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17971,7 +17971,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 650.24 48.26 0)
+			(at 454.66 364.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18649,7 +18649,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS54")
-		(at 660.4 160.02 0)
+		(at 467.36 331.47 0)
 		(mirror x)
 		(unit 2)
 		(body_style 1)
@@ -18660,7 +18660,7 @@
 		(dnp no)
 		(uuid "b962e747-e48e-4c21-b853-2b4861c838aa")
 		(property "Reference" "1D_P3"
-			(at 660.4 158.75 0)
+			(at 467.36 330.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18670,7 +18670,7 @@
 			)
 		)
 		(property "Value" "74LS54"
-			(at 660.654 161.544 0)
+			(at 467.614 332.994 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18680,7 +18680,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 660.4 160.02 0)
+			(at 467.36 331.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18691,7 +18691,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS54"
-			(at 660.4 160.02 0)
+			(at 467.36 331.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18702,7 +18702,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 660.4 160.02 0)
+			(at 467.36 331.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18756,7 +18756,7 @@
 	(symbol
 		(lib_name "GND_2")
 		(lib_id "power:GND")
-		(at 626.11 127 0)
+		(at 520.7 345.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18767,7 +18767,7 @@
 		(fields_autoplaced yes)
 		(uuid "bb433d14-09ef-495f-8c67-d5e03061ddce")
 		(property "Reference" "#PWR0229"
-			(at 626.11 133.35 0)
+			(at 520.7 351.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18778,7 +18778,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 626.11 132.08 0)
+			(at 520.7 350.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18788,7 +18788,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 626.11 127 0)
+			(at 520.7 345.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18799,7 +18799,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 626.11 127 0)
+			(at 520.7 345.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18810,7 +18810,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 626.11 127 0)
+			(at 520.7 345.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18946,7 +18946,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS54")
-		(at 694.69 160.02 0)
+		(at 501.65 331.47 0)
 		(mirror x)
 		(unit 2)
 		(body_style 1)
@@ -18957,7 +18957,7 @@
 		(dnp no)
 		(uuid "bc89e0f3-1b78-40eb-ad6b-aee050d84bf3")
 		(property "Reference" "4B_P3"
-			(at 694.69 158.75 0)
+			(at 501.65 330.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18967,7 +18967,7 @@
 			)
 		)
 		(property "Value" "74LS54"
-			(at 694.944 161.544 0)
+			(at 501.904 332.994 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18977,7 +18977,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 694.69 160.02 0)
+			(at 501.65 331.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18988,7 +18988,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS54"
-			(at 694.69 160.02 0)
+			(at 501.65 331.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18999,7 +18999,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 694.69 160.02 0)
+			(at 501.65 331.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19779,7 +19779,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS74")
-		(at 626.11 113.03 0)
+		(at 520.7 331.47 0)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19789,7 +19789,7 @@
 		(dnp no)
 		(uuid "e2548999-992d-452b-a273-5935bd5a2ffb")
 		(property "Reference" "1A_P3"
-			(at 622.808 112.268 0)
+			(at 517.398 330.708 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19800,7 +19800,7 @@
 			)
 		)
 		(property "Value" "74LS74"
-			(at 622.808 114.808 0)
+			(at 517.398 333.248 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19811,7 +19811,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 626.11 113.03 0)
+			(at 520.7 331.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19822,7 +19822,7 @@
 			)
 		)
 		(property "Datasheet" "74xx/74hc_hct74.pdf"
-			(at 626.11 113.03 0)
+			(at 520.7 331.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19833,7 +19833,7 @@
 			)
 		)
 		(property "Description" "AC0"
-			(at 627.126 106.68 0)
+			(at 521.716 325.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

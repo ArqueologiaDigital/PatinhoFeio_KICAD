@@ -58,6 +58,17 @@
 		)
 		(uuid "174df2fa-9a98-4e5c-a9bd-70617eab7144")
 	)
+	(text "W.I.P."
+		(exclude_from_sim no)
+		(at 61.722 86.614 0)
+		(effects
+			(font
+				(size 2.9972 2.9972)
+			)
+			(justify left bottom)
+		)
+		(uuid "33f5cdd4-4200-45df-a13d-4d80909adcd7")
+	)
 	(text "Placa:\n* FM1-6 (mais-um e porta de seleção 6)"
 		(exclude_from_sim no)
 		(at 78.74 86.36 0)
@@ -91,6 +102,17 @@
 		)
 		(uuid "50d259ed-4e10-4d50-9b3c-aaa18b0258ad")
 	)
+	(text "W.I.P."
+		(exclude_from_sim no)
+		(at 60.96 103.632 0)
+		(effects
+			(font
+				(size 2.9972 2.9972)
+			)
+			(justify left bottom)
+		)
+		(uuid "5bdeeec1-0e28-49a7-b6ce-b0aff19487ec")
+	)
 	(text "Placa:\n* CT2-5"
 		(exclude_from_sim no)
 		(at 191.77 100.33 0)
@@ -101,6 +123,19 @@
 			(justify left bottom)
 		)
 		(uuid "65685c12-702a-409b-9ad5-9b182195606b")
+	)
+	(text "W.I.P."
+		(exclude_from_sim no)
+		(at 171.958 66.802 0)
+		(effects
+			(font
+				(size 3.302 3.302)
+				(thickness 0.6604)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "7aa96357-8d8d-4a17-9b7c-b431f79b3933")
 	)
 	(text "UNIDADE DE CONTROLE"
 		(exclude_from_sim no)
@@ -203,7 +238,7 @@
 	)
 	(text "W.I.P."
 		(exclude_from_sim no)
-		(at 173.99 66.04 0)
+		(at 173.99 100.838 0)
 		(effects
 			(font
 				(size 2.9972 2.9972)
@@ -233,6 +268,17 @@
 			(justify left bottom)
 		)
 		(uuid "dfc7fdcf-9e75-44b9-bef2-0b592a2ea0c6")
+	)
+	(text "W.I.P."
+		(exclude_from_sim no)
+		(at 174.498 118.364 0)
+		(effects
+			(font
+				(size 2.9972 2.9972)
+			)
+			(justify left bottom)
+		)
+		(uuid "e1fd5db4-89ee-47b5-b450-d64184560c1b")
 	)
 	(text "BACKPLANE"
 		(exclude_from_sim no)
