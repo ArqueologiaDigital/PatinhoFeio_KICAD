@@ -102,17 +102,6 @@
 		)
 		(uuid "50d259ed-4e10-4d50-9b3c-aaa18b0258ad")
 	)
-	(text "W.I.P."
-		(exclude_from_sim no)
-		(at 60.96 103.632 0)
-		(effects
-			(font
-				(size 2.9972 2.9972)
-			)
-			(justify left bottom)
-		)
-		(uuid "5bdeeec1-0e28-49a7-b6ce-b0aff19487ec")
-	)
 	(text "Placa:\n* CT2-5"
 		(exclude_from_sim no)
 		(at 191.77 100.33 0)
