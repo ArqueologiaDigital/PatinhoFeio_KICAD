@@ -1,0 +1,53 @@
+== FR1-1 ==
+Pastilhas:
+* 1x 74LS00
+* 2x SN74LS51B1
+* 2x SN7454N
+* 10x 74LS74
+
+Discretos:
+* 15x caps
+* 1x conn_35x2
+
+== FR2-2 ==
+Pastilhas:
+* 1x 74LS00
+* 2x SN74LS51B1
+* 2x SN7454N
+* 10x 74LS74
+
+Discretos:
+* 15x caps
+* 1x conn_35x2
+
+
+== CRC-1 ==
+Pastilhas:
+* 2x 74LS00
+* 8x 74LS04
+* 1x 74LS10
+* 4x 74LS74
+
+Discretos:
+* 15x caps
+* 1x conn_35x2
+* 1x XTAL (freq. ?)
+* 3x BF185 (transistor TO92)
+* 6 resistores sortidos (ver equemático)
+* 5 caps sortidos (ver equemático)
+
+
+
+== CDE-3 ==
+Pastilhas:
+* 1x 74LS00
+* 7x 74LS02
+* 6x 74LS04
+* 5x 74LS10
+* 1x 74LS20
+* 1x 74LS30
+
+
+Discretos:
+* 21x caps
+* 1x conn_35x2
